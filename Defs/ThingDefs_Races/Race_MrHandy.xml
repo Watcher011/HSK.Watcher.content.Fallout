@@ -128,12 +128,16 @@
 							<first Class="ColorGenerator_Options">
 								<options>
 									<li>
-										<weight>10</weight>
-										<only>RGBA(9,1,1,1)</only>
+										   <weight>5</weight>
+                                          <only>RGBA(0.7,0.8,0.9,1)</only>
 									</li>
 								</options>
 							</first>
+							  <second Class="AlienRace.ColorGenerator_CustomAlienChannel">
+                                <colorChannel>skin_1</colorChannel>
+                            </second>
 						</li>
+						
 					</colorChannels>
 				</alienPartGenerator>
 				<growthAges Inherit="False" />
@@ -246,6 +250,7 @@
 				<armorPenetrationBlunt>9.6</armorPenetrationBlunt>
 				<armorPenetrationSharp>4.8</armorPenetrationSharp>
 			</li>
+			
 			<li Class="CombatExtended.ToolCE">
 				<label>right bladed fist</label>
 				<capacities>

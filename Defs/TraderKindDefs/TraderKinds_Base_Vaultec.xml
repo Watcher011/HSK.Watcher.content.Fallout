@@ -604,8 +604,26 @@
          <li>AnimalFallout</li>
         </createMatingPair>
       </li>
-
-      <!-- Cultist apparel -->
+	  
+	  
+	 <li Class="StockGenerator_Tag">
+        <tradeTag>VaulTec</tradeTag>
+        <thingDefCountRange>3~3</thingDefCountRange>
+        <countRange>3~8</countRange>
+        <excludedThingDefs>
+          <li>MedicineUltratech</li> <!-- already handled by single def -->
+          <li>ComponentSpacer</li> <!-- already handled by single def -->
+          <li MayRequire="Ludeon.RimWorld.Anomaly">Apparel_DisruptorFlarePack</li> <!-- no anomaly technology on basic traders -->
+        </excludedThingDefs>
+        <customCountRanges>
+          <Luciferium>7~25</Luciferium>
+          <Hyperweave>40~120</Hyperweave>
+        </customCountRanges>
+      </li>  
+	  
+	  
+	  
+	  
       <li MayRequire="Ludeon.RimWorld.Anomaly" Class="StockGenerator_SingleDef">
         <thingDef>Apparel_CultistMask</thingDef>
         <countRange>-1~2</countRange> <!-- 50% chance for 1~2 -->

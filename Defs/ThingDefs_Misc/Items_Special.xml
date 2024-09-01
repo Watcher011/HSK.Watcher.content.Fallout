@@ -160,7 +160,44 @@
 	
 	
 	
-	
+	<ThingDef ParentName="ResourceBase">
+		<defName>MisterHandyKit</defName>
+		<label>Набор для сборки Мистера Помощника</label>
+		<thingClass>ThingWithComps</thingClass>
+		<description>Инструкция и набор для сборки Мистера Помощника</description>
+		<graphicData>
+			<texPath>Things/Item/MisterHandy</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>1</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>2375</MarketValue>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>110.0</Mass>
+		</statBases>
+		<thingCategories>
+			<li>Items</li>
+		</thingCategories>
+		<tradeability>All</tradeability>
+		<techLevel>Spacer</techLevel>
+		<tradeTags>
+			<li>VaulTec</li>
+		</tradeTags>
+		<comps>
+			<li Class="CompProperties_Usable">
+				<useJob>UseItem</useJob>
+				<useLabel>Assemble Mister Handy</useLabel>
+				<useDuration>600</useDuration>
+			</li>
+			<li Class="Androids.CompProperties_SpawnPawn">
+				<compClass>Androids.CompUseEffect_SpawnDroid</compClass>
+				<pawnKind>MisterHandyColonist</pawnKind>
+			</li>
+			<li Class="CompProperties_UseEffectDestroySelf" />
+		</comps>
+	</ThingDef>
 	
 	
 	
