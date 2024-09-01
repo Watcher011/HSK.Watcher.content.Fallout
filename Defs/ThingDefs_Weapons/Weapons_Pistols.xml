@@ -347,4 +347,91 @@
 			<Plastic>5</Plastic>
         </smeltProducts>
     </ThingDef>
+	
+	
+	
+	 <ThingDef ParentName="BaseGun_Heavy">
+        <defName>Gun_Fat_Man</defName>
+        <label>Толстяк</label>
+        <description>Тактическая ручная ядерная катапульта, устанавливаемая на плечо. Оружие производит запуск ядерных выстрелов, которые при детонации поражают небольшую территорию ядерным взрывом, сопровождающийся нанесением большого урона и выбросом радиации на некоторое время. В идеальном состоянии это оружие способно выстрелить 495 раз, прежде чем сломается.</description>
+        <graphicData>
+            <texPath>Things/Weapons/FatMan</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>InteractPTUR</soundInteract>
+        <statBases>
+            <MarketValue>1800</MarketValue>
+            <SightsEfficiency>1.05</SightsEfficiency>
+            <ShotSpread>0.15</ShotSpread>
+            <SwayFactor>1.5</SwayFactor>
+            <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+            <Bulk>6</Bulk>
+            <Mass>20</Mass>
+        </statBases>
+        <generateCommonality>0.7</generateCommonality>
+        <weaponTags>
+            <li>RKT2</li>
+            <li>Launchers</li>
+            <li>TierOneAdvanced</li>
+            <li>CE_AI_Rifle</li>
+            <li>CE_AI_Launcher</li>
+            <li>CE_AI_AOE</li>
+        </weaponTags>
+        <tradeTags>
+            <li>Exotic</li>
+        </tradeTags>
+        <thingCategories>
+            <li>Launchers</li>
+        </thingCategories>
+        <verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+					<verbClass>CombatExtended.Verb_ShootMortarCE</verbClass>
+					<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>Bullet_FatManShell_HE</defaultProjectile>
+					<warmupTime>5.5</warmupTime>
+					<minRange>32</minRange>
+					<range>700</range>
+					<burstShotCount>1</burstShotCount>
+					<soundCast>Mortar_LaunchA</soundCast>
+					<muzzleFlashScale>16</muzzleFlashScale>
+					<circularError>1</circularError>
+					<indirectFirePenalty>0.2</indirectFirePenalty>
+					<targetParams>
+						<canTargetLocations>true</canTargetLocations>
+					</targetParams>
+				</li>
+        </verbs>
+      <comps>
+			<li Class="CombatExtended.CompProperties_FireModes">
+				<aiAimMode>AimedShot</aiAimMode>
+			</li>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>1</magazineSize>
+				<reloadTime>7.2</reloadTime>
+				<!-- <spawnUnloaded>true</spawnUnloaded> -->
+				<ammoSet>AmmoSet_FatManShell</ammoSet>
+			</li>
+			<li Class="CombatExtended.CompProperties_Charges">
+				<chargeSpeeds>
+					<li>30</li>
+					<li>50</li>
+					<li>70</li>
+					<li>90</li>
+				</chargeSpeeds>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="CombatExtended.GunDrawExtension">
+				<DrawSize>1.5,1.5</DrawSize>
+				<DrawOffset>0.05,0.05</DrawOffset>
+			</li>
+		</modExtensions>
+        <smeltProducts>
+            <Launcher_Component>1</Launcher_Component>
+            <Weapon_Parts>3</Weapon_Parts>
+            <Plastic>6</Plastic>
+        </smeltProducts>
+    </ThingDef>
+	
 </Defs>

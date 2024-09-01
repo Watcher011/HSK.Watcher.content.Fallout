@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<!-- =============== Carl Gustav Shell =============== -->
+   <CombatExtended.AmmoCategoryDef>
+    <defName>NHE</defName>
+    <label>Ядерный выстрел</label>
+    <labelShort>«Большой ребёнок»</labelShort>
+    <description>Этот тип отличается бо́льшим поражающим действием и радиационным загрязнением. Увеличенный урон достигается ценой уменьшенной дальнобойности, что может плохо обернуться для слабозащищённого стрелка.</description>
+  </CombatExtended.AmmoCategoryDef>
+
+   <CombatExtended.AmmoCategoryDef>
+    <defName>THE</defName>
+    <label>Ядерный выстрел, с уст. временем</label>
+    <labelShort>«Большой Будильник</labelShort>
+    <description>Имеет 5-секундный таймер. Не детонирует при столкновении с другими объектами, что позволяет ему рикошетировать от стен за углы. Снаряд, попавший непосредственно в противника, также наносит урон, вдобавок к последующему взрыву..</description>
+  </CombatExtended.AmmoCategoryDef>
+
+
+</Defs>

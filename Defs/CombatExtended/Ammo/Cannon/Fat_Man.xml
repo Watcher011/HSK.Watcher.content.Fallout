@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+    <ThingCategoryDef>
+		<defName>AmmoFatManShells</defName>
+		<label>Снаряды Толстяка</label>
+		<parent>AmmoShells</parent>
+		<iconPath>UI/Icons/ThingCategories/FatMan</iconPath>
+	</ThingCategoryDef>
+
+	<!-- ==================== AmmoSet ========================== -->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_FatManShell</defName>
+		<label>Снаряд Толстяка</label>
+		<ammoTypes>
+			<Ammo_FatManShell_HE>Bullet_FatManShell_HE</Ammo_FatManShell_HE>
+		</ammoTypes>
+		<isMortarAmmoSet>true</isMortarAmmoSet>
+	</CombatExtended.AmmoSetDef>
+
+
+
+
+<ThingDef MayRequire="Dubwise.Rimatomics" Class="CombatExtended.AmmoDef" Name="FatManShellBase" ParentName="HeavyAmmoBase" Abstract="True">
+		<description>Специальные снаряды для Толстяка.</description>
+		<stackLimit>5</stackLimit>
+		<thingSetMakerTags>
+			<li>RewardSpecial</li>
+		</thingSetMakerTags>
+		<tradeTags>
+			<li>CE_AutoEnableTrade_Sellable</li>
+			<li>CE_AutoEnableCrafting_AdvToolBench</li>
+		</tradeTags>
+		<statBases>
+			<MaxHitPoints>2000</MaxHitPoints>
+			<Flammability>0.1</Flammability>
+			<MarketValue>8800</MarketValue>
+			<Mass>15.8</Mass>
+			<Bulk>12.52</Bulk>
+		</statBases>
+		<cookOffSound>MortarBomb_Explode</cookOffSound>
+		<cookOffSpeed>0.1</cookOffSpeed>
+		<cookOffFlashScale>80</cookOffFlashScale>
+		<cookOffTailSound>ShellCookOff_Ambient</cookOffTailSound>
+		<isMortarAmmo>true</isMortarAmmo>
+	</ThingDef>
+	
+	<ThingDef MayRequire="Dubwise.Rimatomics" Class="CombatExtended.AmmoDef" ParentName="FatManShellBase">
+		<defName>Ammo_FatManShell_HE</defName>
+		<label>Ядерный выстрел</label>
+		<description>Этот тип отличается бо́льшим поражающим действием и радиационным загрязнением. Увеличенный урон достигается ценой уменьшенной дальнобойности, что может плохо обернуться для слабозащищённого стрелка.</description>
+		<graphicData>
+			<texPath>Things/Projectile/FatMan/FM</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.65</drawSize>
+		</graphicData>
+		<ammoClass>NHE</ammoClass>
+		<techLevel>Spacer</techLevel>
+		<generateAllowChance>0.05</generateAllowChance>
+		<detonateProjectile>Bullet_FatManShell_HE</detonateProjectile>
+	</ThingDef>
+	
+	
+	<ThingDef Name="BaseFatManBullet" ParentName="BaseExplosiveBullet" Abstract="true">
+		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+		<graphicData>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>0</speed>
+			<soundExplode>MortarBomb_Explode</soundExplode>
+			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+			<soundAmbient>MortarRound_Ambient</soundAmbient>
+			<flyOverhead>true</flyOverhead>
+			<dropsCasings>true</dropsCasings>
+			<casingMoteDefname>Fleck_BigShell</casingMoteDefname>
+			<casingFilthDefname>Filth_CannonAmmoCasings</casingFilthDefname>
+			<gravityFactor>5</gravityFactor>
+			<shellingProps>
+				<tilesPerTick>0.12</tilesPerTick>
+				<range>60</range>
+			</shellingProps>
+		</projectile>
+	</ThingDef>
+	
+	 <ThingDef MayRequire="Dubwise.Rimatomics" Class="CombatExtended.AmmoDef" ParentName="BaseFatManBullet">
+		<defName>Bullet_FatManShell_HE</defName>
+		<label>Ядерный выстрел (NHE)</label>
+		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+		<graphicData>
+			<texPath>Things/Projectile/FatMan/FM</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.65</drawSize>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>NuclearB</damageDef>
+			<damageAmountBase>18000</damageAmountBase>
+			<armorPenetrationBlunt>18000</armorPenetrationBlunt>
+			<explosionRadius>10</explosionRadius>
+			<explosionChanceToStartFire>0.95</explosionChanceToStartFire>
+			<explosionEffect>GiantExplosion</explosionEffect>
+			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+			<soundExplode>nuclearBlastInMap</soundExplode>
+			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+			<soundAmbient>MortarRound_Ambient</soundAmbient>
+			<postExplosionSpawnThingDef>Filth_Ash</postExplosionSpawnThingDef>
+			<postExplosionSpawnChance>0.8</postExplosionSpawnChance>
+			<ai_IsIncendiary>true</ai_IsIncendiary>
+		</projectile>
+	
+		<comps>
+			<li Class="CombatExtended.CompProperties_ExplosiveCE">
+				<explosiveRadius>15</explosiveRadius>
+				<explosiveDamageType>EMP</explosiveDamageType>
+				<damageAmountBase>20</damageAmountBase>
+				<postExplosionSpawnThingDef>NFRAD</postExplosionSpawnThingDef>
+				<postExplosionSpawnChance>0.11</postExplosionSpawnChance>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	
+	<RecipeDef MayRequire="Dubwise.Rimatomics" ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_FatManShell_HE</defName>
+		<label>Создать Ядерный снаряд для Толстяка x1</label>
+		<description>Ядерный снаряд для Толстяка x1.</description>
+		<jobString>Создаёт снаряд для толстяка.</jobString>
+		<workAmount>16000</workAmount>
+		<targetCountAdjustment>1</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DepletedUranium</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plutonium</li>
+					</thingDefs>
+				</filter>
+				<count>75</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ElectronicComponents</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AdvMechanism</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>DepletedUranium</li>
+				<li>Plutonium</li>
+				<li>Powder</li>
+				<li>FSX</li>
+				<li>ElectronicComponents</li>
+				<li>AdvMechanism</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_FatManShell_HE>1</Ammo_FatManShell_HE>
+		</products>
+		<skillRequirements>
+        <Crafting>15</Crafting>
+      </skillRequirements>
+	</RecipeDef>
+	
+	
+	
+	
+</Defs>
