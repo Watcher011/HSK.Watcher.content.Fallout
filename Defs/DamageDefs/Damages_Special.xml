@@ -8,7 +8,7 @@
     <deathMessage>{0} has been shredded to death.</deathMessage>
     <hediff>Shredded</hediff>
     <hediffSolid>Crack</hediffSolid>
-    <minDamageToFragment>5</minDamageToFragment>
+    <minDamageToFragment>15</minDamageToFragment>
     <buildingDamageFactor>6</buildingDamageFactor>
     <plantDamageFactor>14</plantDamageFactor>
   </DamageDef>
@@ -17,7 +17,9 @@
     <label>bomb</label>
     <minDamageToFragment>9999</minDamageToFragment>
     <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
-	<buildingDamageFactor>7</buildingDamageFactor>
+	
+    <defaultArmorPenetration>320</defaultArmorPenetration>
+	<buildingDamageFactor>30</buildingDamageFactor>
     <plantDamageFactor>8</plantDamageFactor>
   </DamageDef>
   
