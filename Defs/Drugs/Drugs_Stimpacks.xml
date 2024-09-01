@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+    <ThingDef ParentName="MakeableDrugPillBase">
+        <defName>SimpleStimpack</defName>
+        <label>Стимулятор</label>
+        <description>Одноразовый шприц серого цвета с манометром. Содержит жидкость красного цвета из крови и антисептика.</description>
+        <techLevel>Industrial</techLevel>
+        <stackLimit>25</stackLimit>
+        <descriptionHyperlinks>
+            <HediffDef>Hediff_SimpleStimpack</HediffDef>
+        </descriptionHyperlinks>
+        <graphicData>
+            <texPath>Things/Item/Drug/Stimpak</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <socialPropernessMatters>false</socialPropernessMatters>
+        <rotatable>false</rotatable>
+        <statBases>
+            <WorkToMake>80</WorkToMake>
+            <Mass>0.12</Mass>
+            <Flammability>0.4</Flammability>
+			<MedicalPotency>0.80</MedicalPotency>
+			<MedicalQualityMax>0.95</MedicalQualityMax>
+        </statBases>
+        <ingestible>
+            <drugCategory>Medical</drugCategory>
+            <ingestSound>injector</ingestSound>
+            <ingestHoldOffsetStanding>
+                <northDefault>
+                    <offset>(0.16,0,0)</offset>
+                </northDefault>
+            </ingestHoldOffsetStanding>
+            <ingestCommandString>Ввоод {0}</ingestCommandString>
+            <ingestReportString>Ввоодит {0}.</ingestReportString>
+            <useEatingSpeedStat>false</useEatingSpeedStat>
+            <nurseable>true</nurseable>
+            <outcomeDoers>
+                <li Class="IngestionOutcomeDoer_GiveHediff">
+                    <hediffDef>Hediff_SimpleStimpack</hediffDef>
+                    <severity>1.0</severity>
+                </li>
+            </outcomeDoers>
+        </ingestible>
+        <recipeMaker>
+		<researchPrerequisite>Stimpak</researchPrerequisite>
+            <recipeUsers>
+                <li>DrugLab</li>
+            </recipeUsers>
+            <soundWorking>Recipe_Drug</soundWorking>
+        </recipeMaker>
+        <costList>
+            <Neutroamine>10</Neutroamine>
+            <HemogenPack>2</HemogenPack>
+            <MedicineIndustrial>1</MedicineIndustrial>
+        </costList>
+        <comps>
+            <li Class="CompProperties_Drug">
+                <listOrder>220</listOrder>
+                <overdoseSeverityOffset>0.08~0.14</overdoseSeverityOffset>
+            </li>
+        </comps>
+    </ThingDef>
+	
+	
+	
+	
+	<ThingDef ParentName="DrugPillBase">
+		<defName>RadAway</defName>
+		<label>Антирадин</label>
+		<description>Представляет собой полимерный контейнер с короткой трубкой, наполненный прозрачным инфузионным раствором желто-оранжевого цвета. Раствор способен люминесцировать в темноте. На этикетке имеется выполненная от руки надпись «Rad Away», а также присутствуют нечитаемые следы фабричной маркировки.</description>
+		<descriptionHyperlinks>
+			<HediffDef>FatalRad</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/Drug/RadAway</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			  <drawSize>0.5</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<statBases>
+			<WorkToMake>640</WorkToMake>
+			<MarketValue>16</MarketValue>
+			<Mass>0.002</Mass>
+		</statBases>
+		<techLevel>Industrial</techLevel>
+		<thingCategories>
+			<li>MedicalDrugs</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<maxNumToIngestAtOnce>3</maxNumToIngestAtOnce>
+			<drugCategory>Medical</drugCategory>
+			<outcomeDoers>
+				<li Class="SK.IngestionOutcomeDoer_SubtractHediffSeverity">
+					<targetHediff>FatalRad</targetHediff>
+					<subtractValue>0.35</subtractValue>
+					<removeIfBelowZero>true</removeIfBelowZero>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>RadAwayHigh</hediffDef>
+					<severity>1.0</severity>
+					<toleranceChemical>RadAway</toleranceChemical>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<chemical>RadAway</chemical>
+				<addictiveness>0.05</addictiveness>
+				<minToleranceToAddict>0.25</minToleranceToAddict>
+				<existingAddictionSeverityOffset>0.025</existingAddictionSeverityOffset>
+				<needLevelOffset>0.25</needLevelOffset>
+				<listOrder>1100</listOrder>
+			</li>
+		</comps>
+		<costList>
+            <Neutroamine>10</Neutroamine>
+            <HemogenPack>2</HemogenPack>
+            <PotassiumIodide>1</PotassiumIodide>
+        </costList>
+	</ThingDef>
+
+	 <HediffDef>
+    <defName>RadAwayHigh</defName>
+    <hediffClass>Hediff_High</hediffClass>
+    <label>Антирадин</label>
+    <description>Благодаря свойству антирадина выводить радиацию из организма, при его употреблении снижается уровень радиоактивного заражения.</description>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.18</severityPerDay>
+        <showHoursToRecover>true</showHoursToRecover>
+      </li>
+    </comps>
+      <stages>
+        <li>
+		<statOffsets>
+         <Radiation>-0.2</Radiation>
+         </statOffsets>
+          <makeImmuneTo>
+             <li>FatalRad</li>
+            <li>RimatomicsRadiation</li>
+            <li>RadiationIncurable</li>
+            <li>RadiationMechanoid</li>
+          </makeImmuneTo>
+        </li>
+      </stages>
+  </HediffDef>
+
+	
+	<ChemicalDef>
+		<defName>RadAway</defName>
+		<label>Антирадин</label>
+		<addictionHediff>RadAwayAddiction</addictionHediff>
+		<toleranceHediff>RadAwayTolerance</toleranceHediff>
+	</ChemicalDef>
+	<NeedDef ParentName="DrugAddictionNeedBase">
+		<defName>Chemical_RadAway</defName>
+		<needClass>Need_Chemical</needClass>
+		<label>Антирадин</label>
+		<description>В следствии употребления Антирадина возникла зависимость.</description>
+		<listPriority>35</listPriority>
+	</NeedDef>
+	<HediffDef ParentName="DrugToleranceBase">
+		<defName>RadAwayTolerance</defName>
+		<label>Тяга к Антирадину</label>
+		<description>Возникла тяга к Антирадину , так и к зависимости не далеко</description>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.02</severityPerDay>
+				<showDaysToRecover>false</showDaysToRecover>
+			</li>
+			<li Class="HediffCompProperties_DrugEffectFactor">
+				<chemical>RadAway</chemical>
+			</li>
+		</comps>
+		  <hediffGivers>
+      <li Class="HediffGiver_RandomDrugEffect">
+        <hediff>Cirrhosis</hediff>
+        <severityToMtbDaysCurve>
+          <points>
+            <li>(0.45, 99999)</li>
+            <li>(0.5, 60)</li>
+            <li>(1, 45)</li>
+          </points>
+        </severityToMtbDaysCurve>
+        <partsToAffect>
+          <li>Liver</li>
+        </partsToAffect>
+      </li>
+      <li Class="HediffGiver_RandomDrugEffect">
+        <hediff>Carcinoma</hediff>
+        <severityToMtbDaysCurve>
+          <points>
+            <li>(0.45, 99999)</li>
+            <li>(0.5, 180)</li>
+            <li>(1, 150)</li>
+          </points>
+        </severityToMtbDaysCurve>
+        <partsToAffect>
+          <li>Brain</li>
+        </partsToAffect>
+      </li>
+    </hediffGivers>
+	</HediffDef>
+	<HediffDef ParentName="AddictionBase">
+		<defName>RadAwayAddiction</defName>
+		<hediffClass>Hediff_Addiction</hediffClass>
+		<label>Зависимость от Антирадина</label>
+		<labelNoun>Антирадиный наркоман</labelNoun>
+		<description>Развилась сильная Антирадинная зависимость.</description>
+		<causesNeed>Chemical_RadAway</causesNeed>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.05</severityPerDay>
+				<showDaysToRecover>false</showDaysToRecover>
+			</li>
+		</comps>
+		<stages>
+			<li>
+			</li>
+			<li>
+				<label>Антирадинная ломка</label>
+				<socialFightChanceFactor>2.0</socialFightChanceFactor>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.03</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.04</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.06</offset>
+					</li>
+				</capMods>
+				  <hediffGivers>
+            <li Class="HediffGiver_Random">
+              <hediff>ChemicalDamageModerate</hediff>
+              <mtbDays>10</mtbDays>
+              <partsToAffect>
+                <li>Brain</li>
+              </partsToAffect>
+            </li>
+          </hediffGivers>
+			</li>
+		</stages>
+	</HediffDef>
+	<ThoughtDef>
+		<defName>RadAwayWithdrawal</defName>
+		<workerClass>ThoughtWorker_Hediff</workerClass>
+		<hediff>RadAwayAddiction</hediff>
+		<stages>
+			<li>
+				<visible>false</visible>
+			</li>
+			<li>
+				<label>Антирадинная ломка</label>
+				<description>Голова разрывается,руки дрожат,хреново мне.</description>
+				<baseMoodEffect>-8</baseMoodEffect>
+			</li>
+		</stages>
+		<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+	</ThoughtDef>
+	
+	
+	
+
+
+</Defs>

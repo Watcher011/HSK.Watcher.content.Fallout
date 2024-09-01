@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeGlassBotel.label>Создать стеклянные бутылки</MakeGlassBotel.label>
+  <MakeGlassBotel.description>Выплавить бутылки. 5шт.</MakeGlassBotel.description>
+  <MakeGlassBotel.jobString>Выплавляет.</MakeGlassBotel.jobString>
+
+  <MakeSmeltBotel.label>Переплавить стеклянные бутылки</MakeSmeltBotel.label>
+  <MakeSmeltBotel.description>Переплавить бутылки. Переплавить 5.</MakeSmeltBotel.description>
+  <MakeSmeltBotel.jobString>Переплавляет.</MakeSmeltBotel.jobString>
+
+  <MakeCupBotel.label>Создать крышки для бутылок</MakeCupBotel.label>
+  <MakeCupBotel.description>Выплавить крышки для бутылки. 10шт.</MakeCupBotel.description>
+  <MakeCupBotel.jobString>Выплавляет.</MakeCupBotel.jobString>
+
+  <SmeltCupBotel.label>Переплавить крышки для бутылки</SmeltCupBotel.label>
+  <SmeltCupBotel.description>Переплавить крышки для бутылок. Переплавить 10.</SmeltCupBotel.description>
+  <SmeltCupBotel.jobString>Переплавляет.</SmeltCupBotel.jobString>
+
+
+</LanguageData>

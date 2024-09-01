@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<ThingDef ParentName="SweetMealBase">
+		<defName>NukaColaQuantum</defName>
+		<label>Квантовая Ядер-Кола</label>
+		<description>Этот продукт — вершина вкусовых ощущений. Семнадцать фруктовых ароматов и фирменный вкус колы смешаны для создания идеального освежающего напитка. Новая стронциевая добавка вставляет так сильно, что начинаешь взлетать.</description>
+		<graphicData>
+			<texPath>Things/Item/Drug/Cola</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>(0.5,0.5)</drawSize>
+		</graphicData>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<stackLimit>20</stackLimit>
+		<statBases>
+			<MarketValue>20</MarketValue>
+			<Nutrition>0.15</Nutrition>
+		</statBases>
+		 <size>(1,1)</size>
+		<thingCategories>
+			<li>Energetics</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<joy>0.22</joy>
+			<nurseable>true</nurseable>
+			  <foodType>Processed</foodType>
+			<drugCategory>Social</drugCategory>
+			<ingestSound>Ingest_Drink</ingestSound>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+					<offset>(0.18,0,0)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestCommandString>Drink {0}</ingestCommandString>
+			<ingestReportString>Drinking {0}.</ingestReportString>
+			<tasteThought>HadColaDrink</tasteThought>
+			<chairSearchRadius>25</chairSearchRadius>
+			<joyKind>Gluttonous</joyKind>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>GoodHappy</hediffDef>
+					<severity>0.25</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Caffeine</hediffDef>
+					<severity>0.01</severity>
+					<toleranceChemical>Caffeine</toleranceChemical>
+				</li>
+				<li Class="IngestionOutcomeDoer_OffsetNeed">
+					<need>Rest</need>
+					<offset>0.1</offset>
+					<toleranceChemical>Caffeine</toleranceChemical>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>RimatomicsRadiation</hediffDef>
+					<severity>0.04</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Hediff_Cola</hediffDef>
+					<severity>1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+		
+			<li Class="CompProperties_Drug">
+				<chemical>Caffeine</chemical>
+				<addictiveness>0.010</addictiveness>
+				<minToleranceToAddict>0.65</minToleranceToAddict>
+				<existingAddictionSeverityOffset>0.05</existingAddictionSeverityOffset>
+				<needLevelOffset>0.5</needLevelOffset>
+				<listOrder>1100</listOrder>
+			</li>
+			<li Class="CompProperties_Glower">
+        <glowRadius>2</glowRadius>
+        <glowColor>(5,5,155,1)</glowColor>
+      </li>
+	     
+		</comps>
+	</ThingDef>
+
+<ThingDef ParentName="SweetMealBase">
+		<defName>NukaCola</defName>
+		<label>Ядер-Кола</label>
+		<description>Популярнейший в США безалкогольный напиток, который выпускался до Великой войны. После войны Ядер-Кола, которую помнили многие люди, стала самым популярным газированным напитком постъядерного мира, поскольку даже спустя 200 лет прекрасно сохранилась, хотя она в основном встречается тёплой и разгазированной, а кроме того, этот напиток стал радиоактивным. Частое потребление Ядер-Колы может вызвать зависимость..</description>
+		<graphicData>
+			<texPath>Things/Item/Drug/ColaStnd</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>(0.5,0.5)</drawSize>
+		</graphicData>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<stackLimit>20</stackLimit>
+		<statBases>
+			<MarketValue>20</MarketValue>
+			<Nutrition>0.15</Nutrition>
+		</statBases>
+		 <size>(1,1)</size>
+		<thingCategories>
+			<li>Energetics</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>RawTasty</preferability>
+			<joy>0.12</joy>
+			<nurseable>true</nurseable>
+			  <foodType>Processed</foodType>
+			<drugCategory>Social</drugCategory>
+			<ingestSound>Ingest_Drink</ingestSound>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+					<offset>(0.18,0,0)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestCommandString>Drink {0}</ingestCommandString>
+			<ingestReportString>Drinking {0}.</ingestReportString>
+			<tasteThought>HadColaDrink</tasteThought>
+			<chairSearchRadius>25</chairSearchRadius>
+			<joyKind>Gluttonous</joyKind>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>GoodHappy</hediffDef>
+					<severity>0.05</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Caffeine</hediffDef>
+					<severity>0.01</severity>
+					<toleranceChemical>Caffeine</toleranceChemical>
+				</li>
+				<li Class="IngestionOutcomeDoer_OffsetNeed">
+					<need>Rest</need>
+					<offset>0.01</offset>
+					<toleranceChemical>Caffeine</toleranceChemical>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Hediff_Cola</hediffDef>
+					<severity>0.1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+		
+			<li Class="CompProperties_Drug">
+				<chemical>Caffeine</chemical>
+				<addictiveness>0.010</addictiveness>
+				<minToleranceToAddict>0.65</minToleranceToAddict>
+				<existingAddictionSeverityOffset>0.05</existingAddictionSeverityOffset>
+				<needLevelOffset>0.5</needLevelOffset>
+				<listOrder>1100</listOrder>
+			</li>
+			<li Class="CompProperties_Glower">
+        <glowRadius>1</glowRadius>
+        <glowColor>(155,5,5,1)</glowColor>
+      </li>
+	     
+		</comps>
+	</ThingDef>
+
+
+
+<ThingDef ParentName="SweetMealBase">
+		<defName>NukaColaOrang</defName>
+		<label>Ядер-Кола-Апельсин</label>
+		<description>Популярнейший в США безалкогольный напиток, который выпускался до Великой войны. После войны Ядер-Кола, которую помнили многие люди, стала самым популярным газированным напитком постъядерного мира, поскольку даже спустя 200 лет прекрасно сохранилась, хотя она в основном встречается тёплой и разгазированной, а кроме того, этот напиток стал радиоактивным. Частое потребление Ядер-Колы может вызвать зависимость..</description>
+		<graphicData>
+			<texPath>Things/Item/Drug/ColaOrang</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>(0.5,0.5)</drawSize>
+		</graphicData>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<stackLimit>20</stackLimit>
+		<statBases>
+			<MarketValue>20</MarketValue>
+			<Nutrition>0.15</Nutrition>
+		</statBases>
+		 <size>(1,1)</size>
+		<thingCategories>
+			<li>Energetics</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>RawTasty</preferability>
+			<joy>0.12</joy>
+			<nurseable>true</nurseable>
+			  <foodType>Processed</foodType>
+			<drugCategory>Social</drugCategory>
+			<ingestSound>Ingest_Drink</ingestSound>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+					<offset>(0.18,0,0)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestCommandString>Drink {0}</ingestCommandString>
+			<ingestReportString>Drinking {0}.</ingestReportString>
+			<tasteThought>HadColaDrink</tasteThought>
+			<chairSearchRadius>25</chairSearchRadius>
+			<joyKind>Gluttonous</joyKind>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>GoodHappy</hediffDef>
+					<severity>0.07</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Caffeine</hediffDef>
+					<severity>0.03</severity>
+					<toleranceChemical>Caffeine</toleranceChemical>
+				</li>
+				<li Class="IngestionOutcomeDoer_OffsetNeed">
+					<need>Rest</need>
+					<offset>0.02</offset>
+					<toleranceChemical>Caffeine</toleranceChemical>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Hediff_Cola</hediffDef>
+					<severity>0.4</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+		
+			<li Class="CompProperties_Drug">
+				<chemical>Caffeine</chemical>
+				<addictiveness>0.03</addictiveness>
+				<minToleranceToAddict>0.65</minToleranceToAddict>
+				<existingAddictionSeverityOffset>0.05</existingAddictionSeverityOffset>
+				<needLevelOffset>0.5</needLevelOffset>
+				<listOrder>1100</listOrder>
+			</li>
+			<li Class="CompProperties_Glower">
+        <glowRadius>1</glowRadius>
+        <glowColor>(155,155,5,1)</glowColor>
+      </li>
+	     
+		</comps>
+	</ThingDef>
+	
+	
+	
+	
+	<ThingDef ParentName="SweetMealBase">
+		<defName>NukaColaMars</defName>
+		<label>Ядер-Кола Затмение</label>
+		<description>Этот продукт — смесь из очищенной Квантовой Ядер-Колы и пакета крови.Дикое сочетание пришлось не всем любителям пустошей по вкусу, но те кто ценят тьму остались довольны.</description>
+		<graphicData>
+			<texPath>Things/Item/Drug/ColaBload</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>(0.5,0.5)</drawSize>
+		</graphicData>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<stackLimit>20</stackLimit>
+		<statBases>
+			<MarketValue>20</MarketValue>
+			<Nutrition>0.15</Nutrition>
+		</statBases>
+		 <size>(1,1)</size>
+		<thingCategories>
+			<li>Energetics</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<joy>0.22</joy>
+			<nurseable>true</nurseable>
+			  <foodType>Processed</foodType>
+			<drugCategory>Social</drugCategory>
+			<ingestSound>Ingest_Drink</ingestSound>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+					<offset>(0.18,0,0)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestCommandString>Drink {0}</ingestCommandString>
+			<ingestReportString>Drinking {0}.</ingestReportString>
+			<tasteThought>HadColaDrink</tasteThought>
+			<chairSearchRadius>25</chairSearchRadius>
+			<joyKind>Gluttonous</joyKind>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>GoodHappy</hediffDef>
+					<severity>0.45</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Caffeine</hediffDef>
+					<severity>0.01</severity>
+					<toleranceChemical>Caffeine</toleranceChemical>
+				</li>
+				<li Class="IngestionOutcomeDoer_OffsetNeed">
+					<need>Rest</need>
+					<offset>0.3</offset>
+					<toleranceChemical>Caffeine</toleranceChemical>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>RimatomicsRadiation</hediffDef>
+					<severity>0.06</severity>
+				</li>
+				 <li Class="IngestionOutcomeDoer_OffsetHemogen">
+                 <offset>0.8</offset>
+                  </li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Hediff_Cola</hediffDef>
+					<severity>1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+		
+			<li Class="CompProperties_Drug">
+				<chemical>Caffeine</chemical>
+				<addictiveness>0.010</addictiveness>
+				<minToleranceToAddict>0.65</minToleranceToAddict>
+				<existingAddictionSeverityOffset>0.05</existingAddictionSeverityOffset>
+				<needLevelOffset>0.5</needLevelOffset>
+				<listOrder>1100</listOrder>
+			</li>
+			<li Class="CompProperties_Glower">
+        <glowRadius>2</glowRadius>
+        <glowColor>(155,5,5,1)</glowColor>
+      </li>
+	     
+		</comps>
+	</ThingDef>
+</Defs>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ogre Bases -->
+
+  <shadow.label>Тень</shadow.label>
+  <shadow.labelPlural>Тени</shadow.labelPlural>
+  <shadow.labelMale>Боец Теней</shadow.labelMale>
+  <shadow.labelMalePlural>Боец теней</shadow.labelMalePlural>
+  <shadow.labelFemale>Боец теней</shadow.labelFemale>
+  <shadow.labelFemalePlural>Боец Теней</shadow.labelFemalePlural>
+
+
+</LanguageData>

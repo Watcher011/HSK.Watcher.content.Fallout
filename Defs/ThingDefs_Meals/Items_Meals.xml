@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<ThingDef ParentName="SK_MealBase">
+		<defName>ScrambledDeathclawEggs</defName>
+		<label>Подозрительная яичница</label>
+		<description>Подозрительная яичница ингридиенты лучше не знать.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/Scramble</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>40</DeteriorationRate>
+			<MarketValue>12</MarketValue>
+			<WorkToMake>200</WorkToMake>
+			<Bulk>1.5</Bulk>
+			<Mass>1.2</Mass>
+			<Nutrition>0.9</Nutrition>
+		</statBases>
+		<stackLimit>10</stackLimit>
+		<ingestible>
+			<preferability>MealSimple</preferability>
+			<ingestEffect>EatMeat</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+			<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>RimatomicsRadiation</hediffDef>
+					<severity>0.07</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Hediff_egg</hediffDef>
+					<severity>1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>20</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+
+
+</Defs>

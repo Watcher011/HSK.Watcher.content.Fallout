@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- =========== REALISTIC PRODUCTION SK MOD =========== -->
+
+	<ThingDef ParentName="CropsBase">
+		<defName>EmptyBottle</defName>
+		<label>Пустая бутылка</label>
+		<description>Пустая стеклянная бутылка.</description>
+		<graphicData>
+			<texPath>Things/Item/Drug/ColaEmpty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(0.5,0.5)</drawSize>
+		</graphicData>
+		<techLevel>Neolithic</techLevel>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<statBases>
+			<MarketValue>6</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0.2</Flammability>
+			<SellPriceFactor>1</SellPriceFactor>
+			<Mass>0.5</Mass>
+			<Bulk>0.5</Bulk>
+		</statBases>
+		<useHitPoints>true</useHitPoints>
+		<thingCategories>
+			<li>Parts</li>
+		</thingCategories>
+		<stackLimit>20</stackLimit>
+	</ThingDef>
+
+
+
+<ThingDef ParentName="CropsBase">
+		<defName>BottleCap</defName>
+		<label>Крышка от бутылки</label>
+		<description>Крышки — это обеспеченная водой валюта, контролируемая и регулируемая караванными торговыми компаниями НКР. Караванные дома сговорились вновь ввести крышки в качестве основной валюты, когда торговцы потеряли веру в деньги НКР.</description>
+		<graphicData>
+			<texPath>Things/Item/Drug/Cap</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>(0.3,0.3)</drawSize>
+		</graphicData>
+		<techLevel>Neolithic</techLevel>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<statBases>
+			<MarketValue>15</MarketValue>
+			 <RoyalFavorValue>0.01</RoyalFavorValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0.2</Flammability>
+			<SellPriceFactor>1</SellPriceFactor>
+			<Mass>0.1</Mass>
+			<Bulk>0.1</Bulk>
+		</statBases>
+		<useHitPoints>true</useHitPoints>
+		<thingCategories>
+			<li>Parts</li>
+		</thingCategories>
+		<stackLimit>100</stackLimit>
+	</ThingDef>
+
+
+
+</Defs>

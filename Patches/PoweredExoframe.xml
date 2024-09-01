@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+
+	<Operation Class="PatchOperationAdd">
+				<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_CookingStuff"]/defNames</xpath>
+				<value>
+				<li>ColaBasin</li>
+				</value>
+			 </Operation>
+	
+</Patch>
+
+
+
+
+

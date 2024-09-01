@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BaseFilth">
+    <defName>Filth_Cap</defName>
+    <label>Крышки</label>
+    <graphicData>
+      <texPath>Things/Filth/Cap</texPath>
+      <shaderType>Transparent</shaderType>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <filth>
+      <placementMask>
+        <li>Terrain</li>
+      </placementMask>
+      <disappearsInDays>10~30</disappearsInDays>
+      <rainWashes>false</rainWashes>
+      <cleaningWorkToReduceThickness>35</cleaningWorkToReduceThickness>
+      <canFilthAttach>true</canFilthAttach>
+      <cleaningSound>Interact_CleanFilth_Dirt</cleaningSound>
+    </filth>
+  </ThingDef>
+
+
+</Defs>

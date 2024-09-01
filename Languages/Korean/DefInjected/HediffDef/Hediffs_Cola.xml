@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- SimpleStimpack -->
+
+  <Hediff_Cola.label>ЯдерКола!</Hediff_Cola.label>
+  <Hediff_Cola.description>Сила Кванта!</Hediff_Cola.description>
+  <Hediff_Cola.stages.0.label>Побочный эффект</Hediff_Cola.stages.0.label>
+  <Hediff_Cola.labelNoun>ЯдерСила</Hediff_Cola.labelNoun>
+
+
+</LanguageData>

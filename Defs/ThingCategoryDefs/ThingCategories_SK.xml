@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>FuturisticVaultec</defName>
+		<label>Произведено в Волт-тек</label>
+		<parent>WeaponsRanged</parent>
+	</ThingCategoryDef>
+
+</Defs>

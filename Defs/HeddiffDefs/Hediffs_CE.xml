@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+  <HediffDef>
+    <defName>WearingPipBoy</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(1.00, 0.5, 0)</defaultLabelColor>
+    <isBad>false</isBad>
+    <label>Pip-Boy</label>
+	<description>VATS, или система вспомогательного прицеливания «Волт-Тек», — это передовая боевая технология, истоки разработки которой затеряны во времени…</description>
+    <makesSickThought>false</makesSickThought>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <stages>
+      <li>
+        <label>V.A.T.S.</label>
+        <minSeverity>0</minSeverity>
+        <capMods>
+         	         <li>
+						<capacity>Manipulation</capacity>
+						<offset>0.05</offset>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>0.05</offset>
+					</li>
+             </capMods>
+			<statOffsets>
+					<MoveSpeed>0.05</MoveSpeed>
+					<MeleeHitChance>0.1</MeleeHitChance>
+					<ShootingAccuracyPawn>0.2</ShootingAccuracyPawn>
+					<AimingDelayFactor>-0.04</AimingDelayFactor>
+					<!-- <MeleeWeapon_CooldownMultiplier>0.95</MeleeWeapon_CooldownMultiplier> -->
+					<Suppressability>-0.05</Suppressability>
+				</statOffsets>
+      </li> 
+    </stages>
+	     
+  </HediffDef>
+  
+  
+  
+  
+  
+  <ThingDef ParentName="MechanitorImplantBase">
+    <defName>LastGiftofWatcher</defName>
+    <label>Набор нестабильных механитов</label>
+    <description>Устройство с набором запрограмиррованых механитов.На корпусе затёртая надпись"Последний дар Наблюдателя".</description>
+    <thingClass>Mechlink</thingClass>
+    <descriptionHyperlinks><HediffDef>LastGiftofWatcher</HediffDef></descriptionHyperlinks>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Beauty>-4</Beauty>
+      <Mass>1</Mass>
+      <MarketValue>500</MarketValue>
+      <DeteriorationRate>0</DeteriorationRate>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Mechlink</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.65</drawSize>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Usable">
+        <compClass>CompUsableImplant</compClass>
+        <useJob>UseItem</useJob>
+        <useLabel>Инъекция</useLabel>
+      </li>
+      <li Class="CompProperties_UseEffectInstallImplant">
+        <hediffDef>LastGiftofWatcher</hediffDef>
+        <bodyPart>Brain</bodyPart>
+      </li>
+      <li Class="CompProperties_UseEffectPlaySound">
+        <soundOnUsed>MechlinkInstalled</soundOnUsed>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  
+	<HediffDef ParentName="ChJAndroidUpgradeBase">
+		<defName>LastGiftofWatcher</defName>
+		<label>Механиты переполненые энергией</label>
+		<description>Билет в один конец</description>
+		<defaultLabelColor>(0.8, 0.8, 0.4)</defaultLabelColor>
+		<hediffClass>Androids.Hediff_BlackBox</hediffClass>
+		<stages>
+			<li>
+				<statOffsets>
+					<ResearchSpeed>1.25</ResearchSpeed>
+					<DrugSynthesisSpeed>0.5</DrugSynthesisSpeed>
+					<DrugCookingSpeed>0.5</DrugCookingSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+		<modExtensions>
+			<li Class="Androids.AndroidUpgradeHediffProperties">
+				<def>Upgrade_BlackBox</def>
+			</li>
+		</modExtensions>
+	</HediffDef>
+	
+	
+	<HediffDef ParentName="ChJAndroidUpgradeBase">
+		<defName>BombJ</defName>
+		<label>Заминирован</label>
+		<description>Билет в один конец</description>
+		<defaultLabelColor>(0.8, 0.1, 0.1)</defaultLabelColor>
+		<hediffClass>Androids.Hediff_BlackBox</hediffClass>
+		<stages>
+			<li>
+			</li>
+		</stages>
+		<modExtensions>
+			<li Class="Androids.AndroidUpgradeHediffProperties">
+				<def>Upgrade_BlackBox</def>
+			</li>
+		</modExtensions>
+	</HediffDef>
+  
+
+   
+  <HediffGiverSetDef>
+    <defName>ShroudOfInvisibilitySet</defName>
+    <hediffGivers>
+      <li Class="HediffGiver_Birthday">
+        <hediff>Hediff_StealthBoy_Shadow</hediff>
+        <ageFractionChanceCurve>
+          <points>
+            <li>(0, 1)</li>
+            <li>(1, 1)</li>
+          </points>
+        </ageFractionChanceCurve>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+  
+  
+  
+   
+</Defs>

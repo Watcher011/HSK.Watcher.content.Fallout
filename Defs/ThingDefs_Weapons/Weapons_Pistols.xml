@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	 <ThingDef ParentName="BaseGun_Heavy">
+        <defName>Gun_LaserPistol</defName>
+        <label>Лазерный пистолет</label>
+        <description>Лазерный пистолет — это высокотехнологичное энергетическое оружие, разработанное в довоенных США. Принцип действия — это сконцентрированный и многократно усиленный луч света, практически мгновенно и очень точно переносящий энергию «выстрела» (импульса) в очень маленькую площадь на мишени.
+В результате должно иметь место стремительное нагревание вещества цели (в случае с биоцелью — ожоги и обугливание. Причём смерть, вероятно, наступит и при попадании по конечностям — от болевого шока), а при достаточной мощности импульса — взрывное испарение вещества.
+Интересно, что в обычных условиях лазерные лучи невидимы — со стороны они могут быть заметны только в рассеивающем их дыму или тумане.
+Предположительно, несомненным достоинством лазерного оружия является высокая точность стрельбы, эффективность в борьбе с защищёнными бронёй целями, однако мощность выстрела должна несколько уменьшаться с расстоянием.
+Недостатками являются высокая сложность и низкая механическая прочность конструкции оружия (при том, что даже мелкий ремонт требует высокой квалификации специалиста, использования довоенных деталей и специализированного инструмента), необходимость сохранения идеальной чистоты излучателя (что крайне сложно выполнить в полевых условиях), значительная энергоёмкость каждого выстрела (при том, что довоенные батареи должны быть весьма дефицитными).</description>
+        <graphicData>
+            <texPath>Things/Weapons/Laser/LaserPistol</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>2600</MarketValue>
+            <SightsEfficiency>1.15</SightsEfficiency>
+            <ShotSpread>0.06</ShotSpread>
+            <SwayFactor>1.05</SwayFactor>
+            <RangedWeapon_Cooldown>0.65</RangedWeapon_Cooldown>
+            <Bulk>3.20</Bulk>
+            <Mass>1.50</Mass>
+        </statBases>
+        <tradeability>Sellable</tradeability>
+        <soundInteract>InteractPlasma</soundInteract>
+		<techLevel>Spacer</techLevel>
+        <weaponTags>
+            <li>VaultecLaserPistol</li>
+			<li>VaultecGun</li>
+        </weaponTags>
+		<weaponClasses>
+			<li>Ultratech</li>
+			<li>RangedLight</li>
+		</weaponClasses>
+		 <tradeTags>
+            <li>ExoticVaultec</li>
+        </tradeTags>
+        <thingCategories>
+            <li>FuturisticVaultec</li>
+        </thingCategories>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_Laserbeam</defaultProjectile>
+                <warmupTime>0.49</warmupTime>
+                <range>20</range>
+                 <soundCast>ShotLaser</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>FALSE</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>12</magazineSize>
+                <reloadTime>1.80</reloadTime>
+                <ammoSet>AmmoSet_ChargedLaser</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+		    <Laser_Component>1</Laser_Component>
+            <Weapon_Parts>4</Weapon_Parts>
+			<Plastic>5</Plastic>
+        </smeltProducts>
+		
+    </ThingDef>
+	
+	
+	 <ThingDef ParentName="BaseGun_Heavy">
+        <defName>Gun_LaserRifel</defName>
+        <label>Лазерная винтовка AER9</label>
+        <description>В AER9 не использовались передовые довоенные технологии, что значительно повысило её надежность. Эта модель представляет собой обычный твердотельный импульсный лазер, активная среда которого (кристалл), заключена в титановый корпус, что позволяет выдерживать годы воздействия окружающей среды без потери технических характеристик.</description>
+        <graphicData>
+            <texPath>Things/Weapons/Laser/LaserRifel</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>3100</MarketValue>
+            <SightsEfficiency>1.5</SightsEfficiency>
+            <ShotSpread>0.03</ShotSpread>
+            <SwayFactor>0.9</SwayFactor>
+            <RangedWeapon_Cooldown>0.75</RangedWeapon_Cooldown>
+            <Bulk>10.20</Bulk>
+            <Mass>3.50</Mass>
+			<NightVisionEfficiency_Weapon>0.7</NightVisionEfficiency_Weapon>
+        </statBases>
+        <soundInteract>InteractPlasma</soundInteract>
+        <tradeability>Sellable</tradeability>
+		<techLevel>Spacer</techLevel>
+        <weaponTags>
+            <li>VaultecGun</li>
+			<li>VaultecLaserRifel</li>
+        </weaponTags>
+		<tradeTags>
+            <li>ExoticVaultec</li>
+        </tradeTags>
+		<weaponClasses>
+			<li>Ultratech</li>
+		</weaponClasses>
+        <thingCategories>
+             <li>FuturisticVaultec</li>
+        </thingCategories>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <recoilPattern>Regular</recoilPattern>
+                <recoilAmount>0.49</recoilAmount>
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                 <defaultProjectile>Bullet_Laserbeam</defaultProjectile>
+                <warmupTime>0.42</warmupTime>
+                <burstShotCount>3</burstShotCount>
+                <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+                <range>60</range>
+                 <soundCast>ShotLaser</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>FALSE</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>28</magazineSize>
+                <reloadTime>2.50</reloadTime>
+                  <ammoSet>AmmoSet_ChargedLaser</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+		    <Laser_Component>1</Laser_Component>
+            <Weapon_Parts>7</Weapon_Parts>
+			<Plastic>7</Plastic>
+        </smeltProducts>
+		
+    </ThingDef>
+	
+	
+	 <ThingDef ParentName="BaseGun_Heavy">
+        <defName>Gun_LaserSniperRifel</defName>
+        <label>Лазер Института</label>
+        <description>Вариант лазерного оружия, разработанный Институтом. По сравнению со стандартным лазером, обладает иным дизайном, лучшей скорострельностью и сниженным весом, но более скудным ассортиментом возможных модификаций и чуть меньшим уроном. Из достоинств следует отметить малый расход ОД в режиме V.A.T.S., а также крайне низкую отдачу и почти нулевой разброс в режиме одиночного огня, что делает его отличным выбором для снайпера. Из недостатков — громоздкость, большой размер, а также характерную для всего энергетического оружия невозможность установки глушителя и потому ограниченные возможности для работы из режима скрытности.</description>
+        <graphicData>
+            <texPath>Things/Weapons/Laser/LaserSniperRifel</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>Transparent</shaderType>
+        </graphicData>
+        <weaponTags>
+            <li>VaultecGun</li>
+			<li>VaultecLaserSniperRifel</li>
+        </weaponTags>
+		<tradeTags>
+            <li>ExoticVaultec</li>
+        </tradeTags>
+        <tradeability>Sellable</tradeability>
+		<techLevel>Spacer</techLevel>
+        <thingCategories>
+             <li>FuturisticVaultec</li>
+        </thingCategories>
+        <statBases>
+            <MarketValue>3300</MarketValue>
+            <SightsEfficiency>1.05</SightsEfficiency>
+            <ShotSpread>0.04</ShotSpread>
+            <SwayFactor>1.02</SwayFactor>
+            <RangedWeapon_Cooldown>0.9</RangedWeapon_Cooldown>
+            <Bulk>12.00</Bulk>
+            <Mass>4.40</Mass>
+			<NightVisionEfficiency_Weapon>0.4</NightVisionEfficiency_Weapon>
+        </statBases>
+        <soundInteract>InteractLaser</soundInteract>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <recoilPattern>Regular</recoilPattern>
+                <recoilAmount>0.01</recoilAmount>
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_Laserbeam</defaultProjectile>
+                <warmupTime>0.6</warmupTime>
+                <range>60</range>
+                <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+                <burstShotCount>3</burstShotCount>
+                <soundCast>ShotLaser</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>FALSE</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+                <aimedBurstShotCount>3</aimedBurstShotCount>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>30</magazineSize>
+                <reloadTime>4.60</reloadTime>
+                <ammoSet>AmmoSet_ChargedLaser</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+            <Laser_Component>1</Laser_Component>
+            <Weapon_Parts>10</Weapon_Parts>
+			<Plastic>8</Plastic>
+        </smeltProducts>
+		
+    </ThingDef>
+	
+	
+	
+	
+	  <ThingDef ParentName="BaseGun_Heavy">
+        <defName>Gun_PlasmaRifelV</defName>
+        <label>Плазменный карабин</label>
+        <description>Лёгкое энергетическое оружие, разработанное и начавшее поступать на вооружение армии США незадолго до начала войны, но не успевшее получить массового распространения. Активно использовалось уже в послевоенное время войсками Анклава. С разгромом последнего распространилось по Пустоши, но всё равно встречается довольно редко.</description>
+        <graphicData>
+            <texPath>Things/Weapons/Laser/PlasmaRifel</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>2850</MarketValue>
+            <SightsEfficiency>1.3</SightsEfficiency>
+            <ShotSpread>0.08</ShotSpread>
+            <SwayFactor>1.35</SwayFactor>
+            <RangedWeapon_Cooldown>0.88</RangedWeapon_Cooldown>
+            <Bulk>11.10</Bulk>
+            <Mass>3.70</Mass>
+			<NightVisionEfficiency_Weapon>0.4</NightVisionEfficiency_Weapon>
+        </statBases>
+        <soundInteract>InteractPlasma</soundInteract>
+        <tradeability>Sellable</tradeability>
+		<techLevel>Spacer</techLevel>
+        <weaponTags>
+            <li>VaultecGun</li>
+			<li>VaultecPlasmaRifel</li>
+        </weaponTags>
+		<tradeTags>
+            <li>ExoticVaultec</li>
+        </tradeTags>
+		<weaponClasses>
+			<li>Ultratech</li>
+		</weaponClasses>
+        <thingCategories>
+            <li>FuturisticVaultec</li>
+        </thingCategories>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <recoilPattern>Regular</recoilPattern>
+                <recoilAmount>0.49</recoilAmount>
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_Plasma</defaultProjectile>
+                <warmupTime>0.62</warmupTime>
+                <range>50</range>
+                <burstShotCount>3</burstShotCount>
+                <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+                <soundCast>ShotPlasma</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>FALSE</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+                <aimedBurstShotCount>3</aimedBurstShotCount>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>30</magazineSize>
+                <reloadTime>2.90</reloadTime>
+                <ammoSet>AmmoSet_PlasmaBolt</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+            <Plasma_Component>1</Plasma_Component>
+            <Weapon_Parts>7</Weapon_Parts>
+			<Plastic>7</Plastic>
+        </smeltProducts>
+	
+    </ThingDef>
+	
+	
+	 <ThingDef ParentName="BaseGun_Heavy">
+        <defName>Gun_GatlingLaser</defName>
+        <label>Гатлинг-лазер</label>
+        <description>Гатлинг-лазер может нанести огромный энергетический урон за короткое время, однако перед стрельбой ему нужно время на раскрутку стволов..</description>
+        <graphicData>
+            <texPath>Things/Weapons/Laser/LaserGatling</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>InteractPTUR</soundInteract>
+        <weaponTags>
+             <li>VaultecGun</li>
+			<li>VaultecGatlingLaser</li>
+        </weaponTags>
+        <tradeTags>
+            <li>ExoticVaultec</li>
+        </tradeTags>
+        <thingCategories>
+             <li>FuturisticVaultec</li>
+        </thingCategories>
+        <statBases>
+            <MarketValue>3100</MarketValue>
+            <SightsEfficiency>1</SightsEfficiency>
+            <ShotSpread>0.11</ShotSpread>
+            <SwayFactor>1.5</SwayFactor>
+            <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+            <Bulk>16</Bulk>
+            <Mass>18</Mass>
+        </statBases>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <recoilAmount>1.6</recoilAmount>
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_Laserbeam</defaultProjectile>
+                <warmupTime>1.5</warmupTime>
+                <range>50</range>
+                <targetParams>
+                    <canTargetLocations>true</canTargetLocations>
+                </targetParams>
+                <burstShotCount>20</burstShotCount>
+                <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+                 <soundCast>ShotLaser</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>FALSE</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+                <aimedBurstShotCount>20</aimedBurstShotCount>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>200</magazineSize>
+                <reloadTime>10</reloadTime>
+               <ammoSet>AmmoSet_ChargedLaser</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+		    <Laser_Component>1</Laser_Component>
+            <Heavy_Component>1</Heavy_Component>
+            <Weapon_Parts>10</Weapon_Parts>
+			<Plastic>5</Plastic>
+        </smeltProducts>
+    </ThingDef>
+</Defs>

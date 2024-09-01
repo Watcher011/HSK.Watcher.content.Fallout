@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Chaser -->
+
+  <VaultecChaser.label>Vaultec Chaser</VaultecChaser.label>
+  <VaultecChaser.labelPlural>Vaultec Chasers</VaultecChaser.labelPlural>
+
+  <VaultecChaser_Acidifier.label>Vaultec Chaser</VaultecChaser_Acidifier.label>
+  <VaultecChaser_Acidifier.labelPlural>Vaultec Chasers</VaultecChaser_Acidifier.labelPlural>
+
+
+  <!-- Sunderer -->
+
+  <VaultecSunderer.label>Vaultec Sunderer</VaultecSunderer.label>
+  <VaultecSunderer.labelPlural>Vaultec Sunderers</VaultecSunderer.labelPlural>
+
+  <VaultecSunderer_Acidifier.label>Vaultec Sunderer</VaultecSunderer_Acidifier.label>
+  <VaultecSunderer_Acidifier.labelPlural>Vaultec Sunderers</VaultecSunderer_Acidifier.labelPlural>
+
+  <VaultecSundererHeavy.label>Vaultec Sunderer</VaultecSundererHeavy.label>
+  <VaultecSundererHeavy.labelPlural>Vaultec Sunderers</VaultecSundererHeavy.labelPlural>
+
+  <VaultecSundererHeavy_Acidifier.label>Vaultec Sunderer</VaultecSundererHeavy_Acidifier.label>
+  <VaultecSundererHeavy_Acidifier.labelPlural>Vaultec Sunderers</VaultecSundererHeavy_Acidifier.labelPlural>
+
+
+  <!-- Hunter -->
+
+  <VaultecHunter.label>Vaultec Hunter</VaultecHunter.label>
+  <VaultecHunter.labelPlural>Vaultec Hunters</VaultecHunter.labelPlural>
+
+  <VaultecHunter_Acidifier.label>Vaultec Hunter</VaultecHunter_Acidifier.label>
+  <VaultecHunter_Acidifier.labelPlural>Vaultec Hunters</VaultecHunter_Acidifier.labelPlural>
+
+
+  <!-- Hawkeye -->
+
+  <VaultecHawkeye.label>Vaultec Hawkeye</VaultecHawkeye.label>
+  <VaultecHawkeye.labelPlural>Vaultec Hawkeyes</VaultecHawkeye.labelPlural>
+
+  <VaultecHawkeye_Acidifier.label>Vaultec Hawkeye</VaultecHawkeye_Acidifier.label>
+  <VaultecHawkeye_Acidifier.labelPlural>Vaultec Hawkeyes</VaultecHawkeye_Acidifier.labelPlural>
+
+
+  <!-- Rager -->
+
+  <VaultecRager.label>Vaultec Rager</VaultecRager.label>
+  <VaultecRager.labelPlural>Vaultec Ragers</VaultecRager.labelPlural>
+
+  <VaultecRager_Acidifier.label>Vaultec Rager</VaultecRager_Acidifier.label>
+  <VaultecRager_Acidifier.labelPlural>Vaultec Ragers</VaultecRager_Acidifier.labelPlural>
+
+
+  <!-- Sunriser -->
+
+  <VaultecSunRiser.label>Vaultec Sun Riser</VaultecSunRiser.label>
+  <VaultecSunRiser.labelPlural>Vaultec Sun Risers</VaultecSunRiser.labelPlural>
+
+  <VaultecSunRiser_Acidifier.label>Vaultec Sun Riser</VaultecSunRiser_Acidifier.label>
+  <VaultecSunRiser_Acidifier.labelPlural>Vaultec Sun Risers</VaultecSunRiser_Acidifier.labelPlural>
+
+
+  <!-- Bloodborne -->
+
+  <VaultecBloodborne.label>Vaultec bloodborne</VaultecBloodborne.label>
+  <VaultecBloodborne.labelPlural>Vaultec bloodbornes</VaultecBloodborne.labelPlural>
+
+  <VaultecBloodborne_Acidifier.label>Vaultec bloodborne</VaultecBloodborne_Acidifier.label>
+  <VaultecBloodborne_Acidifier.labelPlural>Vaultec bloodbornes</VaultecBloodborne_Acidifier.labelPlural>
+
+  <Vaultec_Trader.label>Торговец Vaultec</Vaultec_Trader.label>
+  <Vaultec_Trader.labelPlural>Торговец Vaultecs</Vaultec_Trader.labelPlural>
+
+
+</LanguageData>

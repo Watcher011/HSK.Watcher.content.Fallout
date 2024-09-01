@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+<!--=============== GhoulHead ====================-->
+  <HeadTypeDef Name="OEGhoulHeadBase" ParentName="AverageBase" Abstract="True">
+	<randomChosen>false</randomChosen>
+	<narrow>false</narrow>
+	<eyeOffsetEastWest>(0.175, 0, 0.18)</eyeOffsetEastWest>
+  </HeadTypeDef>
+
+<!--=============== Normal ====================-->
+  <HeadTypeDef ParentName="OEGhoulHeadBase">
+    <defName>Female_GhoulHead_Normal</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Female/F_Female_Average_Normal</graphicPath>
+    <gender>Female</gender>
+    <requiredGenes>
+      <li>OE_GhoulHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+  
+  <HeadTypeDef ParentName="OEGhoulHeadBase">
+    <defName>Male_GhoulHead_Normal</defName>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Male/F_Male_Average_Normal</graphicPath>
+    <gender>Male</gender>
+    <requiredGenes>
+      <li>OE_GhoulHead</li>
+    </requiredGenes>
+  </HeadTypeDef>
+<!--=============== Gaunt ====================-->
+ 
+
+</Defs>

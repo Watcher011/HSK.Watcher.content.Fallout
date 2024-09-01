@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+<!--=============== Ghoul ====================-->
+  <XenotypeDef>
+    <defName>OE_Ghoul</defName>
+    <label>Гуль</label>
+    <description>Гули были когда-то людьми, которые не успели попасть в защитное убежище во время бомбардировки. Облучение придало им повышенную сопротивляемость радиации; они также получают бонус к сопротивляемости ядам. К сожалению, физически они слишком слабы и не могут использовать тяжёлое оружие.</description>
+    <descriptionShort>Гули были когда-то людьми, которые не успели попасть в защитное убежище во время бомбардировки. Облучение придало им повышенную сопротивляемость радиации; они также получают бонус к сопротивляемости ядам. К сожалению, физически они слишком слабы и не могут использовать тяжёлое оружие.</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/OE_Gene_GhoulHead</iconPath>
+	<inheritable>true</inheritable>
+    <genes>
+	  <li>Skin_Green</li>
+	  <li>Skin_PaleYellow</li>
+	  <li>OE_Skin_GhoulDarkGreen</li>
+	  <li>OE_Skin_GhoulLightGreen</li>
+	  <li>OE_Skin_GhoulLightBrown</li>
+	   <li>ChemicalDependency_RadAway</li>
+	  <li>OE_GhoulHead</li>
+	  <li>Beard_NoBeardOnly</li>
+	  <li>Body_Thin</li>
+	  <li>Body_Standard</li>
+	  <li>Inbred</li>
+	  <li>ToxicEnvironmentResistance_Total</li>
+	  <li>PollutionRush</li>
+	  <li>RobustDigestion</li>
+	  <li>RADImmunity</li>
+	  <li>Beauty_Ugly</li>
+	  <li>Delicate</li>
+	  <li>LowSleep</li>
+	  <li>MinTemp_SmallIncrease</li>
+	  <li>Mood_Sanguine</li>
+	  <li>Pain_Reduced</li>
+	 <li>ToxResist_Total</li>
+    </genes>
+  </XenotypeDef>
+
+</Defs>

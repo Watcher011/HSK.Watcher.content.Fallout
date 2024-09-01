@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!--___________________CheeseBasin_____________________-->
+	<RecipeDef Name="Make_NukaColaBase" Abstract="True">
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Synchronite</li>
+				  <li>Uranium</li>
+				 <li>EmptyBottle</li>
+				  <li>BottleCap</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>ColaBasin</li>
+		</recipeUsers>
+		
+		<!-- RecipeDef_UF fields -->
+		<temperatureSafe>
+			<min>-50</min>
+			<max>60</max>
+		</temperatureSafe>
+		<temperatureIdeal>
+			<min>-40</min>
+			<max>30</max>
+		</temperatureIdeal>
+		<processDays>10</processDays>
+		<speedBelowSafe>0.05</speedBelowSafe>
+		<speedAboveSafe>0.5</speedAboveSafe>
+		<sunFactor>
+			<min>1</min>
+			<max>1</max>
+		</sunFactor>
+		<rainFactor>
+			<min>1</min>
+			<max>1</max>
+		</rainFactor>
+		<snowFactor>
+			<min>1</min>
+			<max>1</max>
+		</snowFactor>
+		<windFactor>
+			<min>1</min>
+			<max>1</max>
+		</windFactor>
+		<graphicSuffix>_sin</graphicSuffix>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Make_NukaColaBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>Make_NukaColaQuantum</defName>
+		<label>Создание Квантовой колы</label>
+		<description>Синтез Ядер колы сила Кванта</description>
+		<ingredients>
+			<li>
+				<filter>
+				  <thingDefs>
+               <li>Sugar</li>
+               </thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+				  <thingDefs>
+               <li>Synchronite</li>
+               </thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+				  <thingDefs>
+               <li>EmptyBottle</li>
+               </thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+				  <thingDefs>
+               <li>BottleCap</li>
+               </thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<products>
+			<NukaColaQuantum>3</NukaColaQuantum>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Make_NukaColaBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>Make_NukaCola</defName>
+		<label>Создание Ядер-колы</label>
+		<description>Синтез Ядер-колы</description>
+		<ingredients>
+			<li>
+				<filter>
+				  <thingDefs>
+               <li>Sugar</li>
+               </thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+				 <thingDefs>
+						<li>GleamcapStem</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+				  <thingDefs>
+               <li>EmptyBottle</li>
+               </thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+				  <thingDefs>
+               <li>BottleCap</li>
+               </thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+			<li>EmptyBottle</li>
+			  <li>BottleCap</li>
+				<li>GleamcapStem</li>
+				<li>Sugar</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<NukaCola>3</NukaCola>
+		</products>
+	</RecipeDef>
+	
+	
+	<RecipeDef ParentName="Make_NukaColaBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>Make_NukaCola_Orang</defName>
+		<label>Создание Ядер-колы-Апельсин</label>
+		<description>Синтез Ядер-колы-Апельсин</description>
+		<ingredients>
+			<li>
+				<filter>
+				  <thingDefs>
+               <li>Sugar</li>
+               </thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+				 <thingDefs>
+						<li>Raworange</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+				  <thingDefs>
+               <li>EmptyBottle</li>
+               </thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+				  <thingDefs>
+               <li>BottleCap</li>
+               </thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+			<li>EmptyBottle</li>
+			  <li>BottleCap</li>
+				<li>Raworange</li>
+				<li>Sugar</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<NukaColaOrang>3</NukaColaOrang>
+		</products>
+	</RecipeDef>
+
+
+
+	<RecipeDef ParentName="Make_NukaColaBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>Make_NukaColaMars</defName>
+		<label>Создание Ядер колы Затмение</label>
+		<description>Синтез Ядер колы сила Затмение</description>
+		<ingredients>
+			<li>
+				<filter>
+				  <thingDefs>
+               <li>NukaColaQuantum</li>
+               </thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+				  <thingDefs>
+               <li>HemogenPack</li>
+               </thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+				  <thingDefs>
+               <li>EmptyBottle</li>
+               </thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+				  <thingDefs>
+               <li>BottleCap</li>
+               </thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<products>
+			<NukaColaMars>3</NukaColaMars>
+		</products>
+	</RecipeDef>
+</Defs>

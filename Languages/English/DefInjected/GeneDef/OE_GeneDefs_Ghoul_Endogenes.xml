@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- TortleHead -->
+
+  <OE_GhoulHead.label>Ghoul's Head</OE_GhoulHead.label>
+  <OE_GhoulHead.description>Carriers of this gene have the head of a Ghoul.</OE_GhoulHead.description>
+
+  <RADImmunity.label>Radiation Resistance</RADImmunity.label>
+  <RADImmunity.description>Radiation protection</RADImmunity.description>
+
+
+</LanguageData>

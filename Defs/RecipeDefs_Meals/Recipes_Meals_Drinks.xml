@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!--
+  <RecipeDef ParentName="CookMealFineBase">
+        <defName>MakeCola</defName>
+		<label>Создать 3 бутылки Квантовой-Колы</label>
+		<description>Создаёт освежающую колу</description>
+        <jobString>Химичит.</jobString>
+    <ingredients>
+			<li>
+				<filter>
+				  <thingDefs>
+               <li>Uranium</li>
+               </thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+				  <thingDefs>
+               <li>Synchronite</li>
+               </thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+				  <thingDefs>
+               <li>EmptyBottle</li>
+               </thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+				  <thingDefs>
+               <li>BottleCap</li>
+               </thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+    <fixedIngredientFilter>
+     <thingDefs>
+				<li>Synchronite</li>
+				  <li>Uranium</li>
+				 <li>EmptyBottle</li>
+				  <li>BottleCap</li>
+			</thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      	<NukaColaQuantum>3</NukaColaQuantum>
+    </products>
+    <displayPriority>700</displayPriority>
+  </RecipeDef>
+  -->
+</Defs>

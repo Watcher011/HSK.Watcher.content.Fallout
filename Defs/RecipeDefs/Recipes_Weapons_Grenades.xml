@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <RecipeDef ParentName="RangedWeaponRecipeBase">
+        <defName>MakeMolotov</defName>
+        <label>make Molotov Cocktails</label>
+        <description>Make a thrown weapon that burns your enemies into ashes!</description>
+        <jobString>Making Molotov Cocktails.</jobString>
+        <workAmount>3500</workAmount>
+        <soundWorking>Recipe_Tailor</soundWorking>
+        <skillRequirements>
+            <Crafting>5</Crafting>
+        </skillRequirements>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>EmptyBottle</li>
+                    </thingDefs>
+                </filter>
+                <count>5</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Chemfuel</li>
+                    </thingDefs>
+                </filter>
+                <count>30</count>
+            </li>
+            <li>
+                <filter>
+                    <categories>
+                        <li>BTextiles</li>
+                    </categories>
+                </filter>
+                <count>30</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <categories>
+                <li>BTextiles</li>
+            </categories>
+            <thingDefs>
+                <li>EmptyBottle</li>
+                <li>Chemfuel</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <Weapon_GrenadeMolotov>5</Weapon_GrenadeMolotov>
+        </products>
+        <recipeUsers>
+            <li>CraftingSpot</li>
+            <li>WeaponCraftingWorkTable</li>
+        </recipeUsers>
+        <researchPrerequisite>Bow_B2</researchPrerequisite>
+    </RecipeDef>
+
+
+
+    <RecipeDef ParentName="RangedWeaponRecipeBase">
+        <defName>MakeBottlecapGrenades</defName>
+        <label>Создать Крышко-мину</label>
+        <description>Популярная до войны коробочка для завтраков от компании «Волт-Тек» стала в постапокалиптическом Содружестве основой для смертоносной мины. Это самодельное устройство поможет справиться вам с любым врагом.Можно бросать как гранату.</description>
+        <jobString>Создаёт крышко-мину.</jobString>
+        <workAmount>4000</workAmount>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <skillRequirements>
+            <Crafting>4</Crafting>
+        </skillRequirements>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>Metallic</li>
+                    </categories>
+                </filter>
+                <count>30</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Powder</li>
+                        <li>FSX</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentIndustrial</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+			<li>
+                <filter>
+                    <thingDefs>
+                        <li>BottleCap</li>
+                    </thingDefs>
+                </filter>
+                <count>50</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <categories>
+                <li>SLDBar</li>
+                <li>USLDBar</li>
+            </categories>
+            <thingDefs>
+                <li>Powder</li>
+                <li>FSX</li>
+                <li>ComponentIndustrial</li>
+				<li>BottleCap</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <Weapon_Grenade_Bottlecap>5</Weapon_Grenade_Bottlecap>
+        </products>
+        <recipeUsers>
+            <li>WeaponCraftingWorkTable</li>
+        </recipeUsers>
+        <researchPrerequisite>Grenade_C2</researchPrerequisite>
+    </RecipeDef>
+</Defs>

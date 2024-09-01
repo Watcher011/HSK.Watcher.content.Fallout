@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+    <ThoughtDef>
+        <defName>ThoughtDef_SimpleStimpack</defName>
+        <workerClass>ThoughtWorker_Hediff</workerClass>
+        <hediff>Hediff_SimpleStimpack</hediff>
+        <validWhileDespawned>true</validWhileDespawned>
+        <stages>
+            <li>
+                <label>Побочный эффект стимпака</label>
+                <description>Чувствую себя выжатым , сил нет</description>
+                <baseMoodEffect>-6</baseMoodEffect>
+            </li>
+            <li>
+                <label>Эффект стимпака</label>
+                <description>Я могу свернуть горы</description>
+                <baseMoodEffect>3</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+  
+</Defs>

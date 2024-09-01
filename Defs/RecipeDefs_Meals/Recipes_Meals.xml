@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef>
+		<defName>MakeDeathclaw</defName>
+		<label>Омлет из яиц когтя смерти</label>
+		<description>Представляет собой взбитые яйца когтя смерти с добавлением крови и обжаренные до жёлтого цвета. При употреблении значительно восстанавливает здоровье и усиливает процесс регенерации тканей в организме.</description>
+		<jobString>Готовит омлет</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<workAmount>500</workAmount>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+				  <thingDefs>
+               <li>EggDeathclawUnfertilized</li>
+               </thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+				  <thingDefs>
+              <li>HemogenPack</li>
+               </thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<ScrambledDeathclawEggs>1</ScrambledDeathclawEggs>
+		</products>
+		<fixedIngredientFilter>
+			   <thingDefs>
+				<li>EggDeathclawUnfertilized</li>
+				<li>HemogenPack</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Cooking>3</Cooking>
+		</skillRequirements>
+		<workSkill>Cooking</workSkill>
+		<recipeUsers>
+			<li>Campfire</li>
+			<li>TableGrill</li>
+			<li>FueledStove</li>
+			<li>ElectricStove</li>
+		</recipeUsers>
+		<researchPrerequisite>Food_00</researchPrerequisite>
+	</RecipeDef>
+
+
+</Defs>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+	<ThingDef ParentName="ApparelSpacerSimpleBase">
+		<defName>Apparello_PipBoy</defName>
+		<label>Pip-Boy</label>
+		<description>Пип-бой — это поощрительный аксессуар для инженера. Представляет собой наручный Pip-Boy из серии игр Fallout с зелёным светящимся монохромным экраном, кнопками и регуляторами. Устройство основано на Пип-бой 3000, производящегося  компанией «RobCo Industries».</description>
+		<graphicData>
+			<texPath>Things/Apparel/Apparello/Accessorello/Gloves/PipBoy</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(0.5,0.5)</drawSize>
+		</graphicData>		
+		<stuffCategories>
+			 <li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Compaste>15</Compaste>
+			<SyntheticFibers>8</SyntheticFibers>
+			<Electronics>2</Electronics>
+		</costList>
+		<statBases>
+			<WorkToMake>14000</WorkToMake>
+			<MaxHitPoints>60</MaxHitPoints>
+			<Flammability>1.2</Flammability>
+			<Mass>0.45</Mass>
+			<Bulk>0.5</Bulk>
+			<WornBulk>0.3</WornBulk>
+			<EquipDelay>0.5</EquipDelay>
+			<Insulation_Heat>1.5</Insulation_Heat>
+            <Insulation_Cold>1.5</Insulation_Cold>
+			<StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
+			<StuffEffectMultiplierArmor>1.06</StuffEffectMultiplierArmor>
+			<ArmorRating_Sharp>2.13</ArmorRating_Sharp>
+			<ArmorRating_Blunt>6.08</ArmorRating_Blunt>
+			<ArmorRating_Heat>0</ArmorRating_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.01</MoveSpeed>
+			<WorkSpeedGlobal>0.09</WorkSpeedGlobal>
+			<SocialImpact>0.09</SocialImpact>
+			<MentalBreakThreshold>-0.12</MentalBreakThreshold>
+			<AimingDelayFactor>-0.12</AimingDelayFactor>
+			<MeleeHitChance>0.2</MeleeHitChance>
+			<MeleeWeapon_CooldownMultiplier>-0.1</MeleeWeapon_CooldownMultiplier>
+			<MiningSpeed>0.1</MiningSpeed>
+			<GermResistance>0.1</GermResistance>
+			<GermContainment>0.18</GermContainment>
+		</equippedStatOffsets>
+		<generateCommonality>1</generateCommonality>
+		<apparel>
+		<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>Hands</li>
+			</bodyPartGroups>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+			<li>IndustrialBasic</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<thingCategories>
+			<li>SetConstructor</li>
+			<li>GlovesCat</li>
+		</thingCategories>
+		<modExtensions>
+			<li Class="CombatExtended.ApparelHediffExtension">
+				<hediff>WearingPipBoy</hediff>
+			</li>
+		</modExtensions>
+        <recipeMaker>
+            <researchPrerequisite>Apparel_D1</researchPrerequisite>
+        </recipeMaker>
+	</ThingDef>
+
+
+
+
+
+</Defs>

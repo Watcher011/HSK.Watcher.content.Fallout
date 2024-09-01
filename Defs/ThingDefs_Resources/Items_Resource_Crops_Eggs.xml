@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	
+	<ThingDef ParentName="SK_EggUnfertBase">
+		<defName>EggDeathclawUnfertilized</defName>
+		<label>Яйцо когтя смерти (Unfertilized)</label>
+		<description>Яйцо Когтя смерти.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggBirdSmall</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(25,138,25)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<MarketValue>1000.0</MarketValue>
+			<Mass>15</Mass>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0</Flammability>
+			<Nutrition>1</Nutrition>
+			<FoodPoisonChanceFixedHuman>1</FoodPoisonChanceFixedHuman>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_EggFertBase">
+		<defName>EggDeathclawFertilized</defName>
+		<label>Яйцо Когтя смерти(Fertilized)</label>
+		<description>Яйцо Когтя смерти</description>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggBirdSmall</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(25,138,25)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<MarketValue>4000.0</MarketValue>
+			<Mass>15</Mass>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0</Flammability>
+			<Nutrition>1</Nutrition>
+			<FoodPoisonChanceFixedHuman>1</FoodPoisonChanceFixedHuman>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>11</hatcherDaystoHatch>
+				<hatcherPawn>Deathclaw</hatcherPawn>
+			</li>
+			<li Class="CompProperties_TemperatureRuinable">
+				<minSafeTemperature>0</minSafeTemperature>
+				<maxSafeTemperature>45</maxSafeTemperature>
+				<progressPerDegreePerTick>0.00003</progressPerDegreePerTick>
+			</li>
+		</comps>
+	</ThingDef>
+	
+</Defs>

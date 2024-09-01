@@ -1,0 +1,14 @@
+<comps>
+   <li Class="Flashlight.CompProperties_GlowingPawn">
+      <lightRange>3</lightRange>
+      <lightColorString>(154.205.50.1)</lightColorString>
+   </li>
+</comps>
+
++
+
+ <modExtensions>
+<li Class="Flashlight.DefModExtension_Glow">
+ <canGlow>true</canGlow>
+ </li>
+</modExtensions>

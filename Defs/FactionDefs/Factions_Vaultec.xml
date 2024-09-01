@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<FactionDef ParentName="SK_HumanFactionBase">
+		<defName>Vaultec</defName>
+        <label>Волт-Тек</label>
+		 <pawnSingular>Волт-Тек</pawnSingular>
+         <pawnsPlural>Волт-Теки</pawnsPlural>
+		<listOrderPriority>28</listOrderPriority>
+		<settlementGenerationWeight>1</settlementGenerationWeight>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<maxCountAtGameStart>1</maxCountAtGameStart>
+		<canMakeRandomly>true</canMakeRandomly>
+		<canSiege>true</canSiege>
+		<autoFlee>true</autoFlee>
+		<canStageAttacks>true</canStageAttacks>
+		<leaderTitle>Commander</leaderTitle>
+		<earliestRaidDays>260</earliestRaidDays>
+		<mustStartOneEnemy>false</mustStartOneEnemy>
+		<naturalEnemy>false</naturalEnemy>
+		 <factionIconPath>World/WorldObjects/Expanding/Vaultec</factionIconPath>
+		  <factionNameMaker>NamerFactionVaultec</factionNameMaker>
+		<settlementNameMaker>NamerSettlementVaultec</settlementNameMaker>
+		<techLevel>Spacer</techLevel>
+		<colorSpectrum>
+			<li>(1, 1, 1)</li>
+		</colorSpectrum>
+		<xenotypeSet>
+			<xenotypeChances>
+				 <OE_Ghoul MayRequire="Ludeon.RimWorld.Biotech">0.3</OE_Ghoul>
+			</xenotypeChances>
+		</xenotypeSet>
+		<allowedCultures>
+			<li>Astropolitan</li>
+		</allowedCultures>
+		<disallowedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Animist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+		</disallowedMemes>
+		<disallowedPrecepts>
+			<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
+		</disallowedPrecepts>
+		<requiredMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Archist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+		</requiredMemes>
+		<structureMemeWeights>
+			<Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistEmbodied>
+			<Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">2</Structure_TheistAbstract>
+			<Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
+			<Structure_Archist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Archist>
+			<Structure_OriginChristian MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginChristian>
+			<Structure_OriginIslamic MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginIslamic>
+			<Structure_OriginHindu MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginHindu>
+			<Structure_OriginBuddhist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginBuddhist>
+		</structureMemeWeights>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>Outlander</li>
+				</categories>
+				<commonality>0.65</commonality>
+			</li>
+			<li>
+				<categories>
+					<li>Pirate</li>
+				</categories>
+				<commonality>0.35</commonality>
+			</li>
+		</backstoryFilters>
+		<visitorTraderKinds>
+			<li>Visitor_Vaultec_Standard</li>
+		</visitorTraderKinds>
+		<baseTraderKinds>
+			<li>Base_Vaultec_Standard</li>
+		</baseTraderKinds>
+		 <caravanTraderKinds>
+          <li>Caravan_Vaultec_BulkGoods</li>
+        </caravanTraderKinds>
+		<allowedArrivalTemperatureRange>-65~45</allowedArrivalTemperatureRange>
+		<raidLootMaker>VaultecRaidLootMaker</raidLootMaker>
+		<raidCommonalityFromPointsCurve>
+			<points>
+				<li>(0, 0.001)</li>
+				<li>(2500, 0.01)</li>
+				<li>(11000, 0.1)</li>
+				<li>(12000, 0.9)</li>
+				<li>(15000, 1.1)</li>
+				<li>(20000, 1.0)</li>
+			</points>
+		</raidCommonalityFromPointsCurve>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(0, 400)</li>
+				<li>(10000, 470)</li>
+				<li>(17000, 530)</li>
+				<li>(100000, 10000)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+		<apparelStuffFilter>
+			<categories>
+				<li>Leathers</li>
+			</categories>
+			<thingDefs>
+				<li>DevilstrandCloth</li>
+				<li>Kevlar</li>
+				<li>ChitinPlating</li>
+				<li>Synthread</li>
+				<li>Hyperweave</li>
+				<li>FerrosiliconAlloy</li>
+				<li>CupronickelAlloy</li>
+				<li>SteelBar</li>
+				<li>AlnicoAlloy</li>
+				<li>StelliteAlloy</li>
+			</thingDefs>
+		</apparelStuffFilter>
+		<pawnGroupMakers>
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>60</commonality>
+				<options>
+					<VaultecChaser_Acidifier>30</VaultecChaser_Acidifier>
+					<VaultecSunderer_Acidifier>24</VaultecSunderer_Acidifier>
+					<VaultecHunter_Acidifier>20</VaultecHunter_Acidifier>
+					<VaultecHawkeye_Acidifier>18</VaultecHawkeye_Acidifier>
+					<VaultecRager_Acidifier>15</VaultecRager_Acidifier>
+					<VaultecBloodborne_Acidifier>10</VaultecBloodborne_Acidifier>
+					<VaultecSundererHeavy_Acidifier>8</VaultecSundererHeavy_Acidifier>
+					<VaultecSunRiser_Acidifier>3</VaultecSunRiser_Acidifier>
+					<VaultecBloodborne>10</VaultecBloodborne>
+					<VaultecRad>3</VaultecRad>
+				</options>
+			</li>
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>40</commonality>
+				<options>
+					<VaultecChaser>30</VaultecChaser>
+					<VaultecSunderer>24</VaultecSunderer>
+					<VaultecHunter>20</VaultecHunter>
+					<VaultecHawkeye>18</VaultecHawkeye>
+					<VaultecRager>15</VaultecRager>
+					<VaultecBloodborne>10</VaultecBloodborne>
+					<VaultecSundererHeavy>8</VaultecSundererHeavy>
+					<VaultecSunRiser>3</VaultecSunRiser>
+					<VaultecRad>3</VaultecRad>
+				</options>
+			</li>
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<options>
+					<VaultecChaser>30</VaultecChaser>
+					<VaultecSunderer>24</VaultecSunderer>
+					<VaultecHunter>20</VaultecHunter>
+					<VaultecHawkeye>18</VaultecHawkeye>
+					<VaultecRager>15</VaultecRager>
+					<VaultecBloodborne>10</VaultecBloodborne>
+					<VaultecSundererHeavy>8</VaultecSundererHeavy>
+					<VaultecSunRiser>3</VaultecSunRiser>
+					<VaultecRad>3</VaultecRad>
+				</options>
+			</li>
+			<li>
+				<kindDef>Settlement</kindDef>
+				<options>
+					<VaultecChaser>30</VaultecChaser>
+					<VaultecSunderer>24</VaultecSunderer>
+					<VaultecHunter>20</VaultecHunter>
+					<VaultecHawkeye>18</VaultecHawkeye>
+					<VaultecRager>15</VaultecRager>
+					<VaultecSundererHeavy>8</VaultecSundererHeavy>
+					<VaultecSunRiser>5</VaultecSunRiser>
+					<VaultecBloodborne>10</VaultecBloodborne>
+					<VaultecRad>3</VaultecRad>
+				</options>
+			</li>
+		  <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <Vaultec_Trader>1</Vaultec_Trader>
+        </traders>
+        <carriers>
+          <Muffalo>6</Muffalo>
+        </carriers>
+        <guards>
+         	<VaultecChaser>30</VaultecChaser>
+			<VaultecSunderer>24</VaultecSunderer>
+			<VaultecHunter>20</VaultecHunter>
+			<VaultecHawkeye>18</VaultecHawkeye>
+			<VaultecRager>15</VaultecRager>
+			<VaultecBloodborne>10</VaultecBloodborne>
+			<VaultecRad>3</VaultecRad>
+        </guards>
+      </li>
+		</pawnGroupMakers>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>52</configurationListOrderPriority>
+	</FactionDef>
+
+
+<RulePackDef>
+    <defName>NamerFactionVaultec</defName>
+    <rulePack>
+      <rulesStrings>
+       <li>empire->Vaultec</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+<RulePackDef>
+    <defName>NamerSettlementVaultec</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>townend->Shelter 101</li>
+        <li>townend->Shelter 102</li>
+        <li>townend->Shelter 103</li>
+        <li>townend->Shelter 104</li>
+        <li>townend->Shelter 105</li>
+        <li>townend->Shelter 106</li>
+        <li>townend->Shelter 107</li>
+        <li>townend->Shelter 108</li>
+        <li>townend->Shelter 109</li>
+        <li>townend->Shelter 110</li>
+        <li>townend->Shelter 111</li>
+        <li>townend->Shelter 112</li>
+        <li>townend->Shelter 113</li>
+        <li>townend->Shelter 114</li>
+        <li>townend->Shelter 115</li>
+        <li>townend->Shelter 116</li>
+        <li>townend->Shelter 117</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+ 
+ 
+  <ThingSetMakerDef>
+    <defName>VaultecRaidLootMaker</defName>
+    <root Class="ThingSetMaker_MarketValue">
+      <fixedParams>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+            <li>MedicineIndustrial</li>
+            <li>MealSurvivalPack</li>
+            <li>RadAway</li>
+            <li>HemogenPack</li>
+            <li>GoJuice</li>
+            <li>StealthBoy</li>
+            <li>SimpleStimpack</li>
+            <li>Steroid</li>
+          </thingDefs>
+        </filter>
+      </fixedParams>
+    </root>
+  </ThingSetMakerDef>
+</Defs>

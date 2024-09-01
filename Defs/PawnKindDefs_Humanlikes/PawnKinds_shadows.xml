@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <PawnKindDef Name="BaseOgrePawn" Abstract="True">
+        <race>Mutant_shadow</race>
+        <!-- <defaultFactionType>OgreClan</defaultFactionType> -->
+		<defaultFactionType>shadowsMutants</defaultFactionType>
+        <aiAvoidCover>true</aiAvoidCover>
+        <techHediffsChance>0</techHediffsChance>
+        <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<initialWillRange>2~5</initialWillRange>
+		<initialResistanceRange>37~49</initialResistanceRange>
+        <lifeStages>
+            <li>
+                <bodyGraphicData>
+                    <texPath>Things/Pawn/Humanlike/Shedow</texPath>
+                    <graphicClass>Graphic_Multi</graphicClass>
+                    <drawSize>2.2</drawSize>
+                    <shadowData>
+                        <volume>(0.2, 0.3, 0.8)</volume>
+                    </shadowData>
+                </bodyGraphicData>
+            </li>
+        </lifeStages>
+ </PawnKindDef>
+  
+	<!-- Ogre Bases -->
+  <PawnKindDef ParentName="BaseOgrePawn">
+        <defName>shadow</defName>
+        <label>shadow</label>
+        <combatPower>375</combatPower>
+        <weaponMoney>
+            <min>280</min>
+            <max>330</max>
+        </weaponMoney>
+        <weaponTags>
+          <li>HitechMelee2H</li>
+        </weaponTags>
+		<techHediffsMoney>
+			<min>1000</min>
+			<max>99000</max>
+		</techHediffsMoney>
+    </PawnKindDef>
+	
+</Defs>

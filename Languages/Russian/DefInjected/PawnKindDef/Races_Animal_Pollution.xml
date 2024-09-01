@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Guidra.label>Гидра</Guidra.label>
+  <Guidra.labelPlural>Гидраs</Guidra.labelPlural>
+  <Guidra.lifeStages.0.label>Гидра</Guidra.lifeStages.0.label>
+  <Guidra.lifeStages.0.labelPlural>Гидра</Guidra.lifeStages.0.labelPlural>
+  <Guidra.lifeStages.0.labelMale>male Гидра</Guidra.lifeStages.0.labelMale>
+  <Guidra.lifeStages.0.labelMalePlural>male Гидраs</Guidra.lifeStages.0.labelMalePlural>
+  <Guidra.lifeStages.0.labelFemale>female Гидра</Guidra.lifeStages.0.labelFemale>
+  <Guidra.lifeStages.0.labelFemalePlural>female Гидраs</Guidra.lifeStages.0.labelFemalePlural>
+  <Guidra.lifeStages.1.label>Гидра</Guidra.lifeStages.1.label>
+  <Guidra.lifeStages.1.labelPlural>Гидра</Guidra.lifeStages.1.labelPlural>
+  <Guidra.lifeStages.1.labelMale>male Гидра</Guidra.lifeStages.1.labelMale>
+  <Guidra.lifeStages.1.labelMalePlural>male Гидраs</Guidra.lifeStages.1.labelMalePlural>
+  <Guidra.lifeStages.1.labelFemale>female Гидра</Guidra.lifeStages.1.labelFemale>
+  <Guidra.lifeStages.1.labelFemalePlural>female Гидраs</Guidra.lifeStages.1.labelFemalePlural>
+  <Guidra.lifeStages.2.label>Гидра</Guidra.lifeStages.2.label>
+  <Guidra.lifeStages.2.labelPlural>Гидра</Guidra.lifeStages.2.labelPlural>
+  <Guidra.lifeStages.2.labelMale>male Гидра</Guidra.lifeStages.2.labelMale>
+  <Guidra.lifeStages.2.labelMalePlural>male Гидраs</Guidra.lifeStages.2.labelMalePlural>
+  <Guidra.lifeStages.2.labelFemale>female Гидра</Guidra.lifeStages.2.labelFemale>
+  <Guidra.lifeStages.2.labelFemalePlural>female Гидраs</Guidra.lifeStages.2.labelFemalePlural>
+  <Guidra.labelMale>male Гидра</Guidra.labelMale>
+  <Guidra.labelMalePlural>male Гидраs</Guidra.labelMalePlural>
+  <Guidra.labelFemale>female Гидра</Guidra.labelFemale>
+  <Guidra.labelFemalePlural>female Гидраs</Guidra.labelFemalePlural>
+
+  <RadDeer.label>Рад Олень</RadDeer.label>
+  <RadDeer.labelPlural>Рад Олени</RadDeer.labelPlural>
+  <RadDeer.lifeStages.0.label>Рад Олень</RadDeer.lifeStages.0.label>
+  <RadDeer.lifeStages.0.labelPlural>Рад Олени</RadDeer.lifeStages.0.labelPlural>
+  <RadDeer.lifeStages.0.labelMale>Рад Олень</RadDeer.lifeStages.0.labelMale>
+  <RadDeer.lifeStages.0.labelMalePlural>male Рад Оленьs</RadDeer.lifeStages.0.labelMalePlural>
+  <RadDeer.lifeStages.0.labelFemale>Рад Олениха</RadDeer.lifeStages.0.labelFemale>
+  <RadDeer.lifeStages.0.labelFemalePlural>female Рад Оленьs</RadDeer.lifeStages.0.labelFemalePlural>
+  <RadDeer.lifeStages.1.label>Рад Олень</RadDeer.lifeStages.1.label>
+  <RadDeer.lifeStages.1.labelPlural>Рад Олени</RadDeer.lifeStages.1.labelPlural>
+  <RadDeer.lifeStages.1.labelMale>Рад Олень</RadDeer.lifeStages.1.labelMale>
+  <RadDeer.lifeStages.1.labelMalePlural>male Рад Оленьs</RadDeer.lifeStages.1.labelMalePlural>
+  <RadDeer.lifeStages.1.labelFemale>Рад Олениха</RadDeer.lifeStages.1.labelFemale>
+  <RadDeer.lifeStages.1.labelFemalePlural>female Рад Оленьs</RadDeer.lifeStages.1.labelFemalePlural>
+  <RadDeer.lifeStages.2.label>Рад Олень</RadDeer.lifeStages.2.label>
+  <RadDeer.lifeStages.2.labelPlural>Рад Олени</RadDeer.lifeStages.2.labelPlural>
+  <RadDeer.lifeStages.2.labelMale>Рад Олень</RadDeer.lifeStages.2.labelMale>
+  <RadDeer.lifeStages.2.labelMalePlural>male Рад Оленьs</RadDeer.lifeStages.2.labelMalePlural>
+  <RadDeer.lifeStages.2.labelFemale>Рад Олениха</RadDeer.lifeStages.2.labelFemale>
+  <RadDeer.lifeStages.2.labelFemalePlural>female Рад Оленьs</RadDeer.lifeStages.2.labelFemalePlural>
+  <RadDeer.labelMale>Рад Олень</RadDeer.labelMale>
+  <RadDeer.labelMalePlural>male Рад Олени</RadDeer.labelMalePlural>
+  <RadDeer.labelFemale>Рад Олениха</RadDeer.labelFemale>
+  <RadDeer.labelFemalePlural>female Рад Олени</RadDeer.labelFemalePlural>
+
+  <Bear_Yaoguai.label>Яо-гай</Bear_Yaoguai.label>
+  <Bear_Yaoguai.labelPlural>Яо-гайs</Bear_Yaoguai.labelPlural>
+  <Bear_Yaoguai.lifeStages.0.label>Яо-гай</Bear_Yaoguai.lifeStages.0.label>
+  <Bear_Yaoguai.lifeStages.0.labelPlural>Яо-гай</Bear_Yaoguai.lifeStages.0.labelPlural>
+  <Bear_Yaoguai.lifeStages.0.labelMale>male Яо-гай</Bear_Yaoguai.lifeStages.0.labelMale>
+  <Bear_Yaoguai.lifeStages.0.labelMalePlural>male Яо-гайs</Bear_Yaoguai.lifeStages.0.labelMalePlural>
+  <Bear_Yaoguai.lifeStages.0.labelFemale>female Яо-гай</Bear_Yaoguai.lifeStages.0.labelFemale>
+  <Bear_Yaoguai.lifeStages.0.labelFemalePlural>female Яо-гайs</Bear_Yaoguai.lifeStages.0.labelFemalePlural>
+  <Bear_Yaoguai.lifeStages.1.label>Яо-гай</Bear_Yaoguai.lifeStages.1.label>
+  <Bear_Yaoguai.lifeStages.1.labelPlural>Яо-гай</Bear_Yaoguai.lifeStages.1.labelPlural>
+  <Bear_Yaoguai.lifeStages.1.labelMale>male Яо-гай</Bear_Yaoguai.lifeStages.1.labelMale>
+  <Bear_Yaoguai.lifeStages.1.labelMalePlural>male Яо-гайs</Bear_Yaoguai.lifeStages.1.labelMalePlural>
+  <Bear_Yaoguai.lifeStages.1.labelFemale>female Яо-гай</Bear_Yaoguai.lifeStages.1.labelFemale>
+  <Bear_Yaoguai.lifeStages.1.labelFemalePlural>female Яо-гайs</Bear_Yaoguai.lifeStages.1.labelFemalePlural>
+  <Bear_Yaoguai.lifeStages.2.label>Яо-гай</Bear_Yaoguai.lifeStages.2.label>
+  <Bear_Yaoguai.lifeStages.2.labelPlural>Яо-гай</Bear_Yaoguai.lifeStages.2.labelPlural>
+  <Bear_Yaoguai.lifeStages.2.labelMale>male Яо-гай</Bear_Yaoguai.lifeStages.2.labelMale>
+  <Bear_Yaoguai.lifeStages.2.labelMalePlural>male Яо-гайs</Bear_Yaoguai.lifeStages.2.labelMalePlural>
+  <Bear_Yaoguai.lifeStages.2.labelFemale>female Яо-гай</Bear_Yaoguai.lifeStages.2.labelFemale>
+  <Bear_Yaoguai.lifeStages.2.labelFemalePlural>female Яо-гайs</Bear_Yaoguai.lifeStages.2.labelFemalePlural>
+  <Bear_Yaoguai.labelMale>male Яо-гай</Bear_Yaoguai.labelMale>
+  <Bear_Yaoguai.labelMalePlural>male Яо-гайs</Bear_Yaoguai.labelMalePlural>
+  <Bear_Yaoguai.labelFemale>female Яо-гай</Bear_Yaoguai.labelFemale>
+  <Bear_Yaoguai.labelFemalePlural>female Яо-гайs</Bear_Yaoguai.labelFemalePlural>
+
+  <Brahmin.label>Брамин</Brahmin.label>
+  <Brahmin.labelPlural>Браминs</Brahmin.labelPlural>
+  <Brahmin.lifeStages.0.label>calf</Brahmin.lifeStages.0.label>
+  <Brahmin.lifeStages.0.labelPlural>calfs</Brahmin.lifeStages.0.labelPlural>
+  <Brahmin.lifeStages.0.labelMale>male calf</Brahmin.lifeStages.0.labelMale>
+  <Brahmin.lifeStages.0.labelMalePlural>male calfs</Brahmin.lifeStages.0.labelMalePlural>
+  <Brahmin.lifeStages.0.labelFemale>female calf</Brahmin.lifeStages.0.labelFemale>
+  <Brahmin.lifeStages.0.labelFemalePlural>female calfs</Brahmin.lifeStages.0.labelFemalePlural>
+  <Brahmin.lifeStages.1.label>Брамин</Brahmin.lifeStages.1.label>
+  <Brahmin.lifeStages.1.labelPlural>Брамин</Brahmin.lifeStages.1.labelPlural>
+  <Brahmin.lifeStages.1.labelMale>Брамин</Brahmin.lifeStages.1.labelMale>
+  <Brahmin.lifeStages.1.labelMalePlural>male Браминs</Brahmin.lifeStages.1.labelMalePlural>
+  <Brahmin.lifeStages.1.labelFemale>Брамин</Brahmin.lifeStages.1.labelFemale>
+  <Brahmin.lifeStages.1.labelFemalePlural>female Браминs</Brahmin.lifeStages.1.labelFemalePlural>
+  <Brahmin.lifeStages.2.label>Брамин</Brahmin.lifeStages.2.label>
+  <Brahmin.lifeStages.2.labelPlural>Брамин</Brahmin.lifeStages.2.labelPlural>
+  <Brahmin.lifeStages.2.labelMale>Брамин</Brahmin.lifeStages.2.labelMale>
+  <Brahmin.lifeStages.2.labelMalePlural>male Браминs</Brahmin.lifeStages.2.labelMalePlural>
+  <Brahmin.lifeStages.2.labelFemale>Брамин</Brahmin.lifeStages.2.labelFemale>
+  <Brahmin.lifeStages.2.labelFemalePlural>female Браминs</Brahmin.lifeStages.2.labelFemalePlural>
+  <Brahmin.labelMale>Брамин</Brahmin.labelMale>
+  <Brahmin.labelMalePlural>Браминs</Brahmin.labelMalePlural>
+  <Brahmin.labelFemale>Брамин</Brahmin.labelFemale>
+  <Brahmin.labelFemalePlural>Браминs</Brahmin.labelFemalePlural>
+
+  <Gecko.label>Гекко</Gecko.label>
+  <Gecko.labelPlural>Геккоs</Gecko.labelPlural>
+  <Gecko.labelMale>male Гекко</Gecko.labelMale>
+  <Gecko.labelMalePlural>male Геккоs</Gecko.labelMalePlural>
+  <Gecko.labelFemale>female Гекко</Gecko.labelFemale>
+  <Gecko.labelFemalePlural>female Геккоs</Gecko.labelFemalePlural>
+
+  <Radscorpion.label>Радскорпион</Radscorpion.label>
+  <Radscorpion.labelPlural>Радскорпионs</Radscorpion.labelPlural>
+  <Radscorpion.labelMale>male Радскорпион</Radscorpion.labelMale>
+  <Radscorpion.labelMalePlural>male Радскорпионs</Radscorpion.labelMalePlural>
+  <Radscorpion.labelFemale>female Радскорпион</Radscorpion.labelFemale>
+  <Radscorpion.labelFemalePlural>female Радскорпионs</Radscorpion.labelFemalePlural>
+
+  <Deathclaw.label>Коготь смерти</Deathclaw.label>
+  <Deathclaw.labelPlural>Коготь смертиs</Deathclaw.labelPlural>
+  <Deathclaw.labelMale>male Коготь смерти</Deathclaw.labelMale>
+  <Deathclaw.labelMalePlural>male Коготь смертиs</Deathclaw.labelMalePlural>
+  <Deathclaw.labelFemale>female Коготь смерти</Deathclaw.labelFemale>
+  <Deathclaw.labelFemalePlural>female Коготь смертиs</Deathclaw.labelFemalePlural>
+
+
+</LanguageData>

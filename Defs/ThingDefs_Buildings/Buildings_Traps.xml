@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="SK_TrapIEDBase">
+		<defName>TrapIED_Bottlecap</defName>
+		<label>Крышко-мина</label>
+		<description>Популярная до войны коробочка для завтраков от компании «Волт-Тек» стала в постапокалиптическом Содружестве основой для смертоносной мины. Это самодельное устройство поможет справиться вам с любым врагом.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponRanged/Bottlecap_mine</texPath>
+			 <drawSize>(0.5)</drawSize>
+		</graphicData>
+		<uiIconPath>Things/Item/Equipment/WeaponRanged/Bottlecap_mine</uiIconPath>
+		<costList>
+			<Weapon_Grenade_Bottlecap>1</Weapon_Grenade_Bottlecap>
+		</costList>
+		<designationHotKey>Misc11</designationHotKey>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>0.4</explosiveRadius>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<explosiveExpandPerStackcount>0.2</explosiveExpandPerStackcount>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<wickTicks>
+					<min>5</min>
+					<max>10</max>
+				</wickTicks>
+			</li>
+			<li Class="CombatExtended.CompProperties_Fragments">
+				<fragments>
+					<Fragment_Bottlecap>70</Fragment_Bottlecap>
+					<Bottlecap>10</Bottlecap>
+				</fragments>
+			</li>
+		</comps>
+		<specialDisplayRadius>4</specialDisplayRadius>
+		<researchPrerequisites>
+			<li>IED_C1</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+	</ThingDef>
+
+</Defs>

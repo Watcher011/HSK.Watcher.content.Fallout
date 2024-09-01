@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <StealthBoy.label>СтелсБой</StealthBoy.label>
+  <StealthBoy.description>Это личное маскировочное устройство стелс-бой фирмы «РобКо», модель 3001. Разработанный Робертом Мэйфлауэром, стелс-бой генерирует модуляционное поле, которое передаёт отражённый свет от одной стороны объекта на другую, что делает носителя практически невидимым для нетренированного глаза.</StealthBoy.description>
+  <StealthBoy.ingestible.ingestCommandString>Акривировать {0}</StealthBoy.ingestible.ingestCommandString>
+  <StealthBoy.ingestible.ingestReportString>Активирует {0}.</StealthBoy.ingestible.ingestReportString>
+
+
+</LanguageData>

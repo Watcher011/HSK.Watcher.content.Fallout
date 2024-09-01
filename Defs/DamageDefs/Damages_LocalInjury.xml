@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	
+	<DamageDef ParentName="Bullet">
+		<defName>CapShredded</defName>
+		<label>Крышки</label>
+		<deathMessage>{0} нафарширован до смерти.</deathMessage>
+		<hediff>Shredded</hediff>
+		<hediffSolid>Crack</hediffSolid>
+		<minDamageToFragment>8</minDamageToFragment>
+		<!-- <buildingDamageFactor>0.125</buildingDamageFactor> -->
+		<buildingDamageFactorImpassable>0.4</buildingDamageFactorImpassable>
+		<buildingDamageFactorPassable>0.125</buildingDamageFactorPassable>
+		<plantDamageFactor>0.125</plantDamageFactor>
+	</DamageDef>
+
+
+</Defs>

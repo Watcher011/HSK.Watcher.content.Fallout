@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+	<RecipeDef>
+		<defName>MakeGlassBotel</defName>
+		<label>Создать стеклянные бутылки</label>
+		<description>Выплавить бутылки. 5шт.</description>
+		<jobString>Выплавляет.</jobString>
+		<workAmount>900</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<recipeUsers>
+			<li>TableFurnace</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GlassBatch</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GlassBatch</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<EmptyBottle>5</EmptyBottle>
+		</products>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+	</RecipeDef>
+
+<RecipeDef>
+		<defName>MakeSmeltBotel</defName>
+		<label>Переплавить стеклянные бутылки</label>
+		<description>Переплавить бутылки. Переплавить 5.</description>
+		<jobString>Переплавляет.</jobString>
+		<workAmount>900</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<recipeUsers>
+			<li>TableFurnace</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>EmptyBottle</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>EmptyBottle</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GlassBatch>25</GlassBatch>
+		</products>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+	</RecipeDef>
+	
+	
+		<RecipeDef>
+		<defName>MakeCupBotel</defName>
+		<label>Создать крышки для бутылок</label>
+		<description>Выплавить крышки для бутылки. 10шт.</description>
+		<jobString>Выплавляет.</jobString>
+		<workAmount>900</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<recipeUsers>
+			<li>TableFurnace</li>
+			<li>ElectricSmelter</li>
+			<li>EAF</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Silver</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BottleCap>10</BottleCap>
+		</products>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+	</RecipeDef>
+
+<RecipeDef>
+		<defName>SmeltCupBotel</defName>
+		<label>Переплавить крышки для бутылки</label>
+		<description>Переплавить крышки для бутылок. Переплавить 10.</description>
+		<jobString>Переплавляет.</jobString>
+		<workAmount>900</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<recipeUsers>
+			<li>TableFurnace</li>
+			<li>ElectricSmelter</li>
+			<li>EAF</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BottleCap</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>BottleCap</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Silver>10</Silver>
+		</products>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+	</RecipeDef>
+
+</Defs>

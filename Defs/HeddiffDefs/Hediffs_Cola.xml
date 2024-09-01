@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+    <!--========== SimpleStimpack ==========-->
+    <HediffDef>
+        <defName>Hediff_Cola</defName>
+        <hediffClass>Hediff_High</hediffClass>
+        <label>ЯдерКола!</label>
+        <labelNoun>ЯдерСила</labelNoun>
+        <description>Сила Кванта!</description>
+        <defaultLabelColor>(1,0,0.6)</defaultLabelColor>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <maxSeverity>1.0</maxSeverity>
+        <isBad>false</isBad>
+        <comps>
+            <li Class="HediffCompProperties_SeverityPerDay">
+                <severityPerDay>-1.9</severityPerDay>
+                <showHoursToRecover>true</showHoursToRecover>
+            </li>
+        </comps>
+        <stages>
+
+            <li>
+                <label>Побочный эффект</label>
+                <minSeverity>0</minSeverity>
+                <hungerRateFactor>2.2</hungerRateFactor>
+                <restFallFactor>2.2</restFallFactor>
+                <capMods>
+                    <li>
+                        <capacity>Manipulation</capacity>
+                        <offset>-0.20</offset>
+                    </li>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <offset>-0.15</offset>
+                    </li>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <offset>-0.15</offset>
+                    </li>
+                    <li>
+                        <capacity>Sight</capacity>
+                        <offset>-0.25</offset>
+                    </li>
+                    <li>
+                        <capacity>BloodFiltration</capacity>
+                        <offset>-0.30</offset>
+                    </li>
+                </capMods>
+            </li>
+
+            <li>
+                <statOffsets>
+                    <ComfyTemperatureMax>5</ComfyTemperatureMax>
+                    <ComfyTemperatureMin>-5</ComfyTemperatureMin>
+                </statOffsets>
+                <minSeverity>0.3</minSeverity>
+                <hungerRateFactor>0.3</hungerRateFactor>
+                <restFallFactor>0.3</restFallFactor>
+                <naturalHealingFactor>3</naturalHealingFactor>
+                <painFactor>0.9</painFactor>
+                <capMods>
+                    <li>
+                        <capacity>Manipulation</capacity>
+                        <offset>0.05</offset>
+                    </li>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <offset>0.05</offset>
+                    </li>
+                    <li>
+                        <capacity>Sight</capacity>
+                        <offset>0.10</offset>
+                    </li>
+                    <li>
+                        <capacity>BloodFiltration</capacity>
+                        <offset>0.10</offset>
+                    </li>
+                    <li>
+                        <capacity>BloodPumping</capacity>
+                        <offset>0.10</offset>
+                    </li>
+                    <li>
+                        <capacity>Metabolism</capacity>
+                        <offset>0.10</offset>
+                    </li>
+                    <li>
+                        <capacity>Breathing</capacity>
+                        <offset>0.05</offset>
+                    </li>
+                </capMods>
+            </li>
+
+        </stages>
+    </HediffDef>
+
+
+</Defs>

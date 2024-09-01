@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	  <ThingDef ParentName="MakeableDrugPillBase">
+       <defName>StealthBoy</defName>
+		<label>СтелсБой</label>
+		<thingClass>ThingWithComps</thingClass>
+		<description>Это личное маскировочное устройство стелс-бой фирмы «РобКо», модель 3001. Разработанный Робертом Мэйфлауэром, стелс-бой генерирует модуляционное поле, которое передаёт отражённый свет от одной стороны объекта на другую, что делает носителя практически невидимым для нетренированного глаза.</description>
+        <techLevel>Industrial</techLevel>
+        <stackLimit>5</stackLimit>
+        <descriptionHyperlinks>
+            <HediffDef>Hediff_StealthBoy</HediffDef>
+			 <HediffDef>Hediff_StealthBoyDiff</HediffDef>
+        </descriptionHyperlinks>
+        <graphicData>
+            <texPath>Things/Item/Drug/StealthBoy</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+			<uiIconPath>Things/Item/Drug/StealthBoy/StealthBoyA</uiIconPath>
+        <socialPropernessMatters>false</socialPropernessMatters>
+        <rotatable>false</rotatable>
+        <statBases>
+            <WorkToMake>80</WorkToMake>
+            <Mass>0.12</Mass>
+            <Flammability>0.4</Flammability>
+        </statBases>
+        <ingestible>
+            <drugCategory>Medical</drugCategory>
+            <ingestSound>injector</ingestSound>
+            <ingestHoldOffsetStanding>
+                <northDefault>
+                    <offset>(0.16,0,0)</offset>
+                </northDefault>
+            </ingestHoldOffsetStanding>
+            <ingestCommandString>Акривировать {0}</ingestCommandString>
+            <ingestReportString>Активирует {0}.</ingestReportString>
+            <useEatingSpeedStat>false</useEatingSpeedStat>
+            <nurseable>true</nurseable>
+            <outcomeDoers>
+                <li Class="IngestionOutcomeDoer_GiveHediff">
+                    <hediffDef>Hediff_StealthBoy</hediffDef>
+                    <severity>1.0</severity>
+                </li>
+				  <li Class="IngestionOutcomeDoer_GiveHediff">
+                    <hediffDef>Hediff_StealthBoyDiff</hediffDef>
+                    <severity>1.0</severity>
+                </li>
+            </outcomeDoers>
+        </ingestible>
+        <recipeMaker>
+            <recipeUsers>
+                <li>TableElectronics</li>
+            </recipeUsers>
+            <soundWorking>Recipe_Drug</soundWorking>
+        </recipeMaker>
+        <costList>
+	     	<ComponentAdvanced>6</ComponentAdvanced>
+			<Biomatter>45</Biomatter>
+			<SyntheticFibers>25</SyntheticFibers>
+			<Microchips>1</Microchips>
+            <Neutroamine>10</Neutroamine>
+            <Plastic>20</Plastic>
+        </costList>
+        <comps>
+            <li Class="CompProperties_Drug">
+                <listOrder>220</listOrder>
+                <overdoseSeverityOffset>0.08~0.14</overdoseSeverityOffset>
+            </li>
+        </comps>
+    </ThingDef>
+	
+	
+	
+	
+	
+	 <HediffDef>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defName>Hediff_StealthBoy</defName>
+      <label>СтелсБой</label>
+        <labelNoun>СтелсБой</labelNoun>
+        <description>Персональное маскировочное устройство "Невидимка 3001" от компании РобКо. Генерирует модулирующее поле, которое передаёт отражённый свет с одной стороны объекта на противоположную.</description>
+    <isBad>false</isBad>
+    <comps>
+		<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>
+					<min>9800</min>
+					<max>9900</max>
+				</disappearsAfterTicks>
+				<showRemainingTime>true</showRemainingTime>
+			</li>
+      <li Class="HediffCompProperties_Invisibility">
+        <visibleToPlayer>false</visibleToPlayer>
+        <fadeDurationTicks>980</fadeDurationTicks>
+        <recoverFromDisruptedTicks>90</recoverFromDisruptedTicks>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath" />
+    </comps>
+  </HediffDef>
+	
+	
+	
+	 <HediffDef>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defName>Hediff_StealthBoy_Shadow</defName>
+      <label>СтелсБой Теней</label>
+        <labelNoun>СтелсБой Теней</labelNoun>
+        <description>Персональное маскировочное устройство "Невидимка 3001" от компании РобКо. Генерирует модулирующее поле, которое передаёт отражённый свет с одной стороны объекта на противоположную.</description>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_Invisibility">
+        <visibleToPlayer>false</visibleToPlayer>
+        <fadeDurationTicks>980</fadeDurationTicks>
+        <recoverFromDisruptedTicks>90</recoverFromDisruptedTicks>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath" />
+    </comps>
+  </HediffDef>
+	
+	
+	<HediffDef>
+        <defName>Hediff_StealthBoyDiff</defName>
+        <hediffClass>Hediff_High</hediffClass>
+        <description>Побочный эффект после стелсбоя.</description>
+        <defaultLabelColor>(1,0,0.6)</defaultLabelColor>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <maxSeverity>1.0</maxSeverity>
+        <isBad>false</isBad>
+        <comps>
+            <li Class="HediffCompProperties_SeverityPerDay">
+                <severityPerDay>-0.7</severityPerDay>
+                <showHoursToRecover>false</showHoursToRecover>
+            </li>
+        </comps>
+        <stages>
+
+            <li>
+			   <label>Побочный эффект после стелсбоя</label>
+                <minSeverity>0</minSeverity>
+                <restFallFactor>2.2</restFallFactor>
+                <capMods>
+                   
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <offset>-0.45</offset>
+                    </li>
+              
+                </capMods>
+            </li>
+			 <li>
+                <minSeverity>0.92</minSeverity>
+                <capMods>
+                   <li>
+                        <capacity>Consciousness</capacity>
+                        <offset>0</offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+    </HediffDef>
+	
+	
+	
+	
+	
+	
+	
+	
+
+</Defs>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>WatcherXI.HSK.Fallout</name>
+	<author>WatcherXI</author>
+	<packageId>WatcherXI.Fallout</packageId>
+	<supportedVersions>
+		<li>1.4</li>
+		<li>1.5</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>ceteam.combatextended</li>
+	</loadAfter>
+	<description>Добавляет : фракцию Волт-тек , так же добавляет ветку репутации подобная как у Империи. Добавляет ксенотип Гули - устойчивы к токсичной среде , жрут что найдут , уродливы и туповаты. Автомат с ядер Колой - после изучения можно создавать 3 вкуса с разными бафами .Добавлена крышко мина , можно использовать как гранату , или как мину .Добавлен Стимпанк - в трудную минуту позволит продолжать бой , но имеет длительные побочные эффекты.Из разных модов натаскал текстуры Монстров и заселил ими пустоши (токсичные теретории).Добавлен робот Мистер Помощник - незаменимый дроид в колонии.
+	Текстурки гулей взяты с мода «Fallout Races: Playable Ghoul (Continued)» https://top-mods.ru/mods/rimworld/factions/8047-fallout-races-playable-ghoul-compatible.html
+	Огромная благодарность Дон Чипотль за предоставление Dll файлы https://www.youtube.com/@don_chipotle.
+	</description>
+</ModMetaData>

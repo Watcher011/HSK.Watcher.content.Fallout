@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- ___________________CheeseBasin_____________________ -->
+
+  <Make_NukaColaQuantum.label>Создание Квантовой колы</Make_NukaColaQuantum.label>
+  <Make_NukaColaQuantum.description>Синтез Ядер колы сила Кванта</Make_NukaColaQuantum.description>
+
+  <Make_NukaCola.label>Создание Ядер-колы</Make_NukaCola.label>
+  <Make_NukaCola.description>Синтез Ядер-колы</Make_NukaCola.description>
+
+  <Make_NukaCola_Orang.label>Создание Ядер-колы-Апельсин</Make_NukaCola_Orang.label>
+  <Make_NukaCola_Orang.description>Синтез Ядер-колы-Апельсин</Make_NukaCola_Orang.description>
+
+  <Make_NukaColaMars.label>Создание Ядер колы Затмение</Make_NukaColaMars.label>
+  <Make_NukaColaMars.description>Синтез Ядер колы сила Затмение</Make_NukaColaMars.description>
+
+
+</LanguageData>

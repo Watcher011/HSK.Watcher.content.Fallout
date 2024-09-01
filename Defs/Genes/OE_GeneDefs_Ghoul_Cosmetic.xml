@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+<!--=============== Skin - GhoulDarkGreen ====================-->
+  <GeneDef ParentName="GeneSkinColorOverride">
+    <defName>OE_Skin_GhoulDarkGreen</defName>
+    <label>Болезнено зелёная кожа Гуля</label>
+    <labelShortAdj>Кожа Гуля зелёная</labelShortAdj>
+    <description>Кожа гуля что повидала многое.</description>
+    <skinColorOverride>(87, 108, 89)</skinColorOverride>
+    <displayOrderInCategory>713</displayOrderInCategory>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>green</symbol></li>
+        <li><symbol>ghoul</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+<!--=============== Skin - GhoulLightGreen ====================-->
+  <GeneDef ParentName="GeneSkinColorOverride">
+    <defName>OE_Skin_GhoulLightGreen</defName>
+    <label>Болезнено светло зелёная кожа Гуля</label>
+    <labelShortAdj>Светло зелёная кожа Гуля</labelShortAdj>
+    <description>Кожа гуля что повидала многое.</description>
+    <skinColorOverride>(153, 160, 129)</skinColorOverride>
+    <displayOrderInCategory>714</displayOrderInCategory>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>green</symbol></li>
+        <li><symbol>ghoul</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+<!--=============== Skin - TurtleDarkBrown ====================-->
+  <GeneDef ParentName="GeneSkinColorOverride">
+    <defName>OE_Skin_GhoulDarkBrown</defName>
+    <label>Болезнено коричневая  кожа Гуля</label>
+    <labelShortAdj>Коричневая  кожа Гуля</labelShortAdj>
+    <description>Кожа гуля что повидала многое.</description>
+    <skinColorOverride>(90, 66, 48)</skinColorOverride>
+    <displayOrderInCategory>715</displayOrderInCategory>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>brown</symbol></li>
+        <li><symbol>ghoul</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+<!--=============== Skin - TurtleLightBrown ====================-->
+  <GeneDef ParentName="GeneSkinColorOverride">
+    <defName>OE_Skin_GhoulLightBrown</defName>
+    <label>Болезнено светло коричневая  кожа Гуля</label>
+    <labelShortAdj>Светло коричневая  кожа Гуля</labelShortAdj>
+    <description>Кожа гуля что повидала многое.</description>
+    <skinColorOverride>(126, 103, 80)</skinColorOverride>
+    <displayOrderInCategory>716</displayOrderInCategory>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>brown</symbol></li>
+        <li><symbol>ghoul</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+</Defs>

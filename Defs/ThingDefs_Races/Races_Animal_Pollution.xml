@@ -1,0 +1,1264 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ <ThingDef ParentName="SK_AnimalThingBase">
+		<defName>Guidra</defName>
+		<label>Гидра</label>
+		<devNote>misc</devNote>
+		<description>Мутант змея с тремя головами , крайне ядовита.</description>
+		<statBases>
+			<Mass>2</Mass>
+			<MoveSpeed>2.9</MoveSpeed>
+			<ComfyTemperatureMin>-5</ComfyTemperatureMin>
+			<ComfyTemperatureMax>60</ComfyTemperatureMax>
+			<MarketValue>600</MarketValue>
+			<ImmunityGainSpeed>1.5</ImmunityGainSpeed>
+			<MeleeDodgeChance>0.17</MeleeDodgeChance>
+			<MeleeCritChance>0</MeleeCritChance>
+			<GermResistance>0.27</GermResistance>
+			<GermContainment>0.09</GermContainment>
+			<FilthRate>1</FilthRate>
+			<ToxicResistance>1</ToxicResistance>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+		</statBases>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>venom-fangs</label>
+				<capacities>
+					<li>ToxicBite</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.2</cooldownTime>
+				<chanceFactor>2</chanceFactor>
+				<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>21</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+				<armorPenetrationSharp>1.2</armorPenetrationSharp>
+				<armorPenetrationBlunt>0.3</armorPenetrationBlunt>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>1</power>
+				<cooldownTime>1.2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+				<armorPenetrationBlunt>0.225</armorPenetrationBlunt>
+			</li>
+		</tools>
+		<butcherProducts>
+			<PoisonGland>1</PoisonGland>
+		</butcherProducts>
+		<race>
+			<body>Snake</body>
+			<predator>true</predator>
+			<maxPreyBodySize>0.4</maxPreyBodySize>
+			<baseBodySize>0.25</baseBodySize>
+			<baseHungerRate>0.3</baseHungerRate>
+			<baseHealthScale>0.4</baseHealthScale>
+			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+			<useMeatFrom>Elephant</useMeatFrom>
+			<leatherDef>Leather_Lizard</leatherDef>
+			<wildness>0.75</wildness>
+			<trainability>Intermediate</trainability>
+			<petness>0.05</petness>
+			<manhunterOnTameFailChance>0.33</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.60</manhunterOnDamageChance>
+			<!-- <gestationPeriodDays>14.5</gestationPeriodDays> -->
+			<nameOnTameChance>1</nameOnTameChance>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(3, 1)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>20</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.15</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.5</minAge>
+					<soundWounded>Pawn_Cobra_Wounded</soundWounded>
+					<soundDeath>Pawn_Cobra_Death</soundDeath>
+					<soundCall>Pawn_Cobra_Call</soundCall>
+					<soundAngry>Pawn_Cobra_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+			<trainableTags>
+				<li>Basic</li>
+				<li>Combat</li>
+			</trainableTags>
+			<untrainableTags>
+				<li>Help</li>
+				<li>Work</li>
+			</untrainableTags>
+		</race>
+		<tradeTags>
+		<li>AnimalFallout</li>
+			<li>AnimalUncommon</li>
+			<li>AnimalFighter</li>
+		</tradeTags>
+		<modExtensions>
+			<li Class="CombatExtended.RacePropertiesExtensionCE">
+				<bodyShape>Serpentine</bodyShape>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<PawnKindDef ParentName="SK_AnimalKindBase">
+		<defName>Guidra</defName>
+		<label>Гидра</label>
+		<race>Guidra</race>
+		<combatPower>55</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>0.4</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Hydra/Hydra</texPath>
+					<drawSize>1</drawSize>
+					  <shaderType>Cutout</shaderType>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Hydra/Hydra_Dessicated</texPath>
+					<drawSize>1</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Hydra/Hydra</texPath>
+					<drawSize>1.25</drawSize>
+					  <shaderType>Cutout</shaderType>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Hydra/Hydra_Dessicated</texPath>
+					<drawSize>1.25</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Hydra/Hydra</texPath>
+					<drawSize>1.5</drawSize>
+                    <shaderType>Cutout</shaderType>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Hydra/Hydra_Dessicated</texPath>
+					<drawSize>1.5</drawSize>
+					  <shaderType>Cutout</shaderType>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+
+
+
+
+	<ThingDef ParentName="SK_AnimalThingBase">
+		<defName>RadDeer</defName>
+		<label>Рад Олень</label>
+		<devNote>pig-1</devNote>
+		<description>Хотя двухголовый рад-олень и выглядит жутковато, при малейшем намёке на опасность он обращается в бегство. Впрочем, если загнать его в угол, он может оказаться опасным противником.</description>
+		<statBases>
+			<Mass>60</Mass>
+			<MoveSpeed>8.1</MoveSpeed>
+			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
+			<MarketValue>450</MarketValue>
+			<ImmunityGainSpeed>1.1</ImmunityGainSpeed>
+			<MeleeDodgeChance>0.14</MeleeDodgeChance>
+			<MeleeCritChance>0</MeleeCritChance>
+			<GermResistance>0.15</GermResistance>
+			<FilthRate>14</FilthRate>
+			<ToxicResistance>1</ToxicResistance>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+		</statBases>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>left hoof</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>1.45</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+				<armorPenetrationBlunt>2.6</armorPenetrationBlunt>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>right hoof</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>1.45</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+				<armorPenetrationBlunt>2.6</armorPenetrationBlunt>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>1.6</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.1</chanceFactor>
+				<armorPenetrationBlunt>1.75</armorPenetrationBlunt>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+				<armorPenetrationBlunt>2.5</armorPenetrationBlunt>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>antlers</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.65</cooldownTime>
+				<restrictedGender>Male</restrictedGender>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<armorPenetrationBlunt>2.5</armorPenetrationBlunt>
+			</li>
+		</tools>
+		<race>
+			<body>QuadrupedAnimalWithHoovesAndAntlers</body>
+			<herdAnimal>true</herdAnimal>
+			<baseBodySize>0.7</baseBodySize>
+			<baseHungerRate>0.65</baseHungerRate>
+			<baseHealthScale>1.4</baseHealthScale>
+			<foodType>VegetarianRoughAnimal</foodType>
+			<useMeatFrom>Muffalo</useMeatFrom>
+			<leatherDef>Leather_Plain</leatherDef>
+			<manhunterOnDamageChance>0</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0</manhunterOnTameFailChance>
+			<wildness>0.73</wildness>
+			<roamMtbDays>2</roamMtbDays>
+			<nuzzleMtbHours>60</nuzzleMtbHours>
+			<gestationPeriodDays>5.661</gestationPeriodDays>
+			<lifeExpectancy>15</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.1</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.3333</minAge>
+					<soundWounded>Pawn_Deer_Wounded</soundWounded>
+					<soundDeath>Pawn_Deer_Death</soundDeath>
+					<soundCall>Pawn_Deer_Call</soundCall>
+					<soundAngry>Pawn_Deer_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+		<li>AnimalFallout</li>
+			<li>AnimalCommon</li>
+		</tradeTags>
+		<modExtensions>
+			<li Class="CombatExtended.RacePropertiesExtensionCE">
+				<bodyShape>Quadruped</bodyShape>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<PawnKindDef ParentName="SK_AnimalKindBase">
+		<defName>RadDeer</defName>
+		<label>Рад Олень</label>
+		<labelPlural>Рад Олени</labelPlural>
+		<race>RadDeer</race>
+		<combatPower>50</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>0.5</ecoSystemWeight>
+		<wildGroupSize>3~9</wildGroupSize>
+		<labelMale>Рад Олень</labelMale>
+		<labelFemale>Рад Олениха</labelFemale>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/WastelandDeer/WastelandDeerFemale</texPath>
+					<drawSize>1.375</drawSize>
+					<color>(140,74,41)</color>
+					<shaderType>CutoutComplex</shaderType>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Deer/Dessicated_DeerBaby</texPath>
+					<drawSize>1.1</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/WastelandDeer/WastelandDeerFemale</texPath>
+					<drawSize>1.875</drawSize>
+					<color>(140,74,41)</color>
+					<shaderType>CutoutComplex</shaderType>
+					<shadowData>
+						<volume>(0.3, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Deer/Dessicated_DeerBaby</texPath>
+					<drawSize>1.875</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/WastelandDeer/WastelandDeerMale</texPath>
+					<drawSize>2.25</drawSize>
+					<color>(156,112,62)</color>
+					<shaderType>CutoutComplex</shaderType>
+					<shadowData>
+						<volume>(0.4, 0.4, 0.4)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<femaleGraphicData>
+					<texPath>Things/Pawn/Animal/WastelandDeer/WastelandDeerFemale</texPath>
+					<drawSize>2.25</drawSize>
+					<color>(188,146,110)</color>
+					<shaderType>CutoutComplex</shaderType>
+					<shadowData>
+						<volume>(0.4, 0.4, 0.4)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</femaleGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Deer/Dessicated_DeerMale</texPath>
+					<drawSize>3.6</drawSize>
+				</dessicatedBodyGraphicData>
+				<femaleDessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Deer/Dessicated_DeerFemale</texPath>
+					<drawSize>1.8</drawSize>
+				</femaleDessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+	
+	
+
+	
+	<ThingDef ParentName="SK_BearThingBase">
+		<defName>Bear_Yaoguai</defName>
+		<label>Яо-гай</label>
+		<description>Мутировавший медведь, появившийся на пустошах Содружества после Великой войны. Не считая когтей смерти, это самое сильное, быстрое и смертоносное существо, которое встречается на пустошах.Кожа яо-гаев тёмно-сиреневого цвета, местами покрытая шерстью и повсеместно — язвами. Визуально существа значительно крупнее своих довоенных предков. Несмотря на перенесённые мутации, многие яо-гаи крайне восприимчивы к радиации и гибнут в зонах с высоким уровнем облучения, поэтому единственная область, в которой данный вид не обитает на территории Содружества — Светящееся море. Как и все остальные обитатели Содружества, имеют несколько подвидов, и новые, всё более смертоносные подвиды яо-гаев будут встречаться Выжившему с ростом его уровня.Яо-гаи сильны, выносливы и яростно охраняют свою территорию. Они способны наносить значительный урон, а их мощные удары передними лапами трудно пережить. Эти медведеподобные существа также удивительно быстры и атакуют противника при первой возможности.</description>
+		<statBases>
+			<Mass>120</Mass>
+			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
+			<MeleeDodgeChance>0.09</MeleeDodgeChance>
+			<MeleeCritChance>0.18</MeleeCritChance>
+			<ArmorRating_Blunt>4.8</ArmorRating_Blunt>
+			<ArmorRating_Sharp>4.9</ArmorRating_Sharp>
+			<MoveSpeed>5.2</MoveSpeed>
+			<ToxicResistance>1</ToxicResistance>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			<CarryWeight>310</CarryWeight>
+			<CarryBulk>240</CarryBulk>
+		</statBases>
+		<race>
+			<packAnimal>true</packAnimal>
+			<wildness>0.85</wildness>
+		</race>
+		<tradeTags>
+		<li>AnimalFallout</li>
+			<li>AnimalUncommon</li>
+			<li>AnimalFighter</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="SK_BearKindBase">
+		<defName>Bear_Yaoguai</defName>
+		<label>Яо-гай</label>
+		<race>Bear_Yaoguai</race>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/WastelandBear/WastelandBear</texPath>
+					<drawSize>1.4</drawSize>
+				    <shaderType>CutoutComplex</shaderType>
+					<shadowData>
+						<volume>(0.4, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+					<drawSize>1.4</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/WastelandBear/WastelandBear</texPath>
+					<drawSize>2</drawSize>
+					<shaderType>CutoutComplex</shaderType>
+					<shadowData>
+						<volume>(0.6, 0.45, 0.45)</volume>
+						<offset>(0,0,-0.25)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+					<drawSize>2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/WastelandBear/WastelandBear</texPath>
+					<drawSize>2.7</drawSize>
+					<shaderType>CutoutComplex</shaderType>
+					<shadowData>
+						<volume>(0.8, 0.6, 0.6)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+					<drawSize>2.7</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+	
+	
+	
+<ThingDef ParentName="SK_AnimalThingBase">
+		<defName>Brahmin</defName>
+		<label>Брамин</label>
+		<devNote>cow</devNote>
+		<description>Мутировавшая корова. Два века мутаций привели к появлению двух голов и некоторым общим изменениям внешнего вида, что делает браминов XXIII века довольно уродливыми, но всё ещё полезными и съедобными созданиями. Брамины встречаются на просторах Содружества стадами по несколько особей и не враждебны к Выжившему.Брамины используются людьми в качестве вьючных животных, а также как источник мяса и шкур.</description>
+		<statBases>
+			<Mass>120</Mass>
+			<MoveSpeed>3.5</MoveSpeed>
+			<ComfyTemperatureMin>-14</ComfyTemperatureMin>
+			<MarketValue>1500</MarketValue>
+			<MeatAmount>175</MeatAmount>
+			<MeleeDodgeChance>0.1</MeleeDodgeChance>
+			<MeleeCritChance>0</MeleeCritChance>
+			<CarryWeight>260</CarryWeight>
+			<CarryBulk>240</CarryBulk>
+			<FilthRate>16</FilthRate>
+			<ToxicResistance>1</ToxicResistance>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Milkable">
+				<milkDef>Milk</milkDef>
+				<milkIntervalDays>1</milkIntervalDays>
+				<milkAmount>16</milkAmount>
+			</li>
+		</comps>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.6</chanceFactor>
+				<armorPenetrationSharp>1.5</armorPenetrationSharp>
+				<armorPenetrationBlunt>1.5</armorPenetrationBlunt>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<armorPenetrationBlunt>3</armorPenetrationBlunt>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>horns</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>15</power>
+				<cooldownTime>2.12</cooldownTime>
+				<chanceFactor>0.65</chanceFactor>
+				<restrictedGender>Male</restrictedGender>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<armorPenetrationSharp>2.8</armorPenetrationSharp>
+				<armorPenetrationBlunt>4</armorPenetrationBlunt>
+			</li>
+		</tools>
+		<race>
+			<body>QuadrupedAnimalWithHooves</body>
+			<herdAnimal>true</herdAnimal>
+			<packAnimal>true</packAnimal>
+			<baseBodySize>1.2</baseBodySize>
+			<baseHungerRate>1.2</baseHungerRate>
+			<baseHealthScale>1.8</baseHealthScale>
+			<foodType>VegetarianRoughAnimal</foodType>
+			<useMeatFrom>Muffalo</useMeatFrom>
+			<leatherDef>Leather_Plain</leatherDef>
+			<trainability>None</trainability>
+			<gestationPeriodDays>6.66</gestationPeriodDays>
+			<manhunterOnDamageChance>0</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0</manhunterOnTameFailChance>
+			<wildness>0.05</wildness>
+			<roamMtbDays>2</roamMtbDays>
+			<nuzzleMtbHours>32</nuzzleMtbHours>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(3, 1)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>22</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.2</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.3333</minAge>
+					<soundWounded>Pawn_Muffalo_Wounded</soundWounded>
+					<soundDeath>Pawn_Muffalo_Death</soundDeath>
+					<soundCall>Pawn_Muffalo_Call</soundCall>
+					<soundAngry>Pawn_Muffalo_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+		<li>AnimalFallout</li>
+			<li>AnimalCommon</li>
+			<li>AnimalFarm</li>
+		</tradeTags>
+		<modExtensions>
+			<li Class="CombatExtended.RacePropertiesExtensionCE">
+				<bodyShape>Quadruped</bodyShape>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<PawnKindDef ParentName="SK_AnimalKindBase">
+		<defName>Brahmin</defName>
+		<label>Брамин</label>
+		<race>Brahmin</race>
+		<combatPower>75</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>0.9</ecoSystemWeight>
+		<labelMale>Брамин</labelMale>
+		<labelFemale>Брамин</labelFemale>
+		<lifeStages>
+			<li>
+				<label>calf</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wasteffalo/Wasteffalo</texPath>
+					<drawSize>1.3</drawSize>
+					<shaderType>CutoutComplex</shaderType>
+					<color>(170,170,170)</color>
+					<shadowData>
+						<volume>(0.4, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<femaleGraphicData>
+					<texPath>Things/Pawn/Animal/Wasteffalo/Wasteffalo</texPath>
+					<drawSize>1.25</drawSize>
+					<color>(200,200,200)</color>
+					<shaderType>CutoutComplex</shaderType>
+					<shadowData>
+						<volume>(0.4, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</femaleGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wasteffalo/Wasteffalo_Dessicated</texPath>
+					<drawSize>1.3</drawSize>
+				</dessicatedBodyGraphicData>
+				<femaleDessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wasteffalo/Wasteffalo_Dessicated</texPath>
+					<drawSize>1.25</drawSize>
+				</femaleDessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wasteffalo/Wasteffalo</texPath>
+					<drawSize>2.15</drawSize>
+					<color>(170,170,170)</color>
+					<shaderType>CutoutComplex</shaderType>
+					<shadowData>
+						<volume>(0.6, 0.45, 0.45)</volume>
+						<offset>(0,0,-0.25)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<femaleGraphicData>
+					<texPath>Things/Pawn/Animal/Wasteffalo/Wasteffalo</texPath>
+					<drawSize>2.0</drawSize>
+					<color>(200,200,200)</color>
+					<shaderType>CutoutComplex</shaderType>
+					<shadowData>
+						<volume>(0.6, 0.45, 0.45)</volume>
+						<offset>(0,0,-0.25)</offset>
+					</shadowData>
+				</femaleGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wasteffalo/Wasteffalo_Dessicated</texPath>
+					<drawSize>2.15</drawSize>
+				</dessicatedBodyGraphicData>
+				<femaleDessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wasteffalo/Wasteffalo_Dessicated</texPath>
+					<drawSize>2.0</drawSize>
+				</femaleDessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wasteffalo/Wasteffalo</texPath>
+					<drawSize>2.7</drawSize>
+					<color>(170,170,170)</color>
+					<shaderType>CutoutComplex</shaderType>
+					<shadowData>
+						<volume>(0.8, 0.6, 0.6)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<femaleGraphicData>
+					<texPath>Things/Pawn/Animal/Wasteffalo/Wasteffalo</texPath>
+					<drawSize>2.6</drawSize>
+					<color>(200,200,200)</color>
+					<shaderType>CutoutComplex</shaderType>
+					<shadowData>
+						<volume>(0.8, 0.6, 0.6)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</femaleGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wasteffalo/Wasteffalo_Dessicated</texPath>
+					<drawSize>2.7</drawSize>
+				</dessicatedBodyGraphicData>
+				<femaleDessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Wasteffalo/Wasteffalo_Dessicated</texPath>
+					<drawSize>2.6</drawSize>
+				</femaleDessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+	
+	
+	
+	<ThingDef ParentName="SK_AnimalThingBase">
+		<defName>Gecko</defName>
+		<label>Гекко</label>
+		<devNote>squirrel-1</devNote>
+		<description>Распространённая на западе США ящерица-мутант, потомок довоенных гекконов (лат. Gekkonidae). Под действием радиации гекконы достигли очень крупных размеров, научились ходить на задних лапах, но утратили способность лазить по вертикальным поверхностям, ввиду изменения строения лап. Такая их разновидность, как огненные гекконы, даже научились выдыхать огонь, подобно мифическим драконам, тогда как зелёные гекконы плюются ядовитой слюной.</description>
+		<tickerType>Normal</tickerType>
+		<statBases>
+			<Mass>50</Mass>
+			<MoveSpeed>3.4</MoveSpeed>
+			<ComfyTemperatureMin>0</ComfyTemperatureMin>
+			<ComfyTemperatureMax>60</ComfyTemperatureMax>
+			<MarketValue>160</MarketValue>
+			<ImmunityGainSpeed>1.5</ImmunityGainSpeed>
+			<MeatAmount>35</MeatAmount>
+			<MeleeDodgeChance>0.14</MeleeDodgeChance>
+			<MeleeCritChance>0.02</MeleeCritChance>
+			<GermResistance>0.3</GermResistance>
+			<GermContainment>0.15</GermContainment>
+			<FilthRate>4</FilthRate>
+			<ToxicResistance>1</ToxicResistance>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+		</statBases>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<recoilAmount>0.95</recoilAmount>
+				<verbClass>Verb_Shoot</verbClass>
+				<accuracyTouch>1</accuracyTouch>
+				<accuracyShort>1</accuracyShort>
+				<accuracyMedium>1</accuracyMedium>
+				<accuracyLong>1</accuracyLong>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>DragonFireBreathOmega</defaultProjectile>
+				<warmupTime>5</warmupTime>
+				<burstShotCount>1</burstShotCount>
+				<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+				<minRange>4</minRange>
+				<range>17</range>
+				<soundCast>FlameThrower</soundCast>
+				<muzzleFlashScale>0</muzzleFlashScale>
+				<!--Commanility determines how frequent this range verb is chosen.-->
+				<commonality>0.5</commonality>
+			</li>
+		</verbs>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>1.4</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
+				<armorPenetrationSharp>1.2</armorPenetrationSharp>
+				<armorPenetrationBlunt>1.4</armorPenetrationBlunt>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>1.4</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
+				<armorPenetrationSharp>1.2</armorPenetrationSharp>
+				<armorPenetrationBlunt>1.4</armorPenetrationBlunt>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>25</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+				<chanceFactor>1.2</chanceFactor>
+				<armorPenetrationSharp>1.6</armorPenetrationSharp>
+				<armorPenetrationBlunt>1.4</armorPenetrationBlunt>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>2.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+				<armorPenetrationBlunt>1.2</armorPenetrationBlunt>
+			</li>
+		</tools>
+		
+		<race>
+			<body>QuadrupedAnimalWithClawsTailAndJowl</body>
+			<baseHungerRate>0.3</baseHungerRate>
+			<baseBodySize>1.55</baseBodySize>
+			<baseHealthScale>1.1</baseHealthScale>
+			<foodType>CarnivoreAnimal, CarnivoreAnimalStrict, OmnivoreRoughAnimal</foodType>
+			<manhunterOnDamageChance>0</manhunterOnDamageChance>
+			<useMeatFrom>Elephant</useMeatFrom>
+			<leatherDef>Leather_Lizard</leatherDef>
+			<wildness>0.45</wildness>
+			<trainability>None</trainability>
+			<petness>0.15</petness>
+			<nuzzleMtbHours>60</nuzzleMtbHours>
+			<gestationPeriodDays>13</gestationPeriodDays>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(3, 1)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>12</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.1</minAge>
+					<soundWounded>Pawn_Iguana_Wounded</soundWounded>
+					<soundDeath>Pawn_Iguana_Death</soundDeath>
+					<soundCall>Pawn_Iguana_Call</soundCall>
+					<soundAngry>Pawn_Iguana_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+			<hediffGiverSets>
+				<li>ThickPassiveSet</li>
+			</hediffGiverSets>
+		</race>
+		<tradeTags>
+		<li>AnimalFallout</li>
+			<li>AnimalUncommon</li>
+		</tradeTags>
+		<modExtensions>
+			<li Class="CombatExtended.RacePropertiesExtensionCE">
+				<bodyShape>Serpentine</bodyShape>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<PawnKindDef ParentName="SK_AnimalKindBase">
+		<defName>Gecko</defName>
+		<label>Гекко</label>
+		<race>Gecko</race>
+		<combatPower>70</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>0.3</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Toxiguana/Toxiguana</texPath>
+					<drawSize>1.5</drawSize>
+					<shaderType>CutoutComplex</shaderType>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Toxiguana/Dessicated_Toxiguana</texPath>
+					<drawSize>1.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	
+	
+	<ThingDef ParentName="SK_InsectThingBase">
+		<defName>Radscorpion</defName>
+		<label>Радскорпион</label>
+		<description>Мутировавший под воздействием радиации  императорский скорпион. Несмотря на многократное увеличение размеров, по строению тела радскорпионы практически не отличаются от своих довоенных предков — такие же характерные клешни-педипальпы и загнутый вперёд и вверх хвост-метасома, заканчивающийся грушевидным члеником с иглой. Яд, скапливающийся в последнем, у императорских скорпионов не был опасен для человека, но после мутации насекомого удар его жала может привести к смерти жертвы.</description>
+		<statBases>
+			<Mass>120</Mass>
+			<MoveSpeed>2.8</MoveSpeed>
+			<ArmorRating_Blunt>4</ArmorRating_Blunt>
+			<ArmorRating_Sharp>3.9</ArmorRating_Sharp>
+			<ComfyTemperatureMin>-15</ComfyTemperatureMin>
+			<ComfyTemperatureMax>60</ComfyTemperatureMax>
+			<LeatherAmount>0</LeatherAmount>
+			<MarketValue>3500</MarketValue>
+			<ImmunityGainSpeed>2.5</ImmunityGainSpeed>
+			<MeatAmount>75</MeatAmount>
+			<MeleeDodgeChance>0</MeleeDodgeChance>
+			<MeleeCritChance>0</MeleeCritChance>
+			<ToxicResistance>1</ToxicResistance>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+		</statBases>
+		<tools>
+		
+		    <li Class="CombatExtended.ToolCE">
+				<label>venom-fangs</label>
+				<capacities>
+					<li>ToxicBite</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.2</cooldownTime>
+				<chanceFactor>2</chanceFactor>
+				<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>21</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+				<armorPenetrationSharp>1.2</armorPenetrationSharp>
+				<armorPenetrationBlunt>0.3</armorPenetrationBlunt>
+			</li>
+			
+			<li Class="CombatExtended.ToolCE">
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>1.8</cooldownTime>
+				<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+				<armorPenetrationSharp>3.5</armorPenetrationSharp>
+				<armorPenetrationBlunt>9</armorPenetrationBlunt>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>2.85</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<chanceFactor>0.5</chanceFactor>
+				<armorPenetrationBlunt>8</armorPenetrationBlunt>
+			</li>
+		</tools>
+		<comps>
+			<li Class="SK.CompProperties_ShearableRenameable">
+				<compClass>SK.CompShearableRenameable</compClass>
+				<growthLabel>Chitin</growthLabel>
+				<woolDef>Chitin</woolDef>
+				<shearIntervalDays>8</shearIntervalDays>
+				<woolAmount>125</woolAmount>
+			</li>
+		</comps>
+		<butcherProducts>
+			<Chitin>40</Chitin>
+			<PoisonGland>1</PoisonGland>
+		</butcherProducts>
+		<race>
+			<predator>true</predator>
+			<maxPreyBodySize>1.3</maxPreyBodySize>
+			<baseHungerRate>0.9</baseHungerRate>
+			<body>BeetleLike</body>
+			<baseBodySize>1.3</baseBodySize>
+			<baseHealthScale>2.8</baseHealthScale>
+			<foodType>CarnivoreAnimal, CarnivoreAnimalStrict, Corpse, AnimalProduct</foodType>
+			<fleshType>Insectoid</fleshType>
+			<bloodDef>Filth_BloodInsect</bloodDef>
+			<useMeatFrom>Megaspider</useMeatFrom>
+			<wildness>0.9</wildness>
+			<trainability>Intermediate</trainability>
+			<gestationPeriodDays>14</gestationPeriodDays>
+			<manhunterOnTameFailChance>0.35</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>1</manhunterOnDamageChance>
+			<lifeExpectancy>10</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>EusocialInsectAdult</def>
+					<minAge>0.0</minAge>
+					<soundWounded>Pawn_BigInsect_Pain</soundWounded>
+					<soundDeath>Pawn_BigInsect_Death</soundDeath>
+					<soundCall>Pawn_BigInsect_Call</soundCall>
+					<soundAngry>Pawn_BigInsect_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+			<trainableTags>
+				<li>Basic</li>
+				<li>Combat</li>
+			</trainableTags>
+			<untrainableTags>
+				<li>Help</li>
+				<li>Work</li>
+			</untrainableTags>
+		</race>
+		<tradeTags>
+		<li>AnimalFallout</li>
+			<li>AnimalUncommon</li>
+			<li>AnimalFighter</li>
+		</tradeTags>
+		<modExtensions>
+			<li Class="CombatExtended.RacePropertiesExtensionCE">
+				<bodyShape>Quadruped</bodyShape>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<PawnKindDef ParentName="SK_AnimalKindBase">
+		<defName>Radscorpion</defName>
+		<label>Радскорпион</label>
+		<race>Radscorpion</race>
+		<combatPower>220</combatPower>
+		<ecoSystemWeight>0.7</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Toxscorpion/Toxscorpion</texPath>
+					<drawSize>2.0</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Toxscorpion/Toxscorpion_Dessicated</texPath>
+					<drawSize>1.9</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			
+		</lifeStages>
+	</PawnKindDef>
+	
+	
+	
+	
+	
+<ThingDef ParentName="SK_AnimalThingBase">
+		<defName>Deathclaw</defName>
+		<label>Коготь смерти</label>
+		<devNote>misc</devNote>
+		<description>Обычный коготь смерти достигает около трёх метров роста, тело светло-коричневого оттенка — чуть более тёмное на спине и бледно-серое спереди. Плотные и развитые мышцы покрывает кожа с выраженной структурой, хорошо видны кровеносные сосуды. Глаза светятся в темноте. Голову с покатым лбом и массивной нижней челюстью венчают загнутые вперёд острые рога, в огромной пасти сидит 12 зубов (по 6 на каждой челюсти). Крайне острые и длинные когти конечностей имеют тёмный окрас, на нижних — три на пальцах и один на «пятке», на верхних — по пять более длинных. Это основное смертельное оружие существ, ставшее причиной соответствующего названия. На спине вдоль позвоночника расположено пять шипов — больших в районе головы и укорачивающихся к хвосту. Хвост длинный, из примерно 15 крупных позвонков. Передвигаются на двух нижних конечностях, обладают крайне высокой скоростью перемещения. Способны прыжком преодолеть значительное расстояние до жертвы и запрыгнуть на возвышенное препятствие. Жертву атакуют быстрыми ударами когтистых лап или ударом обеими лапами в прыжке. Перед нападением зачастую прогибаются вперёд и издают вопль. Часто охотятся стаями.</description>
+		<statBases>
+			<Mass>160</Mass>
+			<MoveSpeed>6.9</MoveSpeed>
+			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
+			<ComfyTemperatureMax>50</ComfyTemperatureMax>
+			<ArmorRating_Blunt>5</ArmorRating_Blunt>
+			<ArmorRating_Sharp>5.1</ArmorRating_Sharp>
+			<LeatherAmount>40</LeatherAmount>
+			<ImmunityGainSpeed>2.5</ImmunityGainSpeed>
+			<MarketValue>8000</MarketValue>
+			<MeatAmount>190</MeatAmount>
+			<MeleeDodgeChance>0.15</MeleeDodgeChance>
+			<MeleeCritChance>0.3</MeleeCritChance>
+			<GermResistance>0.4</GermResistance>
+			<GermContainment>0.2</GermContainment>
+			<FilthRate>18</FilthRate>
+			<CarryWeight>310</CarryWeight>
+			<CarryBulk>300</CarryBulk>
+			<ToxicResistance>1</ToxicResistance>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggUnfertilizedDef>EggDeathclawUnfertilized</eggUnfertilizedDef>
+				<eggFertilizedDef>EggDeathclawFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>10</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>3</eggCountRange>
+			</li>
+		</comps>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>left leg claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>LegLeftClaws</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>20</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+				<armorPenetrationSharp>3.1</armorPenetrationSharp>
+				<armorPenetrationBlunt>12</armorPenetrationBlunt>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>right leg claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>LegRightClaws</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>20</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+				<armorPenetrationSharp>3.1</armorPenetrationSharp>
+				<armorPenetrationBlunt>12</armorPenetrationBlunt>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>23</power>
+				<cooldownTime>1.3</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>20</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+				<chanceFactor>0.15</chanceFactor>
+				<armorPenetrationSharp>6.8</armorPenetrationSharp>
+				<armorPenetrationBlunt>6</armorPenetrationBlunt>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>23</power>
+				<cooldownTime>1.3</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>20</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+				<chanceFactor>0.15</chanceFactor>
+				<armorPenetrationSharp>6.8</armorPenetrationSharp>
+				<armorPenetrationBlunt>6</armorPenetrationBlunt>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>20</power>
+				<cooldownTime>1.8</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>40</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+				<armorPenetrationSharp>6</armorPenetrationSharp>
+				<armorPenetrationBlunt>10</armorPenetrationBlunt>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+				<armorPenetrationBlunt>7</armorPenetrationBlunt>
+			</li>
+		</tools>
+		<race>
+			<herdAnimal>true</herdAnimal>
+			<predator>true</predator>
+			<maxPreyBodySize>3.3</maxPreyBodySize>
+			<body>RaptorLike</body>
+			<baseBodySize>3.6</baseBodySize>
+			<baseHungerRate>1.7</baseHungerRate>
+			<baseHealthScale>3.2</baseHealthScale>
+			<foodType>CarnivoreAnimal, CarnivoreAnimalStrict</foodType>
+			<useMeatFrom>Muffalo</useMeatFrom>
+			<leatherDef>Leather_FeatheredRaptorLeather</leatherDef>
+			<gestationPeriodDays>14</gestationPeriodDays>
+			<wildness>0.9</wildness>
+			<trainability>Advanced</trainability>
+			<petness>0</petness>
+			<manhunterOnDamageChance>0.75</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0.35</manhunterOnTameFailChance>
+			<nuzzleMtbHours>60</nuzzleMtbHours>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(2, 1.7)</li>
+					<li>(3, 0.7)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>40</lifeExpectancy>
+			<lifeStageAges>
+				
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>2</minAge>
+					<soundWounded>Pawn_Raptor_Wounded</soundWounded>
+					<soundDeath>Pawn_Raptor_Death</soundDeath>
+					<soundCall>Pawn_Raptor_Call</soundCall>
+					<soundAngry>Pawn_Raptor_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+			<hediffGiverSets>
+				<li>FuriousPassiveSet</li>
+			</hediffGiverSets>
+			<trainableTags>
+				<li>Basic</li>
+				<li>Combat</li>
+			</trainableTags>
+			<untrainableTags>
+				<li>Help</li>
+				<li>Work</li>
+			</untrainableTags>
+		</race>
+		 <butcherProducts>
+				<Deathclawhand>1</Deathclawhand>
+         </butcherProducts>
+		<tradeTags>
+		<li>AnimalFallout</li>
+			<li>AnimalUncommon</li>
+			<li>AnimalFighter</li>
+		</tradeTags>
+		<modExtensions>
+			<li Class="CombatExtended.RacePropertiesExtensionCE">
+				<bodyShape>Birdlike</bodyShape>
+			</li>
+			   <li Class="Flashlight.DefModExtension_Glow">
+               <canGlow>true</canGlow>
+               </li>
+		</modExtensions>
+	</ThingDef>
+
+	<PawnKindDef ParentName="SK_AnimalKindBase">
+		<defName>Deathclaw</defName>
+		<label>Коготь смерти</label>
+		<race>Deathclaw</race>
+		<combatPower>400</combatPower>
+		<ecoSystemWeight>0.9</ecoSystemWeight>
+		<wildGroupSize>1~2</wildGroupSize>
+		<lifeStages>
+			
+			<li>
+				<bodyGraphicData>
+					<graphicClass>SK.PawnGraphic</graphicClass>
+					<texPath>Things/Pawn/Animal/WastelandDeathclaw/WastelandDeathclaw</texPath>
+					<drawSize>3.3</drawSize>
+					<shadowData>
+						<volume>(0.15, 0.2, 0.45)</volume>
+						<offset>(0,0,-0.4)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/WastelandDeathclaw/WastelandDeathclaw</texPath>
+					<drawSize>3.0</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			
+		</lifeStages>
+	</PawnKindDef>	
+	
+	
+	
+	
+</Defs>
