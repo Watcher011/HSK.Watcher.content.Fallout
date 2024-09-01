@@ -9,6 +9,13 @@
 				<li>ColaBasin</li>
 				</value>
 			 </Operation>
+			 
+			 <Operation Class="PatchOperationAdd">
+				<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Traps"]/defNames</xpath>
+				<value>
+				<li>TrapIED_Bottlecap</li>
+				</value>
+			 </Operation>
 	
 </Patch>
 

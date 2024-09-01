@@ -360,7 +360,7 @@
         </graphicData>
         <soundInteract>InteractPTUR</soundInteract>
         <statBases>
-            <MarketValue>1800</MarketValue>
+            <MarketValue>4800</MarketValue>
             <SightsEfficiency>1.05</SightsEfficiency>
             <ShotSpread>0.15</ShotSpread>
             <SwayFactor>1.5</SwayFactor>
@@ -370,15 +370,10 @@
         </statBases>
         <generateCommonality>0.7</generateCommonality>
         <weaponTags>
-            <li>RKT2</li>
             <li>Launchers</li>
-            <li>TierOneAdvanced</li>
-            <li>CE_AI_Rifle</li>
-            <li>CE_AI_Launcher</li>
-            <li>CE_AI_AOE</li>
         </weaponTags>
         <tradeTags>
-            <li>Exotic</li>
+            <li>ExoticVaultecLaunchers</li>
         </tradeTags>
         <thingCategories>
             <li>Launchers</li>
@@ -424,7 +419,7 @@
 		<modExtensions>
 			<li Class="CombatExtended.GunDrawExtension">
 				<DrawSize>1.5,1.5</DrawSize>
-				<DrawOffset>0.05,0.05</DrawOffset>
+				<DrawOffset>1.22,1.22</DrawOffset>
 			</li>
 		</modExtensions>
         <smeltProducts>

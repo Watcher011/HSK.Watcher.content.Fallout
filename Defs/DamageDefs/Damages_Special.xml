@@ -15,9 +15,8 @@
   
   <DamageDef Name="ACExp" ParentName="Bomb" Abstract="true">
     <label>bomb</label>
-    <minDamageToFragment>9999</minDamageToFragment>
+    <minDamageToFragment>999</minDamageToFragment>
     <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
-	
     <defaultArmorPenetration>320</defaultArmorPenetration>
 	<buildingDamageFactor>30</buildingDamageFactor>
     <plantDamageFactor>8</plantDamageFactor>

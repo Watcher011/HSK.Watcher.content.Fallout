@@ -45,7 +45,7 @@
 		<soundInteract>Wood_Drop</soundInteract>
 		<soundDrop>Wood_Drop</soundDrop>
 		<statBases>
-			<MarketValue>15</MarketValue>
+			<MarketValue>150</MarketValue>
 			 <RoyalFavorValue>0.01</RoyalFavorValue>
 			<DeteriorationRate>0</DeteriorationRate>
 			<Flammability>0.2</Flammability>
@@ -57,6 +57,9 @@
 		<thingCategories>
 			<li>Parts</li>
 		</thingCategories>
+		 <tradeTags>
+      <li>BottleCap</li>
+    </tradeTags>
 		<stackLimit>100</stackLimit>
 	</ThingDef>
 

@@ -436,7 +436,7 @@
       <!-- Resources -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
-        <countRange>750~1200</countRange>
+        <countRange>750~4200</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentIndustrial</thingDef>
@@ -448,9 +448,14 @@
         <countRange>8~16</countRange>
       </li>
 	  
+	   <li Class="StockGenerator_MarketValue">
+        <tradeTag>ExoticVaultecLaunchers</tradeTag>
+        <countRange>1~2</countRange>
+      </li>
+	  
 	   <li Class="StockGenerator_Tag">
         <tradeTag>MortarShell</tradeTag>
-        <thingDefCountRange>1~2</thingDefCountRange>
+        <thingDefCountRange>10~20</thingDefCountRange>
         <countRange>20~40</countRange>
         <excludedThingDefs>
           <li MayRequire="Ludeon.RimWorld.Anomaly">Shell_Deadlife</li>
@@ -500,8 +505,8 @@
         <countRange>70~160</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
-        <thingDef>Beer</thingDef>
-        <totalPriceRange>-100~100</totalPriceRange>
+        <thingDef>RadAway</thingDef>
+        <totalPriceRange>10~50</totalPriceRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Chocolate</thingDef>
@@ -522,12 +527,7 @@
           <li>EggsFertilized</li>
         </excludedCategories>
       </li>
-      <li Class="StockGenerator_Category">
-        <categoryDef>Textiles</categoryDef>
-        <excludedThingDefs>
-          <li MayRequire="Ludeon.RimWorld.Anomaly">Leather_Dread</li>
-        </excludedThingDefs>
-      </li>
+     
       <li Class="StockGenerator_MultiDef">
         <thingDefs>
           <li>Chocolate</li>
@@ -565,23 +565,10 @@
       
       <!-- Apparel -->
       <li Class="StockGenerator_MarketValue">
-        <tradeTag>BasicClothing</tradeTag>
-        <countRange>7~7</countRange>
-      </li>
-      <li Class="StockGenerator_MarketValue">
         <tradeTag>Clothing</tradeTag>
         <countRange>3~3</countRange>
       </li>
-      
-      <!-- Implants -->
-      <!-- none -->
-      
-      <!-- Buildings -->
-      <li Class="StockGenerator_Category">
-        <categoryDef>BuildingsFurniture</categoryDef>
-        <thingDefCountRange>3~3</thingDefCountRange>
-        <countRange>1~1</countRange>
-      </li>
+     
       
       <!-- Exotic -->
       <!-- none -->
@@ -598,7 +585,7 @@
         <tradeTagsBuy>
           <li>AnimalExotic</li>
         </tradeTagsBuy>
-        <kindCountRange>1</kindCountRange>
+        <kindCountRange>4</kindCountRange>
         <countRange>3~10</countRange>
         <createMatingPair>
          <li>AnimalFallout</li>
@@ -622,21 +609,31 @@
       </li>  
 	  
 	  
-	  
-	  
-      <li MayRequire="Ludeon.RimWorld.Anomaly" Class="StockGenerator_SingleDef">
-        <thingDef>Apparel_CultistMask</thingDef>
-        <countRange>-1~2</countRange> <!-- 50% chance for 1~2 -->
+	   <li Class="StockGenerator_MarketValue">
+        <tradeTag>WeaponRanged</tradeTag>
+        <countRange>5~5</countRange>
       </li>
-      <li MayRequire="Ludeon.RimWorld.Anomaly" Class="StockGenerator_SingleDef">
-        <thingDef>Apparel_CeremonialCultistMask</thingDef>
-        <countRange>-1~2</countRange> <!-- 50% chance for 1~2 -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>WeaponsMelee</categoryDef>
+        <thingDefCountRange>6~6</thingDefCountRange>
+        <countRange>1~6</countRange>
       </li>
+      
+	   <!-- Pack turret apparel -->
+      <li MayRequire="Ludeon.RimWorld.Anomaly" Class="StockGenerator_SingleDef">
+        <thingDef>Apparel_PackTurret</thingDef>
+        <countRange>1~2</countRange> <!-- 50% chance for 1~2 -->
+      </li>
+	  
       
       <!-- Buying -->
       <li Class="StockGenerator_BuyExpensiveSimple" />
-      <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
-      <li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
+	  <li Class="StockGenerator_BuyTradeTag"><tag>ExoticBuilding</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>ExoticVaultec</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>HiTechArmor</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>BottleCap</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>Drugs</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>HoraxWeapon</tag></li>
       
     </stockGenerators>
   </TraderKindDef>

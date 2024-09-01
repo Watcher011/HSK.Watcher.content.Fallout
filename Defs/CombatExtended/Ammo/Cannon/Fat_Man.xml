@@ -32,8 +32,10 @@
 		<tradeTags>
 			<li>CE_AutoEnableTrade_Sellable</li>
 			<li>CE_AutoEnableCrafting_AdvToolBench</li>
+			<li>VaultecMortarShell</li>
 		</tradeTags>
 		<statBases>
+		   <MarketValue>3050</MarketValue>
 			<MaxHitPoints>2000</MaxHitPoints>
 			<Flammability>0.1</Flammability>
 			<MarketValue>8900</MarketValue>
@@ -123,11 +125,14 @@
 	</ThingDef>
 	
 	
-	<RecipeDef MayRequire="Dubwise.Rimatomics" ParentName="AmmoRecipeBase">
+	<RecipeDef MayRequire="Dubwise.Rimatomics" ParentName="GrenadeRecipeBase">
 		<defName>MakeAmmo_FatManShell_HE</defName>
-		<label>Создать Ядерный снаряд для Толстяка x1</label>
+		<label>Сделать Ядерный снаряд для Толстяка x1</label>
 		<description>Ядерный снаряд для Толстяка x1.</description>
 		<jobString>Создаёт снаряд для толстяка.</jobString>
+			<researchPrerequisites>
+			<li>Mortars</li>
+		</researchPrerequisites>
 		<workAmount>16000</workAmount>
 		<targetCountAdjustment>1</targetCountAdjustment>
 		<ingredients>
