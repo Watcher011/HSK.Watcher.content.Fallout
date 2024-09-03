@@ -1,11 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+  
 	<FactionDef ParentName="SK_HumanFactionBase">
-		<defName>Vaultec</defName>
-        <label>Волт-Тек</label>
-		 <pawnSingular>Волт-Тек</pawnSingular>
-         <pawnsPlural>Волт-Теки</pawnsPlural>
+		<defName>Enclave</defName>
+        <label>Анклав</label>
+		 <pawnSingular>Анклав</pawnSingular>
+         <pawnsPlural>Анклавы</pawnsPlural>
 		<listOrderPriority>28</listOrderPriority>
 		<settlementGenerationWeight>1</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
@@ -16,20 +17,15 @@
 		<canStageAttacks>true</canStageAttacks>
 		<leaderTitle>Commander</leaderTitle>
 		<earliestRaidDays>260</earliestRaidDays>
-		<mustStartOneEnemy>false</mustStartOneEnemy>
-		<naturalEnemy>false</naturalEnemy>
-		 <factionIconPath>World/WorldObjects/Expanding/Vaultec</factionIconPath>
-		  <factionNameMaker>NamerFactionVaultec</factionNameMaker>
-		<settlementNameMaker>NamerSettlementVaultec</settlementNameMaker>
+		<mustStartOneEnemy>true</mustStartOneEnemy>
+		<naturalEnemy>true</naturalEnemy>
+		 <factionIconPath>World/WorldObjects/Expanding/Enclave</factionIconPath>
+		  <factionNameMaker>NamerFactionEnclave</factionNameMaker>
+		<settlementNameMaker>NamerSettlementEnclave</settlementNameMaker>
 		<techLevel>Spacer</techLevel>
 		<colorSpectrum>
 			<li>(1, 1, 1)</li>
 		</colorSpectrum>
-		<xenotypeSet>
-			<xenotypeChances>
-				 <OE_Ghoul MayRequire="Ludeon.RimWorld.Biotech">0.3</OE_Ghoul>
-			</xenotypeChances>
-		</xenotypeSet>
 		<allowedCultures>
 			<li>Astropolitan</li>
 		</allowedCultures>
@@ -72,17 +68,8 @@
 				<commonality>0.35</commonality>
 			</li>
 		</backstoryFilters>
-		<visitorTraderKinds>
-			<li>Visitor_Vaultec_Standard</li>
-		</visitorTraderKinds>
-		<baseTraderKinds>
-			<li>Base_Vaultec_Standard</li>
-		</baseTraderKinds>
-		 <caravanTraderKinds>
-          <li>Caravan_Vaultec_BulkGoods</li>
-        </caravanTraderKinds>
 		<allowedArrivalTemperatureRange>-65~45</allowedArrivalTemperatureRange>
-		<raidLootMaker>VaultecRaidLootMaker</raidLootMaker>
+		<raidLootMaker>EnclaveRaidLootMaker</raidLootMaker>
 		<raidCommonalityFromPointsCurve>
 			<points>
 				<li>(0, 0.001)</li>
@@ -123,78 +110,19 @@
 				<kindDef>Combat</kindDef>
 				<commonality>60</commonality>
 				<options>
-					<VaultecChaser_Acidifier>30</VaultecChaser_Acidifier>
-					<VaultecSunderer_Acidifier>24</VaultecSunderer_Acidifier>
-					<VaultecHunter_Acidifier>20</VaultecHunter_Acidifier>
-					<VaultecHawkeye_Acidifier>18</VaultecHawkeye_Acidifier>
-					<VaultecRager_Acidifier>15</VaultecRager_Acidifier>
-					<VaultecBloodborne_Acidifier>10</VaultecBloodborne_Acidifier>
-					<VaultecSundererHeavy_Acidifier>8</VaultecSundererHeavy_Acidifier>
-					<VaultecSunRiser_Acidifier>3</VaultecSunRiser_Acidifier>
-					<VaultecBloodborne>10</VaultecBloodborne>
-					<VaultecRad>3</VaultecRad>
+					<EnclaveChaser>30</EnclaveChaser>
+					<EnclaveSunderer>24</EnclaveSunderer>
 				</options>
 			</li>
 			<li>
 				<kindDef>Combat</kindDef>
 				<commonality>40</commonality>
 				<options>
-					<VaultecChaser>30</VaultecChaser>
-					<VaultecSunderer>24</VaultecSunderer>
-					<VaultecHunter>20</VaultecHunter>
-					<VaultecHawkeye>18</VaultecHawkeye>
-					<VaultecRager>15</VaultecRager>
-					<VaultecBloodborne>10</VaultecBloodborne>
-					<VaultecSundererHeavy>8</VaultecSundererHeavy>
-					<VaultecSunRiser>3</VaultecSunRiser>
-					<VaultecRad>3</VaultecRad>
+					<EnclaveChaser>30</EnclaveChaser>
+					<EnclaveSunderer>24</EnclaveSunderer>
 				</options>
 			</li>
-			<li>
-				<kindDef>Peaceful</kindDef>
-				<options>
-					<VaultecChaser>30</VaultecChaser>
-					<VaultecSunderer>24</VaultecSunderer>
-					<VaultecHunter>20</VaultecHunter>
-					<VaultecHawkeye>18</VaultecHawkeye>
-					<VaultecRager>15</VaultecRager>
-					<VaultecBloodborne>10</VaultecBloodborne>
-					<VaultecSundererHeavy>8</VaultecSundererHeavy>
-					<VaultecSunRiser>3</VaultecSunRiser>
-					<VaultecRad>3</VaultecRad>
-				</options>
-			</li>
-			<li>
-				<kindDef>Settlement</kindDef>
-				<options>
-					<VaultecChaser>30</VaultecChaser>
-					<VaultecSunderer>24</VaultecSunderer>
-					<VaultecHunter>20</VaultecHunter>
-					<VaultecHawkeye>18</VaultecHawkeye>
-					<VaultecRager>15</VaultecRager>
-					<VaultecSundererHeavy>8</VaultecSundererHeavy>
-					<VaultecSunRiser>5</VaultecSunRiser>
-					<VaultecBloodborne>10</VaultecBloodborne>
-					<VaultecRad>3</VaultecRad>
-				</options>
-			</li>
-		  <li>
-        <kindDef>Trader</kindDef>
-        <traders>
-          <Vaultec_Trader>1</Vaultec_Trader>
-        </traders>
-        <carriers>
-          <Muffalo>6</Muffalo>
-        </carriers>
-        <guards>
-         	<VaultecChaser>30</VaultecChaser>
-			<VaultecSunderer>24</VaultecSunderer>
-			<VaultecHunter>20</VaultecHunter>
-			<VaultecHawkeye>18</VaultecHawkeye>
-			<VaultecRager>15</VaultecRager>
-			<VaultecBloodborne>10</VaultecBloodborne>
-        </guards>
-      </li>
+			 
 		</pawnGroupMakers>
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
@@ -203,42 +131,31 @@
 
 
 <RulePackDef>
-    <defName>NamerFactionVaultec</defName>
+    <defName>NamerFactionEnclave</defName>
     <rulePack>
       <rulesStrings>
-       <li>empire->Волт-Тек</li>
+       <li>empire->Альянс</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
   
 <RulePackDef>
-    <defName>NamerSettlementVaultec</defName>
+    <defName>NamerSettlementEnclave</defName>
     <rulePack>
       <rulesStrings>
-        <li>townend->Shelter 101</li>
-        <li>townend->Shelter 102</li>
-        <li>townend->Shelter 103</li>
-        <li>townend->Shelter 104</li>
-        <li>townend->Shelter 105</li>
-        <li>townend->Shelter 106</li>
-        <li>townend->Shelter 107</li>
-        <li>townend->Shelter 108</li>
-        <li>townend->Shelter 109</li>
-        <li>townend->Shelter 110</li>
-        <li>townend->Shelter 111</li>
-        <li>townend->Shelter 112</li>
-        <li>townend->Shelter 113</li>
-        <li>townend->Shelter 114</li>
-        <li>townend->Shelter 115</li>
-        <li>townend->Shelter 116</li>
-        <li>townend->Shelter 117</li>
+        <li>townend->База 01</li>
+        <li>townend->База 02</li>
+        <li>townend->База 03</li>
+        <li>townend->База 04</li>
+        <li>townend->База 05</li>
+        <li>townend->База 06</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
  
  
   <ThingSetMakerDef>
-    <defName>VaultecRaidLootMaker</defName>
+    <defName>EnclaveRaidLootMaker</defName>
     <root Class="ThingSetMaker_MarketValue">
       <fixedParams>
         <filter>
@@ -257,4 +174,6 @@
       </fixedParams>
     </root>
   </ThingSetMakerDef>
+  
+  
 </Defs>
