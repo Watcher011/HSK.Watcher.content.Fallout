@@ -35,6 +35,9 @@
       <li>RadiationIncurable</li>
       <li>RadiationMechanoid</li>
     </makeImmuneTo>
+	<statOffsets>
+      <ToxicEnvironmentResistance>2</ToxicEnvironmentResistance>
+    </statOffsets>
     <biostatCpx>1</biostatCpx>
     <biostatArc>1</biostatArc>
 	 <biostatMet>16</biostatMet>

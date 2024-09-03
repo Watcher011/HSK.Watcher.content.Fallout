@@ -80,7 +80,99 @@
 	</ThingDef>
 	
 	
-
+<ThingDef ParentName="StandartBuilding">
+		<defName>GECK</defName>
+		<label>Генератор Эдемских Кущ Компактный</label>
+		<description>Генератор Эдемских Кущ Компактный. Это стандартное оборудование всех убежищ Волт-Тек. ГЭКК — источник восстановления цивилизации после бомбардировки. Просто добавь воды и перемешай.</description>
+		<thingClass>SK.Building_FertilizerPump</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Misc/GECK</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shadowData>
+				<volume>(0.6, 0.6, 0.6)</volume>
+			</shadowData>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+			<drawRotated>false</drawRotated>
+		</graphicData>
+		<passability>Standable</passability>
+		<fillPercent>0.2</fillPercent>
+		<tickerType>Normal</tickerType>	
+		<statBases>
+			<MaxHitPoints>240</MaxHitPoints>
+			<WorkToBuild>1700</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Bulk>65</Bulk>
+			<Mass>30</Mass>
+		</statBases>
+		<size>(1,1)</size>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
+		<costList>
+			<ComponentIndustrial>8</ComponentIndustrial>
+			<Rubber>30</Rubber>
+			<Plutonium>30</Plutonium>
+			<Plastic>20</Plastic>
+			<Mechanism>4</Mechanism>
+		</costList>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<designationCategory>SK_category_terraform</designationCategory>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<destroySound>BuildingDestroyed_Metal_Small</destroySound>
+		</building>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>false</shortCircuitInRain>
+				<basePowerConsumption>100</basePowerConsumption>
+			</li>
+			 <li Class="CompProperties_Glower">
+              <overlightRadius>7.0</overlightRadius>
+               <glowRadius>10</glowRadius>
+              <glowColor>(370,370,370,0)</glowColor>
+             </li>
+			<li Class="CompProperties_Refuelable">
+				<consumeFuelOnlyWhenPowered>true</consumeFuelOnlyWhenPowered>
+				<fuelConsumptionRate>-0.1</fuelConsumptionRate>
+				<fuelCapacity>10.0</fuelCapacity>
+				<fuelConsumptionPerTickInRain>-10</fuelConsumptionPerTickInRain>
+				<fuelFilter>
+					<thingDefs>
+						<li>Compost</li>
+					</thingDefs>
+				</fuelFilter>
+				<initialFuelPercent>1</initialFuelPercent>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+				<showFuelGizmo>true</showFuelGizmo>
+				<fuelGizmoLabel>Compost</fuelGizmoLabel>
+			</li>
+			 <li Class="CompProperties_Schedule">
+        <!-- Match plant growing times -->
+             <startTime>0.25</startTime>
+             <endTime>0.8</endTime>
+             <offMessage>Off for plant resting period</offMessage>
+            </li>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>3</heatPerSecond>
+      </li>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+		</comps>
+		<rotatable>false</rotatable>
+		<researchPrerequisites>
+			<li>Super_matter_E2</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+	</ThingDef>
 
 
 </Defs>

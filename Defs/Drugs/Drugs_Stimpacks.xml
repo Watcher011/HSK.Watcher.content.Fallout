@@ -92,6 +92,8 @@
 			<preferability>NeverForNutrition</preferability>
 			<maxNumToIngestAtOnce>3</maxNumToIngestAtOnce>
 			<drugCategory>Medical</drugCategory>
+			<ingestCommandString>Ввоод {0}</ingestCommandString>
+            <ingestReportString>Ввоодит {0}.</ingestReportString>
 			<outcomeDoers>
 				<li Class="SK.IngestionOutcomeDoer_SubtractHediffSeverity">
 					<targetHediff>FatalRad</targetHediff>
@@ -169,7 +171,7 @@
 	<HediffDef ParentName="DrugToleranceBase">
 		<defName>RadAwayTolerance</defName>
 		<label>Тяга к Антирадину</label>
-		<description>Возникла тяга к Антирадину , так и к зависимости не далеко</description>
+		<description>Возникла тяга к Антирадину,так и к зависимости не далеко</description>
 		<comps>
 			<li Class="HediffCompProperties_SeverityPerDay">
 				<severityPerDay>-0.02</severityPerDay>
