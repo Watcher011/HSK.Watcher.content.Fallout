@@ -2,11 +2,9 @@
 <LanguageData>
 
   <!-- SimpleStimpack -->
-
-  <Hediff_egg.label>Странный омлет</Hediff_egg.label>
-  <Hediff_egg.description>Странные изменения происходят в организме</Hediff_egg.description>
-  <Hediff_egg.stages.0.label>Побочный эффект</Hediff_egg.stages.0.label>
-  <Hediff_egg.labelNoun>Съеден странный омлет</Hediff_egg.labelNoun>
-
+<Hediff_egg.label>Strange Omelette</Hediff_egg.label>
+<Hediff_egg.description>Strange changes occur in the body</Hediff_egg.description>
+<Hediff_egg.stages.0.label>Side effect</Hediff_egg.stages.0.label>
+<Hediff_egg.labelNoun>Strange Omelette eaten</Hediff_egg.labelNoun>
 
 </LanguageData>

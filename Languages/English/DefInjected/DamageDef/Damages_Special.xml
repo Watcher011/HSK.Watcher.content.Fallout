@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ACP.label>shell</ACP.label>
+  <ACP.deathMessage>{0} has been shredded to death.</ACP.deathMessage>
+
+  <ACB.label>bomb</ACB.label>
+  <ACB.deathMessage>{0} has been killed.</ACB.deathMessage>
+
+  <NuclearB.label>bomb</NuclearB.label>
+  <NuclearB.deathMessage>{0} has been killed.</NuclearB.deathMessage>
+
+
+</LanguageData>

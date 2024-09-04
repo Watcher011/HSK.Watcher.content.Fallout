@@ -2,11 +2,8 @@
 <LanguageData>
 
   <!-- SimpleStimpack -->
-
-  <Hediff_SimpleStimpack.label>Стимулятор</Hediff_SimpleStimpack.label>
-  <Hediff_SimpleStimpack.description>Одноразовый шприц серого цвета с манометром. Содержит жидкость красного цвета из крови и антисептика.</Hediff_SimpleStimpack.description>
-  <Hediff_SimpleStimpack.stages.0.label>Побочный эффект</Hediff_SimpleStimpack.stages.0.label>
-  <Hediff_SimpleStimpack.labelNoun>Стимулятор</Hediff_SimpleStimpack.labelNoun>
-
-
+<Hediff_SimpleStimpack.label>Stimulator</Hediff_SimpleStimpack.label>
+<Hediff_SimpleStimpack.description>A disposable gray syringe with a pressure gauge. Contains a red liquid made from blood and antiseptic.</Hediff_SimpleStimpack.description>
+<Hediff_SimpleStimpack.stages.0.label>Side effect</Hediff_SimpleStimpack.stages.0.label>
+<Hediff_SimpleStimpack.labelNoun>Stimulator</Hediff_SimpleStimpack.labelNoun>
 </LanguageData>

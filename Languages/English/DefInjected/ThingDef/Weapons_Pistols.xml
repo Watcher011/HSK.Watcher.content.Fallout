@@ -1,24 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+<Gun_LaserPistol.label>Laser pistol</Gun_LaserPistol.label>
+<Gun_LaserPistol.description>A laser pistol is a high-tech energy weapon developed in the pre-war United States. The principle of operation is a concentrated and repeatedly amplified beam of light, which almost instantly and very accurately transfers the energy of the "shot" (pulse) to a very small area on the target.
+As a result, there should be a rapid heating of the target substance (in the case of a biotarget - burns and charring. Moreover, death will probably occur if the limbs are hit - from pain shock), and with sufficient pulse power - explosive evaporation of the substance.
+It is interesting that under normal conditions, laser beams are invisible - from the outside they can be seen only in smoke or fog that scatters them.
+Presumably, the undoubted advantage of laser weapons is high shooting accuracy, effectiveness in combating armored targets, but the power of the shot should decrease somewhat with distance.
+Disadvantages include high complexity and low mechanical strength of the weapon design (even minor repairs require highly qualified specialists, the use of pre-war parts and specialized tools), the need to maintain ideal cleanliness of the emitter (which is extremely difficult to do in the field), significant energy consumption of each shot (even though pre-war batteries should be very scarce).</Gun_LaserPistol.description>
 
-  <Gun_LaserPistol.label>Лазерный пистолет</Gun_LaserPistol.label>
-  <Gun_LaserPistol.description>Лазерный пистолет — это высокотехнологичное энергетическое оружие, разработанное в довоенных США. Принцип действия — это сконцентрированный и многократно усиленный луч света, практически мгновенно и очень точно переносящий энергию «выстрела» (импульса) в очень маленькую площадь на мишени.
-В результате должно иметь место стремительное нагревание вещества цели (в случае с биоцелью — ожоги и обугливание. Причём смерть, вероятно, наступит и при попадании по конечностям — от болевого шока), а при достаточной мощности импульса — взрывное испарение вещества.
-Интересно, что в обычных условиях лазерные лучи невидимы — со стороны они могут быть заметны только в рассеивающем их дыму или тумане.
-Предположительно, несомненным достоинством лазерного оружия является высокая точность стрельбы, эффективность в борьбе с защищёнными бронёй целями, однако мощность выстрела должна несколько уменьшаться с расстоянием.
-Недостатками являются высокая сложность и низкая механическая прочность конструкции оружия (при том, что даже мелкий ремонт требует высокой квалификации специалиста, использования довоенных деталей и специализированного инструмента), необходимость сохранения идеальной чистоты излучателя (что крайне сложно выполнить в полевых условиях), значительная энергоёмкость каждого выстрела (при том, что довоенные батареи должны быть весьма дефицитными).</Gun_LaserPistol.description>
+<Gun_LaserRifel.label>AER9 Laser Rifle</Gun_LaserRifel.label>
+<Gun_LaserRifel.description>The AER9 did not use advanced pre-war technologies, which significantly increased its reliability. This model is a conventional solid-state pulse laser, the active medium of which (crystal) is enclosed in a titanium case, which allows it to withstand years of environmental exposure without losing its technical characteristics.</Gun_LaserRifel.description>
 
-  <Gun_LaserRifel.label>Лазерная винтовка AER9</Gun_LaserRifel.label>
-  <Gun_LaserRifel.description>В AER9 не использовались передовые довоенные технологии, что значительно повысило её надежность. Эта модель представляет собой обычный твердотельный импульсный лазер, активная среда которого (кристалл), заключена в титановый корпус, что позволяет выдерживать годы воздействия окружающей среды без потери технических характеристик.</Gun_LaserRifel.description>
+<Gun_LaserSniperRifel.label>Institute Laser</Gun_LaserSniperRifel.label>
+<Gun_LaserSniperRifel.description>A variant of a laser weapon developed by the Institute. Compared to the standard laser, it has a different design, a better rate of fire and reduced weight, but a poorer range of possible modifications and slightly less damage. Among the advantages, it is worth noting the low consumption of OD in V.A.T.S. mode, as well as extremely low recoil and almost zero spread in single fire mode, which makes it an excellent choice for a sniper. Disadvantages include bulkiness, large size, and the inability to install a silencer, which is typical for all energy weapons, and therefore limited capabilities for operating in stealth mode.</Gun_LaserSniperRifel.description>
 
-  <Gun_LaserSniperRifel.label>Лазер Института</Gun_LaserSniperRifel.label>
-  <Gun_LaserSniperRifel.description>Вариант лазерного оружия, разработанный Институтом. По сравнению со стандартным лазером, обладает иным дизайном, лучшей скорострельностью и сниженным весом, но более скудным ассортиментом возможных модификаций и чуть меньшим уроном. Из достоинств следует отметить малый расход ОД в режиме V.A.T.S., а также крайне низкую отдачу и почти нулевой разброс в режиме одиночного огня, что делает его отличным выбором для снайпера. Из недостатков — громоздкость, большой размер, а также характерную для всего энергетического оружия невозможность установки глушителя и потому ограниченные возможности для работы из режима скрытности.</Gun_LaserSniperRifel.description>
+<Gun_PlasmaRifelV.label>Plasma carbine</Gun_PlasmaRifelV.label>
+<Gun_PlasmaRifelV.description>A light energy weapon developed and introduced into service by the US Army shortly before the war, but did not have time to gain widespread distribution. It was actively used by the Enclave troops after the war. With the defeat of the latter, it spread across the Wasteland, but is still quite rare.</Gun_PlasmaRifelV.description>
 
-  <Gun_PlasmaRifelV.label>Плазменный карабин</Gun_PlasmaRifelV.label>
-  <Gun_PlasmaRifelV.description>Лёгкое энергетическое оружие, разработанное и начавшее поступать на вооружение армии США незадолго до начала войны, но не успевшее получить массового распространения. Активно использовалось уже в послевоенное время войсками Анклава. С разгромом последнего распространилось по Пустоши, но всё равно встречается довольно редко.</Gun_PlasmaRifelV.description>
+<Gun_GatlingLaser.label>Gatling Laser</Gun_GatlingLaser.label>
+<Gun_GatlingLaser.description>The Gatling Laser can deal massive amounts of energy damage in a short period of time, but it needs time to spin up its barrels before firing..</Gun_GatlingLaser.description>
 
-  <Gun_GatlingLaser.label>Гатлинг-лазер</Gun_GatlingLaser.label>
-  <Gun_GatlingLaser.description>Гатлинг-лазер может нанести огромный энергетический урон за короткое время, однако перед стрельбой ему нужно время на раскрутку стволов..</Gun_GatlingLaser.description>
-
+<Gun_Fat_Man.label>Fat Man</Gun_Fat_Man.label>
+<Gun_Fat_Man.description>A shoulder-mounted tactical nuclear catapult. The weapon fires nuclear rounds that, when detonated, hit a small area with a nuclear explosion, causing massive damage and releasing radiation for a period of time. In perfect condition, this gun can fire 495 rounds before breaking.</Gun_Fat_Man.description>
 
 </LanguageData>

@@ -1,8 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <SteroidWithdrawal.stages.1.label>Стероидная ломка</SteroidWithdrawal.stages.1.label>
-  <SteroidWithdrawal.stages.1.description>Я не могу даже дышать без боли</SteroidWithdrawal.stages.1.description>
-
-
+<SteroidWithdrawal.stages.1.label>Steroid Withdrawal</SteroidWithdrawal.stages.1.label>
+<SteroidWithdrawal.stages.1.description>I can't even breathe without pain</SteroidWithdrawal.stages.1.description>
 </LanguageData>

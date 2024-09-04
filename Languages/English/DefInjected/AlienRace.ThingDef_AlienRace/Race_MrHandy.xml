@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <MisterHandy.label>Mister Handy</MisterHandy.label>
+<MisterHandy.description>Mister Handy is a very bright representative of the serial model of spherical robots, carefully produced and mass-produced throughout the territory of pre-war Equestria. The roles of a butler, a doorman, a personal bodyguard, or even a doctor are far from all that Mister Handy could do in the most wonderful way.</MisterHandy.description>
+<MisterHandy.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>skin</MisterHandy.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+<MisterHandy.tools.0.label>left bladed fist</MisterHandy.tools.0.label>
+<MisterHandy.tools.1.label>right bladed fist</MisterHandy.tools.1.label>
+<MisterHandy.tools.2.label>head</MisterHandy.tools.2.label>
+
+</LanguageData>

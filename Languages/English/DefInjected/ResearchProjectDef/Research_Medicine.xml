@@ -1,8 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <Stimpak.label>Создание Стимпака</Stimpak.label>
-  <Stimpak.description>Изученине хим формулы для производства Стимпака от Волт-Тек.</Stimpak.description>
-
-
+<Stimpak.label>Making Stimpak</Stimpak.label>
+<Stimpak.description>Studying the chemical formula for making Vault-Tec's Stimpak.</Stimpak.description>
 </LanguageData>

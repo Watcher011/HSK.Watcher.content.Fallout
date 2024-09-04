@@ -3,11 +3,12 @@
 
   <SimpleStimpack.label>Стимулятор</SimpleStimpack.label>
   <SimpleStimpack.description>Одноразовый шприц серого цвета с манометром. Содержит жидкость красного цвета из крови и антисептика.</SimpleStimpack.description>
-  <SimpleStimpack.ingestible.ingestCommandString>Ввоод {0}</SimpleStimpack.ingestible.ingestCommandString>
-  <SimpleStimpack.ingestible.ingestReportString>Ввоодит {0}.</SimpleStimpack.ingestible.ingestReportString>
+  <SimpleStimpack.ingestible.ingestCommandString>Ввод {0}</SimpleStimpack.ingestible.ingestCommandString>
+  <SimpleStimpack.ingestible.ingestReportString>Вводит {0}.</SimpleStimpack.ingestible.ingestReportString>
 
   <RadAway.label>Антирадин</RadAway.label>
-  <RadAway.description>Представляет собой полимерный контейнер с короткой трубкой, наполненный прозрачным инфузионным раствором желто-оранжевого цвета. Раствор способен люминесцировать в темноте. На этикетке имеется выполненная от руки надпись «Rad Away», а также присутствуют нечитаемые следы фабричной маркировки.</RadAway.description>
-
+  <RadAway.description>Представляет собой полимерный контейнер с короткой трубкой, наполненный прозрачным инфузионным раствором светло-оранжевого цвета. Раствор способен люминесцировать в темноте. На этикетке имеется выполненная от руки надпись «Rad Away», а также присутствуют нечитаемые следы фабричной маркировки.</RadAway.description>
+  <RadAway.ingestible.ingestCommandString>Ввод {0}</RadAway.ingestible.ingestCommandString>
+  <RadAway.ingestible.ingestReportString>Вводит {0}.</RadAway.ingestible.ingestReportString>
 
 </LanguageData>

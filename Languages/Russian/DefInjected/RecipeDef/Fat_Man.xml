@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- AmmoSet -->
+
+  <MakeAmmo_FatManShell_HE.label>Сделать Ядерный снаряд для Толстяка x1</MakeAmmo_FatManShell_HE.label>
+  <MakeAmmo_FatManShell_HE.description>Ядерный снаряд для Толстяка x1.</MakeAmmo_FatManShell_HE.description>
+  <MakeAmmo_FatManShell_HE.jobString>Создаёт снаряд для толстяка.</MakeAmmo_FatManShell_HE.jobString>
+
+
+</LanguageData>

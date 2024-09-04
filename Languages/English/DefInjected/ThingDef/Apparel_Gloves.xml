@@ -1,8 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <Apparello_PipBoy.label>Pip-Boy</Apparello_PipBoy.label>
-  <Apparello_PipBoy.description>Пип-бой — это поощрительный аксессуар для инженера. Представляет собой наручный Pip-Boy из серии игр Fallout с зелёным светящимся монохромным экраном, кнопками и регуляторами. Устройство основано на Пип-бой 3000, производящегося  компанией «RobCo Industries».</Apparello_PipBoy.description>
-
-
+<Apparello_PipBoy.label>Pip-Boy</Apparello_PipBoy.label>
+<Apparello_PipBoy.description>The Pip-Boy is a promotional accessory for the Engineer. It is a wrist-mounted Pip-Boy from the Fallout series of games with a green glowing monochrome screen, buttons and controls. The device is based on the Pip-Boy 3000, manufactured by RobCo Industries.</Apparello_PipBoy.description>
 </LanguageData>

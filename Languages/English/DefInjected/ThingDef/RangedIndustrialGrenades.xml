@@ -1,11 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+<Proj_GrenadeBottlecap.label>Bottlecap Mine</Proj_GrenadeBottlecap.label>
 
-  <Proj_GrenadeBottlecap.label>Крышко-мина</Proj_GrenadeBottlecap.label>
-
-  <Weapon_Grenade_Bottlecap.label>Крышко-мина</Weapon_Grenade_Bottlecap.label>
-  <Weapon_Grenade_Bottlecap.description>Популярная до войны коробочка для завтраков от компании «Волт-Тек» стала в постапокалиптическом Содружестве основой для смертоносной мины. Это самодельное устройство поможет справиться вам с любым врагом.</Weapon_Grenade_Bottlecap.description>
-  <Weapon_Grenade_Bottlecap.verbs.0.label>Бросает Крышко-мину</Weapon_Grenade_Bottlecap.verbs.0.label>
-
+<Weapon_Grenade_Bottlecap.label>Bottlecap Mine</Weapon_Grenade_Bottlecap.label>
+<Weapon_Grenade_Bottlecap.description>A popular pre-war Vault-Tec lunchbox has become the basis for a deadly mine in the post-apocalyptic Commonwealth. This homemade device will help you deal with any enemy.</Weapon_Grenade_Bottlecap.description>
+<Weapon_Grenade_Bottlecap.verbs.0.label>Throws a Bottlecap Mine</Weapon_Grenade_Bottlecap.verbs.0.label>
 
 </LanguageData>

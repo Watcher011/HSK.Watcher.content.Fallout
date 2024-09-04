@@ -3,23 +3,22 @@
 
   <NukaColaQuantum.label>Квантовая Ядер-Кола</NukaColaQuantum.label>
   <NukaColaQuantum.description>Этот продукт — вершина вкусовых ощущений. Семнадцать фруктовых ароматов и фирменный вкус колы смешаны для создания идеального освежающего напитка. Новая стронциевая добавка вставляет так сильно, что начинаешь взлетать.</NukaColaQuantum.description>
-  <NukaColaQuantum.ingestible.ingestCommandString>Drink {0}</NukaColaQuantum.ingestible.ingestCommandString>
-  <NukaColaQuantum.ingestible.ingestReportString>Drinking {0}.</NukaColaQuantum.ingestible.ingestReportString>
+  <NukaColaQuantum.ingestible.ingestCommandString>Пить {0}</NukaColaQuantum.ingestible.ingestCommandString>
+  <NukaColaQuantum.ingestible.ingestReportString>Пить {0}.</NukaColaQuantum.ingestible.ingestReportString>
 
   <NukaCola.label>Ядер-Кола</NukaCola.label>
-  <NukaCola.description>Популярнейший в США безалкогольный напиток, который выпускался до Великой войны. После войны Ядер-Кола, которую помнили многие люди, стала самым популярным газированным напитком постъядерного мира, поскольку даже спустя 200 лет прекрасно сохранилась, хотя она в основном встречается тёплой и разгазированной, а кроме того, этот напиток стал радиоактивным. Частое потребление Ядер-Колы может вызвать зависимость..</NukaCola.description>
-  <NukaCola.ingestible.ingestCommandString>Drink {0}</NukaCola.ingestible.ingestCommandString>
-  <NukaCola.ingestible.ingestReportString>Drinking {0}.</NukaCola.ingestible.ingestReportString>
+  <NukaCola.description>Популярнейший в США безалкогольный напиток, который выпускался до Великой войны. После войны Ядер-Кола, которую помнили многие люди, стала самым популярным газированным напитком пост ядерного мира, поскольку даже спустя 200 лет прекрасно сохранилась, хотя она в основном встречается тёплой и разгазированной, а кроме того, этот напиток стал радиоактивным. Частое потребление Ядер-Колы может вызвать зависимость..</NukaCola.description>
+  <NukaCola.ingestible.ingestCommandString>Пить {0}</NukaCola.ingestible.ingestCommandString>
+  <NukaCola.ingestible.ingestReportString>Пить {0}.</NukaCola.ingestible.ingestReportString>
 
   <NukaColaOrang.label>Ядер-Кола-Апельсин</NukaColaOrang.label>
-  <NukaColaOrang.description>Популярнейший в США безалкогольный напиток, который выпускался до Великой войны. После войны Ядер-Кола, которую помнили многие люди, стала самым популярным газированным напитком постъядерного мира, поскольку даже спустя 200 лет прекрасно сохранилась, хотя она в основном встречается тёплой и разгазированной, а кроме того, этот напиток стал радиоактивным. Частое потребление Ядер-Колы может вызвать зависимость..</NukaColaOrang.description>
-  <NukaColaOrang.ingestible.ingestCommandString>Drink {0}</NukaColaOrang.ingestible.ingestCommandString>
-  <NukaColaOrang.ingestible.ingestReportString>Drinking {0}.</NukaColaOrang.ingestible.ingestReportString>
+  <NukaColaOrang.description>Популярнейший в США безалкогольный напиток, который выпускался до Великой войны. После войны Ядер-Кола, которую помнили многие люди, стала самым популярным газированным напитком пост ядерного мира, поскольку даже спустя 200 лет прекрасно сохранилась, хотя она в основном встречается тёплой и разгазированной, а кроме того, этот напиток стал радиоактивным. Частое потребление Ядер-Колы может вызвать зависимость..</NukaColaOrang.description>
+  <NukaColaOrang.ingestible.ingestCommandString>Пить {0}</NukaColaOrang.ingestible.ingestCommandString>
+  <NukaColaOrang.ingestible.ingestReportString>Пить {0}.</NukaColaOrang.ingestible.ingestReportString>
 
   <NukaColaMars.label>Ядер-Кола Затмение</NukaColaMars.label>
-  <NukaColaMars.description>Этот продукт — смесь из очищенной Квантовой Ядер-Колы и пакета крови.Дикое сочетание пришлось не всем любителям пустошей по вкусу, но те кто ценят тьму остались довольны.</NukaColaMars.description>
-  <NukaColaMars.ingestible.ingestCommandString>Drink {0}</NukaColaMars.ingestible.ingestCommandString>
-  <NukaColaMars.ingestible.ingestReportString>Drinking {0}.</NukaColaMars.ingestible.ingestReportString>
-
+  <NukaColaMars.description>Этот продукт — смесь из очищенной Квантовой Ядер-Колы и пакета крови. Дикое сочетание пришлось не всем любителям пустошей по вкусу, но те кто ценят тьму остались довольны.</NukaColaMars.description>
+  <NukaColaMars.ingestible.ingestCommandString>Пить {0}</NukaColaMars.ingestible.ingestCommandString>
+  <NukaColaMars.ingestible.ingestReportString>Пить {0}.</NukaColaMars.ingestible.ingestReportString>
 
 </LanguageData>

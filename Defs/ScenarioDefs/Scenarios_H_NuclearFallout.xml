@@ -23,10 +23,11 @@
 					<pawnCount>3</pawnCount>
 					<pawnChoiceCount>4</pawnChoiceCount>
 				</li>
-				<li Class="ScenPart_PlayerPawnsArriveMethod">
-					<def>PlayerPawnsArriveMethod</def>
-					<method>Standing</method>
-				</li>
+				 <li Class="ScenPart_PlayerPawnsArriveMethod">
+                 <def>PlayerPawnsArriveMethod</def>
+                 <method>DropPods</method>
+                 <visible>false</visible>
+                  </li>
 
 				<!-- Player starting things -->
 				<li Class="ScenPart_StartingThing_Defined">
@@ -60,6 +61,16 @@
 					<count>1</count>
 				</li>
 				
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>DeployableTent</thingDef>
+					<stuff>Cloth</stuff>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>DeployableTentMedium</thingDef>
+					<stuff>Cloth</stuff>
+				</li>
 				<!-- Scatter some things near player start -->
 				<li Class="ScenPart_ScatterThingsAnywhere">
 					<def>ScatterThingsAnywhere</def>
@@ -174,85 +185,11 @@
 					<project>Research_table_C1</project>
 				</li>
 
-				<li Class="ScenPart_DisableIncident">
-					<def>DisableIncident</def>
-					<incident>TraderCaravanArrival</incident>
-					<visible>false</visible>
-				</li>
-				<li Class="ScenPart_DisableIncident">
-					<def>DisableIncident</def>
-					<incident>VisitorGroup</incident>
-					<visible>false</visible>
-				</li>
-				<li Class="ScenPart_DisableIncident">
-					<def>DisableIncident</def>
-					<incident>TravelerGroup</incident>
-					<visible>false</visible>
-				</li>
-				<li Class="ScenPart_DisableIncident">
-					<def>DisableIncident</def>
-					<incident>RaidFriendly</incident>
-					<visible>false</visible>
-				</li>
-				<li Class="ScenPart_DisableIncident">
-					<def>DisableIncident</def>
-					<incident>SelfTame</incident>
-					<visible>false</visible>
-				</li>
-				<li Class="ScenPart_DisableIncident">
-					<def>DisableIncident</def>
-					<incident>ThrumboPasses</incident>
-					<visible>false</visible>
-				</li>
-				<li Class="ScenPart_DisableIncident">
-					<def>DisableIncident</def>
-					<incident>ThrumboPasses</incident>
-					<visible>false</visible>
-				</li>
-				<li Class="ScenPart_DisableIncident">
-					<def>DisableIncident</def>
-					<incident>Eclipse</incident>
-					<visible>false</visible>
-				</li>
-				
-				<li Class="ScenPart_DisableIncident">
-					<def>DisableIncident</def>
-					<incident>Alphabeavers</incident>
-					<visible>false</visible>
-				</li>
-				<li Class="ScenPart_DisableIncident">
-					<def>DisableIncident</def>
-					<incident>FeenixPasses</incident>
-					<visible>false</visible>
-				</li>
-				<li Class="ScenPart_DisableIncident">
-					<def>DisableIncident</def>
-					<incident>IcicatPasses</incident>
-					<visible>false</visible>
-				</li>
-				<li Class="ScenPart_DisableIncident">
-					<def>DisableIncident</def>
-					<incident>MalariaRaid</incident>
-					<visible>false</visible>
-				</li>
-				<li Class="ScenPart_DisableIncident">
-					<def>DisableIncident</def>
-					<incident>NuclearIncident</incident>
-					<visible>false</visible>
-				</li>
-				<li Class="ScenPart_DisableIncident">
-					<def>DisableIncident</def>
-					<incident>EclipseFeral</incident>
-					<visible>false</visible>
-				</li>
-				<li Class="SK.ScenPart_StartwithNF">
-					<def>StartWithNF</def>
-					<visible>false</visible>
-				</li>
+		
 				<li Class="ScenPart_CreateIncident">
 					<def>CreateIncident</def>
-					<incident>SkyFall</incident>
-					<intervalDays>2.04</intervalDays>
+					<incident>NuclearIncident</incident>
+					<intervalDays>1.04</intervalDays>
 				</li>
 			</parts>
 		</scenario>

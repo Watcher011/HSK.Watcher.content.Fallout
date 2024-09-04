@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Nuclear Survivor -->
+
+  <NuclearSurvivorGhoul.label>Иследователь</NuclearSurvivorGhoul.label>
+  <NuclearSurvivorGhoul.labelPlural>Иследователи</NuclearSurvivorGhoul.labelPlural>
+  <NuclearSurvivorGhoul.labelMale>Иследователь</NuclearSurvivorGhoul.labelMale>
+  <NuclearSurvivorGhoul.labelMalePlural>Иследователи</NuclearSurvivorGhoul.labelMalePlural>
+  <NuclearSurvivorGhoul.labelFemale>Иследователь</NuclearSurvivorGhoul.labelFemale>
+  <NuclearSurvivorGhoul.labelFemalePlural>Иследователи</NuclearSurvivorGhoul.labelFemalePlural>
+
+
+</LanguageData>

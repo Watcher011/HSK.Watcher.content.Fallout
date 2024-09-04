@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <ScrambledDeathclawEggs.label>Подозрительная яичница</ScrambledDeathclawEggs.label>
-  <ScrambledDeathclawEggs.description>Подозрительная яичница ингридиенты лучше не знать.</ScrambledDeathclawEggs.description>
-
-
+<ScrambledDeathclawEggs.label>Suspicious Scrambled</ScrambledDeathclawEggs.label>
+<ScrambledDeathclawEggs.description>Suspicious Scrambled ingredients are best left unsaid.</ScrambledDeathclawEggs.description>
 </LanguageData>

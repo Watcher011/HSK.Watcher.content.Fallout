@@ -1,9 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <MakeDeathclaw.label>Омлет из яиц когтя смерти</MakeDeathclaw.label>
-  <MakeDeathclaw.description>Представляет собой взбитые яйца когтя смерти с добавлением крови и обжаренные до жёлтого цвета. При употреблении значительно восстанавливает здоровье и усиливает процесс регенерации тканей в организме.</MakeDeathclaw.description>
-  <MakeDeathclaw.jobString>Готовит омлет</MakeDeathclaw.jobString>
-
-
+<MakeDeathclaw.label>Deathclaw Egg Omelette</MakeDeathclaw.label>
+<MakeDeathclaw.description>Deathclaw eggs whipped with blood and fried until yellow. When consumed, it significantly restores health and enhances the tissue regeneration process in the body.</MakeDeathclaw.description>
+<MakeDeathclaw.jobString>Makes an omelette</MakeDeathclaw.jobString>
 </LanguageData>

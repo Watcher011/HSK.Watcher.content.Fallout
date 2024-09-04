@@ -131,7 +131,7 @@
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<shortCircuitInRain>false</shortCircuitInRain>
-				<basePowerConsumption>100</basePowerConsumption>
+				<basePowerConsumption>-100</basePowerConsumption>
 			</li>
 			 <li Class="CompProperties_Glower">
               <overlightRadius>7.0</overlightRadius>
@@ -145,13 +145,13 @@
 				<fuelConsumptionPerTickInRain>-10</fuelConsumptionPerTickInRain>
 				<fuelFilter>
 					<thingDefs>
-						<li>Compost</li>
+						<li>Biomatter</li>
 					</thingDefs>
 				</fuelFilter>
 				<initialFuelPercent>1</initialFuelPercent>
 				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
 				<showFuelGizmo>true</showFuelGizmo>
-				<fuelGizmoLabel>Compost</fuelGizmoLabel>
+				<fuelGizmoLabel>Уровень расходников</fuelGizmoLabel>
 			</li>
 			 <li Class="CompProperties_Schedule">
         <!-- Match plant growing times -->

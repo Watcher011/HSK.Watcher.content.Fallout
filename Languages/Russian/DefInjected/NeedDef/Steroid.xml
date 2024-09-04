@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Chemical_Steroid.label>Стреоидная зависимость</Chemical_Steroid.label>
-  <Chemical_Steroid.description>Нет сил ,всё болит</Chemical_Steroid.description>
-
+ <Chemical_Steroid.label>Стероидная зависимость</Chemical_Steroid.label>
+  <Chemical_Steroid.description>Нет сил, всё болит</Chemical_Steroid.description>
 
 </LanguageData>

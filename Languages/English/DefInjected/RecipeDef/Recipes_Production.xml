@@ -1,21 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <MakeGlassBotel.label>Создать стеклянные бутылки</MakeGlassBotel.label>
-  <MakeGlassBotel.description>Выплавить бутылки. 5шт.</MakeGlassBotel.description>
-  <MakeGlassBotel.jobString>Выплавляет.</MakeGlassBotel.jobString>
+ <MakeGlassBotel.label>Make Glass Bottles</MakeGlassBotel.label>
+<MakeGlassBotel.description>Smelt Bottles. 5pcs.</MakeGlassBotel.description>
+<MakeGlassBotel.jobString>Smelts.</MakeGlassBotel.jobString>
 
-  <MakeSmeltBotel.label>Переплавить стеклянные бутылки</MakeSmeltBotel.label>
-  <MakeSmeltBotel.description>Переплавить бутылки. Переплавить 5.</MakeSmeltBotel.description>
-  <MakeSmeltBotel.jobString>Переплавляет.</MakeSmeltBotel.jobString>
+<MakeSmeltBotel.label>Melt Glass Bottles</MakeSmeltBotel.label>
+<MakeSmeltBotel.description>Melt Bottles. Smelt 5.</MakeSmeltBotel.description>
+<MakeSmeltBotel.jobString>Smelts.</MakeSmeltBotel.jobString>
 
-  <MakeCupBotel.label>Создать крышки для бутылок</MakeCupBotel.label>
-  <MakeCupBotel.description>Выплавить крышки для бутылки. 10шт.</MakeCupBotel.description>
-  <MakeCupBotel.jobString>Выплавляет.</MakeCupBotel.jobString>
+<MakeCupBotel.label>Make Bottle Caps</MakeCupBotel.label>
+<MakeCupBotel.description>Smelt Bottle Caps. 10pcs.</MakeCupBotel.description>
+<MakeCupBotel.jobString>Smelts.</MakeCupBotel.jobString>
 
-  <SmeltCupBotel.label>Переплавить крышки для бутылки</SmeltCupBotel.label>
-  <SmeltCupBotel.description>Переплавить крышки для бутылок. Переплавить 10.</SmeltCupBotel.description>
-  <SmeltCupBotel.jobString>Переплавляет.</SmeltCupBotel.jobString>
-
+<SmeltCupBotel.label>Remelt bottle caps</SmeltCupBotel.label>
+<SmeltCupBotel.description>Remelt bottle caps. Remelt 10.</SmeltCupBotel.description>
+<SmeltCupBotel.jobString>Remelts.</SmeltCupBotel.jobString>
 
 </LanguageData>

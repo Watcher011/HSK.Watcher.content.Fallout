@@ -1,10 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Steroid.label>Стероиды</Steroid.label>
-  <Steroid.description>Стероиды — это биологические соединения, которые обычно являются производным от половых гормонов тестостерона и дигидротестостерона, которые имеют очень сильное воздействие на человеческий организм.Задействуя скрытые функции организма</Steroid.description>
-  <Steroid.ingestible.ingestCommandString>Принять {0}</Steroid.ingestible.ingestCommandString>
-  <Steroid.ingestible.ingestReportString>Принимает {0}.</Steroid.ingestible.ingestReportString>
-
-
+<Steroid.label>Steroids</Steroid.label>
+<Steroid.description>Steroids are biological compounds that are usually derived from the sex hormones testosterone and dihydrotestosterone, which have very strong effects on the human body. By activating the hidden functions of the body</Steroid.description>
+<Steroid.ingestible.ingestCommandString>Take {0}</Steroid.ingestible.ingestCommandString>
+<Steroid.ingestible.ingestReportString>Takes {0}.</Steroid.ingestible.ingestReportString>
 </LanguageData>

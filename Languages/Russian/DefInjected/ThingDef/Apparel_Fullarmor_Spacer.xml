@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Apparel_RaiderPowerArmorHelmet.label>Шлем силовой брони рейдеров</Apparel_RaiderPowerArmorHelmet.label>
+  <Apparel_RaiderPowerArmorHelmet.description>Шлем кустарной сборки</Apparel_RaiderPowerArmorHelmet.description>
+
+  <Apparel_RaiderPowerArmor.label>Силовая броня рейдеров</Apparel_RaiderPowerArmor.label>
+  <Apparel_RaiderPowerArmor.description>Восстановленный рейдерами комплект силовой брони. По баллистической защите и запасу прочности аналогичен модели T-45, однако имеет только два уровня улучшений вместо шести у заводских моделей. Судя по внешнему виду изготовлен кустарно. Комплект по дизайну чем-то похож на обычную броню рейдеров. Худшая в своём классе, но даже такая броня делает своего носителя грозным противником. Главный её минус — низкая прочность.</Apparel_RaiderPowerArmor.description>
+  <Apparel_RaiderPowerArmor.verbs.0.label>jump</Apparel_RaiderPowerArmor.verbs.0.label>
+
+  <Apparel_X01PowerArmor.label>Силовая броня X-01</Apparel_X01PowerArmor.label>
+  <Apparel_X01PowerArmor.description>Модель силовой брони X-01 была разработана специалистами армии США и использовалась в уцелевших боевых частях после великой войны. По своим параметрам она значительно превосходит довоенные аналоги.</Apparel_X01PowerArmor.description>
+
+
+</LanguageData>

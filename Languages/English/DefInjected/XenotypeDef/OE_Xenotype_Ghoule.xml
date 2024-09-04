@@ -3,8 +3,6 @@
 
   <!-- Ghoul -->
 
-  <OE_Ghoul.label>Гуль</OE_Ghoul.label>
-  <OE_Ghoul.description>Гули были когда-то людьми, которые не успели попасть в защитное убежище во время бомбардировки. Облучение придало им повышенную сопротивляемость радиации; они также получают бонус к сопротивляемости ядам. К сожалению, физически они слишком слабы и не могут использовать тяжёлое оружие.</OE_Ghoul.description>
-
-
+<OE_Ghoul.label>Ghoul</OE_Ghoul.label>
+<OE_Ghoul.description>Ghouls were once humans who failed to get into a protective shelter during a bombing. Irradiation has given them increased resistance to radiation; they also gain a bonus to resistance to poison. Unfortunately, they are too physically weak to use heavy weapons.</OE_Ghoul.description>
 </LanguageData>

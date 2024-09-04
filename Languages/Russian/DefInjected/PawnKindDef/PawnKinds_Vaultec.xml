@@ -38,9 +38,17 @@
 
   <VaultecHawkeye.label>Vaultec Стрелок</VaultecHawkeye.label>
   <VaultecHawkeye.labelPlural>Vaultec Стрелоки</VaultecHawkeye.labelPlural>
+  <VaultecHawkeye.labelMale>male Vaultec Hawkeye</VaultecHawkeye.labelMale>
+  <VaultecHawkeye.labelMalePlural>male Vaultec Hawkeyes</VaultecHawkeye.labelMalePlural>
+  <VaultecHawkeye.labelFemale>female Vaultec Hawkeye</VaultecHawkeye.labelFemale>
+  <VaultecHawkeye.labelFemalePlural>female Vaultec Hawkeyes</VaultecHawkeye.labelFemalePlural>
 
   <VaultecHawkeye_Acidifier.label>Vaultec Стрелки</VaultecHawkeye_Acidifier.label>
   <VaultecHawkeye_Acidifier.labelPlural>Vaultec Стрелки</VaultecHawkeye_Acidifier.labelPlural>
+  <VaultecHawkeye_Acidifier.labelMale>male Vaultec Hawkeye</VaultecHawkeye_Acidifier.labelMale>
+  <VaultecHawkeye_Acidifier.labelMalePlural>male Vaultec Hawkeyes</VaultecHawkeye_Acidifier.labelMalePlural>
+  <VaultecHawkeye_Acidifier.labelFemale>female Vaultec Hawkeye</VaultecHawkeye_Acidifier.labelFemale>
+  <VaultecHawkeye_Acidifier.labelFemalePlural>female Vaultec Hawkeyes</VaultecHawkeye_Acidifier.labelFemalePlural>
 
 
   <!-- Rager -->
@@ -56,9 +64,17 @@
 
   <VaultecSunRiser.label>Vaultec Спецназ</VaultecSunRiser.label>
   <VaultecSunRiser.labelPlural>Vaultec Спецназ</VaultecSunRiser.labelPlural>
+  <VaultecSunRiser.labelMale>male Vaultec Sun Riser</VaultecSunRiser.labelMale>
+  <VaultecSunRiser.labelMalePlural>male Vaultec Sun Risers</VaultecSunRiser.labelMalePlural>
+  <VaultecSunRiser.labelFemale>female Vaultec Sun Riser</VaultecSunRiser.labelFemale>
+  <VaultecSunRiser.labelFemalePlural>female Vaultec Sun Risers</VaultecSunRiser.labelFemalePlural>
 
   <VaultecSunRiser_Acidifier.label>Vaultec Спецназ</VaultecSunRiser_Acidifier.label>
   <VaultecSunRiser_Acidifier.labelPlural>Vaultec Спецназ</VaultecSunRiser_Acidifier.labelPlural>
+  <VaultecSunRiser_Acidifier.labelMale>male Vaultec Sun Riser</VaultecSunRiser_Acidifier.labelMale>
+  <VaultecSunRiser_Acidifier.labelMalePlural>male Vaultec Sun Risers</VaultecSunRiser_Acidifier.labelMalePlural>
+  <VaultecSunRiser_Acidifier.labelFemale>female Vaultec Sun Riser</VaultecSunRiser_Acidifier.labelFemale>
+  <VaultecSunRiser_Acidifier.labelFemalePlural>female Vaultec Sun Risers</VaultecSunRiser_Acidifier.labelFemalePlural>
 
 
   <!-- Bloodborne -->
@@ -71,6 +87,20 @@
 
   <Vaultec_Trader.label>Торговец Vaultec</Vaultec_Trader.label>
   <Vaultec_Trader.labelPlural>Торговец Vaultecs</Vaultec_Trader.labelPlural>
+
+  <VaultecRad.label>Vaultec Rad</VaultecRad.label>
+  <VaultecRad.labelPlural>Vaultec Rads</VaultecRad.labelPlural>
+  <VaultecRad.labelMale>male Vaultec Rad</VaultecRad.labelMale>
+  <VaultecRad.labelMalePlural>male Vaultec Rads</VaultecRad.labelMalePlural>
+  <VaultecRad.labelFemale>female Vaultec Rad</VaultecRad.labelFemale>
+  <VaultecRad.labelFemalePlural>female Vaultec Rads</VaultecRad.labelFemalePlural>
+
+  <VaultecRad_Acidifier.label>Vaultec Rad</VaultecRad_Acidifier.label>
+  <VaultecRad_Acidifier.labelPlural>Vaultec Rads</VaultecRad_Acidifier.labelPlural>
+  <VaultecRad_Acidifier.labelMale>male Vaultec Rad</VaultecRad_Acidifier.labelMale>
+  <VaultecRad_Acidifier.labelMalePlural>male Vaultec Rads</VaultecRad_Acidifier.labelMalePlural>
+  <VaultecRad_Acidifier.labelFemale>female Vaultec Rad</VaultecRad_Acidifier.labelFemale>
+  <VaultecRad_Acidifier.labelFemalePlural>female Vaultec Rads</VaultecRad_Acidifier.labelFemalePlural>
 
 
 </LanguageData>

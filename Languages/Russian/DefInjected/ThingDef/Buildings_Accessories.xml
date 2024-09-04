@@ -4,5 +4,9 @@
   <ColaBasin.label>Автомат Квантовой Ядер колы</ColaBasin.label>
   <ColaBasin.description>Автомат синтеза Квантовой Ядер колы.</ColaBasin.description>
 
+  <GECK.label>Генератор Эдемских Кущ Компактный</GECK.label>
+  <GECK.description>Генератор Эдемских Кущ Компактный. Это стандартное оборудование всех убежищ Волт-Тек. ГЭКК — источник восстановления цивилизации после бомбардировки. Просто добавь воды и перемешай.</GECK.description>
+  <GECK.comps.6.offMessage>Выключено для периода покоя растений</GECK.comps.6.offMessage>
+
 
 </LanguageData>

@@ -1,9 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <LastGiftofWatcher.label>Набор нестабильных механитов</LastGiftofWatcher.label>
-  <LastGiftofWatcher.description>Устройство с набором запрограмиррованых механитов.На корпусе затёртая надпись"Последний дар Наблюдателя".</LastGiftofWatcher.description>
-  <LastGiftofWatcher.comps.1.useLabel>Инъекция</LastGiftofWatcher.comps.1.useLabel>
-
+<LastGiftofWatcher.label>Unstable Mekhanite Set</LastGiftofWatcher.label>
+<LastGiftofWatcher.description>A device with a set of programmed Mekhanites. The body has a faded inscription "The Last Gift of the Watcher".</LastGiftofWatcher.description>
+<LastGiftofWatcher.comps.1.useLabel>Injection</LastGiftofWatcher.comps.1.useLabel>
 
 </LanguageData>

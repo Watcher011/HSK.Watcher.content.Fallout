@@ -3,8 +3,11 @@
 
   <StealthBoy.label>СтелсБой</StealthBoy.label>
   <StealthBoy.description>Это личное маскировочное устройство стелс-бой фирмы «РобКо», модель 3001. Разработанный Робертом Мэйфлауэром, стелс-бой генерирует модуляционное поле, которое передаёт отражённый свет от одной стороны объекта на другую, что делает носителя практически невидимым для нетренированного глаза.</StealthBoy.description>
-  <StealthBoy.ingestible.ingestCommandString>Акривировать {0}</StealthBoy.ingestible.ingestCommandString>
+  <StealthBoy.ingestible.ingestCommandString>Активировать {0}</StealthBoy.ingestible.ingestCommandString>
   <StealthBoy.ingestible.ingestReportString>Активирует {0}.</StealthBoy.ingestible.ingestReportString>
 
+  <MisterHandyKit.label>Набор для сборки Мистера Помощника</MisterHandyKit.label>
+  <MisterHandyKit.description>Инструкция и набор для сборки Мистера Помощника</MisterHandyKit.description>
+  <MisterHandyKit.comps.0.useLabel>Соберите Мистера Помощника</MisterHandyKit.comps.0.useLabel>
 
 </LanguageData>

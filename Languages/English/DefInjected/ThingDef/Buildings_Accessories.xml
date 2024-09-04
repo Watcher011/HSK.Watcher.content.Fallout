@@ -1,8 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <ColaBasin.label>Автомат Квантовой Ядер колы</ColaBasin.label>
-  <ColaBasin.description>Автомат синтеза Квантовой Ядер колы.</ColaBasin.description>
+<ColaBasin.label>Quantum Cola Core Machine</ColaBasin.label>
+<ColaBasin.description>Quantum Cola Core Synthesis Machine.</ColaBasin.description>
 
-
+<GECK.label>Garden of Eden Generator Compact</GECK.label>
+<GECK.description>Garden of Eden Generator Compact. This is standard equipment in all Vault-Tec shelters. The GECK is the source of civilization's restoration after the bombing. Just add water and stir.</GECK.description>
+<GECK.comps.6.offMessage>Off for plant resting period</GECK.comps.6.offMessage>
 </LanguageData>

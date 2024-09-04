@@ -1,16 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <SteroidHigh.label>Стероиды</SteroidHigh.label>
-  <SteroidHigh.description>...</SteroidHigh.description>
-  <SteroidHigh.labelNoun>Под воздействием стероидов</SteroidHigh.labelNoun>
+<SteroidHigh.label>Steroids</SteroidHigh.label>
+<SteroidHigh.description>...</SteroidHigh.description>
+<SteroidHigh.labelNoun>Under the influence of steroids</SteroidHigh.labelNoun>
 
-  <SteroidAddiction.label>Стероидная зависимость</SteroidAddiction.label>
-  <SteroidAddiction.description>Длительное применение стероидов выхвало зависимость.</SteroidAddiction.description>
-  <SteroidAddiction.stages.1.label>Тремор</SteroidAddiction.stages.1.label>
+<SteroidAddiction.label>Steroid Addiction</SteroidAddiction.label>
+<SteroidAddiction.description>Long-term use of steroids has led to addiction.</SteroidAddiction.description>
+<SteroidAddiction.stages.1.label>Tremor</SteroidAddiction.stages.1.label>
 
-  <SteroidTolerance.label>Стероидная толерантность</SteroidTolerance.label>
-  <SteroidTolerance.description>Один шаг до зависимости</SteroidTolerance.description>
-
-
+<SteroidTolerance.label>Steroid Tolerance</SteroidTolerance.label>
+<SteroidTolerance.description>One step away from addiction</SteroidTolerance.description>
 </LanguageData>
