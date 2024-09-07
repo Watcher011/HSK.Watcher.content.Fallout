@@ -119,8 +119,7 @@
 		</comps>
 		<costList>
             <Neutroamine>10</Neutroamine>
-            <HemogenPack>2</HemogenPack>
-            <PotassiumIodide>1</PotassiumIodide>
+            <RadHemogenPack>2</RadHemogenPack>
         </costList>
 	</ThingDef>
 
