@@ -42,6 +42,7 @@
 		<equippedAngleOffset>-45</equippedAngleOffset>
 		<techLevel>Industrial</techLevel>
 		<weaponTags>
+		    <li>VaultecGun</li>
 			<li>HitechMelee</li>
 			<li>CE_OneHandedWeapon</li>
 		</weaponTags>
