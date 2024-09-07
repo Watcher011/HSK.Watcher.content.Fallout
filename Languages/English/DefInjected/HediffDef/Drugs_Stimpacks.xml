@@ -1,14 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-<RadAwayHigh.label>RadAway</RadAwayHigh.label>
-<RadAwayHigh.description>Due to the property of Antiradin to remove radiation from the body, when used, the level of radioactive contamination decreases.</RadAwayHigh.description>
+  <RadAwayHigh.label>RadAway</RadAwayHigh.label>
+  <RadAwayHigh.description>Due to the property of Antiradin to remove radiation from the body, when used, the level of radioactive contamination decreases.</RadAwayHigh.description>
 
-<RadAwayTolerance.label>Craving for Antiradin</RadAwayTolerance.label>
-<RadAwayTolerance.description>A craving for Antiradin arose, and addiction is not far away</RadAwayTolerance.description>
+  <RadAwayTolerance.label>Craving for Antiradin</RadAwayTolerance.label>
+  <RadAwayTolerance.description>A craving for Antiradin arose, and addiction is not far away</RadAwayTolerance.description>
 
-<RadAwayAddiction.label>Addiction to Antiradin</RadAwayAddiction.label>
-<RadAwayAddiction.description>A strong Antiradin addiction developed.</RadAwayAddiction.description>
-<RadAwayAddiction.stages.1.label>Anti-Radin Withdrawal</RadAwayAddiction.stages.1.label>
-<RadAwayAddiction.labelNoun>Anti-Radin Addict</RadAwayAddiction.labelNoun>
+  <RadAwayAddiction.label>Addiction to Antiradin</RadAwayAddiction.label>
+  <RadAwayAddiction.description>A strong Antiradin addiction developed.</RadAwayAddiction.description>
+  <RadAwayAddiction.stages.1.label>Anti-Radin Withdrawal</RadAwayAddiction.stages.1.label>
+  <RadAwayAddiction.labelNoun>Anti-Radin Addict</RadAwayAddiction.labelNoun>
+
+
 </LanguageData>

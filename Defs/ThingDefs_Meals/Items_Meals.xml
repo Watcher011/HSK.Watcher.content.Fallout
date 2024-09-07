@@ -43,4 +43,67 @@
 	</ThingDef>
 
 
+
+
+  <ThingDef>
+    <defName>RadHemogenPack</defName>
+    <label>Пакет светящейся крови</label>
+    <description>Полупрозрачный пакет с зелёной светящейся жидкостью. На этикетке чёрным маркером написано «Не еда». При применении восстанавливает голод и значительно усиливает действие радиации.</description>
+    <category>Item</category>
+    <thingClass>ThingWithComps</thingClass>
+    <drawerType>MapMeshOnly</drawerType>
+    <useHitPoints>true</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <selectable>true</selectable>
+    <stackLimit>10</stackLimit>
+    <tickerType>Rare</tickerType>
+    <possessionCount>5</possessionCount>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <alwaysHaulable>true</alwaysHaulable>
+    <pathCost>14</pathCost>
+    <allowedArchonexusCount>-1</allowedArchonexusCount>
+    <resourceReadoutPriority>Last</resourceReadoutPriority>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <graphicData>
+      <texPath>Things/Item/Drug/RadHemogenPack</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.75</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <DeteriorationRate>5</DeteriorationRate>
+      <Mass>0.50</Mass>
+      <Flammability>0.7</Flammability>
+      <Nutrition>0.1</Nutrition>
+      <Beauty>0</Beauty>
+      <MarketValue>3</MarketValue>
+    </statBases>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+    <ingestible>
+      <foodType>Fluid</foodType>
+      <preferability>DesperateOnly</preferability>
+      <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+      <specialThoughtDirect>IngestedHemogenPack</specialThoughtDirect>
+      <ingestSound>HemogenPack_Consume</ingestSound>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_OffsetHemogen">
+          <offset>0.2</offset>
+        </li>
+		<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>RimatomicsRadiation</hediffDef>
+					<severity>0.39</severity>
+				</li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+	  <li Class="CompProperties_Glower">
+				<glowRadius>2</glowRadius>
+				<glowColor>(71,128,70,0)</glowColor>
+			</li>
+    </comps>
+  </ThingDef>
+
 </Defs>

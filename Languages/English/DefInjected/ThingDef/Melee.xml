@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MeleeWeapon_Ripper.label>Потрошитель</MeleeWeapon_Ripper.label>
+  <MeleeWeapon_Ripper.description>Потрошитель представляет собой довольно неплохое холодное оружие, по эффективности уступая лишь суперкувалде. Благодаря увеличенной бронебойности, «заковырять» потрошителем противника даже в улучшенную силовой броне не представляет большого труда. Идеален для боя в закрытых пространствах и коридорах..</MeleeWeapon_Ripper.description>
+  <MeleeWeapon_Ripper.tools.0.label>Зубья</MeleeWeapon_Ripper.tools.0.label>
+  <MeleeWeapon_Ripper.tools.1.label>Лезвие</MeleeWeapon_Ripper.tools.1.label>
+
+
+</LanguageData>

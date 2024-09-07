@@ -111,6 +111,7 @@
 				<commonality>60</commonality>
 				<options>
 					<EnclaveChaser>30</EnclaveChaser>
+					<EnclaveDeathclaw>20</EnclaveDeathclaw>
 					<EnclaveSunderer>24</EnclaveSunderer>
 				</options>
 			</li>
@@ -119,6 +120,7 @@
 				<commonality>40</commonality>
 				<options>
 					<EnclaveChaser>30</EnclaveChaser>
+					<EnclaveDeathclaw>20</EnclaveDeathclaw>
 					<EnclaveSunderer>24</EnclaveSunderer>
 				</options>
 			</li>

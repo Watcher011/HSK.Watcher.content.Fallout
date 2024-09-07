@@ -2,11 +2,13 @@
 <LanguageData>
 
   <StealthBoy.label>StealthBoy</StealthBoy.label>
-<StealthBoy.description>This is the personal cloaking device of the RobCo Stealth Boy Model 3001. Designed by Robert Mayflower, the Stealth Boy generates a modulation field that transfers reflected light from one side of an object to the other, making the wearer virtually invisible to the untrained eye.</StealthBoy.description>
-<StealthBoy.ingestible.ingestCommandString>Access {0}</StealthBoy.ingestible.ingestCommandString>
-<StealthBoy.ingestible.ingestReportString>Activates {0}.</StealthBoy.ingestible.ingestReportString>
+  <StealthBoy.description>This is the personal cloaking device of the RobCo Stealth Boy Model 3001. Designed by Robert Mayflower, the Stealth Boy generates a modulation field that transfers reflected light from one side of an object to the other, making the wearer virtually invisible to the untrained eye.</StealthBoy.description>
+  <StealthBoy.ingestible.ingestCommandString>Access {0}</StealthBoy.ingestible.ingestCommandString>
+  <StealthBoy.ingestible.ingestReportString>Activates {0}.</StealthBoy.ingestible.ingestReportString>
 
-<MisterHandyKit.label>Mister Handy Kit Assistant</MisterHandyKit.label>
-<MisterHandyKit.description>Instructions and kit for assembling Mister Handy</MisterHandyKit.description>
-<MisterHandyKit.comps.0.useLabel>Assemble Mister Handy</MisterHandyKit.comps.0.useLabel>
+  <MisterHandyKit.label>Mister Handy Kit Assistant</MisterHandyKit.label>
+  <MisterHandyKit.description>Instructions and kit for assembling Mister Handy</MisterHandyKit.description>
+  <MisterHandyKit.comps.0.useLabel>Assemble Mister Handy</MisterHandyKit.comps.0.useLabel>
+
+
 </LanguageData>

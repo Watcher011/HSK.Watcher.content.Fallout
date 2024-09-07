@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	
+	<ThingDef ParentName="SK_AnimalThingBase">
+		<defName>CockroachVaultec</defName>
+		<label>Радтаракан</label>
+		<description>Радтараканы — мутировавшие большие «американские тараканы», в просторечии называемые просто «гигантскими тараканами». Являются увеличенными версиями этих видов в довоенный период, которые экспоненциально увеличились в размерах из-за радиоактивных осадков.</description>
+		<statBases>
+			<Mass>1.5</Mass>
+			<MoveSpeed>2.8</MoveSpeed>
+			<ComfyTemperatureMin>-5</ComfyTemperatureMin>
+			<ComfyTemperatureMax>50</ComfyTemperatureMax>
+			<MarketValue>200</MarketValue>
+			<LeatherAmount>0</LeatherAmount>
+			<MeatAmount>30</MeatAmount>
+			<ImmunityGainSpeed>3</ImmunityGainSpeed>
+			<MeleeDodgeChance>0.35</MeleeDodgeChance>
+			<MeleeCritChance>0</MeleeCritChance>
+			<SmokeSensitivity>0.5</SmokeSensitivity>
+			<GermResistance>0.7</GermResistance>
+			<GermContainment>0.01</GermContainment>
+			<FilthRate>4</FilthRate>
+			<ToxicResistance>0.95</ToxicResistance>
+		</statBases>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>mouth</label>
+				<capacities>
+					<li>PlagueBite</li>
+				</capacities>
+				<power>2</power>
+				<cooldownTime>1.8</cooldownTime>
+				<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+				<armorPenetrationSharp>0.5</armorPenetrationSharp>
+				<armorPenetrationBlunt>0.25</armorPenetrationBlunt>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>1</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<chanceFactor>0.2</chanceFactor>
+				<armorPenetrationBlunt>0.5</armorPenetrationBlunt>
+			</li>
+		</tools>
+		<butcherProducts>
+			<Chitin>25</Chitin>
+			<RadHemogenPack>2</RadHemogenPack>
+		</butcherProducts>
+		<race>
+			<body>BeetleLike</body>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
+			<baseHungerRate>1.68</baseHungerRate>
+			<baseBodySize>1.2</baseBodySize>
+			<baseHealthScale>0.16</baseHealthScale>
+			<useMeatFrom>Megaspider</useMeatFrom>
+			<foodType>Plant, OmnivoreAnimal, AnimalProduct, Corpse</foodType>
+			<fleshType>Insectoid</fleshType>
+			<bloodDef>Filth_BloodInsect</bloodDef>
+			<petness>0</petness>
+			<wildness>0.85</wildness>
+			<manhunterOnTameFailChance>0.01</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0</manhunterOnDamageChance>
+			<lifeExpectancy>3</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>EusocialInsectLarva</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>EusocialInsectJuvenile</def>
+					<minAge>0.03</minAge>
+				</li>
+				<li>
+					<def>EusocialInsectAdult</def>
+					<minAge>0.13</minAge>
+					<soundWounded>Pawn_Megascarab_Wounded</soundWounded>
+					<soundDeath>Pawn_Megascarab_Death</soundDeath>
+					<soundCall>Pawn_Megascarab_Call</soundCall>
+					<soundAngry>Pawn_Megascarab_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+			<soundEating>Insectoid_Eat</soundEating>
+		</race>
+		<tickerType>Normal</tickerType>
+		<comps>
+			   <li Class="Flashlight.CompProperties_GlowingPawn">
+                <lightRange>3</lightRange>
+                <lightColorString>(154.205.50.1)</lightColorString>
+                </li>
+				<li Class="SK.CompProperties_ApplyHediffAround">
+				<hediff>RimatomicsRadiation</hediff>
+				<radius>3</radius>
+				<severityToAdd>0.004</severityToAdd>
+			    </li>
+		</comps>
+		<modExtensions>
+		  <li Class="Flashlight.DefModExtension_Glow">
+               <canGlow>true</canGlow>
+          </li>
+			<li Class="CombatExtended.RacePropertiesExtensionCE">
+				<bodyShape>QuadrupedLow</bodyShape>
+			</li>
+			<li Class="SK.DestroyCorpseExtension"/>
+			<li Class="SK.DevourerAnimalExtension">
+				<things>
+					<li>weapon</li>
+					<li>apparel</li>
+					<li>corpse</li>
+					<li>food</li>
+				</things>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<PawnKindDef ParentName="SK_AnimalKindBase">
+		<defName>CockroachVaultec</defName>
+		<label>Радтаракан</label>
+		<race>CockroachVaultec</race>
+		<combatPower>10</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>0.03</ecoSystemWeight>
+		<wildGroupSize>2~5</wildGroupSize>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cockroach/CockroachF</texPath>
+					<drawSize>1.4</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+					<drawSize>1.1</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cockroach/CockroachF</texPath>
+					<drawSize>1.5</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+					<drawSize>1.2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cockroach/CockroachF</texPath>
+					<drawSize>1.7</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+					<drawSize>1.2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+	
+
+
+</Defs>

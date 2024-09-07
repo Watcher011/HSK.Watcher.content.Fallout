@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<Chemical_Steroid.label>Steroid addiction</Chemical_Steroid.label>
-<Chemical_Steroid.description>No strength, everything hurts</Chemical_Steroid.description>
+
+  <Chemical_Steroid.label>Steroid addiction</Chemical_Steroid.label>
+  <Chemical_Steroid.description>No strength, everything hurts</Chemical_Steroid.description>
+
+
 </LanguageData>

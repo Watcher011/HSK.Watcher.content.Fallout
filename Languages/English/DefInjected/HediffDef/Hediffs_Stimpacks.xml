@@ -2,8 +2,11 @@
 <LanguageData>
 
   <!-- SimpleStimpack -->
-<Hediff_SimpleStimpack.label>Stimulator</Hediff_SimpleStimpack.label>
-<Hediff_SimpleStimpack.description>A disposable gray syringe with a pressure gauge. Contains a red liquid made from blood and antiseptic.</Hediff_SimpleStimpack.description>
-<Hediff_SimpleStimpack.stages.0.label>Side effect</Hediff_SimpleStimpack.stages.0.label>
-<Hediff_SimpleStimpack.labelNoun>Stimulator</Hediff_SimpleStimpack.labelNoun>
+
+  <Hediff_SimpleStimpack.label>Stimulator</Hediff_SimpleStimpack.label>
+  <Hediff_SimpleStimpack.description>A disposable gray syringe with a pressure gauge. Contains a red liquid made from blood and antiseptic.</Hediff_SimpleStimpack.description>
+  <Hediff_SimpleStimpack.stages.0.label>Side effect</Hediff_SimpleStimpack.stages.0.label>
+  <Hediff_SimpleStimpack.labelNoun>Stimulator</Hediff_SimpleStimpack.labelNoun>
+
+
 </LanguageData>

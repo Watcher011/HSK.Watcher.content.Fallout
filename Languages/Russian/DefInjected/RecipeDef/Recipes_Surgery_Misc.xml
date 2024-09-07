@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ExtractRadHemogenPack.label>откачать светящейся крови</ExtractRadHemogenPack.label>
+  <ExtractRadHemogenPack.description>Получить пакет светящейся крови из крови гуля. Этого не удастся сделать, если у пациента недостаточно крови.\n\nГемоген можно переливать другим гулям для уменьшения последствия кровопотери .</ExtractRadHemogenPack.description>
+  <ExtractRadHemogenPack.jobString>откачивает светящуюся кровь.</ExtractRadHemogenPack.jobString>
+
+  <RadHemogenTransfusion.label>Переливание светящейся крови</RadHemogenTransfusion.label>
+  <RadHemogenTransfusion.description>используйте пакет светящейся крови, чтобы уменьшить последствия кровопотери. Каждый использованный пакет  восстанавливает 35% кровопотери.</RadHemogenTransfusion.description>
+  <RadHemogenTransfusion.jobString>переливание светящейся крови TargetA.</RadHemogenTransfusion.jobString>
+
+
+</LanguageData>

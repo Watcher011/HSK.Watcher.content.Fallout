@@ -5,7 +5,8 @@
 
   <EnclaveChaser.label>Enclave Scout</EnclaveChaser.label>
   <EnclaveChaser.labelPlural>Enclave Scout</EnclaveChaser.labelPlural>
-  <EnclaveChaser_Acidifier.label>Enclave Scout</EnclaveChaser_Acidifier.label> 
+
+  <EnclaveChaser_Acidifier.label>Enclave Scout</EnclaveChaser_Acidifier.label>
   <EnclaveChaser_Acidifier.labelPlural>Enclave Scouts</EnclaveChaser_Acidifier.labelPlural>
 
 
@@ -16,7 +17,6 @@
 
   <EnclaveSunderer_Acidifier.label>Enclave Cleaner</EnclaveSunderer_Acidifier.label>
   <EnclaveSunderer_Acidifier.labelPlural>Enclave Cleaners</EnclaveSunderer_Acidifier.labelPlural>
-
 
 
 </LanguageData>

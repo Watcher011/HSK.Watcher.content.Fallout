@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-<TrapIED_Bottlecap.label>Bottle Cap</TrapIED_Bottlecap.label>
-<TrapIED_Bottlecap.description>A popular pre-war Vault-Tec lunchbox has become the basis for a deadly mine in the post-apocalyptic Commonwealth. This homemade device will help you deal with any enemy.</TrapIED_Bottlecap.description>
+  <TrapIED_Bottlecap.label>Bottle Cap</TrapIED_Bottlecap.label>
+  <TrapIED_Bottlecap.description>A popular pre-war Vault-Tec lunchbox has become the basis for a deadly mine in the post-apocalyptic Commonwealth. This homemade device will help you deal with any enemy.</TrapIED_Bottlecap.description>
+
+
 </LanguageData>

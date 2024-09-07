@@ -1,7 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-<MakeDeathclaw.label>Deathclaw Egg Omelette</MakeDeathclaw.label>
-<MakeDeathclaw.description>Deathclaw eggs whipped with blood and fried until yellow. When consumed, it significantly restores health and enhances the tissue regeneration process in the body.</MakeDeathclaw.description>
-<MakeDeathclaw.jobString>Makes an omelette</MakeDeathclaw.jobString>
+  <MakeDeathclaw.label>Deathclaw Egg Omelette</MakeDeathclaw.label>
+  <MakeDeathclaw.description>Deathclaw eggs whipped with blood and fried until yellow. When consumed, it significantly restores health and enhances the tissue regeneration process in the body.</MakeDeathclaw.description>
+  <MakeDeathclaw.jobString>Makes an omelette</MakeDeathclaw.jobString>
+
+
 </LanguageData>

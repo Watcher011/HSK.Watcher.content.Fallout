@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+
+ 
+
+
+
+  <ThingDef ParentName="BaseMeleeStun">
+		 <defName>MeleeWeapon_Ripper</defName>
+         <label>Потрошитель</label>
+        <description>Потрошитель представляет собой довольно неплохое холодное оружие, по эффективности уступая лишь суперкувалде. Благодаря увеличенной бронебойности, «заковырять» потрошителем противника даже в улучшенную силовой броне не представляет большого труда. Идеален для боя в закрытых пространствах и коридорах..</description>
+        <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponMelee/Ripper</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+		<soundInteract>InteractMelee</soundInteract>
+		<stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<costList>
+			<ComponentAdvanced>4</ComponentAdvanced>
+			<Weapon_Parts>12</Weapon_Parts>
+			<Electronics>5</Electronics>
+			<Plastic>15</Plastic>
+		</costList>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<Bulk>0.5</Bulk>
+			<Mass>0.5</Mass>
+			<MeleeCounterParryBonus>2.6</MeleeCounterParryBonus>
+		</statBases>
+		<equippedStatOffsets>
+				<CookSpeed>0.6</CookSpeed>
+			<ButcheryFleshSpeed>0.8</ButcheryFleshSpeed>
+			<MeleeCritChance>0.5</MeleeCritChance>
+			<MeleeDodgeChance>0.4</MeleeDodgeChance>
+			<MeleeParryChance>0.15</MeleeParryChance>
+		</equippedStatOffsets>
+		<equippedAngleOffset>-45</equippedAngleOffset>
+		<techLevel>Industrial</techLevel>
+		<weaponTags>
+			<li>HitechMelee</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>Зубья</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>1.15</cooldownTime>
+				<chanceFactor>0.1</chanceFactor>
+				<armorPenetrationBlunt>6</armorPenetrationBlunt>
+				<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>Лезвие</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>1.28</cooldownTime>
+				<chanceFactor>0.33</chanceFactor>
+				<armorPenetrationBlunt>1.1</armorPenetrationBlunt>
+				<armorPenetrationSharp>6</armorPenetrationSharp>
+				<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+			</li>
+		</tools>
+		<weaponClasses>
+			<li>MeleePiercer</li>
+		</weaponClasses>
+		<thingCategories>
+			<li>SharpMelee</li>
+			<li>AgileMelee</li>
+			<li>SurvivalToolsIndustrial</li>
+		</thingCategories>
+		<modExtensions>
+			<li Class="CombatExtended.GunDrawExtension">
+				<DrawSize>0.7,0.7</DrawSize>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+  
+</Defs>

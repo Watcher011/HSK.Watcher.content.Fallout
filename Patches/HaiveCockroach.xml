@@ -1,0 +1,64 @@
+﻿
+<Patch>
+
+
+	 <Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="NuclearHive"]/comps</xpath>
+				<value>
+			<comps>
+			<li Class="CompProperties_CanBeDormant">
+				<startsDormant>true</startsDormant>
+				<canWakeUpFogged>false</canWakeUpFogged>
+			</li>
+			<li Class="CompProperties_WakeUpDormant" />
+			<li Class="CompProperties_SpawnerPawn">
+				<spawnablePawnKinds>
+					<li>CockroachVaultec</li>
+				</spawnablePawnKinds>
+				<lordJob>LordJob_DefendAndExpandHive</lordJob>
+				<spawnSound>Hive_Spawn</spawnSound>
+				<initialPawnsPoints>30</initialPawnsPoints>
+				<maxSpawnedPawnsPoints>100</maxSpawnedPawnsPoints>
+			</li>
+			<li Class="CompProperties_SpawnerHives" />
+			<li Class="CompProperties_Spawner">
+				<thingToSpawn>InsectJelly</thingToSpawn>
+				<spawnCount>50</spawnCount>
+				<spawnIntervalRange>26000~30000</spawnIntervalRange>
+				<spawnMaxAdjacent>280</spawnMaxAdjacent>
+				<spawnForbidden>true</spawnForbidden>
+				<saveKeysPrefix>jelly</saveKeysPrefix>
+			</li>
+			<li Class="CompProperties_Spawner">
+				<thingToSpawn>GlowPod</thingToSpawn>
+				<spawnCount>1</spawnCount>
+				<spawnIntervalRange>15000~30000</spawnIntervalRange>
+				<spawnMaxAdjacent>3</spawnMaxAdjacent>
+				<saveKeysPrefix>pod</saveKeysPrefix>
+				<inheritFaction>true</inheritFaction>
+			</li>
+			<li Class="CompProperties_SpawnerFilth">
+				<filthDef>Filth_Slime</filthDef>
+				<spawnCountOnSpawn>10</spawnCountOnSpawn>
+				<spawnMtbHours>8</spawnMtbHours>
+				<spawnRadius>15</spawnRadius>
+			</li>
+			<li Class="CompProperties_Maintainable">
+				<ticksHealthy>120000</ticksHealthy>
+				<ticksNeedsMaintenance>120000</ticksNeedsMaintenance>
+				<damagePerTickRare>25</damagePerTickRare>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>5</glowRadius>
+				<glowColor>(71,128,70,0)</glowColor>
+			</li>
+			<li Class="SK.CompProperties_ApplyHediffAround">
+				<hediff>RimatomicsRadiation</hediff>
+				<radius>10</radius>
+				<severityToAdd>0.001</severityToAdd>
+			</li>
+		</comps>
+				</value>
+	</Operation>
+
+</Patch>

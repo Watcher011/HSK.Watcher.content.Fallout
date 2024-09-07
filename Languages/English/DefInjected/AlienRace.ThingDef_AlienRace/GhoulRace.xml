@@ -1,17 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-<VaulTecGhoul.label>Ghoul</VaulTecGhoul.label>
-<VaulTecGhoul.description>Ghouls were once humans who failed to get into a protective shelter during the bombing. Irradiation has given them increased resistance to radiation; they also gain a bonus to resistance to poison. Unfortunately, they are too weak physically to use heavy weapons.</VaulTecGhoul.description>
-<VaulTecGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>skin</VaulTecGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
-<VaulTecGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>hair</VaulTecGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
-<VaulTecGhoul.tools.0.label>left fist</VaulTecGhoul.tools.0.label>
-<VaulTecGhoul.tools.1.label>right fist</VaulTecGhoul.tools.1.label>
-<VaulTecGhoul.tools.2.label>teeth</VaulTecGhoul.tools.2.label>
-<VaulTecGhoul.tools.3.label>head</VaulTecGhoul.tools.3.label>
+  <VaulTecGhoul.label>Ghoul</VaulTecGhoul.label>
+  <VaulTecGhoul.description>Ghouls were once humans who failed to get into a protective shelter during the bombing. Irradiation has given them increased resistance to radiation; they also gain a bonus to resistance to poison. Unfortunately, they are too weak physically to use heavy weapons.</VaulTecGhoul.description>
+  <VaulTecGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>skin</VaulTecGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <VaulTecGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>hair</VaulTecGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
+  <VaulTecGhoul.tools.0.label>left fist</VaulTecGhoul.tools.0.label>
+  <VaulTecGhoul.tools.1.label>right fist</VaulTecGhoul.tools.1.label>
+  <VaulTecGhoul.tools.2.label>teeth</VaulTecGhoul.tools.2.label>
+  <VaulTecGhoul.tools.3.label>head</VaulTecGhoul.tools.3.label>
 
-<GlowingGhoul.label>Glowing Ghoul</GlowingGhoul.label>
-<GlowingGhoul.description>These are ghouls that have become living conductors of radiation due to exposure to large amounts of radiation. Glowing ghouls emit radiation that is dangerous to humans. They can be dangerous even after their death.</GlowingGhoul.description> <GlowingGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>skin</GlowingGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name> <GlowingGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>hair</GlowingGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name> <GlowingGhoul.tools.0.label>left fist</GlowingGhoul.tools.0.label> <GlowingGhoul.tools.1.label>right fist</GlowingGhoul.tools.1.label>
- <GlowingGhoul.tools.2.label>teeth</GlowingGhoul.tools.2.label> <GlowingGhoul.tools.3.label>head</GlowingGhoul.tools.3.label>
+  <GlowingGhoul.label>Glowing Ghoul</GlowingGhoul.label>
+  <GlowingGhoul.description>These are ghouls that have become living conductors of radiation due to exposure to large amounts of radiation. Glowing ghouls emit radiation that is dangerous to humans. They can be dangerous even after their death.</GlowingGhoul.description>
+  <GlowingGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>skin</GlowingGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <GlowingGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>hair</GlowingGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
+  <GlowingGhoul.tools.0.label>left fist</GlowingGhoul.tools.0.label>
+  <GlowingGhoul.tools.1.label>right fist</GlowingGhoul.tools.1.label>
+  <GlowingGhoul.tools.2.label>teeth</GlowingGhoul.tools.2.label>
+  <GlowingGhoul.tools.3.label>head</GlowingGhoul.tools.3.label>
+
 
 </LanguageData>

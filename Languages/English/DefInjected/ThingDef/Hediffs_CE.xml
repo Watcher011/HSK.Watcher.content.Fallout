@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-<LastGiftofWatcher.label>Unstable Mekhanite Set</LastGiftofWatcher.label>
-<LastGiftofWatcher.description>A device with a set of programmed Mekhanites. The body has a faded inscription "The Last Gift of the Watcher".</LastGiftofWatcher.description>
-<LastGiftofWatcher.comps.1.useLabel>Injection</LastGiftofWatcher.comps.1.useLabel>
+  <LastGiftofWatcher.label>Unstable Mekhanite Set</LastGiftofWatcher.label>
+  <LastGiftofWatcher.description>A device with a set of programmed Mekhanites. The body has a faded inscription "The Last Gift of the Watcher".</LastGiftofWatcher.description>
+  <LastGiftofWatcher.comps.1.useLabel>Injection</LastGiftofWatcher.comps.1.useLabel>
+
 
 </LanguageData>

@@ -1,14 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
- <SimpleStimpack.label>Stimulator</SimpleStimpack.label>
-<SimpleStimpack.description>A disposable gray syringe with a pressure gauge. Contains a red liquid made from blood and antiseptic.</SimpleStimpack.description>
-<SimpleStimpack.ingestible.ingestCommandString>Input {0}</SimpleStimpack.ingestible.ingestCommandString>
-<SimpleStimpack.ingestible.ingestReportString>Input {0}.</SimpleStimpack.ingestible.ingestReportString>
+  <SimpleStimpack.label>Stimulator</SimpleStimpack.label>
+  <SimpleStimpack.description>A disposable gray syringe with a pressure gauge. Contains a red liquid made from blood and antiseptic.</SimpleStimpack.description>
+  <SimpleStimpack.ingestible.ingestCommandString>Input {0}</SimpleStimpack.ingestible.ingestCommandString>
+  <SimpleStimpack.ingestible.ingestReportString>Input {0}.</SimpleStimpack.ingestible.ingestReportString>
 
-<RadAway.label>Anti-radin</RadAway.label>
-<RadAway.description>It is a polymer container with a short tube filled with a transparent yellow-orange infusion solution. The solution is capable of luminescence in the dark. The label has handwritten words "Rad Away" and illegible traces of factory markings.</RadAway.description>
-<RadAway.ingestible.ingestCommandString>Entered {0}</RadAway.ingestible.ingestCommandString>
-<RadAway.ingestible.ingestReportString>Entered {0}.</RadAway.ingestible.ingestReportString>
+  <RadAway.label>Anti-radin</RadAway.label>
+  <RadAway.description>It is a polymer container with a short tube filled with a transparent yellow-orange infusion solution. The solution is capable of luminescence in the dark. The label has handwritten words "Rad Away" and illegible traces of factory markings.</RadAway.description>
+  <RadAway.ingestible.ingestCommandString>Entered {0}</RadAway.ingestible.ingestCommandString>
+  <RadAway.ingestible.ingestReportString>Entered {0}.</RadAway.ingestible.ingestReportString>
+
 
 </LanguageData>

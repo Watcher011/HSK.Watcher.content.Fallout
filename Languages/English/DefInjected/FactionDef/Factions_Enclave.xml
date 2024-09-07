@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-<Enclave.label>Enclave</Enclave.label> <Enclave.pawnsPlural>Enclaves</Enclave.pawnsPlural> <Enclave.leaderTitle>Commander</Enclave.leaderTitle>
+  <Enclave.label>Enclave</Enclave.label>
+  <Enclave.pawnsPlural>Enclaves</Enclave.pawnsPlural>
+  <Enclave.leaderTitle>Commander</Enclave.leaderTitle>
+
+
 </LanguageData>

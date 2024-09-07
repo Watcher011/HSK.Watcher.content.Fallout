@@ -3,10 +3,11 @@
 
   <!-- REALISTIC PRODUCTION SK MOD -->
 
- <EmptyBottle.label>Empty Bottle</EmptyBottle.label>
-<EmptyBottle.description>An empty glass bottle.</EmptyBottle.description>
+  <EmptyBottle.label>Empty Bottle</EmptyBottle.label>
+  <EmptyBottle.description>An empty glass bottle.</EmptyBottle.description>
 
-<BottleCap.label>Bottle Cap</BottleCap.label>
-<BottleCap.description>Caps are a water-backed currency controlled and regulated by the NCR caravan trading companies. The caravan houses conspired to reintroduce caps as a primary currency when traders lost faith in NCR money.</BottleCap.description>
+  <BottleCap.label>Bottle Cap</BottleCap.label>
+  <BottleCap.description>Caps are a water-backed currency controlled and regulated by the NCR caravan trading companies. The caravan houses conspired to reintroduce caps as a primary currency when traders lost faith in NCR money.</BottleCap.description>
+
 
 </LanguageData>

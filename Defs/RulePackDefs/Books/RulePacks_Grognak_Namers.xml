@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ty_todo - all this needs to be reviewed -->
+
+  <!-- Skill-Books -->
+
+  <RulePackDef>
+    <defName>Namer_ComicsBook</defName>
+    <include>
+      <li>ArtNameUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <!-- General -->
+        <!-- Note: Some cases trigger on books with two subjects, which are both short enough to be a nice title -->
+        <li>title->[titleBasic]</li>
+        <!-- Basic -->
+        <li>titleBasic(p=6)->[randAdjective] </li>
+      
+	  
+        <li>randAdjective->Грогнак-варвар и Кровь на арфе</li>
+        <li>randAdjective->Грогнак-варвар и Появление Плута</li>
+        <li>randAdjective->Грогнак-варвар и Джунгли нетопырёнышей</li>
+        <li>randAdjective->Грогнак-варвар и В объятиях королевы корсаров</li>
+        <li>randAdjective->Грогнак-варвар и Рабы демонов, пески демонов</li>
+        <li>randAdjective->Грогнак-варвар и Явление Маулы: Боевая Дева с Марса</li>
+        <li>randAdjective->Грогнак-варвар и Вонючая безотцовщина</li>
+        <li>randAdjective->Грогнак-варвар и Затерянные в Снегах похоти</li>
+        <li>randAdjective->Грогнак-варвар и В логове пожирателя девственниц!</li>
+        <li>randAdjective->Грогнак-варвар и Это что за колдовство?</li>
+        <li>randAdjective->Грогнак-варвар и Тяжела Дубовая корона!</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  
+  
+</Defs>

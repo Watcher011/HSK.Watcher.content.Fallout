@@ -1,0 +1,18 @@
+﻿<Patch>
+
+<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="TemperateForest" or defName="TemperateSwamp" or defName="AridShrubland" or defName="BorealForest"]/pollutionWildAnimals</xpath>
+		<value>
+		<Guidra>0.1</Guidra>
+		<RadDeer>0.07</RadDeer>
+		<Bear_Yaoguai>0.01</Bear_Yaoguai>
+		<Brahmin>0.08</Brahmin>
+		<Gecko>0.05</Gecko>
+		<Radscorpion>0.03</Radscorpion>
+		<CockroachVaultec>0.15</CockroachVaultec>
+         <RadDeathclaw>0.02</RadDeathclaw>
+		<Deathclaw>0.03</Deathclaw>
+		</value>
+	</Operation>
+
+</Patch>

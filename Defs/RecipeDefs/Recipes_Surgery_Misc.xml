@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>ExtractRadHemogenPack</defName>
+    <label>откачать светящейся крови</label>
+    <description>Получить пакет светящейся крови из крови гуля. Этого не удастся сделать, если у пациента недостаточно крови.\n\nГемоген можно переливать другим гулям для уменьшения последствия кровопотери .</description>
+    <workerClass>Recipe_ExtractHemogen</workerClass>
+    <jobString>откачивает светящуюся кровь.</jobString>
+    <workAmount>500</workAmount>
+    <hideBodyPartNames>true</hideBodyPartNames>
+    <targetsBodyPart>false</targetsBodyPart>
+    <isViolation>true</isViolation>
+    <descriptionHyperlinks>
+      <ThingDef>RadHemogenPack</ThingDef>
+    </descriptionHyperlinks>
+    <uiIconThing>RadHemogenPack</uiIconThing>
+    <anesthetize>false</anesthetize>
+    <workSkillLearnFactor>2</workSkillLearnFactor>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>RadHemogenTransfusion</defName>
+    <label>Переливание светящейся крови</label>
+    <description>используйте пакет светящейся крови, чтобы уменьшить последствия кровопотери. Каждый использованный пакет  восстанавливает 35% кровопотери.</description>
+    <jobString>переливание светящейся крови TargetA.</jobString>
+    <workAmount>800</workAmount>
+    <hideBodyPartNames>true</hideBodyPartNames>
+    <targetsBodyPart>false</targetsBodyPart>
+    <anesthetize>false</anesthetize>
+	<uiIconThing>RadHemogenPack</uiIconThing>
+    <workerClass>Recipe_BloodTransfusion</workerClass>
+    <surgeryOutcomeEffect IsNull="True" /> <!-- Always succeeds -->
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RadHemogenPack</li>
+          </thingDefs>
+        </filter>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RadHemogenPack</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+</Defs>

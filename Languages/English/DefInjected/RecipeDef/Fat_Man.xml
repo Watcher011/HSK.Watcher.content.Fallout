@@ -2,7 +2,10 @@
 <LanguageData>
 
   <!-- AmmoSet -->
-<MakeAmmo_FatManShell_HE.label>Make Fat Man Nuke x1</MakeAmmo_FatManShell_HE.label>
-<MakeAmmo_FatManShell_HE.description>Fat Man Nuke x1.</MakeAmmo_FatManShell_HE.description>
-<MakeAmmo_FatManShell_HE.jobString>Creates a Fat Man Nuke.</MakeAmmo_FatManShell_HE.jobString>
+
+  <MakeAmmo_FatManShell_HE.label>Make Fat Man Nuke x1</MakeAmmo_FatManShell_HE.label>
+  <MakeAmmo_FatManShell_HE.description>Fat Man Nuke x1.</MakeAmmo_FatManShell_HE.description>
+  <MakeAmmo_FatManShell_HE.jobString>Creates a Fat Man Nuke.</MakeAmmo_FatManShell_HE.jobString>
+
+
 </LanguageData>
