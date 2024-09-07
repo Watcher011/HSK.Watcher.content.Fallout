@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <MeleeWeapon_Ripper.label>Потрошитель</MeleeWeapon_Ripper.label>
-  <MeleeWeapon_Ripper.description>Потрошитель представляет собой довольно неплохое холодное оружие, по эффективности уступая лишь суперкувалде. Благодаря увеличенной бронебойности, «заковырять» потрошителем противника даже в улучшенную силовой броне не представляет большого труда. Идеален для боя в закрытых пространствах и коридорах..</MeleeWeapon_Ripper.description>
-  <MeleeWeapon_Ripper.tools.0.label>Зубья</MeleeWeapon_Ripper.tools.0.label>
-  <MeleeWeapon_Ripper.tools.1.label>Лезвие</MeleeWeapon_Ripper.tools.1.label>
+  <MeleeWeapon_Ripper.label>Ripper</MeleeWeapon_Ripper.label>
+<MeleeWeapon_Ripper.description>The Ripper is a pretty good melee weapon, second only to the super sledgehammer in effectiveness. Thanks to its increased armor-piercing ability, it is not difficult to "pick" an enemy with the Ripper even in improved power armor. Ideal for combat in closed spaces and corridors.</MeleeWeapon_Ripper.description>
+<MeleeWeapon_Ripper.tools.0.label>Teeth</MeleeWeapon_Ripper.tools.0.label>
+<MeleeWeapon_Ripper.tools.1.label>Blade</MeleeWeapon_Ripper.tools.1.label>
 
 
 </LanguageData>

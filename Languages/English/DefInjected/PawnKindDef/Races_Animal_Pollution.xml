@@ -122,19 +122,19 @@
   <Deathclaw.labelFemale>female Deathclaws</Deathclaw.labelFemale>
   <Deathclaw.labelFemalePlural>female Deathclaws</Deathclaw.labelFemalePlural>
 
-  <RadDeathclaw.label>Светящийся коготь смерти</RadDeathclaw.label>
-  <RadDeathclaw.labelPlural>Светящийся коготь смертиs</RadDeathclaw.labelPlural>
-  <RadDeathclaw.labelMale>male Светящийся коготь смерти</RadDeathclaw.labelMale>
-  <RadDeathclaw.labelMalePlural>male Светящийся коготь смертиs</RadDeathclaw.labelMalePlural>
-  <RadDeathclaw.labelFemale>female Светящийся коготь смерти</RadDeathclaw.labelFemale>
-  <RadDeathclaw.labelFemalePlural>female Светящийся коготь смертиs</RadDeathclaw.labelFemalePlural>
+  <RadDeathclaw.label>Glowing Death Claw</RadDeathclaw.label>
+  <RadDeathclaw.labelPlural>Glowing Death Claws</RadDeathclaw.labelPlural>
+  <RadDeathclaw.labelMale>male Glowing Death Claw</RadDeathclaw.labelMale>
+  <RadDeathclaw.labelMalePlural>male Glowing Death Claws</RadDeathclaw.labelMalePlural>
+  <RadDeathclaw.labelFemale>female Glowing Death Claw</RadDeathclaw.labelFemale>
+  <RadDeathclaw.labelFemalePlural>female Glowing Death Claws</RadDeathclaw.labelFemalePlural>
 
-  <EnclaveDeathclaw.label>Коготь смерти Анклава</EnclaveDeathclaw.label>
-  <EnclaveDeathclaw.labelPlural>Коготь смерти Анклаваs</EnclaveDeathclaw.labelPlural>
-  <EnclaveDeathclaw.labelMale>male Коготь смерти Анклава</EnclaveDeathclaw.labelMale>
-  <EnclaveDeathclaw.labelMalePlural>male Коготь смерти Анклаваs</EnclaveDeathclaw.labelMalePlural>
-  <EnclaveDeathclaw.labelFemale>female Коготь смерти Анклава</EnclaveDeathclaw.labelFemale>
-  <EnclaveDeathclaw.labelFemalePlural>female Коготь смерти Анклаваs</EnclaveDeathclaw.labelFemalePlural>
+  <EnclaveDeathclaw.label>Enclave Deathclaw</EnclaveDeathclaw.label>
+  <EnclaveDeathclaw.labelPlural>Enclave Deathclaws</EnclaveDeathclaw.labelPlural>
+  <EnclaveDeathclaw.labelMale>male Enclave Deathclaw</EnclaveDeathclaw.labelMale>
+  <EnclaveDeathclaw.labelMalePlural>male Enclave Deathclaws</EnclaveDeathclaw.labelMalePlural>
+  <EnclaveDeathclaw.labelFemale>female Enclave Deathclaw</EnclaveDeathclaw.labelFemale>
+  <EnclaveDeathclaw.labelFemalePlural>female Enclave Deathclaws</EnclaveDeathclaw.labelFemalePlural>
 
 
 </LanguageData>

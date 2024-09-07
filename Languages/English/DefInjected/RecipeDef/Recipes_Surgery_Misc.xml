@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <ExtractRadHemogenPack.label>откачать светящейся крови</ExtractRadHemogenPack.label>
-  <ExtractRadHemogenPack.description>Получить пакет светящейся крови из крови гуля. Этого не удастся сделать, если у пациента недостаточно крови.\n\nГемоген можно переливать другим гулям для уменьшения последствия кровопотери .</ExtractRadHemogenPack.description>
-  <ExtractRadHemogenPack.jobString>откачивает светящуюся кровь.</ExtractRadHemogenPack.jobString>
+  <ExtractRadHemogenPack.label>Extract Glowing Blood</ExtractRadHemogenPack.label>
+<ExtractRadHemogenPack.description>Extract a Glowing Blood Pack from a ghoul's blood. This will not work if the patient does not have enough blood.\n\nHemogen can be transfused to other ghouls to reduce the effects of blood loss.</ExtractRadHemogenPack.description>
+<ExtractRadHemogenPack.jobString>Extracts Glowing Blood.</ExtractRadHemogenPack.jobString>
 
-  <RadHemogenTransfusion.label>Переливание светящейся крови</RadHemogenTransfusion.label>
-  <RadHemogenTransfusion.description>используйте пакет светящейся крови, чтобы уменьшить последствия кровопотери. Каждый использованный пакет  восстанавливает 35% кровопотери.</RadHemogenTransfusion.description>
-  <RadHemogenTransfusion.jobString>переливание светящейся крови TargetA.</RadHemogenTransfusion.jobString>
+<RadHemogenTransfusion.label>Transfuse Glowing Blood</RadHemogenTransfusion.label>
+<RadHemogenTransfusion.description>Use a Glowing Blood Pack to reduce the effects of blood loss. Each pack used restores 35% of blood loss.</RadHemogenTransfusion.description>
+<RadHemogenTransfusion.jobString>Luminous blood transfusion TargetA.</RadHemogenTransfusion.jobString>
 
 
 </LanguageData>

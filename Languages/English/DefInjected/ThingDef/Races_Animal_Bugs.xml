@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <CockroachVaultec.label>Радтаракан</CockroachVaultec.label>
-  <CockroachVaultec.description>Радтараканы — мутировавшие большие «американские тараканы», в просторечии называемые просто «гигантскими тараканами». Являются увеличенными версиями этих видов в довоенный период, которые экспоненциально увеличились в размерах из-за радиоактивных осадков.</CockroachVaultec.description>
+  <CockroachVaultec.label>Radroach</CockroachVaultec.label>
+<CockroachVaultec.description>Radroaches are mutated large "American cockroaches", colloquially referred to as "giant cockroaches". They are larger versions of the pre-war species that have grown exponentially in size due to radioactive fallout.</CockroachVaultec.description>
   <CockroachVaultec.tools.0.label>mouth</CockroachVaultec.tools.0.label>
   <CockroachVaultec.tools.1.label>head</CockroachVaultec.tools.1.label>
 

@@ -4,8 +4,8 @@
   <ScrambledDeathclawEggs.label>Suspicious Scrambled</ScrambledDeathclawEggs.label>
   <ScrambledDeathclawEggs.description>Suspicious Scrambled ingredients are best left unsaid.</ScrambledDeathclawEggs.description>
 
-  <RadHemogenPack.label>Пакет светящейся крови</RadHemogenPack.label>
-  <RadHemogenPack.description>Полупрозрачный пакет с зелёной светящейся жидкостью. На этикетке чёрным маркером написано «Не еда». При применении восстанавливает голод и значительно усиливает действие радиации.</RadHemogenPack.description>
+  <RadHemogenPack.label>Glowing Blood Pack</RadHemogenPack.label>
+<RadHemogenPack.description>A translucent bag containing a green glowing liquid. The label says "Not food" in black marker. When used, it restores hunger and greatly increases the effects of radiation.</RadHemogenPack.description>
 
 
 </LanguageData>

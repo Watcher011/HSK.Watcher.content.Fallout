@@ -40,16 +40,16 @@
   <Deathclaw.tools.3.label>right claw</Deathclaw.tools.3.label>
   <Deathclaw.tools.5.label>head</Deathclaw.tools.5.label>
 
-  <RadDeathclaw.label>Светящийся коготь смерти</RadDeathclaw.label>
-  <RadDeathclaw.description>Сильно облучённый обычный коготь смерти, его кожа испускает зелёный свет, поэтому его хорошо видно ночью. Он может нанести урон радиацией сверх и без того высокого физического урона</RadDeathclaw.description>
+  <RadDeathclaw.label>Glowing Deathclaw</RadDeathclaw.label>
+<RadDeathclaw.description>A heavily irradiated normal deathclaw, its skin emits a green light, making it highly visible at night. It can deal radiation damage on top of its already high physical damage.</RadDeathclaw.description>
   <RadDeathclaw.tools.0.label>left leg claw</RadDeathclaw.tools.0.label>
   <RadDeathclaw.tools.1.label>right leg claw</RadDeathclaw.tools.1.label>
   <RadDeathclaw.tools.2.label>left claw</RadDeathclaw.tools.2.label>
   <RadDeathclaw.tools.3.label>right claw</RadDeathclaw.tools.3.label>
   <RadDeathclaw.tools.5.label>head</RadDeathclaw.tools.5.label>
 
-  <EnclaveDeathclaw.label>Коготь смерти Анклава</EnclaveDeathclaw.label>
-  <EnclaveDeathclaw.description>Разновидность обыкновенных когтей смерти, используемых войсками Анклава в качестве боевой поддержки своих патрулей. После неудачного эксперимента с разумными когтями смерти, которые вместе с разумом обрели собственные моральные принципы и отказались подчиняться своим хозяевам, за что и были почти полностью истреблены Анклавом, эта организация использует обычных неразумных когтей смерти. Для этого животных поместили в клетки и снабдили их головы устройством, контролирующим поведение с помощью передаваемых сигналов.</EnclaveDeathclaw.description>
+  <EnclaveDeathclaw.label>Enclave Deathclaw</EnclaveDeathclaw.label>
+<EnclaveDeathclaw.description>A type of common deathclaw used by the Enclave troops as combat support for their patrols. After an unsuccessful experiment with intelligent deathclaws, which along with their intelligence acquired their own moral principles and refused to obey their masters, for which they were almost completely exterminated by the Enclave, this organization uses ordinary non-sentient deathclaws. For this, the animals were placed in cages and equipped with a device on their heads that controls their behavior using transmitted signals.</EnclaveDeathclaw.description>
   <EnclaveDeathclaw.tools.0.label>left leg claw</EnclaveDeathclaw.tools.0.label>
   <EnclaveDeathclaw.tools.1.label>right leg claw</EnclaveDeathclaw.tools.1.label>
   <EnclaveDeathclaw.tools.2.label>left claw</EnclaveDeathclaw.tools.2.label>
