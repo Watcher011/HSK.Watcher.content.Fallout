@@ -14,7 +14,7 @@
 		<canSiege>true</canSiege>
 		<autoFlee>true</autoFlee>
 		<canStageAttacks>true</canStageAttacks>
-		<leaderTitle>Commander</leaderTitle>
+		<leaderTitle>Смотритель</leaderTitle>
 		<earliestRaidDays>260</earliestRaidDays>
 		<mustStartOneEnemy>false</mustStartOneEnemy>
 		<naturalEnemy>false</naturalEnemy>

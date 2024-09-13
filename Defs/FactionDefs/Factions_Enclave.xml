@@ -15,7 +15,7 @@
 		<canSiege>true</canSiege>
 		<autoFlee>true</autoFlee>
 		<canStageAttacks>true</canStageAttacks>
-		<leaderTitle>Commander</leaderTitle>
+		<leaderTitle>Президент</leaderTitle>
 		<earliestRaidDays>260</earliestRaidDays>
 		<mustStartOneEnemy>true</mustStartOneEnemy>
 		<naturalEnemy>true</naturalEnemy>
@@ -136,7 +136,7 @@
     <defName>NamerFactionEnclave</defName>
     <rulePack>
       <rulesStrings>
-       <li>empire->Альянс</li>
+       <li>empire->Анклав</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>

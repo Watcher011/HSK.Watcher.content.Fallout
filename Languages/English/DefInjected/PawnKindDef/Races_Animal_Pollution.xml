@@ -85,20 +85,20 @@
   <Brahmin.lifeStages.0.labelFemale>female calf</Brahmin.lifeStages.0.labelFemale>
   <Brahmin.lifeStages.0.labelFemalePlural>female calfs</Brahmin.lifeStages.0.labelFemalePlural>
   <Brahmin.lifeStages.1.label>Brahmin</Brahmin.lifeStages.1.label>
-  <Brahmin.lifeStages.1.labelPlural> Brahmin</Brahmin.lifeStages.1.labelPlural>
+  <Brahmin.lifeStages.1.labelPlural>Brahmin</Brahmin.lifeStages.1.labelPlural>
   <Brahmin.lifeStages.1.labelMale>Brahmin</Brahmin.lifeStages.1.labelMale>
   <Brahmin.lifeStages.1.labelMalePlural>male Brahmins</Brahmin.lifeStages.1.labelMalePlural>
   <Brahmin.lifeStages.1.labelFemale>Brahmin</Brahmin.lifeStages.1.labelFemale>
   <Brahmin.lifeStages.1.labelFemalePlural>female Brahmins</Brahmin.lifeStages.1.labelFemalePlural>
   <Brahmin.lifeStages.2.label>Brahmin</Brahmin.lifeStages.2.label>
-  <Brahmin.lifeStages.2.labelPlural> Brahmin</Brahmin.lifeStages.2.labelPlural>
+  <Brahmin.lifeStages.2.labelPlural>Brahmin</Brahmin.lifeStages.2.labelPlural>
   <Brahmin.lifeStages.2.labelMale>Brahmin</Brahmin.lifeStages.2.labelMale>
   <Brahmin.lifeStages.2.labelMalePlural>male Brahmins</Brahmin.lifeStages.2.labelMalePlural>
   <Brahmin.lifeStages.2.labelFemale>Brahmin</Brahmin.lifeStages.2.labelFemale>
   <Brahmin.lifeStages.2.labelFemalePlural>female Brahmins</Brahmin.lifeStages.2.labelFemalePlural>
   <Brahmin.labelMale>Brahmin</Brahmin.labelMale>
   <Brahmin.labelMalePlural>Brahmins</Brahmin.labelMalePlural>
-  <Brahmin.labelFemale> Brahmin</Brahmin.labelFemale>
+  <Brahmin.labelFemale>Brahmin</Brahmin.labelFemale>
   <Brahmin.labelFemalePlural>Brahmins</Brahmin.labelFemalePlural>
 
   <Gecko.label>Gecko</Gecko.label>
