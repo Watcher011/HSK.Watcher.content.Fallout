@@ -23,5 +23,8 @@ Disadvantages include high complexity and low mechanical strength of the weapon 
   <Gun_Fat_Man.label>Fat Man</Gun_Fat_Man.label>
   <Gun_Fat_Man.description>A shoulder-mounted tactical nuclear catapult. The weapon fires nuclear rounds that, when detonated, hit a small area with a nuclear explosion, causing massive damage and releasing radiation for a period of time. In perfect condition, this gun can fire 495 rounds before breaking.</Gun_Fat_Man.description>
 
+  <Railway.label>Railway</Railway.label>
+<Railway.description>The Railway is a rare homemade weapon that shoots railroad nails. The shot can rip off an enemy's limb or even nail them to the wall.</Railway.description>
+
 
 </LanguageData>

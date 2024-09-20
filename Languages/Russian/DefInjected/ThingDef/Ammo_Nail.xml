@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+  <Ammo_Nail.label>Гвозди</Ammo_Nail.label>
+  <Ammo_Nail.description>Гвозди - хотя и наносит умеренный урон, но очень эффективно повреждает конечности, зачастую с одного выстрела. При выстреле, приводящем к смерти, может оторвать повреждённую часть тела или пригвоздить противника к стене, если та расположена достаточно близко за ним..</Ammo_Nail.description>
+
+
+  <!-- Projectiles -->
+
+  <Bullet_Nail.label>Гвозди</Bullet_Nail.label>
+  <Bullet_Nail_HV.label>Гвозди урановые</Bullet_Nail_HV.label>
+
+
+</LanguageData>

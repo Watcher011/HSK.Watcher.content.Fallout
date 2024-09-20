@@ -6,18 +6,18 @@
   <VaulTecGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>skin</VaulTecGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
   <VaulTecGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>hair</VaulTecGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
   <VaulTecGhoul.tools.0.label>левый кулак</VaulTecGhoul.tools.0.label>
-<VaulTecGhoul.tools.1.label>правый кулак</VaulTecGhoul.tools.1.label>
-<VaulTecGhoul.tools.2.label>зубы</VaulTecGhoul.tools.2.label>
-<VaulTecGhoul.tools.3.label>голова</VaulTecGhoul.tools.3.label>
+  <VaulTecGhoul.tools.1.label>правый кулак</VaulTecGhoul.tools.1.label>
+  <VaulTecGhoul.tools.2.label>зубы</VaulTecGhoul.tools.2.label>
+  <VaulTecGhoul.tools.3.label>голова</VaulTecGhoul.tools.3.label>
 
   <GlowingGhoul.label>Светящийся гуль</GlowingGhoul.label>
   <GlowingGhoul.description>Это гули, которые под воздействием большого количества радиации стали её живыми проводниками. Светящиеся гули излучают радиацию, опасную для людей. Они могут быть опасными даже после своей смерти.</GlowingGhoul.description>
   <GlowingGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>skin</GlowingGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
   <GlowingGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>hair</GlowingGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
- <GlowingGhoul.tools.0.label>левый кулак</GlowingGhoul.tools.0.label>
-<GlowingGhoul.tools.1.label>правый кулак</GlowingGhoul.tools.1.label>
-<GlowingGhoul.tools.2.label>зубы</GlowingGhoul.tools.2.label>
-<GlowingGhoul.tools.3.label>голова</GlowingGhoul.tools.3.label>
+  <GlowingGhoul.tools.0.label>левый кулак</GlowingGhoul.tools.0.label>
+  <GlowingGhoul.tools.1.label>правый кулак</GlowingGhoul.tools.1.label>
+  <GlowingGhoul.tools.2.label>зубы</GlowingGhoul.tools.2.label>
+  <GlowingGhoul.tools.3.label>голова</GlowingGhoul.tools.3.label>
 
 
 </LanguageData>

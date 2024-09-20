@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_Nail.label>Сделать Гвозди x50</MakeAmmo_Nail.label>
+  <MakeAmmo_Nail.description>Делает 50 гвоздей.</MakeAmmo_Nail.description>
+  <MakeAmmo_Nail.jobString>Делает гвозди.</MakeAmmo_Nail.jobString>
+
+
+</LanguageData>

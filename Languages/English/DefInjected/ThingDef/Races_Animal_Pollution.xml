@@ -41,7 +41,7 @@
   <Deathclaw.tools.5.label>head</Deathclaw.tools.5.label>
 
   <RadDeathclaw.label>Glowing Deathclaw</RadDeathclaw.label>
-<RadDeathclaw.description>A heavily irradiated normal deathclaw, its skin emits a green light, making it highly visible at night. It can deal radiation damage on top of its already high physical damage.</RadDeathclaw.description>
+  <RadDeathclaw.description>A heavily irradiated normal deathclaw, its skin emits a green light, making it highly visible at night. It can deal radiation damage on top of its already high physical damage.</RadDeathclaw.description>
   <RadDeathclaw.tools.0.label>left leg claw</RadDeathclaw.tools.0.label>
   <RadDeathclaw.tools.1.label>right leg claw</RadDeathclaw.tools.1.label>
   <RadDeathclaw.tools.2.label>left claw</RadDeathclaw.tools.2.label>
@@ -49,7 +49,7 @@
   <RadDeathclaw.tools.5.label>head</RadDeathclaw.tools.5.label>
 
   <EnclaveDeathclaw.label>Enclave Deathclaw</EnclaveDeathclaw.label>
-<EnclaveDeathclaw.description>A type of common deathclaw used by the Enclave troops as combat support for their patrols. After an unsuccessful experiment with intelligent deathclaws, which along with their intelligence acquired their own moral principles and refused to obey their masters, for which they were almost completely exterminated by the Enclave, this organization uses ordinary non-sentient deathclaws. For this, the animals were placed in cages and equipped with a device on their heads that controls their behavior using transmitted signals.</EnclaveDeathclaw.description>
+  <EnclaveDeathclaw.description>A type of common deathclaw used by the Enclave troops as combat support for their patrols. After an unsuccessful experiment with intelligent deathclaws, which along with their intelligence acquired their own moral principles and refused to obey their masters, for which they were almost completely exterminated by the Enclave, this organization uses ordinary non-sentient deathclaws. For this, the animals were placed in cages and equipped with a device on their heads that controls their behavior using transmitted signals.</EnclaveDeathclaw.description>
   <EnclaveDeathclaw.tools.0.label>left leg claw</EnclaveDeathclaw.tools.0.label>
   <EnclaveDeathclaw.tools.1.label>right leg claw</EnclaveDeathclaw.tools.1.label>
   <EnclaveDeathclaw.tools.2.label>left claw</EnclaveDeathclaw.tools.2.label>

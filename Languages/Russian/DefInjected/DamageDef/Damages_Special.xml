@@ -1,15 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
- <ACP.label>снаряд</ACP.label>
+  <ACP.label>снаряд</ACP.label>
+  <ACP.deathMessage>{0} был разорван на части.</ACP.deathMessage>
 
-<ACP.deathMessage>{0} был разорван на части.</ACP.deathMessage>
+  <ACB.label>бомба</ACB.label>
+  <ACB.deathMessage>{0} был убит.</ACB.deathMessage>
 
-<ACB.label>бомба</ACB.label>
-<ACB.deathMessage>{0} был убит.</ACB.deathMessage>
-
-<NuclearB.label>бомба</NuclearB.label>
-<NuclearB.deathMessage>{0} был убит.</NuclearB.deathMessage>
+  <NuclearB.label>бомба</NuclearB.label>
+  <NuclearB.deathMessage>{0} был убит.</NuclearB.deathMessage>
 
 
 </LanguageData>
