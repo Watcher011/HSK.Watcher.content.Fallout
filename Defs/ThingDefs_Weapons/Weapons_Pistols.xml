@@ -388,7 +388,7 @@
 					<minRange>32</minRange>
 					<range>700</range>
 					<burstShotCount>1</burstShotCount>
-					<soundCast>Mortar_LaunchA</soundCast>
+					<soundCast>FatMan_I_hold</soundCast>
 					<muzzleFlashScale>16</muzzleFlashScale>
 					<circularError>1</circularError>
 					<indirectFirePenalty>0.2</indirectFirePenalty>
@@ -419,7 +419,7 @@
 		<modExtensions>
 			<li Class="CombatExtended.GunDrawExtension">
 				<DrawSize>1.5,1.5</DrawSize>
-				<DrawOffset>1.22,1.22</DrawOffset>
+				<DrawOffset>-0.3,0.0</DrawOffset>
 			</li>
 		</modExtensions>
         <smeltProducts>
