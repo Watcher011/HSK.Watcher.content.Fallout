@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>AmmoNail</defName>
+		<label>Гвозди</label>
+		<parent>AmmoRifles</parent>
+		<iconPath>Things/Ammo/Nail/Nail_c</iconPath>
+	</ThingCategoryDef>
+
+	<!-- ==================== AmmoSet ========================== -->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_Nail</defName>
+		<label>Гвозди</label>
+		<ammoTypes>
+			<Ammo_Nail>Bullet_Nail</Ammo_Nail>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
+	
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_Nail_HV</defName>
+		<label>Гвозди Урановые</label>
+		<ammoTypes>
+			<Ammo_Nail>Bullet_Nail_HV</Ammo_Nail>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
+
+	<!-- ==================== Ammo ========================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" Name="BaseNailShot" ParentName="SmallAmmoBase" Abstract="True">
+		<description>Гвозди - хотя и наносит умеренный урон, но очень эффективно повреждает конечности, зачастую с одного выстрела. При выстреле, приводящем к смерти, может оторвать повреждённую часть тела или пригвоздить противника к стене, если та расположена достаточно близко за ним..</description>
+		<statBases>
+			<Mass>0.01</Mass>
+			<Bulk>0.01</Bulk>
+		</statBases>
+		<tradeTags>
+			<li>CE_AutoEnableTrade_Sellable</li>
+			<li>CE_AutoEnableCrafting</li>
+			<li>CE_AutoEnableCrafting_FueledSmithy</li>
+			<li>CE_AutoEnableCrafting_ElectricSmithy</li>
+		</tradeTags>
+		<thingCategories>
+			<li>AmmoNail</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseNailShot">
+		<defName>Ammo_Nail</defName>
+		<label>Гвозди</label>
+		<graphicData>
+			<texPath>Things/Ammo/Nail</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.02</MarketValue>
+		</statBases>
+		<ammoClass>Nail</ammoClass>
+	</ThingDef>
+
+	<!-- ================== Projectiles ================== -->
+	
+	<ThingDef Name="NailShotBullet" ParentName="BaseBulletCE" Abstract="true">
+		<label>Гвозди</label>
+		<graphicData>
+			<texPath>Things/Projectile/Shotgun_Pellet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<dropsCasings>false</dropsCasings>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="NailShotBullet">
+		<defName>Bullet_Nail</defName>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>25</speed>
+			<damageAmountBase>15</damageAmountBase>
+			<armorPenetrationBlunt>9.32</armorPenetrationBlunt>
+			<armorPenetrationSharp>27.5</armorPenetrationSharp>
+		</projectile>
+	</ThingDef>
+	
+	<ThingDef ParentName="NailShotBullet">
+		<defName>Bullet_Nail_HV</defName>
+		<label>Гвозди урановые</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>30</speed>
+			<damageAmountBase>18</damageAmountBase>
+			<armorPenetrationBlunt>4.32</armorPenetrationBlunt>
+			<armorPenetrationSharp>17.5</armorPenetrationSharp>
+		</projectile>
+	</ThingDef>
+
+	<!-- ==================== Recipes ========================== -->
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_Nail</defName>
+		<label>Сделать Гвозди x50</label>
+		<description>Делает 50 гвоздей.</description>
+		<jobString>Делает гвозди.</jobString>
+		<workAmount>400</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Plasteel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_Nail>50</Ammo_Nail>
+		</products>
+	</RecipeDef>
+	
+</Defs>

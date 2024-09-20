@@ -429,4 +429,65 @@
         </smeltProducts>
     </ThingDef>
 	
+	
+	
+	
+	
+	<ThingDef ParentName="BaseGun_ShortBarreled">
+		<defName>Railway</defName>
+		<label>Гвоздемёт</label>
+		<description>Гвоздемёт — редкое самодельное оружие, стреляющее железнодорожными гвоздями. Выстрел может оторвать противнику конечность или вообще прибить его к стене.</description>
+		<graphicData>
+			<texPath>Things/Weapons/Railway</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>	
+		</graphicData>
+		<statBases>
+			<WorkToMake>6000</WorkToMake>
+			<SightsEfficiency>1.05</SightsEfficiency>
+			<ShotSpread>0.55</ShotSpread>
+			<SwayFactor>1.17</SwayFactor>
+			<Bulk>4.50</Bulk>
+			<Mass>6.30</Mass>
+			<RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+	            <li>Gun</li>
+			    <li>VaultecGun</li>
+		</weaponTags>
+		<weaponClasses>
+			 <li>RangedLight</li>
+		</weaponClasses>
+		<tradeability>Sellable</tradeability>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_Nail</defaultProjectile>
+				<warmupTime>1.25</warmupTime>
+				<range>40</range>
+				<soundCast>Railway_I_hold</soundCast>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>8</magazineSize>
+				<reloadTime>1.05</reloadTime>
+				<ammoSet>AmmoSet_Nail</ammoSet>
+				<throwMote>false</throwMote>
+			</li>
+			<li Class="CombatExtended.CompProperties_FireModes">
+				<noSnapshot>True</noSnapshot>
+			</li>
+		</comps>
+		 <smeltProducts>
+            <Laser_Component>1</Laser_Component>
+            <Weapon_Parts>2</Weapon_Parts>
+        </smeltProducts>
+		<thingCategories>
+			<li>Specialranged</li>
+		</thingCategories>
+	</ThingDef>
+	
+	
 </Defs>
