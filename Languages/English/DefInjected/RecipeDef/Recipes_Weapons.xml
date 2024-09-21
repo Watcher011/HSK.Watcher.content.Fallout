@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeMolotov.label>make Molotov Cocktails</MakeMolotov.label>
+  <MakeMolotov.description>Make a thrown weapon that burns your enemies into ashes!</MakeMolotov.description>
+  <MakeMolotov.jobString>Making Molotov Cocktails.</MakeMolotov.jobString>
+
+  <MakeBottlecapGrenades.label>Create a Bottlecap Mine</MakeBottlecapGrenades.label>
+  <MakeBottlecapGrenades.description>A popular pre-war Vault-Tec lunchbox has become the basis for a deadly mine in the post-apocalyptic Commonwealth. This homemade device will help you deal with any enemy. Can be thrown like a grenade.</MakeBottlecapGrenades.description>
+  <MakeBottlecapGrenades.jobString>Creates a Bottlecap Mine.</MakeBottlecapGrenades.jobString>
+
+
+</LanguageData>

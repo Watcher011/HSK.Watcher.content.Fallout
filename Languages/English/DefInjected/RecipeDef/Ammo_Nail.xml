@@ -4,8 +4,8 @@
   <!-- Recipes -->
 
   <MakeAmmo_Nail.label>Make Nails x50</MakeAmmo_Nail.label>
-<MakeAmmo_Nail.description>Make 50 nails.</MakeAmmo_Nail.description>
-<MakeAmmo_Nail.jobString>Make nails.</MakeAmmo_Nail.jobString>
+  <MakeAmmo_Nail.description>Make 50 nails.</MakeAmmo_Nail.description>
+  <MakeAmmo_Nail.jobString>Make nails.</MakeAmmo_Nail.jobString>
 
 
 </LanguageData>

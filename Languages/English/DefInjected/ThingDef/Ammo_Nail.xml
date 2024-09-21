@@ -2,13 +2,15 @@
 <LanguageData>
 
   <!-- Ammo -->
-<Ammo_Nail.label>Nails</Ammo_Nail.label>
-<Ammo_Nail.description>Nails - Although it deals moderate damage, it is very effective at damaging limbs, often in one shot. When shot to kill, it can tear off a damaged body part or pin the enemy to a wall if it is located close enough behind them..</Ammo_Nail.description>
 
-<!-- Projectiles -->
+  <Ammo_Nail.label>Nails</Ammo_Nail.label>
+  <Ammo_Nail.description>Nails - Although it deals moderate damage, it is very effective at damaging limbs, often in one shot. When shot to kill, it can tear off a damaged body part or pin the enemy to a wall if it is located close enough behind them..</Ammo_Nail.description>
 
-<Bullet_Nail.label>Nails</Bullet_Nail.label>
-<Bullet_Nail_HV.label>Uranium Nails</Bullet_Nail_HV.label>
+
+  <!-- Projectiles -->
+
+  <Bullet_Nail.label>Nails</Bullet_Nail.label>
+  <Bullet_Nail_HV.label>Uranium Nails</Bullet_Nail_HV.label>
 
 
 </LanguageData>

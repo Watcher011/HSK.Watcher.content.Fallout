@@ -450,6 +450,7 @@
 			<Bulk>4.50</Bulk>
 			<Mass>6.30</Mass>
 			<RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
+			 <MaxHitPoints>60</MaxHitPoints>
 		</statBases>
 		<weaponTags>
 	            <li>Gun</li>
@@ -489,5 +490,205 @@
 		</thingCategories>
 	</ThingDef>
 	
+	
+	
+	<ThingDef ParentName="BaseGun_ShortBarreled">
+		<defName>PipeGun</defName>
+		<label>Гладкоствол с затвором</label>
+		<description>Это кустарный продукт оружейников постапокалипсиса, грубо изготовленный из дерева, куска старой трубы, пружин и другого подручного хлама, скреплённого вместе с помощью клея, болтов и проволоки. Крайне популярен и повсеместно распространён.</description>
+		<graphicData>
+			<texPath>Things/Weapons/PipeGun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_Revolver</soundInteract>
+		<statBases>
+			<MarketValue>50</MarketValue>
+			<SightsEfficiency>0.6</SightsEfficiency>
+			<ShotSpread>0.09</ShotSpread>
+			<SwayFactor>1.4</SwayFactor>
+			<RangedWeapon_Cooldown>0.46</RangedWeapon_Cooldown>
+			<Bulk>2.2</Bulk>
+			<Mass>1.65</Mass>
+			 <MaxHitPoints>30</MaxHitPoints>
+		</statBases>
+		<weaponTags>
+			<li>PT1</li>
+			<li>Gun</li>
+		    <li>VaultecGunHandmade</li>
+			<li>TierOnePistol</li>
+			<li>CE_Sidearm</li>
+			<li>CE_AI_Pistol</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+		<weaponClasses>
+		  <li>RangedLight</li>
+		</weaponClasses>
+		<thingCategories>
+			<li>Pistols</li>
+		</thingCategories>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_9x19mmPara_FMJ</defaultProjectile>
+				<warmupTime>0.90</warmupTime>
+				<range>25</range>
+				<soundCast>ShotPistol</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CombatExtended.CompProperties_FireModes">
+				<aiUseBurstMode>FALSE</aiUseBurstMode>
+				<aiAimMode>AimedShot</aiAimMode>
+			</li>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>6</magazineSize>
+				<reloadTime>1.5</reloadTime>
+				<ammoSet>AmmoSet_9x19mmPara</ammoSet>
+			</li>
+		</comps>
+		<modExtensions>
+		  <li Class="CombatExtended.GunDrawExtension">
+			<DrawSize>0.8</DrawSize>
+		  </li>
+		</modExtensions>
+		<smeltProducts>
+			<Pistol_Component>1</Pistol_Component>
+			<Weapon_Parts>1</Weapon_Parts>
+		</smeltProducts>
+	</ThingDef>
+	
+	
+	
+	<ThingDef ParentName="BaseGun_LongBarreled">
+        <defName>PipeRifle</defName>
+        <label>Гладкоствол болтовка</label>
+        <description>Линейка гладкостволов - самое простое баллистическое оружие, собранное, что называется «на коленке», из различных частей найденных затворов, метала и дерева. Один его вид заставляет думать о том, что оно скорее убьёт стреляющего, нежели мишень, но в Пустоши оно распространено, и рейдеры предпочитают именно такое</description>
+        <graphicData>
+            <texPath>Things/Weapons/PipeRifle</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <statBases>
+            <MarketValue>450</MarketValue>
+            <SightsEfficiency>0.95</SightsEfficiency>
+            <ShotSpread>0.095</ShotSpread>
+            <SwayFactor>1.16</SwayFactor>
+            <RangedWeapon_Cooldown>0.64</RangedWeapon_Cooldown>
+            <Bulk>10.5</Bulk>
+            <Mass>5.5</Mass>
+			 <MaxHitPoints>30</MaxHitPoints>
+        </statBases>
+        <weaponTags>
+            <li>PT1</li>
+			<li>Gun</li>
+		    <li>VaultecGunHandmade</li>
+			<li>AssaultRifle</li>
+        </weaponTags>
+        <thingCategories>
+            <li>Rifles</li>
+        </thingCategories>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <recoilAmount>1.23</recoilAmount>
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_556x45mmNATO_FMJ</defaultProjectile>
+                <warmupTime>0.66</warmupTime>
+                <range>45</range>
+                <burstShotCount>1</burstShotCount>
+                <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+                <soundCast>Shot_AssaultRifle</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>FALSE</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+                <aimedBurstShotCount>3</aimedBurstShotCount>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>12</magazineSize>
+                <reloadTime>2</reloadTime>
+                <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+            <Pistol_Component>1</Pistol_Component>
+            <Weapon_Parts>5</Weapon_Parts>
+        </smeltProducts>
+    </ThingDef>
+	
+		<ThingDef ParentName="BaseGun_ShortBarreled">
+		<defName>OldRevolver</defName>
+		<label>Гладкоствол с патронником</label>
+		<description>Это кустарный продукт оружейников постапокалипсиса, грубо изготовленный из дерева, куска старой трубы, барабанного механизма питания, пружин и другого подручного хлама, скреплённого вместе с помощью клея, болтов и проволоки. Крайне популярен и повсеместно распространён.</description>
+		<graphicData>
+			<texPath>Things/Weapons/OldRevolver</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_Revolver</soundInteract>
+		<statBases>
+			<MarketValue>80</MarketValue>
+			<SightsEfficiency>0.8</SightsEfficiency>
+			<ShotSpread>0.19</ShotSpread>
+			<SwayFactor>1.4</SwayFactor>
+			<RangedWeapon_Cooldown>0.26</RangedWeapon_Cooldown>
+			<Bulk>2</Bulk>
+			<Mass>1.5</Mass>
+			<MaxHitPoints>20</MaxHitPoints>
+		</statBases>
+		<weaponTags>
+			<li>PT1</li>
+			<li>Gun</li>
+			<li>VaultecGunHandmade</li>
+			<li>TierOnePistol</li>
+			<li>CE_Sidearm</li>
+			<li>CE_AI_Pistol</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+		<weaponClasses>
+		  <li>RangedLight</li>
+		</weaponClasses>
+		<thingCategories>
+			<li>Pistols</li>
+		</thingCategories>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_45ACP_FMJ</defaultProjectile>
+				<warmupTime>0.30</warmupTime>
+				<range>20</range>
+				<soundCast>ShotPistol</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CombatExtended.CompProperties_FireModes">
+				<aiUseBurstMode>FALSE</aiUseBurstMode>
+				<aiAimMode>AimedShot</aiAimMode>
+			</li>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>5</magazineSize>
+				<reloadTime>1.8</reloadTime>
+				<ammoSet>AmmoSet_45ACP</ammoSet>
+			</li>
+		</comps>
+		<modExtensions>
+		  <li Class="CombatExtended.GunDrawExtension">
+			<DrawSize>0.8</DrawSize>
+		  </li>
+		</modExtensions>
+		<smeltProducts>
+			<Pistol_Component>1</Pistol_Component>
+			<Weapon_Parts>1</Weapon_Parts>
+		</smeltProducts>
+	</ThingDef>
 	
 </Defs>
