@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Proj_GrenadeBottlecap.label>마인 캡</Proj_GrenadeBottlecap.label>
+
+ <Weapon_Grenade_Bottlecap.label>마인 캡</Weapon_Grenade_Bottlecap.label>
+ <Weapon_Grenade_Bottlecap.description>전쟁 전 Vault-Tec의 인기 도시락은 종말 이후의 영연방에서 치명적인 광산의 기초가 되었습니다. 이 수제 장치는 어떤 적이라도 상대하는 데 도움이 될 것입니다.</Weapon_Grenade_Bottlecap.description>
+ <Weapon_Grenade_Bottlecap.verbs.0.label>캡 지뢰 투척</Weapon_Grenade_Bottlecap.verbs.0.label>
+
+</LanguageData>

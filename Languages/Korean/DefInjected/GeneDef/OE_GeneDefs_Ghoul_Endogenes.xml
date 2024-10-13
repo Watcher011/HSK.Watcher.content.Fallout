@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- TortleHead -->
+
+ <OE_GhoulHead.label>구울 헤드</OE_GhoulHead.label>
+ <OE_GhoulHead.description>이 유전자 보유자는 구울의 머리를 가집니다.</OE_GhoulHead.description>
+
+ <RADImmunity.label>방사선 저항</RADImmunity.label>
+ <RADImmunity.description>방사선 보호</RADImmunity.description>
+
+
+</LanguageData>

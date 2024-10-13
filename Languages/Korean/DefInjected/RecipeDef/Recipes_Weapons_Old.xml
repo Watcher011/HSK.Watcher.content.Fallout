@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <MakeRailway_Hand.label>네일건 생성</MakeRailway_Hand.label>
+ <MakeRailway_Hand.description>네일건 만들기 - 직접 만든 전후 개발. 무기의 작동 원리는 탱크에 증기를 주입하고 고압 하에서 증기를 방출하여 철도 못을 움직이게 하는 것을 기반으로 합니다. 그 결과, 무기를 재장전할 때 증기기관차가 출발하는 것과 비슷한 소리가 납니다. 이것은 적의 팔다리를 찢거나 심지어 벽에 못 박을 수도 있는 매우 효과적인 무기입니다. 공격력은 뛰어나지만 무게가 무겁고 발사 속도가 느린 등 여러 가지 단점이 있습니다.</MakeRailway_Hand.description>
+ <MakeRailway_Hand.jobString>못총을 만듭니다.</MakeRailway_Hand.jobString>
+
+ <MakeRailway_Electric.label>네일건 생성</MakeRailway_Electric.label>
+ <MakeRailway_Electric.description>못총 만들기 - 직접 만든 전후 개발. 무기의 작동 원리는 탱크에 증기를 주입하고 고압 하에서 증기를 방출하여 철도 못을 움직이게 하는 것을 기반으로 합니다. 그 결과, 무기를 재장전할 때 증기기관차가 출발하는 것과 비슷한 소리가 납니다. 이것은 적의 팔다리를 찢거나 심지어 벽에 못 박을 수도 있는 매우 효과적인 무기입니다. 공격력은 뛰어나지만 무게가 무겁고 발사 속도가 느린 등 여러 가지 단점이 있습니다.</MakeRailway_Electric.description>
+ <MakeRailway_Electric.jobString>못총을 만듭니다.</MakeRailway_Electric.jobString>
+
+ <PipeGun_Hand.label>볼트로 활강보어 생성</PipeGun_Hand.label>
+ <PipeGun_Hand.description>Craft Smoothbore Bolt - 이것은 종말 이후의 총제작자들이 수공예품으로 나무, 오래된 파이프 조각, 스프링 및 기타 스크랩을 손에 들고 접착제, 볼트 및 와이어로 고정하여 조잡하게 제작한 제품입니다. 매우 인기 있고 널리 퍼져 있음</PipeGun_Hand.description>
+ <PipeGun_Hand.jobString>볼트를 사용하여 활강보어를 생성합니다.</PipeGun_Hand.jobString>
+
+ <PipeRifle.label>활강볼트 총 생성</PipeRifle.label>
+ <PipeRifle.description>활강보어 볼트를 만듭니다. 활강보어 라인은 발견된 볼트, 금속 및 목재의 다양한 부분을 사용하여 "무릎에" 조립한 가장 간단한 탄도 무기입니다. 겉모습만 보면 표적보다는 사수를 죽일 것 같은 느낌이 들지만, 황무지에서는 흔한 일이고 공격자들은 이런 방식을 선호합니다</PipeRifle.description>
+ <PipeRifle.jobString>볼트로 활강보어를 생성합니다.</PipeRifle.jobString>
+
+ <OldRevolver_Hand.label>챔버가 있는 활강공 만들기</OldRevolver_Hand.label>
+ <OldRevolver_Hand.description>이것은 종말 이후의 총제작자들이 나무, 오래된 파이프 조각, 드럼 공급 장치, 스프링 및 기타 잡동사니를 접착제, 볼트 및 와이어로 결합하여 조잡하게 제작한 수공예품입니다. 매우 인기 있고 널리 퍼져 있습니다.</OldRevolver_Hand.description>
+ <OldRevolver_Hand.jobString>챔버로 생성합니다.</OldRevolver_Hand.jobString>
+
+
+</LanguageData>

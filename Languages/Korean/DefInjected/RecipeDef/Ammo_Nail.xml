@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+<MakeAmmo_Nail.label>못 50개 만들기</MakeAmmo_Nail.label>
+ <MakeAmmo_Nail.description>못을 50개 만듭니다.</MakeAmmo_Nail.description>
+ <MakeAmmo_Nail.jobString>못을 만듭니다.</MakeAmmo_Nail.jobString>
+</LanguageData>

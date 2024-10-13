@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Mutant_shadow.label>그림자</Mutant_shadow.label>
+ <Mutant_shadow.description>원래 건설 및 중공업용으로 설계된 Ogron™은 크고 강인하며 머리가 두꺼운 외계 인간입니다. 변방세계에서는 많은 야생 부족이 그들을 잔인한 전쟁 짐승으로 사용합니다.</Mutant_shadow.description>
+ <Mutant_shadow.tools.0.label>왼쪽 주먹</Mutant_shadow.tools.0.label>
+ <Mutant_shadow.tools.1.label>오른쪽 주먹</Mutant_shadow.tools.1.label>
+ <Mutant_shadow.tools.2.label>헤드</Mutant_shadow.tools.2.label>
+
+</LanguageData>

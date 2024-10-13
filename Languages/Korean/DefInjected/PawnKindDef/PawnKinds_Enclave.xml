@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Chaser -->
+
+<EnclaveChaser.label>엔클레이브 정찰</EnclaveChaser.label>
+ <EnclaveChaser.labelPlural>엔클레이브 정찰병</EnclaveChaser.labelPlural>
+
+ <EnclaveChaser_Acidifier.label>엔클레이브 정찰병</EnclaveChaser_Acidifier.label>
+ <EnclaveChaser_Acidifier.labelPlural>엔클레이브 정찰병</EnclaveChaser_Acidifier.labelPlural>
+
+
+ <!-- 선더러 -->
+
+ <EnclaveSunderer.label>엔클레이브 분리자</EnclaveSunderer.label>
+ <EnclaveSunderer.labelPlural>엔클레이브 스위퍼</EnclaveSunderer.labelPlural>
+
+ <EnclaveSunderer_Acidifier.label>엔클레이브 분리자</EnclaveSunderer_Acidifier.label>
+ <EnclaveSunderer_Acidifier.labelPlural>엔클레이브</EnclaveSunderer_Acidifier.labelPlural>
+
+</LanguageData>

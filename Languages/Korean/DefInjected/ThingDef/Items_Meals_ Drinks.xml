@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <NukaColaQuantum.label>누카콜라 퀀텀</NukaColaQuantum.label>
+ <NukaColaQuantum.description>이 제품은 미각의 정점입니다. 17가지 과일 향과 시그니처 콜라 향이 어우러져 완벽한 청량 음료를 완성합니다. 새로운 스트론튬 첨가제는 너무 단단하게 달라붙어서 벗겨지기 시작합니다.</NukaColaQuantum.description>
+ <NukaColaQuantum.ingestible.ingestCommandString>{0} 음료</NukaColaQuantum.ingestible.ingestCommandString>
+ <NukaColaQuantum.ingestible.ingestReportString>{0}을(를) 마시고 있습니다.</NukaColaQuantum.ingestible.ingestReportString>
+
+ <NukaCola.label>누카콜라</NukaCola.label>
+ <NukaCola.description>미국에서 가장 인기 있는 청량음료로, 대전 이전에 생산되었습니다. 많은 사람들이 기억하고 있는 야데르콜라는 전후 세계에서 가장 인기 있는 탄산음료가 되었는데, 그 이유는 200년이 지난 후에도 대부분 따뜻하고 탄산으로 발견되지만 완벽하게 보존되었기 때문입니다. 음료수는 방사능이 되었습니다. 누카콜라를 자주 섭취하면 중독을 일으킬 수 있습니다..</NukaCola.description>
+ <NukaCola.ingestible.ingestCommandString>{0} 음료</NukaCola.ingestible.ingestCommandString>
+ <NukaCola.ingestible.ingestReportString>{0}을(를) 마시고 있습니다.</NukaCola.ingestible.ingestReportString>
+
+ <NukaColaOrang.label>누카콜라-오렌지</NukaColaOrang.label>
+ <NukaColaOrang.description>미국에서 가장 인기 있는 청량음료로, 대전 이전에 생산되었습니다. 많은 사람들이 기억하고 있는 야데르콜라는 전후 세계에서 가장 인기 있는 탄산음료가 되었는데, 그 이유는 200년이 지난 후에도 대부분 따뜻하고 탄산으로 발견되지만 완벽하게 보존되었기 때문입니다. 음료수는 방사능이 되었습니다. 누카콜라를 자주 섭취하면 중독을 일으킬 수 있습니다..</NukaColaOrang.description>
+ <NukaColaOrang.ingestible.ingestCommandString>{0} 음료</NukaColaOrang.ingestible.ingestCommandString>
+ <NukaColaOrang.ingestible.ingestReportString>{0}을(를) 마시고 있습니다.</NukaColaOrang.ingestible.ingestReportString>
+
+ <NukaColaMars.label>누카콜라 이클립스</NukaColaMars.label>
+ <NukaColaMars.description>이 제품은 정제된 퀀텀 누카콜라와 피 주머니의 혼합물입니다. 모든 황무지 애호가들이 야생의 조합을 좋아하는 것은 아니지만, 어둠을 좋아하는 사람들은 기뻐했습니다.</NukaColaMars.description>
+ <NukaColaMars.ingestible.ingestCommandString>{0} 음료</NukaColaMars.ingestible.ingestCommandString>
+ <NukaColaMars.ingestible.ingestReportString>{0}을(를) 마시고 있습니다.</NukaColaMars.ingestible.ingestReportString>
+</LanguageData>

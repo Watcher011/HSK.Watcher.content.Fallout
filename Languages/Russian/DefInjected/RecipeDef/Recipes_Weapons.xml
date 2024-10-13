@@ -4,6 +4,7 @@
 <MakeMolotov.label>создать коктейль Молотова</MakeMolotov.label>
 <MakeMolotov.description>Создать метательное оружие, которое сжигает ваших врагов дотла!</MakeMolotov.description>
 <MakeMolotov.jobString>Создание коктейлей Молотова</MakeMolotov.jobString>
+
   <MakeBottlecapGrenades.label>Создать Крышко-мину</MakeBottlecapGrenades.label>
   <MakeBottlecapGrenades.description>Популярная до войны коробочка для завтраков от компании «Волт-Тек» стала в пост апокалиптическом Содружестве основой для смертоносной мины. Это самодельное устройство поможет справиться вам с любым врагом. Можно бросать как гранату.</MakeBottlecapGrenades.description>
   <MakeBottlecapGrenades.jobString>Создаёт крышко-мину.</MakeBottlecapGrenades.jobString>

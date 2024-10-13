@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeMolotov.label>몰로토프 칵테일 만들기</MakeMolotov.label>
+ <MakeMolotov.description>적을 불태워 재로 만드는 투척 무기를 만드세요!</MakeMolotov.description>
+ <MakeMolotov.jobString>몰로토프 칵테일 만들기.</MakeMolotov.jobString>
+
+ <MakeBottlecapGrenades.label>캡 마인 생성</MakeBottlecapGrenades.label>
+ <MakeBottlecapGrenades.description>전쟁 전에 인기가 있었던 볼트텍 도시락은 종말 이후의 영연방에서 치명적인 광산의 기반이 되었습니다. 이 수제 장치는 수류탄처럼 던질 수 있어 어떤 적이라도 상대하는 데 도움이 될 것입니다.</MakeBottlecapGrenades.description>
+ <MakeBottlecapGrenades.jobString>캡 지뢰를 생성합니다.</MakeBottlecapGrenades.jobString>
+</LanguageData>

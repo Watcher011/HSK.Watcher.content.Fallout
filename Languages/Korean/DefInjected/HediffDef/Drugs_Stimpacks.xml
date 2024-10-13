@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<RadAwayHigh.label>안티라딘</RadAwayHigh.label>
+ <RadAwayHigh.description>안티라딘은 신체에서 방사선을 제거하는 특성으로 인해 방사성 오염 수준을 줄여줍니다.</RadAwayHigh.description>
+
+ <RadAwayTolerance.label>라딘 안티라딘에 대한 갈망</RadAwayTolerance.label>
+ <RadAwayTolerance.description>나는 Radin Antiradin을 갈망하고 있으며 중독은 멀지 않았습니다.</RadAwayTolerance.description>
+
+ <RadAwayAddiction.label>라딘 중독</RadAwayAddiction.label>
+ <RadAwayAddiction.description>강력한 안티라딘 중독이 발생했습니다.</RadAwayAddiction.description>
+ <RadAwayAddiction.stages.1.label>Rad 차단기</RadAwayAddiction.stages.1.label>
+ <RadAwayAddiction.labelNoun>빛나는 중독자</RadAwayAddiction.labelNoun>
+
+</LanguageData>

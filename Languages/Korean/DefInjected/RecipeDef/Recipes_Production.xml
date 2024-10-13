@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<MakeGlassBotel.label>유리병 만들기</MakeGlassBotel.label>
+ <MakeGlassBotel.description>제련병. 5개</MakeGlassBotel.description>
+ <MakeGlassBotel.jobString>제련.</MakeGlassBotel.jobString>
+
+ <MakeSmeltBotel.label>유리병 재용해</MakeSmeltBotel.label>
+ <MakeSmeltBotel.description>병을 녹입니다. 제련 5.</MakeSmeltBotel.description>
+ <MakeSmeltBotel.jobString>제련.</MakeSmeltBotel.jobString>
+
+ <MakeCupBotel.label>병뚜껑 만들기</MakeCupBotel.label>
+ <MakeCupBotel.description>제련병 뚜껑. 10개</MakeCupBotel.description>
+ <MakeCupBotel.jobString>제련.</MakeCupBotel.jobString>
+
+ <SmeltCupBotel.label>병뚜껑 다시 녹이기</SmeltCupBotel.label>
+ <SmeltCupBotel.description>병뚜껑을 다시 녹입니다. 제련 10.</SmeltCupBotel.description>
+ <SmeltCupBotel.jobString>제련.</SmeltCupBotel.jobString>
+
+</LanguageData>

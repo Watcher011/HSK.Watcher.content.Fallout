@@ -164,4 +164,357 @@
 	
 
 
+
+<ThingDef ParentName="SK_AnimalThingBase">
+		<defName>Bloodbug</defName>
+		<label>Гнус</label>
+		<description>Гигантский комар-мутант, обитающий на пустошах Содружества после войны.Встречаются как поодиночке, так и группами до 5 особей. В неагрессивном состоянии гнус почти неподвижно сидит на земле или трупе брамина. Порой может сидеть в воде, что делает его практически незаметным до момента, когда он взлетает для атаки.</description>
+		<statBases>
+			<Mass>4</Mass>
+			<MoveSpeed>9.5</MoveSpeed>
+			<ComfyTemperatureMin>0</ComfyTemperatureMin>
+			<ComfyTemperatureMax>55</ComfyTemperatureMax>
+			<ArmorRating_Blunt>3</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<MarketValue>200</MarketValue>
+			<LeatherAmount>0</LeatherAmount>
+			<MeatAmount>3</MeatAmount>
+			<ImmunityGainSpeed>2.5</ImmunityGainSpeed>
+			<MeleeDodgeChance>0.85</MeleeDodgeChance>
+			<MeleeCritChance>0</MeleeCritChance>
+			<SmokeSensitivity>0.5</SmokeSensitivity>
+			<GermResistance>0.55</GermResistance>
+			<GermContainment>0.01</GermContainment>
+			<ToxicResistance>1</ToxicResistance>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			<CarryWeight>18</CarryWeight>
+			<CarryBulk>12</CarryBulk>
+			<FilthRate>16</FilthRate>
+		</statBases>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>mouth</label>
+				<capacities>
+					<li>MalariaBite</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.2</cooldownTime>
+				<chanceFactor>2</chanceFactor>
+				<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>21</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+				<armorPenetrationSharp>1.2</armorPenetrationSharp>
+				<armorPenetrationBlunt>0.3</armorPenetrationBlunt>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>head</label>
+				<capacities>
+					<li>MalariaBite</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+				<armorPenetrationSharp>1.2</armorPenetrationSharp>
+				<armorPenetrationBlunt>0.45</armorPenetrationBlunt>
+			</li>
+		</tools>
+		<race>
+			<body>BeetleLike</body>
+			<predator>true</predator>
+			<trainability>Advanced</trainability>
+			 <deathAction Class="DeathActionProperties_Divide">
+        <divideBloodFilthCountRange>3~4</divideBloodFilthCountRange>
+        <dividePawnCount>4</dividePawnCount>
+        <dividePawnKindOptions>
+          <li>Mosquito</li>
+        </dividePawnKindOptions>
+      </deathAction>
+			<manhunterOnTameFailChance>0.35</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>1</manhunterOnDamageChance>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
+			<baseHungerRate>0.5</baseHungerRate>
+			<baseBodySize>0.95</baseBodySize>
+			<baseHealthScale>0.2</baseHealthScale>
+			<foodType>CarnivoreAnimalStrict</foodType>
+			<fleshType>Insectoid</fleshType>
+			<bloodDef>Filth_BloodInsect</bloodDef>
+			<useMeatFrom>Megaspider</useMeatFrom>
+			<petness>1</petness>
+			<wildness>0.59</wildness>
+			<lifeExpectancy>9</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>EusocialInsectLarva</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>EusocialInsectJuvenile</def>
+					<minAge>0.03</minAge>
+				</li>
+				<li>
+					<def>EusocialInsectAdult</def>
+					<minAge>0.12</minAge>
+					<soundWounded>Pawn_Megascarab_Wounded</soundWounded>
+					<soundDeath>Pawn_Megascarab_Death</soundDeath>
+					<soundCall>Pawn_Megascarab_Call</soundCall>
+					<soundAngry>Pawn_Megascarab_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+			<soundEating>Insectoid_Eat</soundEating>
+		</race>
+		<tickerType>Normal</tickerType>
+		<comps>
+			   <li Class="Flashlight.CompProperties_GlowingPawn">
+                <lightRange>1</lightRange>
+                <lightColorString>(50.50.50.1)</lightColorString>
+                </li>
+				<li Class="CompProperties_Milkable">
+				<milkDef>HemogenPack</milkDef>
+				<milkIntervalDays>2</milkIntervalDays>
+				<milkAmount>1</milkAmount>
+			</li>
+		</comps>
+		<modExtensions>
+			  <li Class="Flashlight.DefModExtension_Glow">
+               <canGlow>true</canGlow>
+          </li>
+			<li Class="CombatExtended.RacePropertiesExtensionCE">
+				<bodyShape>QuadrupedLow</bodyShape>
+			</li>
+			<li Class="SK.DestroyCorpseExtension">
+			</li>
+			<li Class="SK.AnimalExtension">
+				<hediffDef>BloodLoss</hediffDef>
+			</li>
+				
+		</modExtensions>
+	</ThingDef>
+
+	<PawnKindDef ParentName="SK_AnimalKindBase">
+		<defName>Bloodbug</defName>
+		<label>Гнус</label>
+		<race>Bloodbug</race>
+		<combatPower>35</combatPower>
+		<ecoSystemWeight>0.05</ecoSystemWeight>
+		<wildGroupSize>2~9</wildGroupSize>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Bloodbug/BloodbugA</texPath>
+					<drawSize>1</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Bloodbug/BloodbugA_Dessicated</texPath>
+					<drawSize>0.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Bloodbug/BloodbugA</texPath>
+					<drawSize>0.9</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Bloodbug/BloodbugA_Dessicated</texPath>
+					<drawSize>0.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Bloodbug/BloodbugA</texPath>
+					<drawSize>1.0</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Bloodbug/BloodbugA_Dessicated</texPath>
+					<drawSize>1</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+
+
+
+<ThingDef ParentName="SK_AnimalThingBase">
+		<defName>Cazador</defName>
+		<label>Касадор</label>
+		<description>Крупное мутировавшее насекомое, произошедшее от вида Pepsis grossa — семейства дорожных ос Pepsis. Чаще всего обитают в холмистых и горных местностях пустыни Мохаве, а также в каньоне Зайон и Большой Горе.Касадоры очень быстро передвигаются в полёте при помощи крыльев. В случае повреждения одного или двух крыльев начинают передвигаться на лапках, что значительно снижает скорость их передвижения. Как и все насекомые, при повреждении усиков впадают в бешенство и атакуют любое живое существо.</description>
+		<statBases>
+			<Mass>3</Mass>
+			<MoveSpeed>9.5</MoveSpeed>
+			<ComfyTemperatureMin>0</ComfyTemperatureMin>
+			<ComfyTemperatureMax>55</ComfyTemperatureMax>
+			<ArmorRating_Blunt>3</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<MarketValue>400</MarketValue>
+			<LeatherAmount>0</LeatherAmount>
+			<MeatAmount>2</MeatAmount>
+			<ImmunityGainSpeed>2.5</ImmunityGainSpeed>
+			<MeleeDodgeChance>0.95</MeleeDodgeChance>
+			<MeleeCritChance>0</MeleeCritChance>
+			<SmokeSensitivity>0.5</SmokeSensitivity>
+			<GermResistance>0.55</GermResistance>
+			<GermContainment>0.01</GermContainment>
+			<ToxicResistance>1</ToxicResistance>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			<CarryWeight>18</CarryWeight>
+			<CarryBulk>12</CarryBulk>
+			<FilthRate>16</FilthRate>
+		</statBases>
+		<tools>
+		<li Class="CombatExtended.ToolCE">
+				<label>venom-fangs</label>
+				<capacities>
+					<li>ToxicBite</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.2</cooldownTime>
+				<chanceFactor>2</chanceFactor>
+				<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>21</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+				<armorPenetrationSharp>3.2</armorPenetrationSharp>
+				<armorPenetrationBlunt>0.5</armorPenetrationBlunt>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+				<armorPenetrationSharp>3.2</armorPenetrationSharp>
+				<armorPenetrationBlunt>0.5</armorPenetrationBlunt>
+			</li>
+		</tools>
+		<butcherProducts>
+			<PoisonGland>1</PoisonGland>
+		</butcherProducts>
+		<race>
+			<body>BeetleLike</body>
+			  <deathAction>
+              <workerClass>DeathActionWorker_ToxCloud</workerClass>
+              </deathAction>
+			<predator>true</predator>
+			<trainability>Advanced</trainability>
+			<manhunterOnTameFailChance>0.35</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>1</manhunterOnDamageChance>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
+			<baseHungerRate>0.5</baseHungerRate>
+			<baseBodySize>1.5</baseBodySize>
+			<baseHealthScale>0.2</baseHealthScale>
+			 <intelligence>ToolUser</intelligence>
+			<foodType>CarnivoreAnimalStrict</foodType>
+			<fleshType>Insectoid</fleshType>
+			<bloodDef>Filth_BloodInsect</bloodDef>
+			<useMeatFrom>Megaspider</useMeatFrom>
+			<petness>1</petness>
+			<wildness>0.59</wildness>
+			<lifeExpectancy>9</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>EusocialInsectLarva</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>EusocialInsectJuvenile</def>
+					<minAge>0.03</minAge>
+				</li>
+				<li>
+					<def>EusocialInsectAdult</def>
+					<minAge>0.12</minAge>
+					<soundWounded>Pawn_Megascarab_Wounded</soundWounded>
+					<soundDeath>Pawn_Megascarab_Death</soundDeath>
+					<soundCall>Pawn_Megascarab_Call</soundCall>
+					<soundAngry>Pawn_Megascarab_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+			<soundEating>Insectoid_Eat</soundEating>
+		</race>
+		<tickerType>Normal</tickerType>
+		<comps>
+			   <li Class="Flashlight.CompProperties_GlowingPawn">
+                <lightRange>1</lightRange>
+                <lightColorString>(50.50.50.1)</lightColorString>
+                </li>
+		</comps>
+		<modExtensions>
+		   
+			  <li Class="Flashlight.DefModExtension_Glow">
+               <canGlow>true</canGlow>
+          </li>
+			<li Class="CombatExtended.RacePropertiesExtensionCE">
+				<bodyShape>QuadrupedLow</bodyShape>
+			</li>
+			<li Class="SK.DestroyCorpseExtension">
+			</li>
+			<li Class="SK.AnimalExtension">
+				<hediffDef>MetalhorrorImplant</hediffDef>
+			</li>
+				
+		</modExtensions>
+	</ThingDef>
+
+	<PawnKindDef ParentName="SK_AnimalKindBase">
+		<defName>Cazador</defName>
+		<label>Касадор</label>
+		<race>Cazador</race>
+		<combatPower>255</combatPower>
+		<ecoSystemWeight>0.05</ecoSystemWeight>
+		<wildGroupSize>2~5</wildGroupSize>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cazador/CazadorA</texPath>
+					<drawSize>1</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cazador/CazadorA_Dessicated</texPath>
+					<drawSize>1.1</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cazador/CazadorA</texPath>
+					<drawSize>1.2</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cazador/CazadorA_Dessicated</texPath>
+					<drawSize>1.2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cazador/CazadorA</texPath>
+					<drawSize>1.5</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cazador/CazadorA_Dessicated</texPath>
+					<drawSize>1.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
 </Defs>

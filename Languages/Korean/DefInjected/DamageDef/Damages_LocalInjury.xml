@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <CapShredded.label>캡</CapShredded.label>
+ <CapShredded.deathMessage>{0}이(가) 꽉 채워져 죽었습니다.</CapShredded.deathMessage>
+
+</LanguageData>

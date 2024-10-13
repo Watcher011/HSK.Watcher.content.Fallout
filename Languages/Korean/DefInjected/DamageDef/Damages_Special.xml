@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<ACP.label>shell</ACP.label>
+<ACP.deathMessage>{0}이(가) 산산조각이 났습니다.</ACP.deathMessage>
+
+<ACB.label>bomb</ACB.label>
+<ACB.deathMessage>{0}이(가) 죽었습니다.</ACB.deathMessage>
+
+<NuclearB.label>bomb</NuclearB.label>
+<NuclearB.deathMessage>{0}이(가) 죽었습니다.</NuclearB.deathMessage>
+
+
+</LanguageData>

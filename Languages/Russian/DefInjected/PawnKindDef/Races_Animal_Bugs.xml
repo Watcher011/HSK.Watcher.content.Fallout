@@ -2,29 +2,79 @@
 <LanguageData>
 
   <CockroachVaultec.label>Радтаракан</CockroachVaultec.label>
-  <CockroachVaultec.labelPlural>Радтараканs</CockroachVaultec.labelPlural>
+  <CockroachVaultec.labelPlural>Радтараканы</CockroachVaultec.labelPlural>
   <CockroachVaultec.lifeStages.0.label>Радтаракан</CockroachVaultec.lifeStages.0.label>
   <CockroachVaultec.lifeStages.0.labelPlural>Радтаракан</CockroachVaultec.lifeStages.0.labelPlural>
-  <CockroachVaultec.lifeStages.0.labelMale>male Радтаракан</CockroachVaultec.lifeStages.0.labelMale>
-  <CockroachVaultec.lifeStages.0.labelMalePlural>male Радтараканs</CockroachVaultec.lifeStages.0.labelMalePlural>
-  <CockroachVaultec.lifeStages.0.labelFemale>female Радтаракан</CockroachVaultec.lifeStages.0.labelFemale>
-  <CockroachVaultec.lifeStages.0.labelFemalePlural>female Радтараканs</CockroachVaultec.lifeStages.0.labelFemalePlural>
+  <CockroachVaultec.lifeStages.0.labelMale>Самец Радтаракана</CockroachVaultec.lifeStages.0.labelMale>
+  <CockroachVaultec.lifeStages.0.labelMalePlural>Самецы Радтараканов</CockroachVaultec.lifeStages.0.labelMalePlural>
+  <CockroachVaultec.lifeStages.0.labelFemale>Самка Радтаракана</CockroachVaultec.lifeStages.0.labelFemale>
+  <CockroachVaultec.lifeStages.0.labelFemalePlural>Самки Радтараканов</CockroachVaultec.lifeStages.0.labelFemalePlural>
   <CockroachVaultec.lifeStages.1.label>Радтаракан</CockroachVaultec.lifeStages.1.label>
   <CockroachVaultec.lifeStages.1.labelPlural>Радтаракан</CockroachVaultec.lifeStages.1.labelPlural>
-  <CockroachVaultec.lifeStages.1.labelMale>male Радтаракан</CockroachVaultec.lifeStages.1.labelMale>
-  <CockroachVaultec.lifeStages.1.labelMalePlural>male Радтараканs</CockroachVaultec.lifeStages.1.labelMalePlural>
-  <CockroachVaultec.lifeStages.1.labelFemale>female Радтаракан</CockroachVaultec.lifeStages.1.labelFemale>
-  <CockroachVaultec.lifeStages.1.labelFemalePlural>female Радтараканs</CockroachVaultec.lifeStages.1.labelFemalePlural>
+  <CockroachVaultec.lifeStages.1.labelMale>Самец Радтаракана</CockroachVaultec.lifeStages.1.labelMale>
+  <CockroachVaultec.lifeStages.1.labelMalePlural>Самецы Радтараканов</CockroachVaultec.lifeStages.1.labelMalePlural>
+  <CockroachVaultec.lifeStages.1.labelFemale>Самка Радтаракана</CockroachVaultec.lifeStages.1.labelFemale>
+  <CockroachVaultec.lifeStages.1.labelFemalePlural>Самки Радтараканов</CockroachVaultec.lifeStages.1.labelFemalePlural>
   <CockroachVaultec.lifeStages.2.label>Радтаракан</CockroachVaultec.lifeStages.2.label>
   <CockroachVaultec.lifeStages.2.labelPlural>Радтаракан</CockroachVaultec.lifeStages.2.labelPlural>
-  <CockroachVaultec.lifeStages.2.labelMale>male Радтаракан</CockroachVaultec.lifeStages.2.labelMale>
-  <CockroachVaultec.lifeStages.2.labelMalePlural>male Радтараканs</CockroachVaultec.lifeStages.2.labelMalePlural>
-  <CockroachVaultec.lifeStages.2.labelFemale>female Радтаракан</CockroachVaultec.lifeStages.2.labelFemale>
-  <CockroachVaultec.lifeStages.2.labelFemalePlural>female Радтараканs</CockroachVaultec.lifeStages.2.labelFemalePlural>
-  <CockroachVaultec.labelMale>male Радтаракан</CockroachVaultec.labelMale>
-  <CockroachVaultec.labelMalePlural>male Радтараканs</CockroachVaultec.labelMalePlural>
-  <CockroachVaultec.labelFemale>female Радтаракан</CockroachVaultec.labelFemale>
-  <CockroachVaultec.labelFemalePlural>female Радтараканs</CockroachVaultec.labelFemalePlural>
+  <CockroachVaultec.lifeStages.2.labelMale>Самец Радтаракана</CockroachVaultec.lifeStages.2.labelMale>
+  <CockroachVaultec.lifeStages.2.labelMalePlural>Самецы Радтараканов</CockroachVaultec.lifeStages.2.labelMalePlural>
+  <CockroachVaultec.lifeStages.2.labelFemale>Самка Радтаракана</CockroachVaultec.lifeStages.2.labelFemale>
+  <CockroachVaultec.lifeStages.2.labelFemalePlural>Самки Радтараканов</CockroachVaultec.lifeStages.2.labelFemalePlural>
+  <CockroachVaultec.labelMale>Самец Радтаракана</CockroachVaultec.labelMale>
+  <CockroachVaultec.labelMalePlural>Самецы Радтараканов</CockroachVaultec.labelMalePlural>
+  <CockroachVaultec.labelFemale>Самка Радтаракана</CockroachVaultec.labelFemale>
+  <CockroachVaultec.labelFemalePlural>Самки Радтараканов</CockroachVaultec.labelFemalePlural>
+
+  <Bloodbug.label>Гнус</Bloodbug.label>
+  <Bloodbug.labelPlural>Гнусs</Bloodbug.labelPlural>
+  <Bloodbug.lifeStages.0.label>Гнус</Bloodbug.lifeStages.0.label>
+  <Bloodbug.lifeStages.0.labelPlural>Гнус</Bloodbug.lifeStages.0.labelPlural>
+  <Bloodbug.lifeStages.0.labelMale>Самец  Гнуса</Bloodbug.lifeStages.0.labelMale>
+  <Bloodbug.lifeStages.0.labelMalePlural>Самцы  Гнусов</Bloodbug.lifeStages.0.labelMalePlural>
+  <Bloodbug.lifeStages.0.labelFemale>Самка Гнуса</Bloodbug.lifeStages.0.labelFemale>
+  <Bloodbug.lifeStages.0.labelFemalePlural>Самки Гнусов</Bloodbug.lifeStages.0.labelFemalePlural>
+  <Bloodbug.lifeStages.1.label>Гнус</Bloodbug.lifeStages.1.label>
+  <Bloodbug.lifeStages.1.labelPlural>Гнус</Bloodbug.lifeStages.1.labelPlural>
+  <Bloodbug.lifeStages.1.labelMale>Самец  Гнуса</Bloodbug.lifeStages.1.labelMale>
+  <Bloodbug.lifeStages.1.labelMalePlural>Самцы  Гнусов</Bloodbug.lifeStages.1.labelMalePlural>
+  <Bloodbug.lifeStages.1.labelFemale>Самка Гнуса</Bloodbug.lifeStages.1.labelFemale>
+  <Bloodbug.lifeStages.1.labelFemalePlural>Самки Гнусов</Bloodbug.lifeStages.1.labelFemalePlural>
+  <Bloodbug.lifeStages.2.label>Гнус</Bloodbug.lifeStages.2.label>
+  <Bloodbug.lifeStages.2.labelPlural>Гнус</Bloodbug.lifeStages.2.labelPlural>
+  <Bloodbug.lifeStages.2.labelMale>Самец  Гнуса</Bloodbug.lifeStages.2.labelMale>
+  <Bloodbug.lifeStages.2.labelMalePlural>Самцы  Гнусов</Bloodbug.lifeStages.2.labelMalePlural>
+  <Bloodbug.lifeStages.2.labelFemale>Самка Гнуса</Bloodbug.lifeStages.2.labelFemale>
+  <Bloodbug.lifeStages.2.labelFemalePlural>Самки Гнусов</Bloodbug.lifeStages.2.labelFemalePlural>
+  <Bloodbug.labelMale>Самец  Гнуса</Bloodbug.labelMale>
+  <Bloodbug.labelMalePlural>Самцы  Гнусов</Bloodbug.labelMalePlural>
+  <Bloodbug.labelFemale>Самка Гнуса</Bloodbug.labelFemale>
+  <Bloodbug.labelFemalePlural>Самки Гнусов</Bloodbug.labelFemalePlural>
+
+  <Cazador.label>Касадор</Cazador.label>
+  <Cazador.labelPlural>Касадоры</Cazador.labelPlural>
+  <Cazador.lifeStages.0.label>Касадор</Cazador.lifeStages.0.label>
+  <Cazador.lifeStages.0.labelPlural>Касадор</Cazador.lifeStages.0.labelPlural>
+  <Cazador.lifeStages.0.labelMale>male Касадор</Cazador.lifeStages.0.labelMale>
+  <Cazador.lifeStages.0.labelMalePlural>male Касадоров</Cazador.lifeStages.0.labelMalePlural>
+  <Cazador.lifeStages.0.labelFemale>Самки Касадоров</Cazador.lifeStages.0.labelFemale>
+  <Cazador.lifeStages.0.labelFemalePlural>Самки Касадоровов</Cazador.lifeStages.0.labelFemalePlural>
+  <Cazador.lifeStages.1.label>Касадор</Cazador.lifeStages.1.label>
+  <Cazador.lifeStages.1.labelPlural>Касадор</Cazador.lifeStages.1.labelPlural>
+  <Cazador.lifeStages.1.labelMale>Самец  Касадоров</Cazador.lifeStages.1.labelMale>
+  <Cazador.lifeStages.1.labelMalePlural>Самец  Касадоровов</Cazador.lifeStages.1.labelMalePlural>
+  <Cazador.lifeStages.1.labelFemale>Самки Касадоров</Cazador.lifeStages.1.labelFemale>
+  <Cazador.lifeStages.1.labelFemalePlural>Самки Касадоровов</Cazador.lifeStages.1.labelFemalePlural>
+  <Cazador.lifeStages.2.label>Касадор</Cazador.lifeStages.2.label>
+  <Cazador.lifeStages.2.labelPlural>Касадор</Cazador.lifeStages.2.labelPlural>
+  <Cazador.lifeStages.2.labelMale>Самец  Касадоров</Cazador.lifeStages.2.labelMale>
+  <Cazador.lifeStages.2.labelMalePlural>Самец  Касадоровов</Cazador.lifeStages.2.labelMalePlural>
+  <Cazador.lifeStages.2.labelFemale>Самки Касадоров</Cazador.lifeStages.2.labelFemale>
+  <Cazador.lifeStages.2.labelFemalePlural>Самки Касадоровов</Cazador.lifeStages.2.labelFemalePlural>
+  <Cazador.labelMale>Самец  Касадоров</Cazador.labelMale>
+  <Cazador.labelMalePlural>Самец  Касадоровов</Cazador.labelMalePlural>
+  <Cazador.labelFemale>Самки Касадоров</Cazador.labelFemale>
+  <Cazador.labelFemalePlural>Самки Касадоровов</Cazador.labelFemalePlural>
 
 
 </LanguageData>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<MisterHandyColonist.label>도우미 아저씨</MisterHandyColonist.label>
+ <MisterHandyColonist.labelPlural>도우미 아저씨</MisterHandyColonist.labelPlural>
+ <MisterHandyColonist.labelMale>남성 미스터 도우미</MisterHandyColonist.labelMale>
+ <MisterHandyColonist.labelMalePlural>남성 미스터 도우미</MisterHandyColonist.labelMalePlural>
+ <MisterHandyColonist.labelFemale>여성 미스터 도우미</MisterHandyColonist.labelFemale>
+ <MisterHandyColonist.labelFemalePlural>여성 미스터 도우미</MisterHandyColonist.labelFemalePlural>
+
+</LanguageData>

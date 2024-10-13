@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<SteroidHigh.label>스테로이드</SteroidHigh.label>
+ <스테로이드하이.description>...</스테로이드하이.description>
+ <SteroidHigh.labelNoun>스테로이드의 영향을 받고 있는 경우</SteroidHigh.labelNoun>
+
+ <SteroidAddiction.label>스테로이드 중독</SteroidAddiction.label>
+ <SteroidAddiction.description>스테로이드를 장기간 사용하면 중독이 발생합니다.</SteroidAddiction.description>
+ <SteroidAddiction.stages.1.label>떨림</SteroidAddiction.stages.1.label>
+
+ <SteroidTolerance.label>스테로이드 내성</SteroidTolerance.label>
+ <SteroidTolerance.description>중독을 향한 한 단계</SteroidTolerance.description>
+
+</LanguageData>
