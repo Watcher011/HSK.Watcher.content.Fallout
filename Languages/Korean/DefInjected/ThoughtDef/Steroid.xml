@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-<SteroidWithdrawal.stages.1.label>스테로이드 금단</SteroidWithdrawal.stages.1.label>
- <SteroidWithdrawal.stages.1.description>통증 없이는 숨을 쉴 수도 없습니다</SteroidWithdrawal.stages.1.description>
+  <SteroidWithdrawal.stages.1.label>스테로이드 금단</SteroidWithdrawal.stages.1.label>
+  <SteroidWithdrawal.stages.1.description>통증 없이는 숨을 쉴 수도 없습니다</SteroidWithdrawal.stages.1.description>
+
+
 </LanguageData>

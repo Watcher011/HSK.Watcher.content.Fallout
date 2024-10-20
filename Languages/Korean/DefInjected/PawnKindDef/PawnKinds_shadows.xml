@@ -3,11 +3,12 @@
 
   <!-- Ogre Bases -->
 
- <shadow.label>그림자</shadow.label>
- <shadow.labelPlural>그림자</shadow.labelPlural>
- <shadow.labelMale>남성 섀도우</shadow.labelMale>
- <shadow.labelMalePlural>남성 그림자</shadow.labelMalePlural>
- <shadow.labelFemale>여자 그림자</shadow.labelFemale>
- <shadow.labelFemalePlural>여성 그림자</shadow.labelFemalePlural>
+  <shadow.label>그림자</shadow.label>
+  <shadow.labelPlural>그림자</shadow.labelPlural>
+  <shadow.labelMale>남성 섀도우</shadow.labelMale>
+  <shadow.labelMalePlural>남성 그림자</shadow.labelMalePlural>
+  <shadow.labelFemale>여자 그림자</shadow.labelFemale>
+  <shadow.labelFemalePlural>여성 그림자</shadow.labelFemalePlural>
+
 
 </LanguageData>

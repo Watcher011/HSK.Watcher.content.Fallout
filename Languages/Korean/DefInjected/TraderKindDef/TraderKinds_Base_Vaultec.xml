@@ -1,7 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<Base_Vaultec_Standard.label>Vaultec 상인 도매업체</Base_Vaultec_Standard.label>
- <Visitor_Vaultec_Standard.label>Vaultec 거래자</Visitor_Vaultec_Standard.label>
- <Caravan_Vaultec_BulkGoods.label>금고 상인☢</Caravan_Vaultec_BulkGoods.label>
+
+  <Base_Vaultec_Standard.label>Vaultec 상인 도매업체</Base_Vaultec_Standard.label>
+  <Visitor_Vaultec_Standard.label>Vaultec 거래자</Visitor_Vaultec_Standard.label>
+  <Caravan_Vaultec_BulkGoods.label>금고 상인☢</Caravan_Vaultec_BulkGoods.label>
+
 
 </LanguageData>

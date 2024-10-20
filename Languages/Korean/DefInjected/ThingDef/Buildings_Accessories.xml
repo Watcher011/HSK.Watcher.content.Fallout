@@ -1,11 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-<ColaBasin.label>퀀텀 콜라 코어 머신</ColaBasin.label>
- <ColaBasin.description>양자 콜라 핵 합성을 위한 자동 기계</ColaBasin.description>
+  <ColaBasin.label>퀀텀 콜라 코어 머신</ColaBasin.label>
+  <ColaBasin.description>양자 콜라 핵 합성을 위한 자동 기계</ColaBasin.description>
 
- <GECK.label>에덴 장막 협약의 생성자</GECK.label>
- <GECK.description>에덴 장막 협약의 생성자. 이는 모든 Vault-Tec 대피소의 표준 장비입니다. GECK는 폭격 이후 문명 복원의 원천입니다. 물을 넣고 저어주시면 됩니다.</GECK.description>
- <GECK.comps.6.offMessage>식물 휴면 기간 동안 꺼짐</GECK.comps.6.offMessage>
+  <GECK.label>에덴 장막 협약의 생성자</GECK.label>
+  <GECK.description>에덴 장막 협약의 생성자. 이는 모든 Vault-Tec 대피소의 표준 장비입니다. GECK는 폭격 이후 문명 복원의 원천입니다. 물을 넣고 저어주시면 됩니다.</GECK.description>
+  <GECK.comps.6.offMessage>식물 휴면 기간 동안 꺼짐</GECK.comps.6.offMessage>
+
 
 </LanguageData>

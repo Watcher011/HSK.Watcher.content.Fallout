@@ -3,26 +3,30 @@
 
   <!-- Skin - GhoulDarkGreen -->
 
- <OE_Skin_GhoulDarkGreen.label>구울의 병든 녹색 피부</OE_Skin_GhoulDarkGreen.label>
- <OE_Skin_GhoulDarkGreen.description>많이 본 구울 스킨</OE_Skin_GhoulDarkGreen.description>
+  <OE_Skin_GhoulDarkGreen.label>구울의 병든 녹색 피부</OE_Skin_GhoulDarkGreen.label>
+  <OE_Skin_GhoulDarkGreen.description>많이 본 구울 스킨</OE_Skin_GhoulDarkGreen.description>
 
 
- <!-- 스킨 - GhoulLightGreen -->
+  <!-- Skin - GhoulLightGreen -->
 
- <OE_Skin_GhoulLightGreen.label>구울의 병약한 연녹색 피부</OE_Skin_GhoulLightGreen.label>
- <OE_Skin_GhoulLightGreen.description>많이 본 구울 스킨</OE_Skin_GhoulLightGreen.description>
-
-
- <!-- 스킨 - TurtleDarkBrown -->
-
- <OE_Skin_GhoulDarkBrown.label>구울의 병든 갈색 피부</OE_Skin_GhoulDarkBrown.label>
- <OE_Skin_GhoulDarkBrown.description>많이 본 구울 스킨</OE_Skin_GhoulDarkBrown.description>
+  <OE_Skin_GhoulLightGreen.label>구울의 병약한 연녹색 피부</OE_Skin_GhoulLightGreen.label>
+  <OE_Skin_GhoulLightGreen.description>많이 본 구울 스킨</OE_Skin_GhoulLightGreen.description>
 
 
- <!-- 스킨 - TurtleLightBrown -->
+  <!-- Skin - TurtleDarkBrown -->
 
- <OE_Skin_GhoulLightBrown.label>구울의 병약한 연갈색 피부</OE_Skin_GhoulLightBrown.label>
- <OE_Skin_GhoulLightBrown.description>많이 본 구울 스킨</OE_Skin_GhoulLightBrown.description>
+  <OE_Skin_GhoulDarkBrown.label>구울의 병든 갈색 피부</OE_Skin_GhoulDarkBrown.label>
+  <OE_Skin_GhoulDarkBrown.description>많이 본 구울 스킨</OE_Skin_GhoulDarkBrown.description>
 
+
+  <!-- Skin - TurtleLightBrown -->
+
+  <OE_Skin_GhoulLightBrown.label>구울의 병약한 연갈색 피부</OE_Skin_GhoulLightBrown.label>
+  <OE_Skin_GhoulLightBrown.description>많이 본 구울 스킨</OE_Skin_GhoulLightBrown.description>
+
+
+  <!-- 스킨 - GhoulLightGreen -->
+  <!-- 스킨 - TurtleDarkBrown -->
+  <!-- 스킨 - TurtleLightBrown -->
 
 </LanguageData>

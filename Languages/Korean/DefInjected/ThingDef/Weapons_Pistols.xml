@@ -1,38 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
- <Gun_LaserPistol.label>레이저 권총</Gun_LaserPistol.label>
- <Gun_LaserPistol.description>레이저 권총은 전쟁 전 미국에서 개발된 첨단 에너지 무기입니다. 작동 원리는 집중되고 다중 증폭된 광선으로, "샷"(펄스)의 에너지를 대상의 매우 작은 영역에 거의 즉각적이고 매우 정확하게 전달합니다.
+  <Gun_LaserPistol.label>레이저 권총</Gun_LaserPistol.label>
+  <Gun_LaserPistol.description>레이저 권총은 전쟁 전 미국에서 개발된 첨단 에너지 무기입니다. 작동 원리는 집중되고 다중 증폭된 광선으로, "샷"(펄스)의 에너지를 대상의 매우 작은 영역에 거의 즉각적이고 매우 정확하게 전달합니다.
 결과적으로 표적 물질이 급속히 가열되고(생체 표적의 경우 화상 및 탄화. 또한 고통스러운 쇼크로 인해 팔다리에 부딪히면 사망이 발생할 수 있음) 충분한 펄스 전력이 있어야합니다. 물질의 폭발적인 증발.
 흥미롭게도 정상적인 조건에서는 레이저 광선이 보이지 않습니다. 외부에서는 레이저 광선을 산란시키는 연기나 안개 속에서만 볼 수 있습니다.
 아마도 레이저 무기의 확실한 장점은 갑옷으로 보호되는 대상과의 전투에서 높은 사격 정확도와 효율성이지만 사격의 위력은 거리에 따라 다소 감소해야 합니다.
 단점은 무기 설계의 복잡성이 높고 기계적 강도가 낮다는 것입니다(사소한 수리에도 고도의 자격을 갖춘 전문가가 필요하고 전쟁 전 부품 및 특수 도구를 사용해야 함에도 불구하고), 방출기의 이상적인 청결을 유지해야 할 필요성( 이는 현장에서 달성하기 매우 어렵습니다), 각 사격의 상당한 에너지 강도(전쟁 전 배터리가 매우 부족했음에도 불구하고)</Gun_LaserPistol.description>
 
- <Gun_LaserRifel.label>AER9 레이저 소총</Gun_LaserRifel.label>
- <Gun_LaserRifel.description>AER9는 전쟁 전 첨단 기술을 사용하지 않아 신뢰성이 크게 향상되었습니다. 이 모델은 기존의 고체 펄스 레이저로, 활성 매체(크리스탈)가 티타늄 하우징으로 둘러싸여 있어 기술적 특성의 손실 없이 수년간 환경 노출을 견딜 수 있습니다.</Gun_LaserRifel.description>
+  <Gun_LaserRifel.label>AER9 레이저 소총</Gun_LaserRifel.label>
+  <Gun_LaserRifel.description>AER9는 전쟁 전 첨단 기술을 사용하지 않아 신뢰성이 크게 향상되었습니다. 이 모델은 기존의 고체 펄스 레이저로, 활성 매체(크리스탈)가 티타늄 하우징으로 둘러싸여 있어 기술적 특성의 손실 없이 수년간 환경 노출을 견딜 수 있습니다.</Gun_LaserRifel.description>
 
- <Gun_LaserSniperRifel.label>레이저 연구소</Gun_LaserSniperRifel.label>
- <Gun_LaserSniperRifel.description>연구소에서 개발한 레이저 무기의 변형입니다. 표준 레이저에 비해 디자인이 다르고 발사 속도가 더 빠르며 무게가 가볍지만 가능한 수정 범위가 더 제한되고 피해가 약간 적습니다. 장점으로는 V.A.T.S. 모드에서 AP 소모가 적고, 단발 모드에서 반동이 매우 낮고 분산이 거의 없어 저격수에게 탁월한 선택이 됩니다. 단점은 부피가 크고 크기가 크며 소음기를 설치할 수 없다는 점입니다. 이는 모든 에너지 무기의 특징이므로 스텔스 모드에서 작동하는 기능이 제한됩니다.</Gun_LaserSniperRifel.description>
- <Gun_PlasmaRifelV.label>플라즈마 카빈</Gun_PlasmaRifelV.label>
- <Gun_PlasmaRifelV.description>경에너지 무기는 전쟁이 시작되기 직전에 개발되어 미군에 투입되기 시작했지만 대량 보급을 달성할 시간이 없었습니다. 전후 엔클레이브 부대가 적극적으로 사용했습니다. 후자의 패배로 황무지 전체에 퍼졌지만 여전히 매우 드뭅니다.</Gun_PlasmaRifelV.description>
+  <Gun_LaserSniperRifel.label>레이저 연구소</Gun_LaserSniperRifel.label>
+  <Gun_LaserSniperRifel.description>연구소에서 개발한 레이저 무기의 변형입니다. 표준 레이저에 비해 디자인이 다르고 발사 속도가 더 빠르며 무게가 가볍지만 가능한 수정 범위가 더 제한되고 피해가 약간 적습니다. 장점으로는 V.A.T.S. 모드에서 AP 소모가 적고, 단발 모드에서 반동이 매우 낮고 분산이 거의 없어 저격수에게 탁월한 선택이 됩니다. 단점은 부피가 크고 크기가 크며 소음기를 설치할 수 없다는 점입니다. 이는 모든 에너지 무기의 특징이므로 스텔스 모드에서 작동하는 기능이 제한됩니다.</Gun_LaserSniperRifel.description>
 
- <Gun_GatlingLaser.label>개틀링 레이저</Gun_GatlingLaser.label>
- <Gun_GatlingLaser.description>개틀링 레이저는 짧은 시간에 막대한 양의 에너지 피해를 줄 수 있지만 발사하기 전에 회전하는 데 시간이 필요합니다.</Gun_GatlingLaser.description>
+  <Gun_PlasmaRifelV.label>플라즈마 카빈</Gun_PlasmaRifelV.label>
+  <Gun_PlasmaRifelV.description>경에너지 무기는 전쟁이 시작되기 직전에 개발되어 미군에 투입되기 시작했지만 대량 보급을 달성할 시간이 없었습니다. 전후 엔클레이브 부대가 적극적으로 사용했습니다. 후자의 패배로 황무지 전체에 퍼졌지만 여전히 매우 드뭅니다.</Gun_PlasmaRifelV.description>
 
- <Gun_Fat_Man.label>뚱뚱한 남자</Gun_Fat_Man.label>
- <Gun_Fat_Man.description>어깨에 장착하는 전술적 휴대용 핵 투석기입니다. 이 무기는 핵탄을 발사하는데, 폭발하면 작은 지역에 핵폭발이 일어나 큰 피해와 한동안 방사선이 방출됩니다. 완벽한 상태일 때, 이 무기는 부서지기 전까지 495번 발사할 수 있습니다.</Gun_Fat_Man.description>
+  <Gun_GatlingLaser.label>개틀링 레이저</Gun_GatlingLaser.label>
+  <Gun_GatlingLaser.description>개틀링 레이저는 짧은 시간에 막대한 양의 에너지 피해를 줄 수 있지만 발사하기 전에 회전하는 데 시간이 필요합니다.</Gun_GatlingLaser.description>
 
- <Railway.label>못총</Railway.label>
- <Railway.description>네일건은 철도 못을 발사하는 희귀한 수제 무기입니다. 그 총탄은 적의 팔다리를 찢을 수도 있고 심지어 벽에 못 박힐 수도 있습니다.</Railway.description>
+  <Gun_Fat_Man.label>뚱뚱한 남자</Gun_Fat_Man.label>
+  <Gun_Fat_Man.description>어깨에 장착하는 전술적 휴대용 핵 투석기입니다. 이 무기는 핵탄을 발사하는데, 폭발하면 작은 지역에 핵폭발이 일어나 큰 피해와 한동안 방사선이 방출됩니다. 완벽한 상태일 때, 이 무기는 부서지기 전까지 495번 발사할 수 있습니다.</Gun_Fat_Man.description>
 
- <PipeGun.label>볼트가 있는 스무스보어</PipeGun.label>
- <PipeGun.description>이것은 종말 이후의 총제작자들이 나무, 오래된 파이프 조각, 스프링 및 기타 스크랩을 접착제, 볼트 및 와이어와 함께 결합하여 조잡하게 제작한 공예품입니다. 매우 인기 있고 어디에나 있습니다.</PipeGun.description>
+  <Railway.label>못총</Railway.label>
+  <Railway.description>네일건은 철도 못을 발사하는 희귀한 수제 무기입니다. 그 총탄은 적의 팔다리를 찢을 수도 있고 심지어 벽에 못 박힐 수도 있습니다.</Railway.description>
 
- <PipeRifle.label>스무스보어 볼트액션</PipeRifle.label>
- <PipeRifle.description>활강선은 발견된 둔부 블록, 금속 및 목재의 다양한 부분을 "무릎에" 조립한 가장 간단한 탄도 무기입니다. 겉모습만 보면 표적보다는 사수를 죽일 것 같은 느낌이 들지만, 황무지에서는 흔한 일이고 공격자들은 이런 방식을 선호합니다</PipeRifle.description>
+  <PipeGun.label>볼트가 있는 스무스보어</PipeGun.label>
+  <PipeGun.description>이것은 종말 이후의 총제작자들이 나무, 오래된 파이프 조각, 스프링 및 기타 스크랩을 접착제, 볼트 및 와이어와 함께 결합하여 조잡하게 제작한 공예품입니다. 매우 인기 있고 어디에나 있습니다.</PipeGun.description>
 
- <OldRevolver.label>챔버가 있는 활강</OldRevolver.label>
- <OldRevolver.description>이것은 종말 이후의 총제작자들이 나무, 오래된 파이프 조각, 드럼 공급 장치, 스프링 및 기타 잡동사니를 접착제, 볼트 및 와이어로 결합하여 조잡하게 제작한 공예품입니다. 매우 인기 있고 널리 퍼져 있습니다.</OldRevolver.description>
+  <PipeRifle.label>스무스보어 볼트액션</PipeRifle.label>
+  <PipeRifle.description>활강선은 발견된 둔부 블록, 금속 및 목재의 다양한 부분을 "무릎에" 조립한 가장 간단한 탄도 무기입니다. 겉모습만 보면 표적보다는 사수를 죽일 것 같은 느낌이 들지만, 황무지에서는 흔한 일이고 공격자들은 이런 방식을 선호합니다</PipeRifle.description>
+
+  <OldRevolver.label>챔버가 있는 활강</OldRevolver.label>
+  <OldRevolver.description>이것은 종말 이후의 총제작자들이 나무, 오래된 파이프 조각, 드럼 공급 장치, 스프링 및 기타 잡동사니를 접착제, 볼트 및 와이어로 결합하여 조잡하게 제작한 공예품입니다. 매우 인기 있고 널리 퍼져 있습니다.</OldRevolver.description>
 
 
 </LanguageData>

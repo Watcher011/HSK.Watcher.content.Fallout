@@ -4,99 +4,109 @@
   <!-- Chaser -->
 
   <VaultecChaser.label>Vaultec 체이서</VaultecChaser.label>
- <VaultecChaser.labelPlural>Vaultec 체이서</VaultecChaser.labelPlural>
+  <VaultecChaser.labelPlural>Vaultec 체이서</VaultecChaser.labelPlural>
 
- <VaultecChaser_Acidifier.label>Vaultec 체이서</VaultecChaser_Acidifier.label>
- <VaultecChaser_Acidifier.labelPlural>Vaultec 체이서</VaultecChaser_Acidifier.labelPlural>
-
-
- <!-- 선더러 -->
-
- <VaultecSunderer.label>Vaultec Sunderer</VaultecSunderer.label>
- <VaultecSunderer.labelPlural>Vaultec Sunderer</VaultecSunderer.labelPlural>
-
- <VaultecSunderer_Acidifier.label>Vaultec Sunderer</VaultecSunderer_Acidifier.label>
- <VaultecSunderer_Acidifier.labelPlural>Vaultec Sunderer</VaultecSunderer_Acidifier.labelPlural>
-
- <VaultecSundererHeavy.label>Vaultec Sunderer</VaultecSundererHeavy.label>
- <VaultecSundererHeavy.labelPlural>Vaultec Sunderer</VaultecSundererHeavy.labelPlural>
-
- <VaultecSundererHeavy_Acidifier.label>Vaultec Sunderer</VaultecSundererHeavy_Acidifier.label>
- <VaultecSundererHeavy_Acidifier.labelPlural>Vaultec Sunderer</VaultecSundererHeavy_Acidifier.labelPlural>
+  <VaultecChaser_Acidifier.label>Vaultec 체이서</VaultecChaser_Acidifier.label>
+  <VaultecChaser_Acidifier.labelPlural>Vaultec 체이서</VaultecChaser_Acidifier.labelPlural>
 
 
- <!-- 헌터 -->
+  <!-- Sunderer -->
 
- <VaultecHunter.label>Vaultec 헌터</VaultecHunter.label>
- <VaultecHunter.labelPlural>Vaultec 헌터</VaultecHunter.labelPlural>
+  <VaultecSunderer.label>Vaultec Sunderer</VaultecSunderer.label>
+  <VaultecSunderer.labelPlural>Vaultec Sunderer</VaultecSunderer.labelPlural>
 
- <VaultecHunter_Acidifier.label>Vaultec 헌터</VaultecHunter_Acidifier.label>
- <VaultecHunter_Acidifier.labelPlural>Vaultec 사냥꾼</VaultecHunter_Acidifier.labelPlural>
+  <VaultecSunderer_Acidifier.label>Vaultec Sunderer</VaultecSunderer_Acidifier.label>
+  <VaultecSunderer_Acidifier.labelPlural>Vaultec Sunderer</VaultecSunderer_Acidifier.labelPlural>
+
+  <VaultecSundererHeavy.label>Vaultec Sunderer</VaultecSundererHeavy.label>
+  <VaultecSundererHeavy.labelPlural>Vaultec Sunderer</VaultecSundererHeavy.labelPlural>
+
+  <VaultecSundererHeavy_Acidifier.label>Vaultec Sunderer</VaultecSundererHeavy_Acidifier.label>
+  <VaultecSundererHeavy_Acidifier.labelPlural>Vaultec Sunderer</VaultecSundererHeavy_Acidifier.labelPlural>
+
+
+  <!-- Hunter -->
+
+  <VaultecHunter.label>Vaultec 헌터</VaultecHunter.label>
+  <VaultecHunter.labelPlural>Vaultec 헌터</VaultecHunter.labelPlural>
+
+  <VaultecHunter_Acidifier.label>Vaultec 헌터</VaultecHunter_Acidifier.label>
+  <VaultecHunter_Acidifier.labelPlural>Vaultec 사냥꾼</VaultecHunter_Acidifier.labelPlural>
+
 
   <!-- Hawkeye -->
-<VaultecHawkeye.label>Vaultec Hawkeye</VaultecHawkeye.label>
- <VaultecHawkeye.labelPlural>Vaultec Hawkeyes</VaultecHawkeye.labelPlural>
- <VaultecHawkeye.labelMale>남성 Vaultec Hawkeye</VaultecHawkeye.labelMale>
- <VaultecHawkeye.labelMalePlural>남성 Vaultec Hawkeyes</VaultecHawkeye.labelMalePlural>
- <VaultecHawkeye.labelFemale>여성 Vaultec Hawkeye</VaultecHawkeye.labelFemale>
- <VaultecHawkeye.labelFemalePlural>여성 Vaultec Hawkeyes</VaultecHawkeye.labelFemalePlural>
 
- <VaultecHawkeye_Acidifier.label>Vaultec Hawkeye</VaultecHawkeye_Acidifier.label>
- <VaultecHawkeye_Acidifier.labelPlural>Vaultec Hawkeyes</VaultecHawkeye_Acidifier.labelPlural>
- <VaultecHawkeye_Acidifier.labelMale>남성 Vaultec Hawkeye</VaultecHawkeye_Acidifier.labelMale>
- <VaultecHawkeye_Acidifier.labelMalePlural>남성 Vaultec Hawkeyes</VaultecHawkeye_Acidifier.labelMalePlural>
- <VaultecHawkeye_Acidifier.labelFemale>여성 Vaultec Hawkeye</VaultecHawkeye_Acidifier.labelFemale>
- <VaultecHawkeye_Acidifier.labelFemalePlural>여성 Vaultec Hawkeyes</VaultecHawkeye_Acidifier.labelFemalePlural>
+  <VaultecHawkeye.label>Vaultec Hawkeye</VaultecHawkeye.label>
+  <VaultecHawkeye.labelPlural>Vaultec Hawkeyes</VaultecHawkeye.labelPlural>
+  <VaultecHawkeye.labelMale>남성 Vaultec Hawkeye</VaultecHawkeye.labelMale>
+  <VaultecHawkeye.labelMalePlural>남성 Vaultec Hawkeyes</VaultecHawkeye.labelMalePlural>
+  <VaultecHawkeye.labelFemale>여성 Vaultec Hawkeye</VaultecHawkeye.labelFemale>
+  <VaultecHawkeye.labelFemalePlural>여성 Vaultec Hawkeyes</VaultecHawkeye.labelFemalePlural>
 
-
- <!-- 레이거 -->
-
- <VaultecRager.label>Vaultec Rager</VaultecRager.label>
- <VaultecRager.labelPlural>Vaultec Ragers</VaultecRager.labelPlural>
-
- <VaultecRager_Acidifier.label>Vaultec Rager</VaultecRager_Acidifier.label>
- <VaultecRager_Acidifier.labelPlural>Vaultec Ragers</VaultecRager_Acidifier.labelPlural>
- <!-- 선라이즈 -->
-
- <VaultecSunRiser.label>Vaultec Sun Riser</VaultecSunRiser.label>
- <VaultecSunRiser.labelPlural>Vaultec Sun Risers</VaultecSunRiser.labelPlural>
- <VaultecSunRiser.labelMale>남성 Vaultec Sun Riser</VaultecSunRiser.labelMale>
- <VaultecSunRiser.labelMalePlural>남성 Vaultec Sun Risers</VaultecSunRiser.labelMalePlural>
- <VaultecSunRiser.labelFemale>여성 Vaultec Sun Riser</VaultecSunRiser.labelFemale>
- <VaultecSunRiser.labelFemalePlural>여성 Vaultec Sun Risers</VaultecSunRiser.labelFemalePlural>
-
- <VaultecSunRiser_Acidifier.label>Vaultec Sun Riser</VaultecSunRiser_Acidifier.label>
- <VaultecSunRiser_Acidifier.labelPlural>Vaultec Sun Riser</VaultecSunRiser_Acidifier.labelPlural>
- <VaultecSunRiser_Acidifier.labelMale>남성 Vaultec 태양 라이저</VaultecSunRiser_Acidifier.labelMale>
- <VaultecSunRiser_Acidifier.labelMalePlural>남성 Vaultec Sun Risers</VaultecSunRiser_Acidifier.labelMalePlural>
- <VaultecSunRiser_Acidifier.labelFemale>여성 Vaultec 태양 라이저</VaultecSunRiser_Acidifier.labelFemale>
- <VaultecSunRiser_Acidifier.labelFemalePlural>여성 Vaultec 태양 라이저</VaultecSunRiser_Acidifier.labelFemalePlural>
+  <VaultecHawkeye_Acidifier.label>Vaultec Hawkeye</VaultecHawkeye_Acidifier.label>
+  <VaultecHawkeye_Acidifier.labelPlural>Vaultec Hawkeyes</VaultecHawkeye_Acidifier.labelPlural>
+  <VaultecHawkeye_Acidifier.labelMale>남성 Vaultec Hawkeye</VaultecHawkeye_Acidifier.labelMale>
+  <VaultecHawkeye_Acidifier.labelMalePlural>남성 Vaultec Hawkeyes</VaultecHawkeye_Acidifier.labelMalePlural>
+  <VaultecHawkeye_Acidifier.labelFemale>여성 Vaultec Hawkeye</VaultecHawkeye_Acidifier.labelFemale>
+  <VaultecHawkeye_Acidifier.labelFemalePlural>여성 Vaultec Hawkeyes</VaultecHawkeye_Acidifier.labelFemalePlural>
 
 
- <!-- 블러드본 -->
+  <!-- Rager -->
 
- <VaultecBloodborne.label>Vaultec 블러드본</VaultecBloodborne.label>
- <VaultecBloodborne.labelPlural>Vaultec 블러드본</VaultecBloodborne.labelPlural>
+  <VaultecRager.label>Vaultec Rager</VaultecRager.label>
+  <VaultecRager.labelPlural>Vaultec Ragers</VaultecRager.labelPlural>
 
- <VaultecBloodborne_Acidifier.label>Vaultec 블러드본</VaultecBloodborne_Acidifier.label>
- <VaultecBloodborne_Acidifier.labelPlural>Vaultec 블러드본</VaultecBloodborne_Acidifier.labelPlural>
+  <VaultecRager_Acidifier.label>Vaultec Rager</VaultecRager_Acidifier.label>
+  <VaultecRager_Acidifier.labelPlural>Vaultec Ragers</VaultecRager_Acidifier.labelPlural>
 
- <Vaultec_Trader.label>Vaultec 거래자</Vaultec_Trader.label>
- <Vaultec_Trader.labelPlural>Vaultecs 거래자</Vaultec_Trader.labelPlural>
 
- <VaultecRad.label>Vaultec Rad</VaultecRad.label>
- <VaultecRad.labelPlural>Vaultec Rads</VaultecRad.labelPlural>
- <VaultecRad.labelMale>남성 Vaultec Rad</VaultecRad.labelMale>
- <VaultecRad.labelMalePlural>남성 Vaultec Rad</VaultecRad.labelMalePlural>
- <VaultecRad.labelFemale>여성 Vaultec Rad</VaultecRad.labelFemale>
- <VaultecRad.labelFemalePlural>여성 Vaultec Rad</VaultecRad.labelFemalePlural>
+  <!-- Sunriser -->
 
- <VaultecRad_Acidifier.label>Vaultec Rad</VaultecRad_Acidifier.label>
- <VaultecRad_Acidifier.labelPlural>Vaultec Rads</VaultecRad_Acidifier.labelPlural>
- <VaultecRad_Acidifier.labelMale>남성 Vaultec Rad</VaultecRad_Acidifier.labelMale>
- <VaultecRad_Acidifier.labelMalePlural>남성 Vaultec Rads</VaultecRad_Acidifier.labelMalePlural>
- <VaultecRad_Acidifier.labelFemale>여성 Vaultec Rad</VaultecRad_Acidifier.labelFemale>
- <VaultecRad_Acidifier.labelFemalePlural>여성 Vaultec Rads</VaultecRad_Acidifier.labelFemalePlural>
+  <VaultecSunRiser.label>Vaultec Sun Riser</VaultecSunRiser.label>
+  <VaultecSunRiser.labelPlural>Vaultec Sun Risers</VaultecSunRiser.labelPlural>
+  <VaultecSunRiser.labelMale>남성 Vaultec Sun Riser</VaultecSunRiser.labelMale>
+  <VaultecSunRiser.labelMalePlural>남성 Vaultec Sun Risers</VaultecSunRiser.labelMalePlural>
+  <VaultecSunRiser.labelFemale>여성 Vaultec Sun Riser</VaultecSunRiser.labelFemale>
+  <VaultecSunRiser.labelFemalePlural>여성 Vaultec Sun Risers</VaultecSunRiser.labelFemalePlural>
 
+  <VaultecSunRiser_Acidifier.label>Vaultec Sun Riser</VaultecSunRiser_Acidifier.label>
+  <VaultecSunRiser_Acidifier.labelPlural>Vaultec Sun Riser</VaultecSunRiser_Acidifier.labelPlural>
+  <VaultecSunRiser_Acidifier.labelMale>남성 Vaultec 태양 라이저</VaultecSunRiser_Acidifier.labelMale>
+  <VaultecSunRiser_Acidifier.labelMalePlural>남성 Vaultec Sun Risers</VaultecSunRiser_Acidifier.labelMalePlural>
+  <VaultecSunRiser_Acidifier.labelFemale>여성 Vaultec 태양 라이저</VaultecSunRiser_Acidifier.labelFemale>
+  <VaultecSunRiser_Acidifier.labelFemalePlural>여성 Vaultec 태양 라이저</VaultecSunRiser_Acidifier.labelFemalePlural>
+
+
+  <!-- Bloodborne -->
+
+  <VaultecBloodborne.label>Vaultec 블러드본</VaultecBloodborne.label>
+  <VaultecBloodborne.labelPlural>Vaultec 블러드본</VaultecBloodborne.labelPlural>
+
+  <VaultecBloodborne_Acidifier.label>Vaultec 블러드본</VaultecBloodborne_Acidifier.label>
+  <VaultecBloodborne_Acidifier.labelPlural>Vaultec 블러드본</VaultecBloodborne_Acidifier.labelPlural>
+
+  <Vaultec_Trader.label>Vaultec 거래자</Vaultec_Trader.label>
+  <Vaultec_Trader.labelPlural>Vaultecs 거래자</Vaultec_Trader.labelPlural>
+
+  <VaultecRad.label>Vaultec Rad</VaultecRad.label>
+  <VaultecRad.labelPlural>Vaultec Rads</VaultecRad.labelPlural>
+  <VaultecRad.labelMale>남성 Vaultec Rad</VaultecRad.labelMale>
+  <VaultecRad.labelMalePlural>남성 Vaultec Rad</VaultecRad.labelMalePlural>
+  <VaultecRad.labelFemale>여성 Vaultec Rad</VaultecRad.labelFemale>
+  <VaultecRad.labelFemalePlural>여성 Vaultec Rad</VaultecRad.labelFemalePlural>
+
+  <VaultecRad_Acidifier.label>Vaultec Rad</VaultecRad_Acidifier.label>
+  <VaultecRad_Acidifier.labelPlural>Vaultec Rads</VaultecRad_Acidifier.labelPlural>
+  <VaultecRad_Acidifier.labelMale>남성 Vaultec Rad</VaultecRad_Acidifier.labelMale>
+  <VaultecRad_Acidifier.labelMalePlural>남성 Vaultec Rads</VaultecRad_Acidifier.labelMalePlural>
+  <VaultecRad_Acidifier.labelFemale>여성 Vaultec Rad</VaultecRad_Acidifier.labelFemale>
+  <VaultecRad_Acidifier.labelFemalePlural>여성 Vaultec Rads</VaultecRad_Acidifier.labelFemalePlural>
+
+
+  <!-- 선더러 -->
+  <!-- 헌터 -->
+  <!-- 레이거 -->
+  <!-- 선라이즈 -->
+  <!-- 블러드본 -->
 
 </LanguageData>

@@ -2,8 +2,9 @@
 <LanguageData>
 
   <Deathclawhand.label>죽음발톱</Deathclawhand.label>
- <Deathclawhand.description>죽은 데스클로의 팔다리를 특수 가공하여 근접전에서 적에게 막대한 피해를 줄 수 있는 장갑을 만들 수 있습니다.</Deathclawhand.description>
- <Deathclawhand.tools.0.label>핸들</Deathclawhand.tools.0.label>
- <Deathclawhand.tools.1.label>포인트</Deathclawhand.tools.1.label>
+  <Deathclawhand.description>죽은 데스클로의 팔다리를 특수 가공하여 근접전에서 적에게 막대한 피해를 줄 수 있는 장갑을 만들 수 있습니다.</Deathclawhand.description>
+  <Deathclawhand.tools.0.label>핸들</Deathclawhand.tools.0.label>
+  <Deathclawhand.tools.1.label>포인트</Deathclawhand.tools.1.label>
+
 
 </LanguageData>

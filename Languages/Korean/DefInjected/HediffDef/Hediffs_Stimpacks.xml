@@ -3,9 +3,10 @@
 
   <!-- SimpleStimpack -->
 
-<Hediff_SimpleStimpack.label>자극기</Hediff_SimpleStimpack.label>
- <Hediff_SimpleStimpack.description>압력계가 달린 회색 일회용 주사기. 혈액과 방부제로 만든 붉은 액체가 들어있습니다.</Hediff_SimpleStimpack.description>
- <Hediff_SimpleStimpack.stages.0.label>부작용</Hediff_SimpleStimpack.stages.0.label>
- <Hediff_SimpleStimpack.labelNoun>자극기</Hediff_SimpleStimpack.labelNoun>
+  <Hediff_SimpleStimpack.label>자극기</Hediff_SimpleStimpack.label>
+  <Hediff_SimpleStimpack.description>압력계가 달린 회색 일회용 주사기. 혈액과 방부제로 만든 붉은 액체가 들어있습니다.</Hediff_SimpleStimpack.description>
+  <Hediff_SimpleStimpack.stages.0.label>부작용</Hediff_SimpleStimpack.stages.0.label>
+  <Hediff_SimpleStimpack.labelNoun>자극기</Hediff_SimpleStimpack.labelNoun>
+
 
 </LanguageData>

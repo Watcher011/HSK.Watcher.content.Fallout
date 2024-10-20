@@ -1,13 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-<Apparel_RaiderPowerArmorHelmet.label>레이더 파워 아머 헬멧</Apparel_RaiderPowerArmorHelmet.label>
- <Apparel_RaiderPowerArmorHelmet.description>수제 헬멧</Apparel_RaiderPowerArmorHelmet.description>
+  <Apparel_RaiderPowerArmorHelmet.label>레이더 파워 아머 헬멧</Apparel_RaiderPowerArmorHelmet.label>
+  <Apparel_RaiderPowerArmorHelmet.description>수제 헬멧</Apparel_RaiderPowerArmorHelmet.description>
 
- <Apparel_RaiderPowerArmor.label>레이더 파워 아머</Apparel_RaiderPowerArmor.label>
- <Apparel_RaiderPowerArmor.description>레이더가 복원한 파워 아머 세트입니다. 탄도 보호 및 안전 마진 측면에서 T-45 모델과 유사하지만 공장 모델의 6단계 대신 2단계만 개선되었습니다. 겉모습으로 보아 수공예품인 것으로 보인다. 세트의 디자인은 일반 레이더 갑옷과 다소 유사합니다. 동급 최악이지만 그러한 갑옷조차도 착용자를 강력한 상대로 만듭니다. 가장 큰 단점은 강도가 낮다는 것입니다.</Apparel_RaiderPowerArmor.description>
- <Apparel_RaiderPowerArmor.verbs.0.label>점프</Apparel_RaiderPowerArmor.verbs.0.label>
+  <Apparel_RaiderPowerArmor.label>레이더 파워 아머</Apparel_RaiderPowerArmor.label>
+  <Apparel_RaiderPowerArmor.description>레이더가 복원한 파워 아머 세트입니다. 탄도 보호 및 안전 마진 측면에서 T-45 모델과 유사하지만 공장 모델의 6단계 대신 2단계만 개선되었습니다. 겉모습으로 보아 수공예품인 것으로 보인다. 세트의 디자인은 일반 레이더 갑옷과 다소 유사합니다. 동급 최악이지만 그러한 갑옷조차도 착용자를 강력한 상대로 만듭니다. 가장 큰 단점은 강도가 낮다는 것입니다.</Apparel_RaiderPowerArmor.description>
+  <Apparel_RaiderPowerArmor.verbs.0.label>점프</Apparel_RaiderPowerArmor.verbs.0.label>
 
- <Apparel_X01PowerArmor.label>X-01 파워 아머</Apparel_X01PowerArmor.label>
- <Apparel_X01PowerArmor.description>X-01 파워 아머 모델은 미 육군 전문가들이 개발했으며 대전 이후 살아남은 전투 부대에 사용되었습니다. 매개변수 측면에서 전쟁 전의 유사 제품을 훨씬 능가합니다.</Apparel_X01PowerArmor.description>
+  <Apparel_X01PowerArmor.label>X-01 파워 아머</Apparel_X01PowerArmor.label>
+  <Apparel_X01PowerArmor.description>X-01 파워 아머 모델은 미 육군 전문가들이 개발했으며 대전 이후 살아남은 전투 부대에 사용되었습니다. 매개변수 측면에서 전쟁 전의 유사 제품을 훨씬 능가합니다.</Apparel_X01PowerArmor.description>
+
+
 </LanguageData>

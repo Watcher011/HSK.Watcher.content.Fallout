@@ -1,13 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-<NamerFactionEnclave.rulePack.rulesStrings.0>제국->인클레이브</NamerFactionEnclave.rulePack.rulesStrings.0>
+  <NamerFactionEnclave.rulePack.rulesStrings.0>제국->인클레이브</NamerFactionEnclave.rulePack.rulesStrings.0>
 
- <NamerSettlementEnclave.rulePack.rulesStrings.0>townend->베이스 01</NamerSettlementEnclave.rulePack.rulesStrings.0>
- <NamerSettlementEnclave.rulePack.rulesStrings.1>townend->베이스 02</NamerSettlementEnclave.rulePack.rulesStrings.1>
- <NamerSettlementEnclave.rulePack.rulesStrings.2>townend->베이스 03</NamerSettlementEnclave.rulePack.rulesStrings.2>
- <NamerSettlementEnclave.rulePack.rulesStrings.3>townend->베이스 04</NamerSettlementEnclave.rulePack.rulesStrings.3>
- <NamerSettlementEnclave.rulePack.rulesStrings.4>townend->베이스 05</NamerSettlementEnclave.rulePack.rulesStrings.4>
- <NamerSettlementEnclave.rulePack.rulesStrings.5>townend->베이스 06</NamerSettlementEnclave.rulePack.rulesStrings.5>
+  <NamerSettlementEnclave.rulePack.rulesStrings.0>townend->베이스 01</NamerSettlementEnclave.rulePack.rulesStrings.0>
+  <NamerSettlementEnclave.rulePack.rulesStrings.1>townend->베이스 02</NamerSettlementEnclave.rulePack.rulesStrings.1>
+  <NamerSettlementEnclave.rulePack.rulesStrings.2>townend->베이스 03</NamerSettlementEnclave.rulePack.rulesStrings.2>
+  <NamerSettlementEnclave.rulePack.rulesStrings.3>townend->베이스 04</NamerSettlementEnclave.rulePack.rulesStrings.3>
+  <NamerSettlementEnclave.rulePack.rulesStrings.4>townend->베이스 05</NamerSettlementEnclave.rulePack.rulesStrings.4>
+  <NamerSettlementEnclave.rulePack.rulesStrings.5>townend->베이스 06</NamerSettlementEnclave.rulePack.rulesStrings.5>
+
 
 </LanguageData>

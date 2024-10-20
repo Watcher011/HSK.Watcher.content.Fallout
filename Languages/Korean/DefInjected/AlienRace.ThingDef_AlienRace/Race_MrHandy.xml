@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-<MisterHandy.label>도우미 아저씨</MisterHandy.label>
- <MisterHandy.description>미스터 어시스턴트는 전쟁 전 이퀘스트리아 전역에서 세심하게 생산되고 대량 생산된 구형 로봇의 직렬 모델을 대표하는 매우 뛰어난 인물입니다. 집사, 문지기, 개인 경호원, 심지어 의사의 역할은 미스터 핸디가 잘 감당할 수 있는 전부는 아닙니다.</MisterHandy.description>
- <MisterHandy.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>스킨</MisterHandy.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
- <MisterHandy.tools.0.label>왼쪽 칼날 주먹</MisterHandy.tools.0.label>
- <MisterHandy.tools.1.label>오른쪽 칼날 주먹</MisterHandy.tools.1.label>
- <MisterHandy.tools.2.label>헤드</MisterHandy.tools.2.label>
+  <MisterHandy.label>도우미 아저씨</MisterHandy.label>
+  <MisterHandy.description>미스터 어시스턴트는 전쟁 전 이퀘스트리아 전역에서 세심하게 생산되고 대량 생산된 구형 로봇의 직렬 모델을 대표하는 매우 뛰어난 인물입니다. 집사, 문지기, 개인 경호원, 심지어 의사의 역할은 미스터 핸디가 잘 감당할 수 있는 전부는 아닙니다.</MisterHandy.description>
+  <MisterHandy.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>스킨</MisterHandy.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <MisterHandy.tools.0.label>왼쪽 칼날 주먹</MisterHandy.tools.0.label>
+  <MisterHandy.tools.1.label>오른쪽 칼날 주먹</MisterHandy.tools.1.label>
+  <MisterHandy.tools.2.label>헤드</MisterHandy.tools.2.label>
 
 
 </LanguageData>

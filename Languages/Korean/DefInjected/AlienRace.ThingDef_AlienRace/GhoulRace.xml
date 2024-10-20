@@ -2,22 +2,22 @@
 <LanguageData>
 
   <VaulTecGhoul.label>구울</VaulTecGhoul.label>
- <VaulTecGhoul.description>구울은 한때 폭격 중에 보호 대피소에 도달하지 못한 인간이었습니다. 방사선 조사는 방사선에 대한 저항력을 증가시켰습니다. 그들은 또한 독 저항에 보너스를 얻습니다. 불행하게도 그들은 육체적으로 너무 약해서 무거운 무기를 사용할 수 없습니다.</VaulTecGhoul.description>
- <VaulTecGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>스킨</VaulTecGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
- <VaulTecGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>머리카락</VaulTecGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
- <VaulTecGhoul.tools.0.label>왼쪽 주먹</VaulTecGhoul.tools.0.label>
- <VaulTecGhoul.tools.1.label>오른쪽 주먹</VaulTecGhoul.tools.1.label>
- <VaulTecGhoul.tools.2.label>치아</VaulTecGhoul.tools.2.label>
- <VaulTecGhoul.tools.3.label>헤드</VaulTecGhoul.tools.3.label>
- 
-<GlowingGhoul.label>빛나는 구울</GlowingGhoul.label>
- <GlowingGhoul.description>대량의 방사선의 영향을 받아 살아있는 지휘자가 된 구울입니다. 빛나는 구울은 인간에게 위험한 방사선을 방출합니다. 죽은 후에도 위험할 수 있습니다.</GlowingGhoul.description>
- <GlowingGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>스킨</GlowingGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
- <GlowingGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>머리카락</GlowingGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
- <GlowingGhoul.tools.0.label>왼쪽 주먹</GlowingGhoul.tools.0.label>
- <GlowingGhoul.tools.1.label>오른쪽 주먹</GlowingGhoul.tools.1.label>
- <GlowingGhoul.tools.2.label>이빨</GlowingGhoul.tools.2.label>
- <GlowingGhoul.tools.3.label>헤드</GlowingGhoul.tools.3.label>
+  <VaulTecGhoul.description>구울은 한때 폭격 중에 보호 대피소에 도달하지 못한 인간이었습니다. 방사선 조사는 방사선에 대한 저항력을 증가시켰습니다. 그들은 또한 독 저항에 보너스를 얻습니다. 불행하게도 그들은 육체적으로 너무 약해서 무거운 무기를 사용할 수 없습니다.</VaulTecGhoul.description>
+  <VaulTecGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>스킨</VaulTecGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <VaulTecGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>머리카락</VaulTecGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
+  <VaulTecGhoul.tools.0.label>왼쪽 주먹</VaulTecGhoul.tools.0.label>
+  <VaulTecGhoul.tools.1.label>오른쪽 주먹</VaulTecGhoul.tools.1.label>
+  <VaulTecGhoul.tools.2.label>치아</VaulTecGhoul.tools.2.label>
+  <VaulTecGhoul.tools.3.label>헤드</VaulTecGhoul.tools.3.label>
+
+  <GlowingGhoul.label>빛나는 구울</GlowingGhoul.label>
+  <GlowingGhoul.description>대량의 방사선의 영향을 받아 살아있는 지휘자가 된 구울입니다. 빛나는 구울은 인간에게 위험한 방사선을 방출합니다. 죽은 후에도 위험할 수 있습니다.</GlowingGhoul.description>
+  <GlowingGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>스킨</GlowingGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <GlowingGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>머리카락</GlowingGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
+  <GlowingGhoul.tools.0.label>왼쪽 주먹</GlowingGhoul.tools.0.label>
+  <GlowingGhoul.tools.1.label>오른쪽 주먹</GlowingGhoul.tools.1.label>
+  <GlowingGhoul.tools.2.label>이빨</GlowingGhoul.tools.2.label>
+  <GlowingGhoul.tools.3.label>헤드</GlowingGhoul.tools.3.label>
 
 
 </LanguageData>

@@ -2,12 +2,20 @@
 <LanguageData>
 
   <!-- Ammo -->
-<Ammo_Nail.label>못</Ammo_Nail.label>
- <Ammo_Nail.description>못 - 중간 정도의 손상을 주기는 하지만 종종 한 번에 사지에 손상을 입히는 데 매우 효과적입니다. 총에 맞아 사망에 이르게 되며, 신체의 손상된 부분이 찢어지거나 적의 뒤에 충분히 가까이 있으면 적의 벽에 고정될 수 있습니다.</Ammo_Nail.description>
+
+  <Ammo_Nail.label>못</Ammo_Nail.label>
+  <Ammo_Nail.description>못 - 중간 정도의 손상을 주기는 하지만 종종 한 번에 사지에 손상을 입히는 데 매우 효과적입니다. 총에 맞아 사망에 이르게 되며, 신체의 손상된 부분이 찢어지거나 적의 뒤에 충분히 가까이 있으면 적의 벽에 고정될 수 있습니다.</Ammo_Nail.description>
+
+ <Ammo_Nail_HV.label>붐 못</Ammo_Nail_HV.label>
+ <Ammo_Nail_HV.description>못 - 중간 정도의 손상을 주기는 하지만 종종 한 번에 사지에 손상을 입히는 데 매우 효과적입니다. 총에 맞아 사망에 이르게 되면 신체의 손상된 부분이 찢어지거나 적의 뒤에 충분히 가까이 있으면 적의 벽에 고정될 수 있습니다.</Ammo_Nail_HV.description>
 
 
- <!-- 발사체 -->
+  <!-- Projectiles -->
 
- <Bullet_Nail.label>못</Bullet_Nail.label>
- <Bullet_Nail_HV.label>우라늄 못</Bullet_Nail_HV.label>
+  <Bullet_Nail.label>못</Bullet_Nail.label>
+  <Bullet_Nail_HV.label>우라늄 못</Bullet_Nail_HV.label>
+
+
+  <!-- 발사체 -->
+
 </LanguageData>

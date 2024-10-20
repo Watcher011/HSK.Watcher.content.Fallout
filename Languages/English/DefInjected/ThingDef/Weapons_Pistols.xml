@@ -26,14 +26,14 @@ Disadvantages include high complexity and low mechanical strength of the weapon 
   <Railway.label>Railway</Railway.label>
   <Railway.description>The Railway is a rare homemade weapon that shoots railroad nails. The shot can rip off an enemy's limb or even nail them to the wall.</Railway.description>
 
-<PipeGun.label>Block Action Gun</PipeGun.label>
-<PipeGun.description>This is a homemade product of post-apocalyptic gunsmiths, crudely made from wood, old pipe, springs and other scraps, held together with glue, bolts and wire. Extremely popular and widespread.</PipeGun.description>
+  <PipeGun.label>Block Action Gun</PipeGun.label>
+  <PipeGun.description>This is a homemade product of post-apocalyptic gunsmiths, crudely made from wood, old pipe, springs and other scraps, held together with glue, bolts and wire. Extremely popular and widespread.</PipeGun.description>
 
-<PipeRifle.label>Bolt Action Rifle</PipeRifle.label>
-<PipeRifle.description>The smoothbore line is a simple ballistic weapon, assembled, as they say, "on the knee" from various parts of found bolts, metal and wood. One look at it makes you think that it is more likely to kill the shooter than the target, but in the wasteland it is common, and raiders prefer it.</PipeRifle.description>
+  <PipeRifle.label>Bolt Action Rifle</PipeRifle.label>
+  <PipeRifle.description>The smoothbore line is a simple ballistic weapon, assembled, as they say, "on the knee" from various parts of found bolts, metal and wood. One look at it makes you think that it is more likely to kill the shooter than the target, but in the wasteland it is common, and raiders prefer it.</PipeRifle.description>
 
- <OldRevolver.label>Smoothbore with a chamber</OldRevolver.label>
-<OldRevolver.description>This is a homemade product of post-apocalyptic gunsmiths, crudely made from wood, a piece of old pipe, a drum feed mechanism, springs and other scraps, held together with glue, bolts and wire. Extremely popular and widespread.</OldRevolver.description>
+  <OldRevolver.label>Smoothbore with a chamber</OldRevolver.label>
+  <OldRevolver.description>This is a homemade product of post-apocalyptic gunsmiths, crudely made from wood, a piece of old pipe, a drum feed mechanism, springs and other scraps, held together with glue, bolts and wire. Extremely popular and widespread.</OldRevolver.description>
 
 
 </LanguageData>

@@ -1,13 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-<WearingPipBoy.label>핍보이</WearingPipBoy.label>
- <WearingPipBoy.description>VATS(Vault-Tec Assisted Targeting System)는 시간이 지나면서 그 기원이 사라진 고급 전투 기술입니다...</WearingPipBoy.description>
- <WearingPipBoy.stages.0.label>V.A.T.S.</WearingPipBoy.stages.0.label>
+  <WearingPipBoy.label>핍보이</WearingPipBoy.label>
+  <WearingPipBoy.description>VATS(Vault-Tec Assisted Targeting System)는 시간이 지나면서 그 기원이 사라진 고급 전투 기술입니다...</WearingPipBoy.description>
+  <WearingPipBoy.stages.0.label>V.A.T.S.</WearingPipBoy.stages.0.label>
 
- <LastGiftofWatcher.label>에너지가 넘치는 기계</LastGiftofWatcher.label>
- <LastGiftofWatcher.description>편도 티켓</LastGiftofWatcher.description>
+  <LastGiftofWatcher.label>에너지가 넘치는 기계</LastGiftofWatcher.label>
+  <LastGiftofWatcher.description>편도 티켓</LastGiftofWatcher.description>
 
- <BombJ.label>채굴됨</BombJ.label>
- <BombJ.description>편도 티켓</BombJ.description>
+  <BombJ.label>채굴됨</BombJ.label>
+  <BombJ.description>편도 티켓</BombJ.description>
+
+
 </LanguageData>

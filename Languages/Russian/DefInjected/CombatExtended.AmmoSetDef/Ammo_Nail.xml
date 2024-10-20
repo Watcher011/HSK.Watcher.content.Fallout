@@ -4,7 +4,8 @@
   <!-- AmmoSet -->
 
   <AmmoSet_Nail.label>Гвозди</AmmoSet_Nail.label>
-  <AmmoSet_Nail_HV.label>Гвозди Урановые</AmmoSet_Nail_HV.label>
 
+
+ <AmmoSet_Nail_HV.label>Гвозди Взрывные</AmmoSet_Nail_HV.label>
 
 </LanguageData>

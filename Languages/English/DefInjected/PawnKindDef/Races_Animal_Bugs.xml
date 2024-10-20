@@ -27,51 +27,54 @@
   <CockroachVaultec.labelFemalePlural>female Radcockroachs</CockroachVaultec.labelFemalePlural>
 
   <Bloodbug.label>Gnus</Bloodbug.label>
-  <Bloodbug.labelPlural>Gnuss</Bloodbug.labelPlural> 
-  <Bloodbug.lifeStages.0.label>Gnus</Bloodbug.lifeStages.0.label> 
+  <Bloodbug.labelPlural>Gnuss</Bloodbug.labelPlural>
+  <Bloodbug.lifeStages.0.label>Gnus</Bloodbug.lifeStages.0.label>
   <Bloodbug.lifeStages.0.labelPlural>Gnus</Bloodbug.lifeStages.0.labelPlural>
-  <Bloodbug.lifeStages.0.labelMale>male Gnus</Bloodbug.lifeStages.0.labelMale> 
+  <Bloodbug.lifeStages.0.labelMale>male Gnus</Bloodbug.lifeStages.0.labelMale>
   <Bloodbug.lifeStages.0.labelMalePlural>male Gnuss</Bloodbug.lifeStages.0.labelMalePlural>
-  <Bloodbug.lifeStages.0.labelFemale>female Gnus</Bloodbug.lifeStages.0.labelFemale> 
-  <Bloodbug.lifeStages.0.labelFemalePlural>female Gnus</Bloodbug.lifeStages.0.labelFemalePlural> 
-  <Bloodbug.lifeStages.1.label>Gnus</Bloodbug.lifeStages.1.label> 
+  <Bloodbug.lifeStages.0.labelFemale>female Gnus</Bloodbug.lifeStages.0.labelFemale>
+  <Bloodbug.lifeStages.0.labelFemalePlural>female Gnus</Bloodbug.lifeStages.0.labelFemalePlural>
+  <Bloodbug.lifeStages.1.label>Gnus</Bloodbug.lifeStages.1.label>
   <Bloodbug.lifeStages.1.labelPlural>Gnus</Bloodbug.lifeStages.1.labelPlural>
-  <Bloodbug.lifeStages.1.labelMale>male Gnus</Bloodbug.lifeStages.1.labelMale> 
+  <Bloodbug.lifeStages.1.labelMale>male Gnus</Bloodbug.lifeStages.1.labelMale>
   <Bloodbug.lifeStages.1.labelMalePlural>male Gnuss</Bloodbug.lifeStages.1.labelMalePlural>
- <Bloodbug.lifeStages.1.labelFemale>female Gnus</Bloodbug.lifeStages.1.labelFemale> 
- <Bloodbug.lifeStages.1.labelFemalePlural>female Gnus</Bloodbug.lifeStages.1.labelFemalePlural> 
- <Bloodbug.lifeStages.2.label >Gnus</Bloodbug.lifeStages.2.label>
- <Bloodbug.lifeStages.2.labelPlural>Gnus</Bloodbug.lifeStages.2.labelPlural> 
- <Bloodbug.lifeStages.2.labelMale>male Gnus</Bloodbug.lifeStages.2.labelMale> 
- <Bloodbug.lifeStages.2.labelMalePlural>male Gnus</Bloodbug.lifeStages.2.labelMalePlural>
- <Bloodbug.lifeStages.2.labelFemale>female Gnus</Bloodbug.lifeStages.2.labelFemale>
- <Bloodbug.lifeStages.2.labelFemalePlural>female Gnus</Bloodbug.lifeStages.2.labelFemalePlural> 
- <Bloodbug.labelFemalePlural>female Gnuss</Bloodbug.labelFemalePlural>
+  <Bloodbug.lifeStages.1.labelFemale>female Gnus</Bloodbug.lifeStages.1.labelFemale>
+  <Bloodbug.lifeStages.1.labelFemalePlural>female Gnus</Bloodbug.lifeStages.1.labelFemalePlural>
+  <Bloodbug.lifeStages.2.label>Gnus</Bloodbug.lifeStages.2.label>
+  <Bloodbug.lifeStages.2.labelPlural>Gnus</Bloodbug.lifeStages.2.labelPlural>
+  <Bloodbug.lifeStages.2.labelMale>male Gnus</Bloodbug.lifeStages.2.labelMale>
+  <Bloodbug.lifeStages.2.labelMalePlural>male Gnus</Bloodbug.lifeStages.2.labelMalePlural>
+  <Bloodbug.lifeStages.2.labelFemale>female Gnus</Bloodbug.lifeStages.2.labelFemale>
+  <Bloodbug.lifeStages.2.labelFemalePlural>female Gnus</Bloodbug.lifeStages.2.labelFemalePlural>
+  <Bloodbug.labelMale>male Гнус</Bloodbug.labelMale>
+  <Bloodbug.labelMalePlural>male Гнусs</Bloodbug.labelMalePlural>
+  <Bloodbug.labelFemale>female Гнус</Bloodbug.labelFemale>
+  <Bloodbug.labelFemalePlural>female Gnuss</Bloodbug.labelFemalePlural>
 
- <Cazador.label>Cazador</Cazador.label> 
- <Cazador.labelPlural>Cazadors</Cazador.labelPlural> 
- <Cazador.lifeStages.0.label>Cazador</Cazador.lifeStages.0.label>
- <Cazador.lifeStages.0.labelPlural>Cazador</Cazador.lifeStages.0.labelPlural>
- <Cazador.lifeStages.0.labelMale>male Cazador</Cazador.lifeStages.0.labelMale>
- <Cazador.lifeStages.0.labelMalePlural>male Cazadors</Cazador.lifeStages.0.labelMalePlural>
- <Cazador.lifeStages.0.labelFemale>female Cazador</Cazador.lifeStages.0.labelFemale>
- <Cazador.lifeStages.0.labelFemalePlural>female Cazadors</Cazador.lifeStages.0.labelFemalePlural> 
- <Cazador.lifeStages.1.label>Cazador</Cazador.lifeStages.1.label> 
- <Cazador.lifeStages.1.labelPlural> Cazador</Cazador.lifeStages.1.labelPlural>
- <Cazador.lifeStages.1.labelMale>male Cazador</Cazador.lifeStages.1.labelMale>
- <Cazador.lifeStages.1.labelMalePlural>male Cazadors</Cazador.lifeStages.1.labelMalePlural> 
- <Cazador.lifeStages.1.labelFemale>female Cazador</Cazador.lifeStages.1.labelFemale>
- <Cazador.lifeStages.1.labelFemalePlural>female Cazadors</Cazador.lifeStages.1.labelFemalePlural> 
- <Cazador.lifeStages.2.label>Cazador</Cazador.lifeStages.2.label> 
- <Cazador.lifeStages.2.labelPlural> Cazador</Cazador.lifeStages.2.labelPlural>
- <Cazador.lifeStages.2.labelMale>male Cazador</Cazador.lifeStages.2.labelMale> 
- <Cazador.lifeStages.2.labelMalePlural>male Cazadors</Cazador.lifeStages.2.labelMalePlural>
- <Cazador.lifeStages.2.labelFemale>female Cazador</Cazador.lifeStages.2.labelFemale>
- <Cazador.lifeStages.2.labelFemalePlural>female Cazadors</Cazador.lifeStages.2.labelFemalePlural>
- <Cazador.labelMale>male Cazador</Cazador.labelMale>
- <Cazador.labelMalePlural>male Cazadors</Cazador.labelMalePlural> 
- <Cazador.labelFemale>female Cazador</Cazador.labelFemale>
- <Cazador.labelFemalePlural>female Cazadors</Cazador.labelFemalePlural>
+  <Cazador.label>Cazador</Cazador.label>
+  <Cazador.labelPlural>Cazadors</Cazador.labelPlural>
+  <Cazador.lifeStages.0.label>Cazador</Cazador.lifeStages.0.label>
+  <Cazador.lifeStages.0.labelPlural>Cazador</Cazador.lifeStages.0.labelPlural>
+  <Cazador.lifeStages.0.labelMale>male Cazador</Cazador.lifeStages.0.labelMale>
+  <Cazador.lifeStages.0.labelMalePlural>male Cazadors</Cazador.lifeStages.0.labelMalePlural>
+  <Cazador.lifeStages.0.labelFemale>female Cazador</Cazador.lifeStages.0.labelFemale>
+  <Cazador.lifeStages.0.labelFemalePlural>female Cazadors</Cazador.lifeStages.0.labelFemalePlural>
+  <Cazador.lifeStages.1.label>Cazador</Cazador.lifeStages.1.label>
+  <Cazador.lifeStages.1.labelPlural> Cazador</Cazador.lifeStages.1.labelPlural>
+  <Cazador.lifeStages.1.labelMale>male Cazador</Cazador.lifeStages.1.labelMale>
+  <Cazador.lifeStages.1.labelMalePlural>male Cazadors</Cazador.lifeStages.1.labelMalePlural>
+  <Cazador.lifeStages.1.labelFemale>female Cazador</Cazador.lifeStages.1.labelFemale>
+  <Cazador.lifeStages.1.labelFemalePlural>female Cazadors</Cazador.lifeStages.1.labelFemalePlural>
+  <Cazador.lifeStages.2.label>Cazador</Cazador.lifeStages.2.label>
+  <Cazador.lifeStages.2.labelPlural> Cazador</Cazador.lifeStages.2.labelPlural>
+  <Cazador.lifeStages.2.labelMale>male Cazador</Cazador.lifeStages.2.labelMale>
+  <Cazador.lifeStages.2.labelMalePlural>male Cazadors</Cazador.lifeStages.2.labelMalePlural>
+  <Cazador.lifeStages.2.labelFemale>female Cazador</Cazador.lifeStages.2.labelFemale>
+  <Cazador.lifeStages.2.labelFemalePlural>female Cazadors</Cazador.lifeStages.2.labelFemalePlural>
+  <Cazador.labelMale>male Cazador</Cazador.labelMale>
+  <Cazador.labelMalePlural>male Cazadors</Cazador.labelMalePlural>
+  <Cazador.labelFemale>female Cazador</Cazador.labelFemale>
+  <Cazador.labelFemalePlural>female Cazadors</Cazador.labelFemalePlural>
 
 
 </LanguageData>

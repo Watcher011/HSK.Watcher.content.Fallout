@@ -2,11 +2,14 @@
 <LanguageData>
 
   <!-- Carl Gustav Shell -->
-<NHE.label>핵탄</NHE.label>
- <NHE.labelShort>“빅 베이비”</NHE.labelShort>
- <NHE.description>이 유형은 치사율과 방사선 오염이 더 높은 것이 특징입니다. 피해 증가는 범위 감소로 인해 발생하며, 이는 방어력이 약한 사수에게는 좋지 않은 결과를 가져올 수 있습니다.</NHE.description>
 
- <THE.label>핵탄, 입술에서. 시간</THE.label>
- <THE.labelShort>“큰 알람시계</THE.labelShort>
- <THE.description>5초 타이머가 있습니다. 다른 물체와 충돌할 때 폭발하지 않으므로 벽이나 모퉁이를 따라 튕겨 나갈 수 있습니다. 적을 직접 타격하는 투사체는 폭발과 함께 피해도 입힙니다.</THE.description>
+  <NHE.label>핵탄</NHE.label>
+  <NHE.labelShort>“빅 베이비”</NHE.labelShort>
+  <NHE.description>이 유형은 치사율과 방사선 오염이 더 높은 것이 특징입니다. 피해 증가는 범위 감소로 인해 발생하며, 이는 방어력이 약한 사수에게는 좋지 않은 결과를 가져올 수 있습니다.</NHE.description>
+
+  <THE.label>핵탄, 입술에서. 시간</THE.label>
+  <THE.labelShort>“큰 알람시계</THE.labelShort>
+  <THE.description>5초 타이머가 있습니다. 다른 물체와 충돌할 때 폭발하지 않으므로 벽이나 모퉁이를 따라 튕겨 나갈 수 있습니다. 적을 직접 타격하는 투사체는 폭발과 함께 피해도 입힙니다.</THE.description>
+
+
 </LanguageData>

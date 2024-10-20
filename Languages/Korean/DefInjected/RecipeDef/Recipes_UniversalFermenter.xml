@@ -3,16 +3,17 @@
 
   <!-- ___________________CheeseBasin_____________________ -->
 
- <Make_NukaColaQuantum.label>퀀텀 콜라 만들기</Make_NukaColaQuantum.label>
- <Make_NukaColaQuantum.description>콜라 코어의 양자 전력 합성</Make_NukaColaQuantum.description>
+  <Make_NukaColaQuantum.label>퀀텀 콜라 만들기</Make_NukaColaQuantum.label>
+  <Make_NukaColaQuantum.description>콜라 코어의 양자 전력 합성</Make_NukaColaQuantum.description>
 
- <Make_NukaCola.label>누카콜라 만들기</Make_NukaCola.label>
- <Make_NukaCola.description>누카콜라 합성</Make_NukaCola.description>
+  <Make_NukaCola.label>누카콜라 만들기</Make_NukaCola.label>
+  <Make_NukaCola.description>누카콜라 합성</Make_NukaCola.description>
 
- <Make_NukaCola_Orang.label>누카 콜라 오렌지 만들기</Make_NukaCola_Orang.label>
- <Make_NukaCola_Orang.description>누카-콜라-오렌지 합성</Make_NukaCola_Orang.description>
+  <Make_NukaCola_Orang.label>누카 콜라 오렌지 만들기</Make_NukaCola_Orang.label>
+  <Make_NukaCola_Orang.description>누카-콜라-오렌지 합성</Make_NukaCola_Orang.description>
 
- <Make_NukaColaMars.label>콜라 코어 Eclipse 생성</Make_NukaColaMars.label>
- <Make_NukaColaMars.description>콜라 코어 파워 Eclipse 합성</Make_NukaColaMars.description>
+  <Make_NukaColaMars.label>콜라 코어 Eclipse 생성</Make_NukaColaMars.label>
+  <Make_NukaColaMars.description>콜라 코어 파워 Eclipse 합성</Make_NukaColaMars.description>
+
 
 </LanguageData>

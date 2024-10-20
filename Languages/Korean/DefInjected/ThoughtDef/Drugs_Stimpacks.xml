@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-<RadAwayWithdrawal.stages.1.label>Rad 차단기</RadAwayWithdrawal.stages.1.label>
- <RadAwayWithdrawal.stages.1.description>머리가 터질 것 같고, 손이 떨리고, 기분이 안 좋습니다.</RadAwayWithdrawal.stages.1.description>
+  <RadAwayWithdrawal.stages.1.label>Rad 차단기</RadAwayWithdrawal.stages.1.label>
+  <RadAwayWithdrawal.stages.1.description>머리가 터질 것 같고, 손이 떨리고, 기분이 안 좋습니다.</RadAwayWithdrawal.stages.1.description>
+
+
 </LanguageData>
