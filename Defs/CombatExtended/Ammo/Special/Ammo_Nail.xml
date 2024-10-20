@@ -15,23 +15,17 @@
 		<label>Гвозди</label>
 		<ammoTypes>
 			<Ammo_Nail>Bullet_Nail</Ammo_Nail>
+			<Ammo_Nail_HV>Bullet_Nail_HV</Ammo_Nail_HV>
 		</ammoTypes>
 	</CombatExtended.AmmoSetDef>
 	
-	<CombatExtended.AmmoSetDef>
-		<defName>AmmoSet_Nail_HV</defName>
-		<label>Гвозди Урановые</label>
-		<ammoTypes>
-			<Ammo_Nail>Bullet_Nail_HV</Ammo_Nail>
-		</ammoTypes>
-	</CombatExtended.AmmoSetDef>
 
 	<!-- ==================== Ammo ========================== -->
 
 	<ThingDef Class="CombatExtended.AmmoDef" Name="BaseNailShot" ParentName="SmallAmmoBase" Abstract="True">
 		<description>Гвозди - хотя и наносит умеренный урон, но очень эффективно повреждает конечности, зачастую с одного выстрела. При выстреле, приводящем к смерти, может оторвать повреждённую часть тела или пригвоздить противника к стене, если та расположена достаточно близко за ним..</description>
 		<statBases>
-			<Mass>0.01</Mass>
+			<Mass>0.03</Mass>
 			<Bulk>0.01</Bulk>
 		</statBases>
 		<tradeTags>
@@ -55,7 +49,22 @@
 		<statBases>
 			<MarketValue>0.02</MarketValue>
 		</statBases>
+		<stackLimit>200</stackLimit>
 		<ammoClass>Nail</ammoClass>
+	</ThingDef>
+	
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseNailShot">
+		<defName>Ammo_Nail_HV</defName>
+		<label>БУМ-гвозди</label>
+		<graphicData>
+			<texPath>Things/Ammo/NailB</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.08</MarketValue>
+		</statBases>
+		<stackLimit>200</stackLimit>
+		<ammoClass>ExplosiveAP</ammoClass>
 	</ThingDef>
 
 	<!-- ================== Projectiles ================== -->
@@ -74,6 +83,7 @@
 
 	<ThingDef ParentName="NailShotBullet">
 		<defName>Bullet_Nail</defName>
+		<label>Гвозди</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<speed>25</speed>
 			<damageAmountBase>15</damageAmountBase>
@@ -84,21 +94,63 @@
 	
 	<ThingDef ParentName="NailShotBullet">
 		<defName>Bullet_Nail_HV</defName>
-		<label>Гвозди урановые</label>
+		<label>БУМ-гвозди</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<speed>30</speed>
 			<damageAmountBase>18</damageAmountBase>
 			<armorPenetrationBlunt>4.32</armorPenetrationBlunt>
 			<armorPenetrationSharp>17.5</armorPenetrationSharp>
+			<secondaryDamage>
+				<li>
+					<def>Bomb_Secondary</def>
+					<amount>8</amount>
+				</li>
+			</secondaryDamage>
 		</projectile>
 	</ThingDef>
 
 	<!-- ==================== Recipes ========================== -->
 
 	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_Nail_HV</defName>
+		<label>Сделать  БУМ-гвозди x50</label>
+		<description>Несмотря на то, что в целом железнодорожные костыли наносят довольно умеренный урон, они чрезвычайно эффективны в плане повреждения конечностей (рук, ног и головы) противника и зачастую способны вывести из строя соответствующую часть тела уже после первого попадания по ней. А в случае критического попадания и вовсе оторвать её и пригвоздить к любой расположенной в непосредственной близости поверхности.Можно модифицировать добавив взрывчатку.</description>
+		<jobString>Делает БУМ-гвозди.</jobString>
+		<workAmount>400</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>13</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Plasteel</li>
+				<li>FSX</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_Nail_HV>50</Ammo_Nail_HV>
+		</products>
+	</RecipeDef>
+	
+	
+		<RecipeDef ParentName="AmmoRecipeBase">
 		<defName>MakeAmmo_Nail</defName>
 		<label>Сделать Гвозди x50</label>
-		<description>Делает 50 гвоздей.</description>
+		<description>Несмотря на то, что в целом железнодорожные костыли наносят довольно умеренный урон, они чрезвычайно эффективны в плане повреждения конечностей (рук, ног и головы) противника и зачастую способны вывести из строя соответствующую часть тела уже после первого попадания по ней. А в случае критического попадания и вовсе оторвать её и пригвоздить к любой расположенной в непосредственной близости поверхности.</description>
 		<jobString>Делает гвозди.</jobString>
 		<workAmount>400</workAmount>
 		<ingredients>
@@ -120,5 +172,4 @@
 			<Ammo_Nail>50</Ammo_Nail>
 		</products>
 	</RecipeDef>
-	
 </Defs>

@@ -7,7 +7,7 @@
         <label>Анклав</label>
 		 <pawnSingular>Анклав</pawnSingular>
          <pawnsPlural>Анклавы</pawnsPlural>
-		<listOrderPriority>28</listOrderPriority>
+		<listOrderPriority>29</listOrderPriority>
 		<settlementGenerationWeight>1</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
 		<maxCountAtGameStart>1</maxCountAtGameStart>
@@ -15,8 +15,8 @@
 		<canSiege>true</canSiege>
 		<autoFlee>true</autoFlee>
 		<canStageAttacks>true</canStageAttacks>
-		<leaderTitle>Президент</leaderTitle>
-		<earliestRaidDays>260</earliestRaidDays>
+		<leaderTitle>leader</leaderTitle>
+		<earliestRaidDays>460</earliestRaidDays>
 		<mustStartOneEnemy>true</mustStartOneEnemy>
 		<naturalEnemy>true</naturalEnemy>
 		 <factionIconPath>World/WorldObjects/Expanding/Enclave</factionIconPath>
@@ -27,7 +27,7 @@
 			<li>(1, 1, 1)</li>
 		</colorSpectrum>
 		<allowedCultures>
-			<li>Astropolitan</li>
+			<li>Sophian</li>
 		</allowedCultures>
 		<disallowedMemes>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Animist</li>
@@ -124,7 +124,36 @@
 					<EnclaveSunderer>24</EnclaveSunderer>
 				</options>
 			</li>
-			 
+			 <li>
+				<kindDef>Peaceful</kindDef>
+				<options>
+					<EnclaveChaser>30</EnclaveChaser>
+					<EnclaveDeathclaw>20</EnclaveDeathclaw>
+					<EnclaveSunderer>24</EnclaveSunderer>
+				</options>
+			</li>
+			<li>
+				<kindDef>Settlement</kindDef>
+				<options>
+					<EnclaveChaser>30</EnclaveChaser>
+					<EnclaveDeathclaw>20</EnclaveDeathclaw>
+					<EnclaveSunderer>24</EnclaveSunderer>
+				</options>
+			</li>
+		  <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <Vaultec_Trader>1</Vaultec_Trader>
+        </traders>
+        <carriers>
+          <Muffalo>6</Muffalo>
+        </carriers>
+        <guards>
+         	<EnclaveChaser>30</EnclaveChaser>
+			<EnclaveDeathclaw>20</EnclaveDeathclaw>
+			<EnclaveSunderer>24</EnclaveSunderer>
+        </guards>
+      </li>
 		</pawnGroupMakers>
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>

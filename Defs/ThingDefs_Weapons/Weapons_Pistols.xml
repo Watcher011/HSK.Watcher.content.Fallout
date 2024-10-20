@@ -466,7 +466,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_Nail</defaultProjectile>
 				<warmupTime>1.25</warmupTime>
-				<range>40</range>
+				<range>20</range>
 				<soundCast>Railway_I_hold</soundCast>
 			</li>
 		</verbs>
