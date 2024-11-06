@@ -1,0 +1,24 @@
+﻿
+<Patch>
+
+	 <Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Hexcell"]/label</xpath>
+				<value>
+			    <label>Ядерный блок</label>
+				</value>
+	</Operation>
+	
+	 <Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Hexcell"]/description</xpath>
+				<value>
+			     <description>Ядерный блок является универсальной топливной ячейкой.</description>
+				</value>
+	</Operation>
+	
+   <Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Hexcell"]/graphicData/texPath</xpath>
+				<value>
+			    <texPath>Things/Item/Bat</texPath>
+				</value>
+	</Operation>
+</Patch>

@@ -178,23 +178,30 @@
 					<VaultecRad>3</VaultecRad>
 				</options>
 			</li>
-		  <li>
+	   <li>
         <kindDef>Trader</kindDef>
         <traders>
           <Vaultec_Trader>1</Vaultec_Trader>
         </traders>
         <carriers>
           <Muffalo>6</Muffalo>
+          <Dromedary>5</Dromedary>
+          <Alpaca>2.5</Alpaca>
+          <Elephant>2</Elephant>
         </carriers>
         <guards>
-         	<VaultecChaser>30</VaultecChaser>
-			<VaultecSunderer>24</VaultecSunderer>
-			<VaultecHunter>20</VaultecHunter>
-			<VaultecHawkeye>18</VaultecHawkeye>
-			<VaultecRager>15</VaultecRager>
-			<VaultecBloodborne>10</VaultecBloodborne>
+                   <VaultecChaser>1</VaultecChaser>
+					<VaultecSunderer>1</VaultecSunderer>
+					<VaultecHunter>1</VaultecHunter>
+					<VaultecHawkeye>3</VaultecHawkeye>
+					<VaultecRager>2</VaultecRager>
+					<VaultecSundererHeavy>1</VaultecSundererHeavy>
+					<VaultecSunRiser>2</VaultecSunRiser>
+					<VaultecBloodborne>1</VaultecBloodborne>
+					<VaultecRad>3</VaultecRad>
         </guards>
       </li>
+	  
 		</pawnGroupMakers>
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
