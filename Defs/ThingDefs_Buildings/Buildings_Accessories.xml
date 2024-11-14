@@ -175,4 +175,302 @@
 	</ThingDef>
 
 
+
+ <ThingDef ParentName="BuildingBase">
+     <defName>VaultBoyMedicine</defName>
+    <label>Пупс «Медицина»</label>
+    <description>Пупс «Медицина»  - Умный понимает, что рана под повязкой никуда не делась.</description>
+    <size>(1,1)</size>
+    <graphicData>
+       <texPath>Things/Item/VaultBoyMedicine</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.5, 0.5)</drawSize>
+	    <drawOffset>(0,0,0.2)</drawOffset>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+   	 <drawerType>MapMeshAndRealTime</drawerType>
+    <pathCost>42</pathCost>
+	  <clearBuildingArea>false</clearBuildingArea>
+	<building>
+	      <isEdifice>false</isEdifice>    
+	</building>
+	<altitudeLayer>BuildingOnTop</altitudeLayer>
+    <fillPercent>0.4</fillPercent>
+    <passability>PassThroughOnly</passability>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <canOverlapZones>false</canOverlapZones>
+    <staticSunShadowHeight>0.5</staticSunShadowHeight>
+    <thingCategories>
+      <li>BuildingsSpecial</li>
+    </thingCategories>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <MaxHitPoints>40</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Mass>1</Mass>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <costList>
+      <Steel>1</Steel>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+   <comps>
+    	<li Class="SK.CompProperties_ApplyHediffAround">
+				<hediff>VaultBoyMedicine</hediff>
+				<radius>3</radius>
+				<severityToAdd>1</severityToAdd>
+			    </li>
+    </comps>
+    <thingSetMakerTags>
+      <li>RewardStandardCore</li>
+    </thingSetMakerTags>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <tradeTags>
+      <li>ExoticBuilding</li>
+    </tradeTags>
+  </ThingDef>
+       
+
+ <ThingDef ParentName="BuildingBase">
+     <defName>VaultBoyEloquence</defName>
+    <label>Пупс «Красноречие»</label>
+    <description>Пупс «Красноречие»  - Я хочу, чтоб к штыку приравняли перо.</description>
+    <size>(1,1)</size>
+    <graphicData>
+       <texPath>Things/Item/VaultBoyEloquence</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.5, 0.5)</drawSize>
+	    <drawOffset>(0,0,0.2)</drawOffset>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+   	 <drawerType>MapMeshAndRealTime</drawerType>
+    <pathCost>42</pathCost>
+	  <clearBuildingArea>false</clearBuildingArea>
+	<building>
+	      <isEdifice>false</isEdifice>    
+	</building>
+	<altitudeLayer>BuildingOnTop</altitudeLayer>
+    <fillPercent>0.4</fillPercent>
+    <passability>PassThroughOnly</passability>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <canOverlapZones>false</canOverlapZones>
+    <staticSunShadowHeight>0.5</staticSunShadowHeight>
+    <thingCategories>
+      <li>BuildingsSpecial</li>
+    </thingCategories>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <MaxHitPoints>40</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Mass>1</Mass>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <costList>
+      <Steel>1</Steel>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+   <comps>
+    	<li Class="SK.CompProperties_ApplyHediffAround">
+				<hediff>VaultBoyEloquence</hediff>
+				<radius>3</radius>
+				<severityToAdd>1</severityToAdd>
+			    </li>
+    </comps>
+    <thingSetMakerTags>
+      <li>RewardStandardCore</li>
+    </thingSetMakerTags>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <tradeTags>
+      <li>ExoticBuilding</li>
+    </tradeTags>
+  </ThingDef>
+
+ <ThingDef ParentName="BuildingBase">
+     <defName>VaultBoyIntelligence</defName>
+    <label>Пупс «Интеллект»</label>
+    <description>Пупс «Интеллект»  - Всегда будь готов к ответу на сто тысяч почему.</description>
+    <size>(1,1)</size>
+    <graphicData>
+       <texPath>Things/Item/VaultBoyIntelligence</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.5, 0.5)</drawSize>
+	    <drawOffset>(0,0,0.2)</drawOffset>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+   	 <drawerType>MapMeshAndRealTime</drawerType>
+    <pathCost>42</pathCost>
+	  <clearBuildingArea>false</clearBuildingArea>
+	<building>
+	      <isEdifice>false</isEdifice>    
+	</building>
+	<altitudeLayer>BuildingOnTop</altitudeLayer>
+    <fillPercent>0.4</fillPercent>
+    <passability>PassThroughOnly</passability>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <canOverlapZones>false</canOverlapZones>
+    <staticSunShadowHeight>0.5</staticSunShadowHeight>
+    <thingCategories>
+      <li>BuildingsSpecial</li>
+    </thingCategories>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <MaxHitPoints>40</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Mass>1</Mass>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <costList>
+      <Steel>1</Steel>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+   <comps>
+    	<li Class="SK.CompProperties_ApplyHediffAround">
+				<hediff>VaultBoyIntelligence</hediff>
+				<radius>3</radius>
+				<severityToAdd>1</severityToAdd>
+			    </li>
+    </comps>
+    <thingSetMakerTags>
+      <li>RewardStandardCore</li>
+    </thingSetMakerTags>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <tradeTags>
+      <li>ExoticBuilding</li>
+    </tradeTags>
+  </ThingDef>
+
+
+<ThingDef ParentName="BuildingBase">
+     <defName>VaultBoyRepair</defName>
+    <label>Пупс «Ремонт»</label>
+    <description>Пупс «Ремонт» - Зачем идти на дно вместе с кораблём, если можно его починить?</description>
+    <size>(1,1)</size>
+    <graphicData>
+       <texPath>Things/Item/VaultBoyRepair</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.5, 0.5)</drawSize>
+	    <drawOffset>(0,0,0.2)</drawOffset>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+   	 <drawerType>MapMeshAndRealTime</drawerType>
+    <pathCost>42</pathCost>
+	  <clearBuildingArea>false</clearBuildingArea>
+	<building>
+	      <isEdifice>false</isEdifice>    
+	</building>
+	<altitudeLayer>BuildingOnTop</altitudeLayer>
+    <fillPercent>0.4</fillPercent>
+    <passability>PassThroughOnly</passability>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <canOverlapZones>false</canOverlapZones>
+    <staticSunShadowHeight>0.5</staticSunShadowHeight>
+    <thingCategories>
+      <li>BuildingsSpecial</li>
+    </thingCategories>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <MaxHitPoints>40</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Mass>1</Mass>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <costList>
+      <Steel>1</Steel>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+   <comps>
+    	<li Class="SK.CompProperties_ApplyHediffAround">
+				<hediff>VaultBoyRepair</hediff>
+				<radius>3</radius>
+				<severityToAdd>1</severityToAdd>
+			    </li>
+    </comps>
+    <thingSetMakerTags>
+      <li>RewardStandardCore</li>
+    </thingSetMakerTags>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <tradeTags>
+      <li>ExoticBuilding</li>
+    </tradeTags>
+  </ThingDef>
+  
+  
+  <ThingDef ParentName="BuildingBase">
+     <defName>VaultBoyBarter</defName>
+    <label>Пупс «Бартер»</label>
+    <description>Пупс «Бартер» - Количество добра у тебя всегда должно увеличиваться.</description>
+    <size>(1,1)</size>
+    <graphicData>
+       <texPath>Things/Item/VaultBoyBarter</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.5, 0.5)</drawSize>
+	    <drawOffset>(0,0,0.2)</drawOffset>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+   	 <drawerType>MapMeshAndRealTime</drawerType>
+    <pathCost>42</pathCost>
+	  <clearBuildingArea>false</clearBuildingArea>
+	<building>
+	      <isEdifice>false</isEdifice>    
+	</building>
+	<altitudeLayer>BuildingOnTop</altitudeLayer>
+    <fillPercent>0.4</fillPercent>
+    <passability>PassThroughOnly</passability>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <canOverlapZones>false</canOverlapZones>
+    <staticSunShadowHeight>0.5</staticSunShadowHeight>
+    <thingCategories>
+      <li>BuildingsSpecial</li>
+    </thingCategories>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <MaxHitPoints>40</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Mass>1</Mass>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <costList>
+      <Steel>1</Steel>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+   <comps>
+    	<li Class="SK.CompProperties_ApplyHediffAround">
+				<hediff>VaultBoyBarter</hediff>
+				<radius>3</radius>
+				<severityToAdd>1</severityToAdd>
+			    </li>
+    </comps>
+    <thingSetMakerTags>
+      <li>RewardStandardCore</li>
+    </thingSetMakerTags>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <tradeTags>
+      <li>ExoticBuilding</li>
+    </tradeTags>
+  </ThingDef>
 </Defs>

@@ -12,4 +12,24 @@
   <BombJ.description>One-Way Ticket end</BombJ.description>
 
 
+
+<VaultBoyMedicine.label>Medicine Bobblehead</VaultBoyMedicine.label>
+<VaultBoyMedicine.description>A smart person knows that bandages only hide a wound.</VaultBoyMedicine.description>
+<VaultBoyMedicine.labelNoun>Medicine Bobblehead</VaultBoyMedicine.labelNoun>
+
+<VaultBoyEloquence.label>Eloquence Bobblehead</VaultBoyEloquence.label>
+<VaultBoyEloquence.description>Let words be your weapon.</VaultBoyEloquence.description>
+<VaultBoyEloquence.labelNoun>Eloquence Bobblehead</VaultBoyEloquence.labelNoun>
+
+<VaultBoyIntelligence.label>Intelligence Bobblehead</VaultBoyIntelligence.label>
+<VaultBoyIntelligence.description>The smartest one is the one who never stops learning new things.</VaultBoyIntelligence.description>
+<VaultBoyIntelligence.labelNoun>Intelligence Bobblehead</VaultBoyIntelligence.labelNoun>
+
+<VaultBoyRepair.label>Repair Bobblehead</VaultBoyRepair.label>
+<VaultBoyRepair.description>Why go down with the ship when you can try to patch the hole?</VaultBoyRepair.description>
+<VaultBoyRepair.labelNoun>Repair Bobblehead</VaultBoyRepair.labelNoun>
+
+<VaultBoyBarter.label>Barter Bobblehead</VaultBoyBarter.label>
+<VaultBoyBarter.description>Nothing says "good" like a charming smile.</VaultBoyBarter.description>
+<VaultBoyBarter.labelNoun>Barter Bobblehead</VaultBoyBarter.labelNoun>
 </LanguageData>

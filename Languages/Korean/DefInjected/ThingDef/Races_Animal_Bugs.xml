@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <CockroachVaultec.label>Radcockroach</CockroachVaultec.label>
+  <CockroachVaultec.label>라드로치</CockroachVaultec.label>
   <CockroachVaultec.description>방사병 바퀴벌레는 변이된 대형 "미국 바퀴벌레"이며, 구어체로는 단순히 "거대 바퀴벌레"로 알려져 있습니다. 이들은 낙진으로 인해 크기가 기하급수적으로 증가한 전쟁 전 종의 더 큰 버전입니다.</CockroachVaultec.description>
   <CockroachVaultec.tools.0.label>입</CockroachVaultec.tools.0.label>
   <CockroachVaultec.tools.1.label>헤드</CockroachVaultec.tools.1.label>
 
-  <Bloodbug.label>그누스</Bloodbug.label>
-  <Bloodbug.description>전쟁 후 영연방의 황무지에 서식하는 거대 돌연변이 모기. 단독으로 발견되거나 최대 5마리까지 집단으로 발견됩니다. 공격적이지 않은 상태에서 사악한 자는 땅바닥이나 브라만의 시체 위에 거의 움직이지 않고 앉아 있습니다. 때때로 그는 물 속에 앉아 있을 수도 있는데, 이는 그가 공격하러 출발하는 순간까지 거의 눈에 띄지 않게 만듭니다.</Bloodbug.description>
+  <Bloodbug.label>블러드버그</Bloodbug.label>
+  <Bloodbug.description>전쟁 후 커먼웰스의 황무지에 서식하는 거대 돌연변이 모기. 단독으로 발견되거나 최대 5마리까지 집단으로 발견됩니다. 공격적이지 않은 상태에서 사악한 자는 땅바닥이나 브라만의 시체 위에 거의 움직이지 않고 앉아 있습니다. 때때로 그는 물 속에 앉아 있을 수도 있는데, 이는 그가 공격하러 출발하는 순간까지 거의 눈에 띄지 않게 만듭니다.</Bloodbug.description>
   <Bloodbug.tools.0.label>입</Bloodbug.tools.0.label>
   <Bloodbug.tools.1.label>헤드</Bloodbug.tools.1.label>
 
-  <Cazador.label>카자도르</Cazador.label>
-  <Cazador.description>펩시스 도로말벌의 과인 펩시스 그로사 종의 후손인 대형 돌연변이 곤충입니다. 그들은 모하비 사막의 구릉지와 산악 지역, 시온 캐니언(Zion Canyon) 및 빅 마운틴(Big Mountain)에 가장 자주 서식하며 날개를 사용하여 매우 빠르게 움직입니다. 하나 또는 두 개의 날개가 손상되면 다리로 움직이기 시작하여 이동 속도가 크게 감소합니다. 모든 곤충과 마찬가지로 더듬이가 손상되면 분노하여 살아있는 모든 생물을 공격합니다.</Cazador.description>
+  <Cazador.label>카시도르</Cazador.label>
+  <Cazador.description>펩시스 도로말벌의 과인 펩시스 그로사 종의 후손인 대형 돌연변이 곤충입니다. 그들은 모하비 사막의 구릉지와 산악 지역, 시온 협곡(Zion Canyon) 및 빅 마운틴(Big Mountain)에 가장 자주 서식하며 날개를 사용하여 매우 빠르게 움직입니다. 하나 또는 두 개의 날개가 손상되면 다리로 움직이기 시작하여 이동 속도가 크게 감소합니다. 모든 곤충과 마찬가지로 더듬이가 손상되면 분노하여 살아있는 모든 생물을 공격합니다.</Cazador.description>
   <Cazador.tools.0.label>독송곳니</Cazador.tools.0.label>
   <Cazador.tools.1.label>헤드</Cazador.tools.1.label>
 

@@ -3,7 +3,7 @@
 
   <SteroidHigh.label>스테로이드</SteroidHigh.label>
   <SteroidHigh.description>...</SteroidHigh.description>
-  <SteroidHigh.labelNoun>스테로이드의 영향을 받고 있는 경우</SteroidHigh.labelNoun>
+  <SteroidHigh.labelNoun>스테로이드의 영향을 받고 있는 중</SteroidHigh.labelNoun>
 
   <SteroidAddiction.label>스테로이드 중독</SteroidAddiction.label>
   <SteroidAddiction.description>스테로이드를 장기간 사용하면 중독이 발생합니다.</SteroidAddiction.description>

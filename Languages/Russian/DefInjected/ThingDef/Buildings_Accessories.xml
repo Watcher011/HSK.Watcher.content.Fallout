@@ -8,5 +8,20 @@
   <GECK.description>Генератор Эдемских Кущ Компактный. Это стандартное оборудование всех убежищ Волт-Тек. ГЭКК — источник восстановления цивилизации после бомбардировки. Просто добавь воды и перемешай.</GECK.description>
   <GECK.comps.6.offMessage>Выключено для периода покоя растений</GECK.comps.6.offMessage>
 
+  <VaultBoyMedicine.label>Пупс «Медицина»</VaultBoyMedicine.label>
+  <VaultBoyMedicine.description>Пупс «Медицина»  - Умный понимает, что рана под повязкой никуда не делась.</VaultBoyMedicine.description>
+
+  <VaultBoyEloquence.label>Пупс «Красноречие»</VaultBoyEloquence.label>
+  <VaultBoyEloquence.description>Пупс «Красноречие»  - Я хочу, чтоб к штыку приравняли перо.</VaultBoyEloquence.description>
+
+  <VaultBoyIntelligence.label>Пупс «Интеллект»</VaultBoyIntelligence.label>
+  <VaultBoyIntelligence.description>Пупс «Интеллект»  - Всегда будь готов к ответу на сто тысяч почему.</VaultBoyIntelligence.description>
+
+  <VaultBoyRepair.label>Пупс «Ремонт»</VaultBoyRepair.label>
+  <VaultBoyRepair.description>Пупс «Ремонт» - Зачем идти на дно вместе с кораблём, если можно его починить?</VaultBoyRepair.description>
+
+  <VaultBoyBarter.label>Пупс «Бартер»</VaultBoyBarter.label>
+  <VaultBoyBarter.description>Пупс «Бартер» - Количество добра у тебя всегда должно увеличиваться.</VaultBoyBarter.description>
+
 
 </LanguageData>

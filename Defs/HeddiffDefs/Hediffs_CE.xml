@@ -136,6 +136,167 @@
   </HediffGiverSetDef>
   
   
+   <HediffDef>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defName>VaultBoyMedicine</defName>
+    <label>Пупс«Медицина»</label>
+    <description>Умный знает, что бинты лишь скрывают рану.</description>
+	<defaultLabelColor>(0.2, 0.8, 0.2)</defaultLabelColor>
+    <labelNoun>Пупс«Медицина»</labelNoun>
+    <maxSeverity>1</maxSeverity>
+     <stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+                         <postFactor>1.15</postFactor>
+					</li>
+				</capMods>
+				 <statOffsets>
+				 <BedRestEffectiveness>0.95</BedRestEffectiveness>
+                <ImmunityGainSpeedFactor>1.15</ImmunityGainSpeedFactor>
+				 <SurgerySuccessChanceFactor>2</SurgerySuccessChanceFactor>
+				  <InjuryHealingFactor>0.25</InjuryHealingFactor>
+                </statOffsets>
+			</li>
+		</stages>
+     
+    <comps>
+      <li Class="HediffCompProperties_SelfHeal">
+        <healAmount>0.04</healAmount>
+      </li>
+    </comps>
+  </HediffDef>
+   
+   
+   
+   <HediffDef>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defName>VaultBoyEloquence</defName>
+    <label>Пупс«Красноречие»</label>
+    <description>Пусть слова станут вашим оружием.</description>
+    <labelNoun>Пупс«Красноречие»</labelNoun>
+	<defaultLabelColor>(0.2, 0.8, 0.2)</defaultLabelColor>
+    <maxSeverity>1</maxSeverity>
+     <stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Talking</capacity>
+                         <postFactor>1.15</postFactor>
+					</li>
+				</capMods>
+				 <statOffsets>
+				 <PawnBeauty>1</PawnBeauty>
+                </statOffsets>
+			</li>
+		</stages>
+     
+    <comps>
+      <li Class="HediffCompProperties_SelfHeal">
+        <healAmount>0.04</healAmount>
+      </li>
+    </comps>
+  </HediffDef> 
+   
+   
+    <HediffDef>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defName>VaultBoyIntelligence</defName>
+    <label>Пупс«Интеллект»</label>
+    <description>Самый умный — это тот, кто не перестаёт учиться новому.</description>
+    <labelNoun>Пупс«Интеллект»</labelNoun>
+	<defaultLabelColor>(0.2, 0.8, 0.2)</defaultLabelColor>
+    <maxSeverity>1</maxSeverity>
+     <stages>
+			<li>
+				<capMods>
+					<li>
+						 <capacity>Consciousness</capacity>
+                         <postFactor>1.15</postFactor>
+					</li>
+				</capMods>
+				 <statOffsets>
+				 <GlobalLearningFactor>1.5</GlobalLearningFactor>
+				 <ResearchSpeed>0.5</ResearchSpeed>
+                </statOffsets>
+			</li>
+		</stages>
+     
+    <comps>
+      <li Class="HediffCompProperties_SelfHeal">
+        <healAmount>0.04</healAmount>
+      </li>
+    </comps>
+  </HediffDef> 
   
+  
+     <HediffDef>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defName>VaultBoyRepair</defName>
+    <label>Пупс«Ремонт»</label>
+    <description>Зачем идти ко дну вместе с кораблём, если можно попытаться залатать пробоину?</description>
+    <labelNoun>Пупс«Ремонт»</labelNoun>
+	<defaultLabelColor>(0.2, 0.8, 0.2)</defaultLabelColor>
+    <maxSeverity>1</maxSeverity>
+     <stages>
+			<li>
+				<capMods>
+					<li>
+						 <capacity>Consciousness</capacity>
+                         <postFactor>1.15</postFactor>
+					</li>
+				</capMods>
+				 <statOffsets>
+				 <WorkSpeedGlobal>0.40</WorkSpeedGlobal>
+				  <ConstructionSpeed>0.4</ConstructionSpeed>
+                 <MentalBreakThreshold>0.09</MentalBreakThreshold>
+				 <MiningSpeed>0.09</MiningSpeed>
+			     <MiningYield>0.09</MiningYield>
+				 <SmoothingSpeed>0.09</SmoothingSpeed>
+				 <ConstructionSpeed>0.09</ConstructionSpeed>
+				 <ConstructSuccessChance>0.09</ConstructSuccessChance>
+				 <FixBrokenDownBuildingSuccessChance>0.09</FixBrokenDownBuildingSuccessChance>
+                </statOffsets>
+			</li>
+		</stages>
+     
+    <comps>
+      <li Class="HediffCompProperties_SelfHeal">
+        <healAmount>0.04</healAmount>
+      </li>
+    </comps>
+  </HediffDef>
+   
+   
+   <HediffDef>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defName>VaultBoyBarter</defName>
+    <label>Пупс«Бартер»</label>
+    <description>Ничто так не подчёркивает бодрость духа, как обаятельная улыбка.</description>
+    <labelNoun>Пупс«Бартер»</labelNoun>
+	<defaultLabelColor>(0.2, 0.8, 0.2)</defaultLabelColor>
+    <maxSeverity>1</maxSeverity>
+     <stages>
+			<li>
+				<capMods>
+					<li>
+						 <capacity>Talking</capacity>
+                         <postFactor>1.15</postFactor>
+					</li>
+				</capMods>
+				 <statOffsets>
+				 <SocialImpact>2</SocialImpact>
+                </statOffsets>
+			</li>
+		</stages>
+     
+    <comps>
+      <li Class="HediffCompProperties_SelfHeal">
+        <healAmount>0.04</healAmount>
+      </li>
+    </comps>
+  </HediffDef> 
+   
    
 </Defs>

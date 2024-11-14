@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <EggDeathclawUnfertilized.label>죽음발톱 알 (미수정)</EggDeathclawUnfertilized.label>
+  <EggDeathclawUnfertilized.label>죽음발톱 알(무정란)</EggDeathclawUnfertilized.label>
   <EggDeathclawUnfertilized.description>데스클로 알.</EggDeathclawUnfertilized.description>
 
-  <EggDeathclawFertilized.label>데스클로 알(수정)</EggDeathclawFertilized.label>
-  <EggDeathclawFertilized.description>데스클로 알</EggDeathclawFertilized.description>
+  <EggDeathclawFertilized.label>데스클로 알(수정란)</EggDeathclawFertilized.label>
+  <EggDeathclawFertilized.description>수정된 데스클로 알</EggDeathclawFertilized.description>
 
 
 </LanguageData>

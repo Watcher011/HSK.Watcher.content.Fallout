@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Crashlanded_Nuclear_Ghoul.label>핵 여파</Crashlanded_Nuclear_Ghoul.label>
+  <Crashlanded_Nuclear_Ghoul.label>핵전쟁의 여파</Crashlanded_Nuclear_Ghoul.label>
   <Crashlanded_Nuclear_Ghoul.description>세 명의 구울이 어떤 결과가 나올지 알지 못한 채 고대 유물을 훔쳤습니다.</Crashlanded_Nuclear_Ghoul.description>
   <Crashlanded_Nuclear_Ghoul.scenario.name>핵전쟁 이후 상황</Crashlanded_Nuclear_Ghoul.scenario.name>
   <Crashlanded_Nuclear_Ghoul.scenario.summary>구원을 찾아 나선 세 명의 탐험가.</Crashlanded_Nuclear_Ghoul.scenario.summary>
   <Crashlanded_Nuclear_Ghoul.scenario.description>세 명의 구울이 어떤 결과가 나올지 알지 못한 채 고대 유물을 훔쳤습니다.</Crashlanded_Nuclear_Ghoul.scenario.description>
-  <Crashlanded_Nuclear_Ghoul.scenario.parts.0.text>당신은 추격자들로부터 탈출하여 희귀한 GEKK 장치를 손에 넣었습니다. 하지만 불안한 감정은 사라지지 않습니다... 왜 그렇게 쉽게 풀려났습니까? 뭔가 당신에게 시간이 거의 없으며 그들이 곧 당신을 찾아올 것이라고 알려줍니다.</Crashlanded_Nuclear_Ghoul.scenario.parts.0.text>
+  <Crashlanded_Nuclear_Ghoul.scenario.parts.0.text>당신은 추격자들로부터 탈출하여 희귀한 GECK 장치를 손에 넣었습니다. 하지만 불안한 감정은 사라지지 않습니다... 왜 그렇게 쉽게 풀려났습니까? 뭔가 당신에게 시간이 거의 없으며 그들이 곧 당신을 찾아올 것이라고 알려줍니다.</Crashlanded_Nuclear_Ghoul.scenario.parts.0.text>
 
 
 </LanguageData>

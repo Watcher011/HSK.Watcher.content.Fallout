@@ -26,115 +26,115 @@
   <Guidra.labelFemale>암컷 히드라</Guidra.labelFemale>
   <Guidra.labelFemalePlural>암컷 히드라</Guidra.labelFemalePlural>
 
-  <RadDeer.label>래드 디어</RadDeer.label>
-  <RadDeer.labelPlural>래드 디어</RadDeer.labelPlural>
-  <RadDeer.lifeStages.0.label>래드 디어</RadDeer.lifeStages.0.label>
-  <RadDeer.lifeStages.0.labelPlural>래드 디어</RadDeer.lifeStages.0.labelPlural>
-  <RadDeer.lifeStages.0.labelMale>래드 디어</RadDeer.lifeStages.0.labelMale>
-  <RadDeer.lifeStages.0.labelMalePlural>수컷 Rad Deer</RadDeer.lifeStages.0.labelMalePlural>
-  <RadDeer.lifeStages.0.labelFemale>래드 디어</RadDeer.lifeStages.0.labelFemale>
-  <RadDeer.lifeStages.0.labelFemalePlural>암컷 Rad Deer</RadDeer.lifeStages.0.labelFemalePlural>
-  <RadDeer.lifeStages.1.label>래드 디어</RadDeer.lifeStages.1.label>
-  <RadDeer.lifeStages.1.labelPlural>래드 디어</RadDeer.lifeStages.1.labelPlural>
-  <RadDeer.lifeStages.1.labelMale>래드 디어</RadDeer.lifeStages.1.labelMale>
-  <RadDeer.lifeStages.1.labelMalePlural>수컷 Rad Deer</RadDeer.lifeStages.1.labelMalePlural>
-  <RadDeer.lifeStages.1.labelFemale>래드 디어</RadDeer.lifeStages.1.labelFemale>
-  <RadDeer.lifeStages.1.labelFemalePlural>암컷 Rad Deer</RadDeer.lifeStages.1.labelFemalePlural>
-  <RadDeer.lifeStages.2.label>래드 디어</RadDeer.lifeStages.2.label>
-  <RadDeer.lifeStages.2.labelPlural>래드 디어</RadDeer.lifeStages.2.labelPlural>
-  <RadDeer.lifeStages.2.labelMale>래드 디어</RadDeer.lifeStages.2.labelMale>
-  <RadDeer.lifeStages.2.labelMalePlural>수컷 Rad Deer</RadDeer.lifeStages.2.labelMalePlural>
-  <RadDeer.lifeStages.2.labelFemale>래드 디어</RadDeer.lifeStages.2.labelFemale>
-  <RadDeer.lifeStages.2.labelFemalePlural>암컷 Rad Deer</RadDeer.lifeStages.2.labelFemalePlural>
-  <RadDeer.labelMale>래드 디어</RadDeer.labelMale>
-  <RadDeer.labelMalePlural>수컷 라드디어</RadDeer.labelMalePlural>
-  <RadDeer.labelFemale>래드 디어</RadDeer.labelFemale>
-  <RadDeer.labelFemalePlural>암컷 라드 디어</RadDeer.labelFemalePlural>
+  <RadDeer.label>라드스택</RadDeer.label>
+  <RadDeer.labelPlural>라드스택</RadDeer.labelPlural>
+  <RadDeer.lifeStages.0.label>새끼 라드스택</RadDeer.lifeStages.0.label>
+  <RadDeer.lifeStages.0.labelPlural>새끼 라드스택</RadDeer.lifeStages.0.labelPlural>
+  <RadDeer.lifeStages.0.labelMale>새끼 수컷 라드스택</RadDeer.lifeStages.0.labelMale>
+  <RadDeer.lifeStages.0.labelMalePlural>새끼 수컷 라드스택</RadDeer.lifeStages.0.labelMalePlural>
+  <RadDeer.lifeStages.0.labelFemale>새끼 라드스택</RadDeer.lifeStages.0.labelFemale>
+  <RadDeer.lifeStages.0.labelFemalePlural>새끼 암컷 라드스택</RadDeer.lifeStages.0.labelFemalePlural>
+  <RadDeer.lifeStages.1.label>라드스택</RadDeer.lifeStages.1.label>
+  <RadDeer.lifeStages.1.labelPlural>라드스택</RadDeer.lifeStages.1.labelPlural>
+  <RadDeer.lifeStages.1.labelMale>수컷 라드스택</RadDeer.lifeStages.1.labelMale>
+  <RadDeer.lifeStages.1.labelMalePlural>수컷 라드스택</RadDeer.lifeStages.1.labelMalePlural>
+  <RadDeer.lifeStages.1.labelFemale>암컷 라드스택</RadDeer.lifeStages.1.labelFemale>
+  <RadDeer.lifeStages.1.labelFemalePlural>암컷 라드스택</RadDeer.lifeStages.1.labelFemalePlural>
+  <RadDeer.lifeStages.2.label>라드스택</RadDeer.lifeStages.2.label>
+  <RadDeer.lifeStages.2.labelPlural>라드스택</RadDeer.lifeStages.2.labelPlural>
+  <RadDeer.lifeStages.2.labelMale>수컷 라드스택</RadDeer.lifeStages.2.labelMale>
+  <RadDeer.lifeStages.2.labelMalePlural>수컷 라드스택</RadDeer.lifeStages.2.labelMalePlural>
+  <RadDeer.lifeStages.2.labelFemale>암컷 라드스택</RadDeer.lifeStages.2.labelFemale>
+  <RadDeer.lifeStages.2.labelFemalePlural>암컷 라드스택</RadDeer.lifeStages.2.labelFemalePlural>
+  <RadDeer.labelMale>라드스택</RadDeer.labelMale>
+  <RadDeer.labelMalePlural>수컷 라드스택</RadDeer.labelMalePlural>
+  <RadDeer.labelFemale>라드스택</RadDeer.labelFemale>
+  <RadDeer.labelFemalePlural>암컷 라드스택</RadDeer.labelFemalePlural>
 
-  <Bear_Yaoguai.label>야오가이</Bear_Yaoguai.label>
-  <Bear_Yaoguai.labelPlural>야오가이</Bear_Yaoguai.labelPlural>
-  <Bear_Yaoguai.lifeStages.0.label>야오가이</Bear_Yaoguai.lifeStages.0.label>
-  <Bear_Yaoguai.lifeStages.0.labelPlural>야오가이</Bear_Yaoguai.lifeStages.0.labelPlural>
-  <Bear_Yaoguai.lifeStages.0.labelMale>남성 야오가이</Bear_Yaoguai.lifeStages.0.labelMale>
-  <Bear_Yaoguai.lifeStages.0.labelMalePlural>남성 야오가이</Bear_Yaoguai.lifeStages.0.labelMalePlural>
-  <Bear_Yaoguai.lifeStages.0.labelFemale>암컷 야오가이</Bear_Yaoguai.lifeStages.0.labelFemale>
-  <Bear_Yaoguai.lifeStages.0.labelFemalePlural>암컷 야오가이</Bear_Yaoguai.lifeStages.0.labelFemalePlural>
-  <Bear_Yaoguai.lifeStages.1.label>야오가이</Bear_Yaoguai.lifeStages.1.label>
-  <Bear_Yaoguai.lifeStages.1.labelPlural>야오가이</Bear_Yaoguai.lifeStages.1.labelPlural>
-  <Bear_Yaoguai.lifeStages.1.labelMale>남성 야오가이</Bear_Yaoguai.lifeStages.1.labelMale>
-  <Bear_Yaoguai.lifeStages.1.labelMalePlural>남성 야오가이</Bear_Yaoguai.lifeStages.1.labelMalePlural>
-  <Bear_Yaoguai.lifeStages.1.labelFemale>암컷 야오가이</Bear_Yaoguai.lifeStages.1.labelFemale>
-  <Bear_Yaoguai.lifeStages.1.labelFemalePlural>암컷 야오가이</Bear_Yaoguai.lifeStages.1.labelFemalePlural>
-  <Bear_Yaoguai.lifeStages.2.label>야오가이</Bear_Yaoguai.lifeStages.2.label>
-  <Bear_Yaoguai.lifeStages.2.labelPlural>야오가이</Bear_Yaoguai.lifeStages.2.labelPlural>
-  <Bear_Yaoguai.lifeStages.2.labelMale>남성 야오가이</Bear_Yaoguai.lifeStages.2.labelMale>
-  <Bear_Yaoguai.lifeStages.2.labelMalePlural>남성 야오가이</Bear_Yaoguai.lifeStages.2.labelMalePlural>
-  <Bear_Yaoguai.lifeStages.2.labelFemale>암컷 야오가이</Bear_Yaoguai.lifeStages.2.labelFemale>
-  <Bear_Yaoguai.lifeStages.2.labelFemalePlural>암컷 야오가이</Bear_Yaoguai.lifeStages.2.labelFemalePlural>
-  <Bear_Yaoguai.labelMale>남성 야오가이</Bear_Yaoguai.labelMale>
-  <Bear_Yaoguai.labelMalePlural>남성 야오가이</Bear_Yaoguai.labelMalePlural>
-  <Bear_Yaoguai.labelFemale>암컷 야오가이</Bear_Yaoguai.labelFemale>
-  <Bear_Yaoguai.labelFemalePlural>암컷 야오가이</Bear_Yaoguai.labelFemalePlural>
+  <Bear_Yaoguai.label>야오과이</Bear_Yaoguai.label>
+  <Bear_Yaoguai.labelPlural>야오과이</Bear_Yaoguai.labelPlural>
+  <Bear_Yaoguai.lifeStages.0.label>야오과이</Bear_Yaoguai.lifeStages.0.label>
+  <Bear_Yaoguai.lifeStages.0.labelPlural>야오과이</Bear_Yaoguai.lifeStages.0.labelPlural>
+  <Bear_Yaoguai.lifeStages.0.labelMale>수컷 새끼 야오과이</Bear_Yaoguai.lifeStages.0.labelMale>
+  <Bear_Yaoguai.lifeStages.0.labelMalePlural>남성 야오과이</Bear_Yaoguai.lifeStages.0.labelMalePlural>
+  <Bear_Yaoguai.lifeStages.0.labelFemale>암컷 야오과이</Bear_Yaoguai.lifeStages.0.labelFemale>
+  <Bear_Yaoguai.lifeStages.0.labelFemalePlural>암컷 새끼 야오과이</Bear_Yaoguai.lifeStages.0.labelFemalePlural>
+  <Bear_Yaoguai.lifeStages.1.label>야오과이</Bear_Yaoguai.lifeStages.1.label>
+  <Bear_Yaoguai.lifeStages.1.labelPlural>야오과이</Bear_Yaoguai.lifeStages.1.labelPlural>
+  <Bear_Yaoguai.lifeStages.1.labelMale>수컷 야오과이</Bear_Yaoguai.lifeStages.1.labelMale>
+  <Bear_Yaoguai.lifeStages.1.labelMalePlural>수컷 야오과이</Bear_Yaoguai.lifeStages.1.labelMalePlural>
+  <Bear_Yaoguai.lifeStages.1.labelFemale>암컷 야오과이</Bear_Yaoguai.lifeStages.1.labelFemale>
+  <Bear_Yaoguai.lifeStages.1.labelFemalePlural>암컷 야오과이</Bear_Yaoguai.lifeStages.1.labelFemalePlural>
+  <Bear_Yaoguai.lifeStages.2.label>야오과이</Bear_Yaoguai.lifeStages.2.label>
+  <Bear_Yaoguai.lifeStages.2.labelPlural>야오과이</Bear_Yaoguai.lifeStages.2.labelPlural>
+  <Bear_Yaoguai.lifeStages.2.labelMale>수컷 야오과이</Bear_Yaoguai.lifeStages.2.labelMale>
+  <Bear_Yaoguai.lifeStages.2.labelMalePlural>수컷 야오과이</Bear_Yaoguai.lifeStages.2.labelMalePlural>
+  <Bear_Yaoguai.lifeStages.2.labelFemale>암컷 야오과이</Bear_Yaoguai.lifeStages.2.labelFemale>
+  <Bear_Yaoguai.lifeStages.2.labelFemalePlural>암컷 야오과이</Bear_Yaoguai.lifeStages.2.labelFemalePlural>
+  <Bear_Yaoguai.labelMale>수컷 야오과이</Bear_Yaoguai.labelMale>
+  <Bear_Yaoguai.labelMalePlural>수컷 야오과이</Bear_Yaoguai.labelMalePlural>
+  <Bear_Yaoguai.labelFemale>암컷 야오과이</Bear_Yaoguai.labelFemale>
+  <Bear_Yaoguai.labelFemalePlural>암컷 야오과이</Bear_Yaoguai.labelFemalePlural>
 
   <Brahmin.label>브라민</Brahmin.label>
   <Brahmin.labelPlural>브라민</Brahmin.labelPlural>
-  <Brahmin.lifeStages.0.label>송아지</Brahmin.lifeStages.0.label>
-  <Brahmin.lifeStages.0.labelPlural>송아지</Brahmin.lifeStages.0.labelPlural>
-  <Brahmin.lifeStages.0.labelMale>송아지 수컷</Brahmin.lifeStages.0.labelMale>
-  <Brahmin.lifeStages.0.labelMalePlural>송아지 수컷</Brahmin.lifeStages.0.labelMalePlural>
-  <Brahmin.lifeStages.0.labelFemale>암컷 송아지</Brahmin.lifeStages.0.labelFemale>
-  <Brahmin.lifeStages.0.labelFemalePlural>암컷 송아지</Brahmin.lifeStages.0.labelFemalePlural>
+  <Brahmin.lifeStages.0.label>브라민 송아지</Brahmin.lifeStages.0.label>
+  <Brahmin.lifeStages.0.labelPlural>송아지 브라민</Brahmin.lifeStages.0.labelPlural>
+  <Brahmin.lifeStages.0.labelMale>수컷 송아지 브라민</Brahmin.lifeStages.0.labelMale>
+  <Brahmin.lifeStages.0.labelMalePlural>수컷 송아지 브라민</Brahmin.lifeStages.0.labelMalePlural>
+  <Brahmin.lifeStages.0.labelFemale>암컷 송아지 브라민</Brahmin.lifeStages.0.labelFemale>
+  <Brahmin.lifeStages.0.labelFemalePlural>암컷 송아지 브라민</Brahmin.lifeStages.0.labelFemalePlural>
   <Brahmin.lifeStages.1.label>브라민</Brahmin.lifeStages.1.label>
   <Brahmin.lifeStages.1.labelPlural>브라민</Brahmin.lifeStages.1.labelPlural>
   <Brahmin.lifeStages.1.labelMale>브라민</Brahmin.lifeStages.1.labelMale>
-  <Brahmin.lifeStages.1.labelMalePlural>남성 브라민</Brahmin.lifeStages.1.labelMalePlural>
-  <Brahmin.lifeStages.1.labelFemale>Брамин</Brahmin.lifeStages.1.labelFemale>
-  <Brahmin.lifeStages.1.labelFemalePlural>여성 브라민</Brahmin.lifeStages.1.labelFemalePlural>
+  <Brahmin.lifeStages.1.labelMalePlural>수컷 브라민</Brahmin.lifeStages.1.labelMalePlural>
+  <Brahmin.lifeStages.1.labelFemale>암컷 브라민</Brahmin.lifeStages.1.labelFemale>
+  <Brahmin.lifeStages.1.labelFemalePlural>암컷 브라민</Brahmin.lifeStages.1.labelFemalePlural>
   <Brahmin.lifeStages.2.label>브라민</Brahmin.lifeStages.2.label>
   <Brahmin.lifeStages.2.labelPlural>브라민</Brahmin.lifeStages.2.labelPlural>
   <Brahmin.lifeStages.2.labelMale>브라민</Brahmin.lifeStages.2.labelMale>
-  <Brahmin.lifeStages.2.labelMalePlural>남성 브라민</Brahmin.lifeStages.2.labelMalePlural>
-  <Brahmin.lifeStages.2.labelFemale>Брамин</Brahmin.lifeStages.2.labelFemale>
-  <Brahmin.lifeStages.2.labelFemalePlural>여성 브라민</Brahmin.lifeStages.2.labelFemalePlural>
+  <Brahmin.lifeStages.2.labelMalePlural>수컷 브라민</Brahmin.lifeStages.2.labelMalePlural>
+  <Brahmin.lifeStages.2.labelFemale>브라민</Brahmin.lifeStages.2.labelFemale>
+  <Brahmin.lifeStages.2.labelFemalePlural>암컷 브라민</Brahmin.lifeStages.2.labelFemalePlural>
   <Brahmin.labelMale>브라민</Brahmin.labelMale>
-  <Brahmin.labelMalePlural>브라민</Brahmin.labelMalePlural>
-  <Brahmin.labelFemale>Брамин</Brahmin.labelFemale>
-  <Brahmin.labelFemalePlural>브라민</Brahmin.labelFemalePlural>
+  <Brahmin.labelMalePlural>수컷 브라민</Brahmin.labelMalePlural>
+  <Brahmin.labelFemale>브라민</Brahmin.labelFemale>
+  <Brahmin.labelFemalePlural>암컷 브라민</Brahmin.labelFemalePlural>
 
-  <Gecko.label>게코</Gecko.label>
-  <Gecko.labelPlural>도마뱀</Gecko.labelPlural>
-  <Gecko.labelMale>수컷 게코</Gecko.labelMale>
-  <Gecko.labelMalePlural>수컷 도마뱀</Gecko.labelMalePlural>
-  <Gecko.labelFemale>암컷 게코</Gecko.labelFemale>
-  <Gecko.labelFemalePlural>암컷 도마뱀</Gecko.labelFemalePlural>
+  <Gecko.label>겍코</Gecko.label>
+  <Gecko.labelPlural>겍코</Gecko.labelPlural>
+  <Gecko.labelMale>수컷 겍코</Gecko.labelMale>
+  <Gecko.labelMalePlural>수컷 겍코</Gecko.labelMalePlural>
+  <Gecko.labelFemale>암컷 겍코</Gecko.labelFemale>
+  <Gecko.labelFemalePlural>암컷 겍코</Gecko.labelFemalePlural>
 
-  <Radscorpion.label>Radscorpion</Radscorpion.label>
+  <Radscorpion.label>라드스콜피온</Radscorpion.label>
   <Radscorpion.labelPlural>래드스콜피온</Radscorpion.labelPlural>
-  <Radscorpion.labelMale>남성 라즈콜피온</Radscorpion.labelMale>
-  <Radscorpion.labelMalePlural>남성 Radscorpion</Radscorpion.labelMalePlural>
-  <Radscorpion.labelFemale>암컷 Radscorpion</Radscorpion.labelFemale>
-  <Radscorpion.labelFemalePlural>암컷 Radscorpions</Radscorpion.labelFemalePlural>
+  <Radscorpion.labelMale>수컷 라드스콜피온</Radscorpion.labelMale>
+  <Radscorpion.labelMalePlural>수컷 라드스콜피온</Radscorpion.labelMalePlural>
+  <Radscorpion.labelFemale>암컷 라드스콜피온</Radscorpion.labelFemale>
+  <Radscorpion.labelFemalePlural>암컷 라드스콜피온</Radscorpion.labelFemalePlural>
 
   <Deathclaw.label>데스클로</Deathclaw.label>
   <Deathclaw.labelPlural>데스클로</Deathclaw.labelPlural>
-  <Deathclaw.labelMale>남성 데스클로</Deathclaw.labelMale>
-  <Deathclaw.labelMalePlural>남성 데스클로</Deathclaw.labelMalePlural>
-  <Deathclaw.labelFemale>여성 죽음의 발톱</Deathclaw.labelFemale>
-  <Deathclaw.labelFemalePlural>여성 데스클로</Deathclaw.labelFemalePlural>
+  <Deathclaw.labelMale>수컷 데스클로</Deathclaw.labelMale>
+  <Deathclaw.labelMalePlural>수컷 데스클로</Deathclaw.labelMalePlural>
+  <Deathclaw.labelFemale>암컷 데스클로</Deathclaw.labelFemale>
+  <Deathclaw.labelFemalePlural>암컷 데스클로</Deathclaw.labelFemalePlural>
 
-  <RadDeathclaw.label>빛나는 죽음의 발톱</RadDeathclaw.label>
-  <RadDeathclaw.labelPlural>빛나는 죽음의 발톱</RadDeathclaw.labelPlural>
-  <RadDeathclaw.labelMale>남성 빛나는 죽음의 발톱</RadDeathclaw.labelMale>
-  <RadDeathclaw.labelMalePlural>남성 빛나는 죽음의 발톱</RadDeathclaw.labelMalePlural>
-  <RadDeathclaw.labelFemale>여성 빛나는 죽음의 발톱</RadDeathclaw.labelFemale>
-  <RadDeathclaw.labelFemalePlural>빛나는 여성 죽음의 발톱</RadDeathclaw.labelFemalePlural>
+  <RadDeathclaw.label>발광 데스클로</RadDeathclaw.label>
+  <RadDeathclaw.labelPlural>발광 데스클로</RadDeathclaw.labelPlural>
+  <RadDeathclaw.labelMale>수컷 발광 데스클로</RadDeathclaw.labelMale>
+  <RadDeathclaw.labelMalePlural>수컷 발광 데스클로</RadDeathclaw.labelMalePlural>
+  <RadDeathclaw.labelFemale>암컷 발광 데스클로</RadDeathclaw.labelFemale>
+  <RadDeathclaw.labelFemalePlural>암컷 발광 데스클로</RadDeathclaw.labelFemalePlural>
 
   <EnclaveDeathclaw.label>엔클레이브 데스클로</EnclaveDeathclaw.label>
   <EnclaveDeathclaw.labelPlural>엔클레이브 데스클로</EnclaveDeathclaw.labelPlural>
-  <EnclaveDeathclaw.labelMale>남성 엔클레이브 데스클로</EnclaveDeathclaw.labelMale>
-  <EnclaveDeathclaw.labelMalePlural>남성 엔클레이브 데스클로</EnclaveDeathclaw.labelMalePlural>
-  <EnclaveDeathclaw.labelFemale>여성 엔클레이브 데스클로</EnclaveDeathclaw.labelFemale>
-  <EnclaveDeathclaw.labelFemalePlural>여성 엔클레이브 데스클로</EnclaveDeathclaw.labelFemalePlural>
+  <EnclaveDeathclaw.labelMale>수컷 엔클레이브 데스클로</EnclaveDeathclaw.labelMale>
+  <EnclaveDeathclaw.labelMalePlural>수컷 엔클레이브 데스클로</EnclaveDeathclaw.labelMalePlural>
+  <EnclaveDeathclaw.labelFemale>암컷 엔클레이브 데스클로</EnclaveDeathclaw.labelFemale>
+  <EnclaveDeathclaw.labelFemalePlural>암컷 엔클레이브 데스클로</EnclaveDeathclaw.labelFemalePlural>
 
 
   <!--<Brahmin.lifeStages.1.label여성>브라민</Brahmin.lifeStages.1.label여성>-->

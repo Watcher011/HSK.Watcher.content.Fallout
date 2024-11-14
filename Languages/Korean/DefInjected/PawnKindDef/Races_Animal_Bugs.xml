@@ -1,80 +1,80 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <CockroachVaultec.label>Radcockroach</CockroachVaultec.label>
-  <CockroachVaultec.labelPlural>Radcockroaches</CockroachVaultec.labelPlural>
-  <CockroachVaultec.lifeStages.0.label>Radcockroach</CockroachVaultec.lifeStages.0.label>
-  <CockroachVaultec.lifeStages.0.labelPlural>Radcockroach</CockroachVaultec.lifeStages.0.labelPlural>
-  <CockroachVaultec.lifeStages.0.labelMale>남성 Radcockroach</CockroachVaultec.lifeStages.0.labelMale>
-  <CockroachVaultec.lifeStages.0.labelMalePlural>수컷 방사능</CockroachVaultec.lifeStages.0.labelMalePlural>
+  <CockroachVaultec.label>라드로치</CockroachVaultec.label>
+  <CockroachVaultec.labelPlural>라드로치</CockroachVaultec.labelPlural>
+  <CockroachVaultec.lifeStages.0.label>라드로치</CockroachVaultec.lifeStages.0.label>
+  <CockroachVaultec.lifeStages.0.labelPlural>라드로치</CockroachVaultec.lifeStages.0.labelPlural>
+  <CockroachVaultec.lifeStages.0.labelMale>수컷 라드로치</CockroachVaultec.lifeStages.0.labelMale>
+  <CockroachVaultec.lifeStages.0.labelMalePlural>수컷 라드로치</CockroachVaultec.lifeStages.0.labelMalePlural>
   <CockroachVaultec.lifeStages.0.labelFemale>암컷 바퀴벌레</CockroachVaultec.lifeStages.0.labelFemale>
-  <CockroachVaultec.lifeStages.0.labelFemalePlural>암컷 방사능</CockroachVaultec.lifeStages.0.labelFemalePlural>
-  <CockroachVaultec.lifeStages.1.label>Radcockroach</CockroachVaultec.lifeStages.1.label>
-  <CockroachVaultec.lifeStages.1.labelPlural>Radcockroach</CockroachVaultec.lifeStages.1.labelPlural>
-  <CockroachVaultec.lifeStages.1.labelMale>남성 Radcockroach</CockroachVaultec.lifeStages.1.labelMale>
-  <CockroachVaultec.lifeStages.1.labelMalePlural>수컷 방사능</CockroachVaultec.lifeStages.1.labelMalePlural>
+  <CockroachVaultec.lifeStages.0.labelFemalePlural>암컷 라드로치</CockroachVaultec.lifeStages.0.labelFemalePlural>
+  <CockroachVaultec.lifeStages.1.label>라드로치</CockroachVaultec.lifeStages.1.label>
+  <CockroachVaultec.lifeStages.1.labelPlural>라드로치</CockroachVaultec.lifeStages.1.labelPlural>
+  <CockroachVaultec.lifeStages.1.labelMale>수컷 라드로치</CockroachVaultec.lifeStages.1.labelMale>
+  <CockroachVaultec.lifeStages.1.labelMalePlural>수컷 라드로치</CockroachVaultec.lifeStages.1.labelMalePlural>
   <CockroachVaultec.lifeStages.1.labelFemale>암컷 라드로치</CockroachVaultec.lifeStages.1.labelFemale>
-  <CockroachVaultec.lifeStages.1.labelFemalePlural>암컷 방사능</CockroachVaultec.lifeStages.1.labelFemalePlural>
-  <CockroachVaultec.lifeStages.2.label>Radcockroach</CockroachVaultec.lifeStages.2.label>
-  <CockroachVaultec.lifeStages.2.labelPlural>Radcockroach</CockroachVaultec.lifeStages.2.labelPlural>
-  <CockroachVaultec.lifeStages.2.labelMale>남성 Radcockroach</CockroachVaultec.lifeStages.2.labelMale>
-  <CockroachVaultec.lifeStages.2.labelMalePlural>수컷 방사능</CockroachVaultec.lifeStages.2.labelMalePlural>
+  <CockroachVaultec.lifeStages.1.labelFemalePlural>암컷 라드로치</CockroachVaultec.lifeStages.1.labelFemalePlural>
+  <CockroachVaultec.lifeStages.2.label>라드로치</CockroachVaultec.lifeStages.2.label>
+  <CockroachVaultec.lifeStages.2.labelPlural>라드로치</CockroachVaultec.lifeStages.2.labelPlural>
+  <CockroachVaultec.lifeStages.2.labelMale>수컷 라드로치</CockroachVaultec.lifeStages.2.labelMale>
+  <CockroachVaultec.lifeStages.2.labelMalePlural>수컷 라드로치</CockroachVaultec.lifeStages.2.labelMalePlural>
   <CockroachVaultec.lifeStages.2.labelFemale>암컷 라드로치</CockroachVaultec.lifeStages.2.labelFemale>
-  <CockroachVaultec.lifeStages.2.labelFemalePlural>암컷 방사능</CockroachVaultec.lifeStages.2.labelFemalePlural>
-  <CockroachVaultec.labelMale>남성 Radcockroach</CockroachVaultec.labelMale>
-  <CockroachVaultec.labelMalePlural>수컷 방사능</CockroachVaultec.labelMalePlural>
-  <CockroachVaultec.labelFemale>암컷 바퀴벌레</CockroachVaultec.labelFemale>
-  <CockroachVaultec.labelFemalePlural>암컷 방사능</CockroachVaultec.labelFemalePlural>
+  <CockroachVaultec.lifeStages.2.labelFemalePlural>암컷 라드로치</CockroachVaultec.lifeStages.2.labelFemalePlural>
+  <CockroachVaultec.labelMale>수컷 라드로치</CockroachVaultec.labelMale>
+  <CockroachVaultec.labelMalePlural>수컷 라드로치</CockroachVaultec.labelMalePlural>
+  <CockroachVaultec.labelFemale>암컷 라드로치</CockroachVaultec.labelFemale>
+  <CockroachVaultec.labelFemalePlural>암컷 라드로치</CockroachVaultec.labelFemalePlural>
 
   <Bloodbug.label>그누스</Bloodbug.label>
   <Bloodbug.labelPlural>그누스</Bloodbug.labelPlural>
   <Bloodbug.lifeStages.0.label>그누스</Bloodbug.lifeStages.0.label>
   <Bloodbug.lifeStages.0.labelPlural>그누스</Bloodbug.lifeStages.0.labelPlural>
-  <Bloodbug.lifeStages.0.labelMale>남성 사악한</Bloodbug.lifeStages.0.labelMale>
+  <Bloodbug.lifeStages.0.labelMale>수컷 사악한</Bloodbug.lifeStages.0.labelMale>
   <Bloodbug.lifeStages.0.labelMalePlural>수컷 그누스</Bloodbug.lifeStages.0.labelMalePlural>
   <Bloodbug.lifeStages.0.labelFemale>암컷 그누스</Bloodbug.lifeStages.0.labelFemale>
   <Bloodbug.lifeStages.0.labelFemalePlural>암컷 그누스</Bloodbug.lifeStages.0.labelFemalePlural>
   <Bloodbug.lifeStages.1.label>그누스</Bloodbug.lifeStages.1.label>
   <Bloodbug.lifeStages.1.labelPlural>그누스</Bloodbug.lifeStages.1.labelPlural>
-  <Bloodbug.lifeStages.1.labelMale>남성 사악한</Bloodbug.lifeStages.1.labelMale>
+  <Bloodbug.lifeStages.1.labelMale>수컷 사악한</Bloodbug.lifeStages.1.labelMale>
   <Bloodbug.lifeStages.1.labelMalePlural>수컷 그누스</Bloodbug.lifeStages.1.labelMalePlural>
   <Bloodbug.lifeStages.1.labelFemale>암컷 그누스</Bloodbug.lifeStages.1.labelFemale>
   <Bloodbug.lifeStages.1.labelFemalePlural>암컷 그누스</Bloodbug.lifeStages.1.labelFemalePlural>
   <Bloodbug.lifeStages.2.label>그누스</Bloodbug.lifeStages.2.label>
   <Bloodbug.lifeStages.2.labelPlural>그누스</Bloodbug.lifeStages.2.labelPlural>
-  <Bloodbug.lifeStages.2.labelMale>남성 사악한</Bloodbug.lifeStages.2.labelMale>
+  <Bloodbug.lifeStages.2.labelMale>수컷 사악한</Bloodbug.lifeStages.2.labelMale>
   <Bloodbug.lifeStages.2.labelMalePlural>수컷 그누스</Bloodbug.lifeStages.2.labelMalePlural>
   <Bloodbug.lifeStages.2.labelFemale>암컷 그누스</Bloodbug.lifeStages.2.labelFemale>
   <Bloodbug.lifeStages.2.labelFemalePlural>암컷 그누스</Bloodbug.lifeStages.2.labelFemalePlural>
-  <Bloodbug.labelMale>남성 사악한</Bloodbug.labelMale>
+  <Bloodbug.labelMale>수컷 사악한</Bloodbug.labelMale>
   <Bloodbug.labelMalePlural>수컷 그누스</Bloodbug.labelMalePlural>
   <Bloodbug.labelFemale>암컷 그누스</Bloodbug.labelFemale>
   <Bloodbug.labelFemalePlural>암컷 그누스</Bloodbug.labelFemalePlural>
 
-  <Cazador.label>카자도르</Cazador.label>
-  <Cazador.labelPlural>카자도르</Cazador.labelPlural>
-  <Cazador.lifeStages.0.label>카자도르</Cazador.lifeStages.0.label>
-  <Cazador.lifeStages.0.labelPlural>카자도르</Cazador.lifeStages.0.labelPlural>
-  <Cazador.lifeStages.0.labelMale>남성 카자도르</Cazador.lifeStages.0.labelMale>
-  <Cazador.lifeStages.0.labelMalePlural>남성 카자도르</Cazador.lifeStages.0.labelMalePlural>
-  <Cazador.lifeStages.0.labelFemale>여성 카자도르</Cazador.lifeStages.0.labelFemale>
-  <Cazador.lifeStages.0.labelFemalePlural>여성 카자도르</Cazador.lifeStages.0.labelFemalePlural>
-  <Cazador.lifeStages.1.label>카자도르</Cazador.lifeStages.1.label>
-  <Cazador.lifeStages.1.labelPlural>카자도르</Cazador.lifeStages.1.labelPlural>
-  <Cazador.lifeStages.1.labelMale>남성 카자도르</Cazador.lifeStages.1.labelMale>
-  <Cazador.lifeStages.1.labelMalePlural>남성 카자도르</Cazador.lifeStages.1.labelMalePlural>
-  <Cazador.lifeStages.1.labelFemale>여성 카자도르</Cazador.lifeStages.1.labelFemale>
-  <Cazador.lifeStages.1.labelFemalePlural>여성 카자도르</Cazador.lifeStages.1.labelFemalePlural>
-  <Cazador.lifeStages.2.label>카자도르</Cazador.lifeStages.2.label>
-  <Cazador.lifeStages.2.labelPlural>카자도르</Cazador.lifeStages.2.labelPlural>
-  <Cazador.lifeStages.2.labelMale>남성 카자도르</Cazador.lifeStages.2.labelMale>
-  <Cazador.lifeStages.2.labelMalePlural>남성 카자도르</Cazador.lifeStages.2.labelMalePlural>
-  <Cazador.lifeStages.2.labelFemale>여성 카자도르</Cazador.lifeStages.2.labelFemale>
-  <Cazador.lifeStages.2.labelFemalePlural>여성 카자도르</Cazador.lifeStages.2.labelFemalePlural>
-  <Cazador.labelMale>남성 카자도르</Cazador.labelMale>
-  <Cazador.labelMalePlural>남성 카자도르</Cazador.labelMalePlural>
-  <Cazador.labelFemale>여성 카자도르</Cazador.labelFemale>
-  <Cazador.labelFemalePlural>여성 카자도르</Cazador.labelFemalePlural>
+  <Cazador.label>카사도르</Cazador.label>
+  <Cazador.labelPlural>카사도르</Cazador.labelPlural>
+  <Cazador.lifeStages.0.label>카사도르</Cazador.lifeStages.0.label>
+  <Cazador.lifeStages.0.labelPlural>카사도르</Cazador.lifeStages.0.labelPlural>
+  <Cazador.lifeStages.0.labelMale>수컷 카사도르</Cazador.lifeStages.0.labelMale>
+  <Cazador.lifeStages.0.labelMalePlural>수컷 카사도르</Cazador.lifeStages.0.labelMalePlural>
+  <Cazador.lifeStages.0.labelFemale>암컷 카사도르</Cazador.lifeStages.0.labelFemale>
+  <Cazador.lifeStages.0.labelFemalePlural>암컷 카사도르</Cazador.lifeStages.0.labelFemalePlural>
+  <Cazador.lifeStages.1.label>카사도르</Cazador.lifeStages.1.label>
+  <Cazador.lifeStages.1.labelPlural>카사도르</Cazador.lifeStages.1.labelPlural>
+  <Cazador.lifeStages.1.labelMale>수컷 카사도르</Cazador.lifeStages.1.labelMale>
+  <Cazador.lifeStages.1.labelMalePlural>수컷 카사도르</Cazador.lifeStages.1.labelMalePlural>
+  <Cazador.lifeStages.1.labelFemale>암컷 카사도르</Cazador.lifeStages.1.labelFemale>
+  <Cazador.lifeStages.1.labelFemalePlural>암컷 카사도르</Cazador.lifeStages.1.labelFemalePlural>
+  <Cazador.lifeStages.2.label>카사도르</Cazador.lifeStages.2.label>
+  <Cazador.lifeStages.2.labelPlural>카사도르</Cazador.lifeStages.2.labelPlural>
+  <Cazador.lifeStages.2.labelMale>수컷 카사도르</Cazador.lifeStages.2.labelMale>
+  <Cazador.lifeStages.2.labelMalePlural>수컷 카사도르</Cazador.lifeStages.2.labelMalePlural>
+  <Cazador.lifeStages.2.labelFemale>암컷 카사도르</Cazador.lifeStages.2.labelFemale>
+  <Cazador.lifeStages.2.labelFemalePlural>암컷 카사도르</Cazador.lifeStages.2.labelFemalePlural>
+  <Cazador.labelMale>수컷 카사도르</Cazador.labelMale>
+  <Cazador.labelMalePlural>수컷 카사도르</Cazador.labelMalePlural>
+  <Cazador.labelFemale>암컷 카사도르</Cazador.labelFemale>
+  <Cazador.labelFemalePlural>암컷 카사도르</Cazador.labelFemalePlural>
 
 
 </LanguageData>

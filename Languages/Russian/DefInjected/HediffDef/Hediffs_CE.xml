@@ -11,5 +11,25 @@
   <BombJ.label>Заминирован</BombJ.label>
   <BombJ.description>Билет в один конец</BombJ.description>
 
+  <VaultBoyMedicine.label>Пупс«Медицина»</VaultBoyMedicine.label>
+  <VaultBoyMedicine.description>Умный знает, что бинты лишь скрывают рану.</VaultBoyMedicine.description>
+  <VaultBoyMedicine.labelNoun>Пупс«Медицина»</VaultBoyMedicine.labelNoun>
+
+  <VaultBoyEloquence.label>Пупс«Красноречие»</VaultBoyEloquence.label>
+  <VaultBoyEloquence.description>Пусть слова станут вашим оружием.</VaultBoyEloquence.description>
+  <VaultBoyEloquence.labelNoun>Пупс«Красноречие»</VaultBoyEloquence.labelNoun>
+
+  <VaultBoyIntelligence.label>Пупс«Интеллект»</VaultBoyIntelligence.label>
+  <VaultBoyIntelligence.description>Самый умный — это тот, кто не перестаёт учиться новому.</VaultBoyIntelligence.description>
+  <VaultBoyIntelligence.labelNoun>Пупс«Интеллект»</VaultBoyIntelligence.labelNoun>
+
+  <VaultBoyRepair.label>Пупс«Ремонт»</VaultBoyRepair.label>
+  <VaultBoyRepair.description>Зачем идти ко дну вместе с кораблём, если можно попытаться залатать пробоину?</VaultBoyRepair.description>
+  <VaultBoyRepair.labelNoun>Пупс«Ремонт»</VaultBoyRepair.labelNoun>
+
+  <VaultBoyBarter.label>Пупс«Бартер»</VaultBoyBarter.label>
+  <VaultBoyBarter.description>Ничто так не подчёркивает бодрость духа, как обаятельная улыбка.</VaultBoyBarter.description>
+  <VaultBoyBarter.labelNoun>Пупс«Бартер»</VaultBoyBarter.labelNoun>
+
 
 </LanguageData>

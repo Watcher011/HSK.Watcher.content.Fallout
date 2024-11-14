@@ -5,9 +5,9 @@
 
   <Ammo_Nail.label>Nails</Ammo_Nail.label>
   <Ammo_Nail.description>Nails - Although it deals moderate damage, it is very effective at damaging limbs, often in one shot. When shot to kill, it can tear off a damaged body part or pin the enemy to a wall if it is located close enough behind them..</Ammo_Nail.description>
-  
-<Ammo_Nail_HV.label>BOOM Nails</Ammo_Nail_HV.label>
-<Ammo_Nail_HV.description>Nails - Although it deals moderate damage, it is very effective at damaging limbs, often in one shot. When shot to kill, it can tear off the damaged body part or pin the enemy to a wall if it is close enough behind them..</Ammo_Nail_HV.description>
+
+  <Ammo_Nail_HV.label>BOOM Nails</Ammo_Nail_HV.label>
+  <Ammo_Nail_HV.description>Nails - Although it deals moderate damage, it is very effective at damaging limbs, often in one shot. When shot to kill, it can tear off the damaged body part or pin the enemy to a wall if it is close enough behind them..</Ammo_Nail_HV.description>
 
 
   <!-- Projectiles -->
