@@ -5,6 +5,7 @@
 		<defName>MisterHandy</defName>
 		<label>Мистер Помощник</label>
 		<description>Мистер Помощник это весьма яркий представитель серийной модели шарообразных роботов, тщательно производимой и массово выпускаемой по всей территории довоенной Эквестрии. Роли дворецкого, привратника, личного телохранителя или даже врача – далеко не всё то, с чем мог наипрекраснейшим образом справляться Мистер Помощник.</description>
+		<uiIconPath>Things/Pawn/Humanlike/UI/IconHuman</uiIconPath>
 		<comps>
 			<li Class="Androids.CompProperties_EnergyTracker">
 				<canHibernate>true</canHibernate>
@@ -126,47 +127,42 @@
 						<li>Hulk</li>
 					</bodyTypes>
 					<colorChannels>
-						 <li>
+						<li>
                             <name>skin</name>
                             <first Class="ColorGenerator_Options">
                                 <options>
                                     <li>
-                                        <weight>10</weight>
-                                        <only>RGBA(0.2988,0.2988,.2966,1)</only>
+                                        <weight>20</weight>
+                                        <only>RGBA(1.0,1.0,1.0,1)</only>
                                     </li>
                                     <li>
-                                        <weight>10</weight>
-                                        <only>RGBA(0.2688,0.2688,.2566,1)</only>
+                                        <weight>3</weight>
+                                        <only>RGBA(0.87,0.93,1.0,1)</only>
                                     </li>
                                     <li>
-                                        <weight>10</weight>
-                                        <only>RGBA(0.2388,0.2388,.2366,1)</only>
+                                        <weight>4</weight>
+                                        <only>RGBA(1.0,0.73,0.61,1)</only>
                                     </li>
                                     <li>
-                                        <weight>10</weight>
-                                        <only>RGBA(0.21388,0.2188,.2166,1)</only>
+                                        <weight>5</weight>
+                                        <only>RGBA(1.0,0.85,0.6,1)</only>
+                                    </li>
+                                    <li>
+                                        <weight>7</weight>
+                                        <only>RGBA(1.0,0.84,0.84,1)</only>
+                                    </li>
+                                    <li>
+                                        <weight>2</weight>
+                                        <only>RGBA(0.65,0.49,0.39,1)</only>
+                                    </li>
+                                    <li>
+                                        <weight>1</weight>
+                                        <only>RGBA(0.21,0.23,0.25,1)</only>
                                     </li>
                                 </options>
                             </first>
-                            <second Class="ColorGenerator_Options">
-                                <options>
-                                    <li>
-                                        <weight>10</weight>
-                                        <only>RGBA(0.2988,0.2988,.2966,1)</only>
-                                    </li>
-                                    <li>
-                                        <weight>10</weight>
-                                        <only>RGBA(0.2688,0.2688,.2566,1)</only>
-                                    </li>
-                                    <li>
-                                        <weight>10</weight>
-                                        <only>RGBA(0.2388,0.2388,.2366,1)</only>
-                                    </li>
-                                    <li>
-                                        <weight>10</weight>
-                                        <only>RGBA(0.21388,0.2188,.2166,1)</only>
-                                    </li>
-                                </options>
+                            <second Class="AlienRace.ColorGenerator_CustomAlienChannel">
+                                <colorChannel>skin_1</colorChannel>
                             </second>
                         </li>
 					</colorChannels>
@@ -423,7 +419,7 @@
 				<colonyCaresIfDead>false</colonyCaresIfDead>
 			</li>
 			<li Class="Androids.DroidSpawnProperties">
-				<defaultSkillLevel>6</defaultSkillLevel>
+				<defaultSkillLevel>8</defaultSkillLevel>
 				<skills>
 					<li>
 						<def>Shooting</def>

@@ -12,6 +12,7 @@
         <defaultLabelColor>(1,0,0.6)</defaultLabelColor>
         <scenarioCanAdd>false</scenarioCanAdd>
         <maxSeverity>1.0</maxSeverity>
+		<preventsDeath>true</preventsDeath>
         <isBad>false</isBad>
         <comps>
             <li Class="HediffCompProperties_SeverityPerDay">
