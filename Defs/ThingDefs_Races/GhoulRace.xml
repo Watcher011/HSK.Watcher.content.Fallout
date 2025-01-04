@@ -577,8 +577,8 @@
                 </li>
 				<li Class="SK.CompProperties_ApplyHediffAround">
 				<hediff>RimatomicsRadiation</hediff>
-				<radius>3</radius>
-				<severityToAdd>0.04</severityToAdd>
+				<radius>1</radius>
+				<severityToAdd>0.004</severityToAdd>
 			    </li>
 		</comps>
 		 <modExtensions>

@@ -54,7 +54,7 @@
 			<li>
 				<filter>
 				  <thingDefs>
-               <li>Sugar</li>
+              <li>RawBerries</li>
                </thingDefs>
 				</filter>
 				<count>3</count>
@@ -97,7 +97,7 @@
 			<li>
 				<filter>
 				  <thingDefs>
-               <li>Sugar</li>
+               <li>RawBerries</li>
                </thingDefs>
 				</filter>
 				<count>3</count>
@@ -132,7 +132,7 @@
 			<li>EmptyBottle</li>
 			  <li>BottleCap</li>
 				<li>GleamcapStem</li>
-				<li>Sugar</li>
+				<li>RawBerries</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -149,7 +149,7 @@
 			<li>
 				<filter>
 				  <thingDefs>
-               <li>Sugar</li>
+              <li>RawBerries</li>
                </thingDefs>
 				</filter>
 				<count>3</count>
@@ -184,7 +184,7 @@
 			<li>EmptyBottle</li>
 			  <li>BottleCap</li>
 				<li>Raworange</li>
-				<li>Sugar</li>
+				<li>RawBerries</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -202,7 +202,7 @@
 			<li>
 				<filter>
 				  <thingDefs>
-               <li>NukaColaQuantum</li>
+               <li>Rawbanana</li>
                </thingDefs>
 				</filter>
 				<count>3</count>

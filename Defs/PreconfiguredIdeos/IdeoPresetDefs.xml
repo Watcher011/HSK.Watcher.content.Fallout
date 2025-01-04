@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Categories -->
+
+   
+
+  <IdeoPresetDef>
+    <defName>Ghoul</defName>
+    <label>Дети Атома</label>
+    <description>В основе веры детей Атома лежит идея, что в каждом отдельном атоме содержится целая вселенная. Когда атомная масса делится, единая вселенная разделяется на две части — это величайший акт Атомного творения. Подчас в едином божественном действе рождаются триллионы триллионов новых вселенных. Последнее такое событие произошло здесь, двести лет назад. Там, где большинство потерянных детей Атома видят лишь войну и разрушение, мы видим созидание и единение в Атомном Сиянии.</description>
+    <categoryDef>Mild</categoryDef>
+    <iconPath>UI/Structures/Structure_Children_of_the_Atom</iconPath>
+    <memes>
+       <li>Loyalist</li>
+      <li>Collectivist</li>
+	   <li>Tunneler</li>
+	    <li>Structure_Children_of_the_Atom</li>
+    </memes>
+  </IdeoPresetDef>
+
+  
+
+ 
+</Defs>

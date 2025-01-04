@@ -3,10 +3,10 @@
 
 	<ScenarioDef>
 		<defName>Crashlanded_Nuclear_Ghoul</defName>
-		<label>Ядерные последситвия</label>
-		<description>Трое Гулей украли древний артифакт даже не подозревая к чему это приведёт.</description>
+		<label>Дети Атома</label>
+		<description>Группа Гулей направляемые своей верой отправились в дальнее путешествие для основания нового поселения.</description>
 		<scenario>
-			<summary>Трое иследователей в поисках спасения.</summary>
+			<summary>Группа Гулей в поисках нового дома.</summary>
 			<playerFaction>
 				<def>PlayerFaction</def>
 				<factionDef>NuclearColonyGhoul</factionDef>
@@ -14,21 +14,51 @@
 			<parts>
 				<li Class="ScenPart_GameStartDialog">
 					<def>GameStartDialog</def>
-					<text>Вам удалось сбежать от преследователей и прихватить редкое устройство ГЭКК .Но тревожное чувство вас не покидает ... почему вас так просто отпустили ? Что то подсказывает что у вас мало времени и вскоре за вами прийдут.</text>
+					<text>Ваши разногласия с церковью Атома привели к её расколу.Вам удалось сбежать от фанатиков и прихватить редкую реликвию.Но тревожное чувство вас не покидает ... почему вас так просто отпустили ? Что то подсказывает что у вас мало времени и вскоре за вами прийдут.</text>
 					<closeSound>GameStartSting</closeSound>
 				</li>
-
-				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+               	<li Class="ScenPart_ConfigPage_ConfigureStartingPawns_Xenotypes">
+				<def>ConfigurePawnsXenotypes</def>
+				<pawnChoiceCount>8</pawnChoiceCount>
+				<customSummary>Свет Атома первратил вас в бессмертных Гулей с течением времени ваши разногласия с церковью Атома привели к её расколу, может оно и к лутшему.Собрав вещи вы решили основать новую колонию.(Лёгкий старт)</customSummary>
+				<xenotypeCounts>
+					<li>
+						<xenotype>OE_Ghoul</xenotype>
+						<count>4</count>
+						<description>Гули</description>
+						<requiredAtStart>true</requiredAtStart>
+						<allowedDevelopmentalStages>Adult, Child</allowedDevelopmentalStages>
+					</li>
+				</xenotypeCounts>
+			</li>
+			
+			<!--	<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
 					<def>ConfigPage_ConfigureStartingPawns</def>
-					<pawnCount>3</pawnCount>
-					<pawnChoiceCount>4</pawnChoiceCount>
-				</li>
+					<pawnCount>5</pawnCount>
+					<pawnChoiceCount>8</pawnChoiceCount>
+				</li>-->
 				 <li Class="ScenPart_PlayerPawnsArriveMethod">
                  <def>PlayerPawnsArriveMethod</def>
-                 <method>DropPods</method>
-                 <visible>false</visible>
-                  </li>
-
+                <method>Standing</method>
+				<visible>false</visible>
+                 </li>
+				 
+               <li Class="ScenPart_ForcedHediff">
+                <def>ForcedHediff</def>
+                <visible>false</visible>
+                <context>PlayerStarter</context>
+               <chance>0.25</chance>
+               <hediff>Malnutrition</hediff>
+               <severityRange>0.1~0.2</severityRange>
+               </li>
+               <li Class="ScenPart_SetNeedLevel">
+                <def>SetNeedLevel</def>
+                <visible>false</visible>
+                <context>PlayerStarter</context>
+                <chance>1.0</chance>
+               <need>Food</need>
+               <levelRange>0~0.5</levelRange>
+              </li>
 				<!-- Player starting things -->
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
@@ -47,30 +77,25 @@
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
+					<thingDef>MeleeWeapon_Knife</thingDef>
+					<stuff>Plasteel</stuff>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
 					<thingDef>SimpleStimpack</thingDef>
-					<count>50</count>
+					<count>20</count>
 				</li>
 	           <li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
-					<thingDef>GECK</thingDef>
+					<thingDef>Altar_Grand_nuclear</thingDef>
 					<count>1</count>
 				</li>
 				 <li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>MisterHandyKit</thingDef>
-					<count>1</count>
+					<count>2</count>
 				</li>
 				
-				<li Class="ScenPart_StartingThing_Defined">
-					<def>StartingThing_Defined</def>
-					<thingDef>DeployableTent</thingDef>
-					<stuff>Cloth</stuff>
-				</li>
-				<li Class="ScenPart_StartingThing_Defined">
-					<def>StartingThing_Defined</def>
-					<thingDef>DeployableTentMedium</thingDef>
-					<stuff>Cloth</stuff>
-				</li>
 				<!-- Scatter some things near player start -->
 				<li Class="ScenPart_ScatterThingsAnywhere">
 					<def>ScatterThingsAnywhere</def>
@@ -121,7 +146,30 @@
 					<thingDef>WoodPlank</thingDef>
 					<count>20</count>
 				</li>
-			
+			<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>TFJ_Tool_Woodcutting_Handaxe</thingDef>
+					<stuff>Plasteel</stuff>
+					<count>1</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>TFJ_Tool_Building_Hammer</thingDef>
+					<stuff>Plasteel</stuff>
+					<count>2</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>TFJ_Tool_Sickle</thingDef>
+					<stuff>Plasteel</stuff>
+					<count>1</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>TFJ_Tool_Mining_Pickaxe</thingDef>
+					<stuff>Plasteel</stuff>
+					<count>1</count>
+				</li>
 				
 				<!-- Starting research -->
 				<li Class="ScenPart_StartingResearch">
@@ -183,13 +231,6 @@
 					<def>StartingResearch</def>
 					<visible>false</visible>
 					<project>Research_table_C1</project>
-				</li>
-
-		
-				<li Class="ScenPart_CreateIncident">
-					<def>CreateIncident</def>
-					<incident>NuclearIncident</incident>
-					<intervalDays>1.04</intervalDays>
 				</li>
 			</parts>
 		</scenario>

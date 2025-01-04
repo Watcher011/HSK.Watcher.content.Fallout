@@ -11,5 +11,25 @@
   <BombJ.label>채굴됨</BombJ.label>
   <BombJ.description>편도 티켓</BombJ.description>
 
+  <VaultBoyMedicine.label>약 버블헤드</VaultBoyMedicine.label>
+ <VaultBoyMedicine.description>똑똑한 사람은 붕대가 상처를 가릴 뿐이라는 것을 알고 있습니다.</VaultBoyMedicine.description>
+ <VaultBoyMedicine.labelNoun>약 버블헤드</VaultBoyMedicine.labelNoun>
+
+ <VaultBoyEloquence.label>웅변 버블헤드</VaultBoyEloquence.label>
+ <VaultBoyEloquence.description>말을 무기로 삼으십시오.</VaultBoyEloquence.description>
+ <VaultBoyEloquence.labelNoun>웅변 버블헤드</VaultBoyEloquence.labelNoun>
+
+ <VaultBoyIntelligence.label>지능 인형</VaultBoyIntelligence.label>
+ <VaultBoyIntelligence.description>가장 똑똑한 사람은 새로운 것을 배우는 것을 멈추지 않는 사람입니다.</VaultBoyIntelligence.description>
+ <VaultBoyIntelligence.labelNoun>지능 인형</VaultBoyIntelligence.labelNoun>
+
+ <VaultBoyRepair.label>인형 수리</VaultBoyRepair.label>
+ <VaultBoyRepair.description>구멍을 수리할 수 있는데 왜 배와 함께 내려가야 합니까?</VaultBoyRepair.description>
+ <VaultBoyRepair.labelNoun>인형 "수리"</VaultBoyRepair.labelNoun>
+
+ <VaultBoyBarter.label>물물교환 아기 인형</VaultBoyBarter.label>
+ <VaultBoyBarter.description>매력적인 미소만큼 쾌활함을 나타내는 것은 없습니다.</VaultBoyBarter.description>
+ <VaultBoyBarter.labelNoun>물물교환 아기 인형</VaultBoyBarter.labelNoun>
+
 
 </LanguageData>

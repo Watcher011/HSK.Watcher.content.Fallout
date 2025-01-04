@@ -53,28 +53,13 @@
             </li>
 
             <li>
-                <statOffsets>
-                    <ComfyTemperatureMax>5</ComfyTemperatureMax>
-                    <ComfyTemperatureMin>-5</ComfyTemperatureMin>
-                </statOffsets>
+				 <regeneration>350</regeneration>
                 <minSeverity>0.75</minSeverity>
                 <hungerRateFactor>0.3</hungerRateFactor>
                 <restFallFactor>0.3</restFallFactor>
                 <naturalHealingFactor>3</naturalHealingFactor>
                 <painFactor>0.9</painFactor>
                 <capMods>
-                    <li>
-                        <capacity>Manipulation</capacity>
-                        <offset>0.05</offset>
-                    </li>
-                    <li>
-                        <capacity>Moving</capacity>
-                        <offset>0.05</offset>
-                    </li>
-                    <li>
-                        <capacity>Sight</capacity>
-                        <offset>0.10</offset>
-                    </li>
                     <li>
                         <capacity>BloodFiltration</capacity>
                         <offset>0.10</offset>
@@ -86,10 +71,6 @@
                     <li>
                         <capacity>Metabolism</capacity>
                         <offset>0.10</offset>
-                    </li>
-                    <li>
-                        <capacity>Breathing</capacity>
-                        <offset>0.05</offset>
                     </li>
                 </capMods>
             </li>

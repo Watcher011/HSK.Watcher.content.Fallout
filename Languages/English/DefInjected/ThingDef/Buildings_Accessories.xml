@@ -9,18 +9,19 @@
   <GECK.comps.6.offMessage>Off for plant resting period</GECK.comps.6.offMessage>
 
   <VaultBoyMedicine.label>Medicine Bobblehead</VaultBoyMedicine.label>
-<VaultBoyMedicine.description>Medicine Bobblehead - A smart person understands that the wound under the bandage is not going away.</VaultBoyMedicine.description>
+  <VaultBoyMedicine.description>Medicine Bobblehead - A smart person understands that the wound under the bandage is not going away.</VaultBoyMedicine.description>
 
-<VaultBoyEloquence.label>Eloquence Bobblehead</VaultBoyEloquence.label>
-<VaultBoyEloquence.description>Eloquence Bobblehead - I want the pen to be equal to the bayonet.</VaultBoyEloquence.description>
+  <VaultBoyEloquence.label>Eloquence Bobblehead</VaultBoyEloquence.label>
+  <VaultBoyEloquence.description>Eloquence Bobblehead - I want the pen to be equal to the bayonet.</VaultBoyEloquence.description>
 
-<VaultBoyIntelligence.label>Intelligence Bobblehead</VaultBoyIntelligence.label>
-<VaultBoyIntelligence.description>Intelligence Bobblehead - Always be ready to answer a hundred thousand why.</VaultBoyIntelligence.description>
+  <VaultBoyIntelligence.label>Intelligence Bobblehead</VaultBoyIntelligence.label>
+  <VaultBoyIntelligence.description>Intelligence Bobblehead - Always be ready to answer a hundred thousand why.</VaultBoyIntelligence.description>
 
-<VaultBoyRepair.label>Repair Bobblehead</VaultBoyRepair.label>
-<VaultBoyRepair.description>Repair Bobblehead - Why go down with the ship if you can fix it?</VaultBoyRepair.description>
+  <VaultBoyRepair.label>Repair Bobblehead</VaultBoyRepair.label>
+  <VaultBoyRepair.description>Repair Bobblehead - Why go down with the ship if you can fix it?</VaultBoyRepair.description>
 
-<VaultBoyBarter.label>Barter Bobblehead</VaultBoyBarter.label>
-<VaultBoyBarter.description>Barter Bobblehead - The amount of good you have should always increase.</VaultBoyBarter.description>
+  <VaultBoyBarter.label>Barter Bobblehead</VaultBoyBarter.label>
+  <VaultBoyBarter.description>Barter Bobblehead - The amount of good you have should always increase.</VaultBoyBarter.description>
+
 
 </LanguageData>

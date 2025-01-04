@@ -6,23 +6,23 @@
   <VaultecChaser.label>Vaultec Охотник</VaultecChaser.label>
   <VaultecChaser.labelPlural>Vaultec Охотники</VaultecChaser.labelPlural>
 
-  <VaultecChaser_Acidifier.label>Vaultec Chaser</VaultecChaser_Acidifier.label>
-  <VaultecChaser_Acidifier.labelPlural>Vaultec Chasers</VaultecChaser_Acidifier.labelPlural>
+  <VaultecChaser_Acidifier.label>Vaultec Охотник</VaultecChaser_Acidifier.label>
+  <VaultecChaser_Acidifier.labelPlural>Vaultec Охотники</VaultecChaser_Acidifier.labelPlural>
 
 
   <!-- Sunderer -->
 
-  <VaultecSunderer.label>Vaultec Sunderer</VaultecSunderer.label>
-  <VaultecSunderer.labelPlural>Vaultec Sunderers</VaultecSunderer.labelPlural>
+  <VaultecSunderer.label>Vaultec Разведчик</VaultecSunderer.label>
+  <VaultecSunderer.labelPlural>Vaultec Разведчики</VaultecSunderer.labelPlural>
 
-  <VaultecSunderer_Acidifier.label>Vaultec Sunderer</VaultecSunderer_Acidifier.label>
-  <VaultecSunderer_Acidifier.labelPlural>Vaultec Sunderers</VaultecSunderer_Acidifier.labelPlural>
+  <VaultecSunderer_Acidifier.label>Vaultec Разведчик</VaultecSunderer_Acidifier.label>
+  <VaultecSunderer_Acidifier.labelPlural>Vaultec Разведчики</VaultecSunderer_Acidifier.labelPlural>
 
-  <VaultecSundererHeavy.label>Vaultec Sunderer</VaultecSundererHeavy.label>
-  <VaultecSundererHeavy.labelPlural>Vaultec Sunderers</VaultecSundererHeavy.labelPlural>
+  <VaultecSundererHeavy.label>Vaultec Разведчик</VaultecSundererHeavy.label>
+  <VaultecSundererHeavy.labelPlural>Vaultec Разведчики</VaultecSundererHeavy.labelPlural>
 
-  <VaultecSundererHeavy_Acidifier.label>Vaultec Sunderer</VaultecSundererHeavy_Acidifier.label>
-  <VaultecSundererHeavy_Acidifier.labelPlural>Vaultec Sunderers</VaultecSundererHeavy_Acidifier.labelPlural>
+  <VaultecSundererHeavy_Acidifier.label>Vaultec Разведчик</VaultecSundererHeavy_Acidifier.label>
+  <VaultecSundererHeavy_Acidifier.labelPlural>Vaultec Разведчики</VaultecSundererHeavy_Acidifier.labelPlural>
 
 
   <!-- Hunter -->
@@ -37,18 +37,18 @@
   <!-- Hawkeye -->
 
   <VaultecHawkeye.label>Vaultec Стрелок</VaultecHawkeye.label>
-  <VaultecHawkeye.labelPlural>Vaultec Стрелоки</VaultecHawkeye.labelPlural>
-  <VaultecHawkeye.labelMale>male Vaultec Hawkeye</VaultecHawkeye.labelMale>
-  <VaultecHawkeye.labelMalePlural>male Vaultec Hawkeyes</VaultecHawkeye.labelMalePlural>
-  <VaultecHawkeye.labelFemale>female Vaultec Hawkeye</VaultecHawkeye.labelFemale>
-  <VaultecHawkeye.labelFemalePlural>female Vaultec Hawkeyes</VaultecHawkeye.labelFemalePlural>
+  <VaultecHawkeye.labelPlural>Vaultec Стрелки</VaultecHawkeye.labelPlural>
+  <VaultecHawkeye.labelMale>Vaultec следопыт</VaultecHawkeye.labelMale>
+  <VaultecHawkeye.labelMalePlural>Vaultec следопыты</VaultecHawkeye.labelMalePlural>
+  <VaultecHawkeye.labelFemale>Vaultec следопыт</VaultecHawkeye.labelFemale>
+  <VaultecHawkeye.labelFemalePlural>Vaultec следопыты</VaultecHawkeye.labelFemalePlural>
 
   <VaultecHawkeye_Acidifier.label>Vaultec Стрелки</VaultecHawkeye_Acidifier.label>
   <VaultecHawkeye_Acidifier.labelPlural>Vaultec Стрелки</VaultecHawkeye_Acidifier.labelPlural>
-  <VaultecHawkeye_Acidifier.labelMale>male Vaultec Hawkeye</VaultecHawkeye_Acidifier.labelMale>
-  <VaultecHawkeye_Acidifier.labelMalePlural>male Vaultec Hawkeyes</VaultecHawkeye_Acidifier.labelMalePlural>
-  <VaultecHawkeye_Acidifier.labelFemale>female Vaultec Hawkeye</VaultecHawkeye_Acidifier.labelFemale>
-  <VaultecHawkeye_Acidifier.labelFemalePlural>female Vaultec Hawkeyes</VaultecHawkeye_Acidifier.labelFemalePlural>
+  <VaultecHawkeye_Acidifier.labelMale>Vaultec Стрелок</VaultecHawkeye_Acidifier.labelMale>
+  <VaultecHawkeye_Acidifier.labelMalePlural>Vaultec Стрелки</VaultecHawkeye_Acidifier.labelMalePlural>
+  <VaultecHawkeye_Acidifier.labelFemale>Vaultec Стрелки</VaultecHawkeye_Acidifier.labelFemale>
+  <VaultecHawkeye_Acidifier.labelFemalePlural>Vaultec Стрелки</VaultecHawkeye_Acidifier.labelFemalePlural>
 
 
   <!-- Rager -->
@@ -64,17 +64,17 @@
 
   <VaultecSunRiser.label>Vaultec Спецназ</VaultecSunRiser.label>
   <VaultecSunRiser.labelPlural>Vaultec Спецназ</VaultecSunRiser.labelPlural>
-  <VaultecSunRiser.labelMale>male Vaultec Sun Riser</VaultecSunRiser.labelMale>
-  <VaultecSunRiser.labelMalePlural>male Vaultec Sun Risers</VaultecSunRiser.labelMalePlural>
-  <VaultecSunRiser.labelFemale>female Vaultec Sun Riser</VaultecSunRiser.labelFemale>
-  <VaultecSunRiser.labelFemalePlural>female Vaultec Sun Risers</VaultecSunRiser.labelFemalePlural>
+  <VaultecSunRiser.labelMale>Vaultec Спецназ</VaultecSunRiser.labelMale>
+  <VaultecSunRiser.labelMalePlural>Vaultec Спецназ</VaultecSunRiser.labelMalePlural>
+  <VaultecSunRiser.labelFemale>Vaultec Спецназ</VaultecSunRiser.labelFemale>
+  <VaultecSunRiser.labelFemalePlural>Vaultec Спецназ</VaultecSunRiser.labelFemalePlural>
 
   <VaultecSunRiser_Acidifier.label>Vaultec Спецназ</VaultecSunRiser_Acidifier.label>
   <VaultecSunRiser_Acidifier.labelPlural>Vaultec Спецназ</VaultecSunRiser_Acidifier.labelPlural>
-  <VaultecSunRiser_Acidifier.labelMale>male Vaultec Sun Riser</VaultecSunRiser_Acidifier.labelMale>
-  <VaultecSunRiser_Acidifier.labelMalePlural>male Vaultec Sun Risers</VaultecSunRiser_Acidifier.labelMalePlural>
-  <VaultecSunRiser_Acidifier.labelFemale>female Vaultec Sun Riser</VaultecSunRiser_Acidifier.labelFemale>
-  <VaultecSunRiser_Acidifier.labelFemalePlural>female Vaultec Sun Risers</VaultecSunRiser_Acidifier.labelFemalePlural>
+  <VaultecSunRiser_Acidifier.labelMale>Vaultec Спецназ</VaultecSunRiser_Acidifier.labelMale>
+  <VaultecSunRiser_Acidifier.labelMalePlural>Vaultec Спецназ</VaultecSunRiser_Acidifier.labelMalePlural>
+  <VaultecSunRiser_Acidifier.labelFemale>Vaultec Спецназ</VaultecSunRiser_Acidifier.labelFemale>
+  <VaultecSunRiser_Acidifier.labelFemalePlural>Vaultec Спецназ</VaultecSunRiser_Acidifier.labelFemalePlural>
 
 
   <!-- Bloodborne -->
@@ -86,21 +86,21 @@
   <VaultecBloodborne_Acidifier.labelPlural>Vaultec охотники за головами</VaultecBloodborne_Acidifier.labelPlural>
 
   <Vaultec_Trader.label>Торговец Vaultec</Vaultec_Trader.label>
-  <Vaultec_Trader.labelPlural>Торговец Vaultecs</Vaultec_Trader.labelPlural>
+  <Vaultec_Trader.labelPlural>Торговец Vaultec</Vaultec_Trader.labelPlural>
 
-  <VaultecRad.label>Vaultec Rad</VaultecRad.label>
-  <VaultecRad.labelPlural>Vaultec Rads</VaultecRad.labelPlural>
-  <VaultecRad.labelMale>male Vaultec Rad</VaultecRad.labelMale>
-  <VaultecRad.labelMalePlural>male Vaultec Rads</VaultecRad.labelMalePlural>
-  <VaultecRad.labelFemale>female Vaultec Rad</VaultecRad.labelFemale>
-  <VaultecRad.labelFemalePlural>female Vaultec Rads</VaultecRad.labelFemalePlural>
+  <VaultecRad.label>Охраник</VaultecRad.label>
+  <VaultecRad.labelPlural>Вышибалы</VaultecRad.labelPlural>
+  <VaultecRad.labelMale>Телохранитель</VaultecRad.labelMale>
+  <VaultecRad.labelMalePlural>Погоньщики</VaultecRad.labelMalePlural>
+  <VaultecRad.labelFemale>Вышибала</VaultecRad.labelFemale>
+  <VaultecRad.labelFemalePlural>Вышибалы</VaultecRad.labelFemalePlural>
 
-  <VaultecRad_Acidifier.label>Vaultec Rad</VaultecRad_Acidifier.label>
-  <VaultecRad_Acidifier.labelPlural>Vaultec Rads</VaultecRad_Acidifier.labelPlural>
-  <VaultecRad_Acidifier.labelMale>male Vaultec Rad</VaultecRad_Acidifier.labelMale>
-  <VaultecRad_Acidifier.labelMalePlural>male Vaultec Rads</VaultecRad_Acidifier.labelMalePlural>
-  <VaultecRad_Acidifier.labelFemale>female Vaultec Rad</VaultecRad_Acidifier.labelFemale>
-  <VaultecRad_Acidifier.labelFemalePlural>female Vaultec Rads</VaultecRad_Acidifier.labelFemalePlural>
+  <VaultecRad_Acidifier.label>Vaultec Охраник</VaultecRad_Acidifier.label>
+  <VaultecRad_Acidifier.labelPlural>Vaultec Охраники</VaultecRad_Acidifier.labelPlural>
+  <VaultecRad_Acidifier.labelMale>Vaultec Охраник</VaultecRad_Acidifier.labelMale>
+  <VaultecRad_Acidifier.labelMalePlural>Vaultec Охраники</VaultecRad_Acidifier.labelMalePlural>
+  <VaultecRad_Acidifier.labelFemale>Vaultec Охраник</VaultecRad_Acidifier.labelFemale>
+  <VaultecRad_Acidifier.labelFemalePlural>Vaultec Охраники</VaultecRad_Acidifier.labelFemalePlural>
 
 
 </LanguageData>

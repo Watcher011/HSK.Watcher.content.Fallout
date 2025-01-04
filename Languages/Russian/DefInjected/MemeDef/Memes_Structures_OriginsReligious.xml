@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Structure_Children_of_the_Atom.label>Дети Атома</Structure_Children_of_the_Atom.label>
+  <Structure_Children_of_the_Atom.description>В основе веры детей Атома лежит идея, что в каждом отдельном атоме содержится целая вселенная. Когда атомная масса делится, единая вселенная разделяется на две части — это величайший акт Атомного творения. Подчас в едином божественном действе рождаются триллионы триллионов новых вселенных. Последнее такое событие произошло здесь, двести лет назад. Там, где большинство потерянных детей Атома видят лишь войну и разрушение, мы видим созидание и единение в Атомном Сиянии.</Structure_Children_of_the_Atom.description>
+  <Structure_Children_of_the_Atom.generalRules.rulesStrings.0>r_ideoName(p=99)-&gt;[globalAdjective] [packIdeoName]</Structure_Children_of_the_Atom.generalRules.rulesStrings.0>
+  <Structure_Children_of_the_Atom.generalRules.rulesStrings.1>r_ideoName(p=99)-&gt;[memeAdjective] [packIdeoName]</Structure_Children_of_the_Atom.generalRules.rulesStrings.1>
+  <Structure_Children_of_the_Atom.generalRules.rulesStrings.2>r_ideoName(p=99)-&gt;[packAdjective] [packIdeoName]</Structure_Children_of_the_Atom.generalRules.rulesStrings.2>
+  <Structure_Children_of_the_Atom.generalRules.rulesStrings.3>r_ideoName(p=99)-&gt;[packIdeoName]</Structure_Children_of_the_Atom.generalRules.rulesStrings.3>
+  <Structure_Children_of_the_Atom.generalRules.rulesStrings.4>memeLeaderNoun-&gt;bishop</Structure_Children_of_the_Atom.generalRules.rulesStrings.4>
+  <Structure_Children_of_the_Atom.generalRules.rulesStrings.5>memeLeaderNoun-&gt;cardinal</Structure_Children_of_the_Atom.generalRules.rulesStrings.5>
+  <Structure_Children_of_the_Atom.generalRules.rulesStrings.6>memeLeaderNoun-&gt;pope</Structure_Children_of_the_Atom.generalRules.rulesStrings.6>
+  <Structure_Children_of_the_Atom.generalRules.rulesStrings.7>memeLeaderNoun-&gt;pontiff</Structure_Children_of_the_Atom.generalRules.rulesStrings.7>
+  <Structure_Children_of_the_Atom.generalRules.rulesStrings.8>memeLeaderNoun-&gt;legate</Structure_Children_of_the_Atom.generalRules.rulesStrings.8>
+  <Structure_Children_of_the_Atom.generalRules.rulesStrings.9>memeLeaderNoun-&gt;nuncio</Structure_Children_of_the_Atom.generalRules.rulesStrings.9>
+  <Structure_Children_of_the_Atom.generalRules.rulesStrings.10>memeLeaderNoun-&gt;divus</Structure_Children_of_the_Atom.generalRules.rulesStrings.10>
+  <Structure_Children_of_the_Atom.generalRules.rulesStrings.11>memeLeaderNoun-&gt;ecclesiast</Structure_Children_of_the_Atom.generalRules.rulesStrings.11>
+  <Structure_Children_of_the_Atom.generalRules.rulesStrings.12>memeLeaderAdjective-&gt;holy</Structure_Children_of_the_Atom.generalRules.rulesStrings.12>
+  <Structure_Children_of_the_Atom.generalRules.rulesStrings.13>memeLeaderAdjective-&gt;divine</Structure_Children_of_the_Atom.generalRules.rulesStrings.13>
+  <Structure_Children_of_the_Atom.generalRules.rulesStrings.14>memeLeaderAdjective-&gt;Christ's</Structure_Children_of_the_Atom.generalRules.rulesStrings.14>
+  <Structure_Children_of_the_Atom.generalRules.rulesStrings.15>memeLeaderAdjective-&gt;God's</Structure_Children_of_the_Atom.generalRules.rulesStrings.15>
+  <Structure_Children_of_the_Atom.generalRules.rulesStrings.16>memeMoralist-&gt;priest</Structure_Children_of_the_Atom.generalRules.rulesStrings.16>
+  <Structure_Children_of_the_Atom.generalRules.rulesStrings.17>memeMoralist-&gt;pastor</Structure_Children_of_the_Atom.generalRules.rulesStrings.17>
+  <Structure_Children_of_the_Atom.generalRules.rulesStrings.18>memeMoralist-&gt;cleric</Structure_Children_of_the_Atom.generalRules.rulesStrings.18>
+  <Structure_Children_of_the_Atom.generalRules.rulesStrings.19>memeMoralist-&gt;preacher</Structure_Children_of_the_Atom.generalRules.rulesStrings.19>
+  <Structure_Children_of_the_Atom.generalRules.rulesStrings.20>memeMoralist-&gt;rector</Structure_Children_of_the_Atom.generalRules.rulesStrings.20>
+  <Structure_Children_of_the_Atom.generalRules.rulesStrings.21>memeMoralist-&gt;abbot</Structure_Children_of_the_Atom.generalRules.rulesStrings.21>
+  <Structure_Children_of_the_Atom.symbolPacks.0.adjective>solidaritist</Structure_Children_of_the_Atom.symbolPacks.0.adjective>
+  <Structure_Children_of_the_Atom.symbolPacks.1.adjective>unitary</Structure_Children_of_the_Atom.symbolPacks.1.adjective>
+  <Structure_Children_of_the_Atom.symbolPacks.2.adjective>technologistic</Structure_Children_of_the_Atom.symbolPacks.2.adjective>
+  <Structure_Children_of_the_Atom.symbolPacks.3.adjective>progressist</Structure_Children_of_the_Atom.symbolPacks.3.adjective>
+  <Structure_Children_of_the_Atom.symbolPacks.4.adjective>machinist</Structure_Children_of_the_Atom.symbolPacks.4.adjective>
+  <Structure_Children_of_the_Atom.symbolPacks.5.adjective>steelist</Structure_Children_of_the_Atom.symbolPacks.5.adjective>
+  <Structure_Children_of_the_Atom.symbolPacks.6.adjective>automatist</Structure_Children_of_the_Atom.symbolPacks.6.adjective>
+  <Structure_Children_of_the_Atom.symbolPacks.7.adjective>augmentist</Structure_Children_of_the_Atom.symbolPacks.7.adjective>
+  <Structure_Children_of_the_Atom.symbolPacks.8.adjective>harmonist</Structure_Children_of_the_Atom.symbolPacks.8.adjective>
+  <Structure_Children_of_the_Atom.symbolPacks.9.adjective>oneist</Structure_Children_of_the_Atom.symbolPacks.9.adjective>
+
+
+</LanguageData>

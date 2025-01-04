@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- Shooting Specialist -->
+
+	
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/PreceptDef[defName="IdeoBuilding"]/buildingDefChances</xpath>
+		<value>
+			<Altar_Grand_nuclear>1</Altar_Grand_nuclear>
+		</value>
+	</Operation>
+
+</Patch>

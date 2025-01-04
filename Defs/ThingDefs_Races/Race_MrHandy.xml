@@ -10,8 +10,6 @@
 			<li Class="Androids.CompProperties_EnergyTracker">
 				<canHibernate>true</canHibernate>
 				<hibernationJob>ChJDroidHibernate</hibernationJob>
-				<maxEnergy>2</maxEnergy>
-				<ticksSpentCharging>600</ticksSpentCharging>
 			</li>
 		</comps>
 		<alienRace>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ 
+  
+
+  <ThingDef ParentName="AltarBase">
+    <defName>Altar_Grand_nuclear</defName>
+    <label>Мегатонна</label>
+    <description>Перед вами лежит невзорвавшаяся атомная бомба, как напоминание о конфликте, уничтожившем цивилизацию.</description>
+    <graphicData>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <texPath>Things/Building/Misc/Altars/Altar_Grand_nuclear</texPath>
+      <drawSize>(3,3)</drawSize>
+      <drawRotated>false</drawRotated>
+    </graphicData>
+    <size>(3,3)</size>
+	<drawerType>RealtimeOnly</drawerType>
+	<minifiedDef>MinifiedThing</minifiedDef>
+    <castEdgeShadows>false</castEdgeShadows>
+    <costStuffCount>120</costStuffCount>
+    <statBases>
+      <MaxHitPoints>350</MaxHitPoints>
+      <WorkToBuild>30000</WorkToBuild>
+      <Beauty>30</Beauty>
+      <StyleDominance>50</StyleDominance>
+	  <Mass>100</Mass>
+	  <Flammability>0.6</Flammability>
+    </statBases>
+	<fillPercent>0.25</fillPercent>
+	<passability>PassThroughOnly</passability>
+	<pathCost>100</pathCost>
+	<blockWind>true</blockWind>
+	<filthLeaving>Filth_RubbleBuilding</filthLeaving>
+	<rotatable>false</rotatable>
+	<thingCategories>
+			<li>BuildingsMisc</li>
+	</thingCategories>
+	<costList>
+			<ChunkSlagSteel>10</ChunkSlagSteel>
+			<Uranium>5</Uranium>
+	</costList>
+		<building>
+			<isInert>true</isInert>
+			<ai_chillDestination>false</ai_chillDestination>
+		</building>
+	<tickerType>Normal</tickerType>
+	<comps>
+	        <li Class="CompProperties_Glower">
+				<glowRadius>3</glowRadius>
+				<glowColor>(154,205,50,1)</glowColor>
+			</li>
+				<li Class="SK.CompProperties_ApplyHediffAround">
+				<hediff>RimatomicsRadiation</hediff>
+				<radius>3</radius>
+				<severityToAdd>0.001</severityToAdd>
+			    </li>
+				 <li Class="CompProperties_Explosive">
+				<explosiveRadius>15</explosiveRadius>
+				<explosiveDamageType>NuclearB</explosiveDamageType>
+				<damageAmountBase>18000</damageAmountBase>
+				<postExplosionSpawnThingDef>NFRAD</postExplosionSpawnThingDef>
+				<postExplosionSpawnChance>0.11</postExplosionSpawnChance>
+				 <startWickHitPointsPercent>0.2</startWickHitPointsPercent>
+                <wickTicks>15</wickTicks>
+                <startWickOnDamageTaken>
+                <li>Bullet</li>
+                <li>Arrow</li>
+                <li>ArrowHighVelocity</li>
+        </startWickOnDamageTaken>
+			</li>
+			  <li Class="CompProperties_MeditationFocus">
+        <statDef>MeditationFocusStrength</statDef>
+        <focusTypes>
+          <li>Natural</li>
+		  <li>Artistic</li>
+		   <li>Morbid</li>
+        </focusTypes>
+      </li>
+		</comps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <interactionCellOffset>(0,0, -2)</interactionCellOffset>
+  </ThingDef>
+ 
+
+</Defs>
