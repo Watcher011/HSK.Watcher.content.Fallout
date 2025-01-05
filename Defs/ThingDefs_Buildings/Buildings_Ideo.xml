@@ -29,7 +29,12 @@
     </statBases>
 	<fillPercent>0.25</fillPercent>
 	<passability>PassThroughOnly</passability>
-	<pathCost>100</pathCost>
+	<costStuffCount>140</costStuffCount>
+	 <stuffCategories>
+      <li>Precious</li>
+	  <li>Metallic</li>
+	  <li>RuggedMetallic</li>
+    </stuffCategories>
 	<blockWind>true</blockWind>
 	<filthLeaving>Filth_RubbleBuilding</filthLeaving>
 	<rotatable>false</rotatable>
