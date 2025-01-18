@@ -2,14 +2,14 @@
 <LanguageData>
 
   <Apparel_RaiderPowerArmorHelmet.label>Raider Power Armor Helmet</Apparel_RaiderPowerArmorHelmet.label>
-  <Apparel_RaiderPowerArmorHelmet.description>Home-made helmet</Apparel_RaiderPowerArmorHelmet.description>
+<Apparel_RaiderPowerArmorHelmet.description>Home-made helmet</Apparel_RaiderPowerArmorHelmet.description>
 
-  <Apparel_RaiderPowerArmor.label>Raider Power Armor</Apparel_RaiderPowerArmor.label>
-  <Apparel_RaiderPowerArmor.description>A power armor suit refurbished by raiders. Similar in ballistic protection and durability to the T-45 model, but has only two levels of improvements instead of six in factory models. Judging by its appearance, it is home-made. The set is somewhat similar in design to regular raider armor. The worst in its class, but even such armor makes its wearer a formidable opponent. Its main disadvantage is low durability.</Apparel_RaiderPowerArmor.description>
-  <Apparel_RaiderPowerArmor.verbs.0.label>jump</Apparel_RaiderPowerArmor.verbs.0.label>
+<Apparel_RaiderPowerArmor.label>Raider Power Armor</Apparel_RaiderPowerArmor.label>
+<Apparel_RaiderPowerArmor.description>A power armor suit restored by raiders. Similar in ballistic protection and durability to the T-45 model, but has only two levels of improvements instead of six in factory models. Judging by its appearance, it is home-made. The set is somewhat similar in design to regular raider armor. The worst in its class, but even such armor makes its wearer a formidable opponent. Its main disadvantage is low durability.</Apparel_RaiderPowerArmor.description>
+<Apparel_RaiderPowerArmor.verbs.0.label>jump</Apparel_RaiderPowerArmor.verbs.0.label>
 
-  <Apparel_X01PowerArmor.label>X-01 Power Armor</Apparel_X01PowerArmor.label>
-  <Apparel_X01PowerArmor.description>The X-01 power armor model was developed by US Army specialists and used in surviving combat units after the Great War. In terms of its parameters, it significantly exceeds its pre-war counterparts.</Apparel_X01PowerArmor.description>
+<Apparel_X01PowerArmor.label>X-01 Power Armor</Apparel_X01PowerArmor.label>
+<Apparel_X01PowerArmor.description>The X-01 power armor model was developed by US Army specialists and used in surviving combat units after the Great War. In terms of its parameters, it significantly exceeds its pre-war counterparts.</Apparel_X01PowerArmor.description>
 
 
 </LanguageData>

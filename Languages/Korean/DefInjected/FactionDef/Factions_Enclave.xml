@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Enclave.label>엔클레이브</Enclave.label>
-  <Enclave.pawnsPlural>엔클레이브</Enclave.pawnsPlural>
-  <Enclave.leaderTitle>회장</Enclave.leaderTitle>
+ <Enclave.label>인클레이브</Enclave.label>
+ <Enclave.pawnsPlural>엔클레이브</Enclave.pawnsPlural>
+ <Enclave.leaderTitle>리더</Enclave.leaderTitle>
 
 
 </LanguageData>

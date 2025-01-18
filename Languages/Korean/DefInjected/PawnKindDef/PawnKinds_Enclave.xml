@@ -3,22 +3,20 @@
 
   <!-- Chaser -->
 
-  <EnclaveChaser.label>엔클레이브 정찰</EnclaveChaser.label>
-  <EnclaveChaser.labelPlural>엔클레이브 정찰병</EnclaveChaser.labelPlural>
+ <EnclaveChaser.label>인클레이브 스카우트</EnclaveChaser.label>
+ <EnclaveChaser.labelPlural>인클레이브 스카우트</EnclaveChaser.labelPlural>
 
-  <EnclaveChaser_Acidifier.label>엔클레이브 정찰병</EnclaveChaser_Acidifier.label>
-  <EnclaveChaser_Acidifier.labelPlural>엔클레이브 정찰병</EnclaveChaser_Acidifier.labelPlural>
-
-
-  <!-- Sunderer -->
-
-  <EnclaveSunderer.label>엔클레이브 분리자</EnclaveSunderer.label>
-  <EnclaveSunderer.labelPlural>엔클레이브 스위퍼</EnclaveSunderer.labelPlural>
-
-  <EnclaveSunderer_Acidifier.label>엔클레이브 사후분해자</EnclaveSunderer_Acidifier.label>
-  <EnclaveSunderer_Acidifier.labelPlural>엔클레이브</EnclaveSunderer_Acidifier.labelPlural>
+ <EnclaveChaser_Acidifier.label>인클레이브 스카우트</EnclaveChaser_Acidifier.label>
+ <EnclaveChaser_Acidifier.labelPlural>인클레이브 스카우트</EnclaveChaser_Acidifier.labelPlural>
 
 
-  <!-- 선더러 -->
+ <!-- 선더러 -->
+
+ <EnclaveSunderer.label>엔클레이브 선더러</EnclaveSunderer.label>
+ <EnclaveSunderer.labelPlural>엔클레이브 선더러</EnclaveSunderer.labelPlural>
+
+ <EnclaveSunderer_Acidifier.label>엔클레이브 선더러</EnclaveSunderer_Acidifier.label>
+ <EnclaveSunderer_Acidifier.labelPlural>엔클레이브 선더러</EnclaveSunderer_Acidifier.labelPlural>
+
 
 </LanguageData>

@@ -4,19 +4,19 @@
   <!-- Chaser -->
 
   <EnclaveChaser.label>Скаут Анклава</EnclaveChaser.label>
-  <EnclaveChaser.labelPlural>Скауты Анклава</EnclaveChaser.labelPlural>
+  <EnclaveChaser.labelPlural>Скаут Анклаваs</EnclaveChaser.labelPlural>
 
   <EnclaveChaser_Acidifier.label>Скаут Анклава</EnclaveChaser_Acidifier.label>
-  <EnclaveChaser_Acidifier.labelPlural>Скауты Анклава</EnclaveChaser_Acidifier.labelPlural>
+  <EnclaveChaser_Acidifier.labelPlural>Скаут Анклаваs</EnclaveChaser_Acidifier.labelPlural>
 
 
   <!-- Sunderer -->
 
   <EnclaveSunderer.label>Чистильщик Анклава</EnclaveSunderer.label>
-  <EnclaveSunderer.labelPlural>Чистильщики Анклава</EnclaveSunderer.labelPlural>
+  <EnclaveSunderer.labelPlural>Чистильщик Анклаваs</EnclaveSunderer.labelPlural>
 
   <EnclaveSunderer_Acidifier.label>Чистильщик Анклава</EnclaveSunderer_Acidifier.label>
-  <EnclaveSunderer_Acidifier.labelPlural>Чистильщики Анклава</EnclaveSunderer_Acidifier.labelPlural>
+  <EnclaveSunderer_Acidifier.labelPlural>Чистильщик Анклаваs</EnclaveSunderer_Acidifier.labelPlural>
 
 
 </LanguageData>

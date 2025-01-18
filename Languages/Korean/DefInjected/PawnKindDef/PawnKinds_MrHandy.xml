@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <MisterHandyColonist.label>미스터 핸디</MisterHandyColonist.label>
-  <MisterHandyColonist.labelPlural>미스터 핸디</MisterHandyColonist.labelPlural>
-  <MisterHandyColonist.labelMale>미스터 핸디</MisterHandyColonist.labelMale>
-  <MisterHandyColonist.labelMalePlural>미스터 핸디</MisterHandyColonist.labelMalePlural>
-  <MisterHandyColonist.labelFemale>미스 내니</MisterHandyColonist.labelFemale>
-  <MisterHandyColonist.labelFemalePlural>미스 내니</MisterHandyColonist.labelFemalePlural>
+ <MisterHandyColonist.label>미스터 핸디</MisterHandyColonist.label>
+ <MisterHandyColonist.labelPlural>미스터 핸디</MisterHandyColonist.labelPlural>
+ <MisterHandyColonist.labelMale>남자 미스터 핸디</MisterHandyColonist.labelMale>
+ <MisterHandyColonist.labelMalePlural>남자 미스터 핸디</MisterHandyColonist.labelMalePlural>
+ <MisterHandyColonist.labelFemale>여성 미스터 핸디</MisterHandyColonist.labelFemale>
+ <MisterHandyColonist.labelFemalePlural>여성 미스터 핸디</MisterHandyColonist.labelFemalePlural>
 
 
 </LanguageData>

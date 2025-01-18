@@ -3,10 +3,9 @@
 
   <!-- SimpleStimpack -->
 
-  <Hediff_egg.label>이상한 오믈렛</Hediff_egg.label>
-  <Hediff_egg.description>몸에 이상한 변화가 일어납니다</Hediff_egg.description>
-  <Hediff_egg.stages.0.label>부작용</Hediff_egg.stages.0.label>
-  <Hediff_egg.labelNoun>이상한 오믈렛을 먹음</Hediff_egg.labelNoun>
-
+ <Hediff_egg.label>이상한 오믈렛</Hediff_egg.label>
+ <Hediff_egg.description>신체에 이상한 변화가 일어나고 있어요.</Hediff_egg.description>
+ <Hediff_egg.stages.0.label>부작용</Hediff_egg.stages.0.label>
+ <Hediff_egg.labelNoun>이상한 오믈렛을 먹다</Hediff_egg.labelNoun>
 
 </LanguageData>

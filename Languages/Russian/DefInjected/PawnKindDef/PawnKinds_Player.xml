@@ -3,12 +3,12 @@
 
   <!-- Nuclear Survivor -->
 
-  <NuclearSurvivorGhoul.label>Иследователь</NuclearSurvivorGhoul.label>
-  <NuclearSurvivorGhoul.labelPlural>Иследователи</NuclearSurvivorGhoul.labelPlural>
-  <NuclearSurvivorGhoul.labelMale>Иследователь</NuclearSurvivorGhoul.labelMale>
-  <NuclearSurvivorGhoul.labelMalePlural>Иследователи</NuclearSurvivorGhoul.labelMalePlural>
-  <NuclearSurvivorGhoul.labelFemale>Иследователь</NuclearSurvivorGhoul.labelFemale>
-  <NuclearSurvivorGhoul.labelFemalePlural>Иследователи</NuclearSurvivorGhoul.labelFemalePlural>
+  <NuclearSurvivorGhoul.label>Гуль</NuclearSurvivorGhoul.label>
+  <NuclearSurvivorGhoul.labelPlural>Гули</NuclearSurvivorGhoul.labelPlural>
+  <NuclearSurvivorGhoul.labelMale>Гуль</NuclearSurvivorGhoul.labelMale>
+  <NuclearSurvivorGhoul.labelMalePlural>Гули</NuclearSurvivorGhoul.labelMalePlural>
+  <NuclearSurvivorGhoul.labelFemale>Гуль</NuclearSurvivorGhoul.labelFemale>
+  <NuclearSurvivorGhoul.labelFemalePlural>Гули</NuclearSurvivorGhoul.labelFemalePlural>
 
 
 </LanguageData>

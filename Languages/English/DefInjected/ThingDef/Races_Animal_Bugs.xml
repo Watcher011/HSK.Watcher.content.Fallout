@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <CockroachVaultec.label>Radroach</CockroachVaultec.label>
-  <CockroachVaultec.description>Radroaches are mutated large "American cockroaches", colloquially referred to as "giant cockroaches". They are larger versions of the pre-war species that have grown exponentially in size due to radioactive fallout.</CockroachVaultec.description>
-  <CockroachVaultec.tools.0.label>mouth</CockroachVaultec.tools.0.label>
-  <CockroachVaultec.tools.1.label>head</CockroachVaultec.tools.1.label>
+ <CockroachVaultec.label>Radroach</CockroachVaultec.label>
+<CockroachVaultec.description>Radroaches are mutated large "American cockroaches", colloquially referred to as simply "giant cockroaches". They are larger versions of the pre-war species, which have grown exponentially in size due to the radioactive fallout.</CockroachVaultec.description>
+<CockroachVaultec.tools.0.label>mouth</CockroachVaultec.tools.0.label>
+<CockroachVaultec.tools.1.label>head</CockroachVaultec.tools.1.label>
 
-  <Bloodbug.label>Bloodbug</Bloodbug.label>
-  <Bloodbug.description>A giant mutant mosquito that lives in the wastelands of the Commonwealth after the war. They are found both singly and in groups of up to 5 individuals. In a non-aggressive state, the bloodbug sits almost motionless on the ground or the corpse of a brahmin. Sometimes it can sit in water, which makes it almost invisible until the moment when it takes off to attack.</Bloodbug.description>
-  <Bloodbug.tools.0.label>mouth</Bloodbug.tools.0.label>
-  <Bloodbug.tools.1.label>head</Bloodbug.tools.1.label>
+<Bloodbug.label>Bloodbug</Bloodbug.label>
+<Bloodbug.description>A giant mutant mosquito that inhabits the wastelands of the post-war Commonwealth. They are found both singly and in groups of up to 5. When non-aggressive, the bloodbug sits almost motionless on the ground or a brahmin corpse. It can sometimes sit in water, making it virtually invisible until it takes off to attack.</Bloodbug.description>
+<Bloodbug.tools.0.label>mouth</Bloodbug.tools.0.label>
+<Bloodbug.tools.1.label>head</Bloodbug.tools.1.label>
 
-  <Cazador.label>Cazador</Cazador.label>
-  <Cazador.description>A large mutated insect descended from the Pepsis grossa species, a member of the Pepsis road wasp family. They are most often found in the hilly and mountainous areas of the Mojave Desert, as well as in Zion Canyon and Big Mountain. Cazadors move very quickly in flight using their wings. If one or both wings are damaged, they begin to move on their legs, which significantly reduces their speed. Like all insects, if their antennae are damaged, they go berserk and attack any living creature.</Cazador.description>
-  <Cazador.tools.0.label>venom-fangs</Cazador.tools.0.label>
-  <Cazador.tools.1.label>head</Cazador.tools.1.label>
+<Cazador.label>Cazador</Cazador.label>
+<Cazador.description>A large mutated insect descended from the Pepsis grossa species, a member of the Pepsis road wasp family. They are most commonly found in the hilly and mountainous areas of the Mojave Desert, as well as in Zion Canyon and Big Mountain. Cazadors move very quickly in flight using their wings. If one or both wings are damaged, they begin to move on their legs, which significantly reduces their speed. Like all insects, when their antennae are damaged, they go berserk and attack any living creature.</Cazador.description>
+<Cazador.tools.0.label>venom-fangs</Cazador.tools.0.label>
+<Cazador.tools.1.label>head</Cazador.tools.1.label>
 
 
 </LanguageData>

@@ -1,35 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <WearingPipBoy.label>Pip-Boy</WearingPipBoy.label>
-  <WearingPipBoy.description>VATS, or Vault-Tec Assisted Targeting System, is an advanced combat technology whose origins are lost in time…</WearingPipBoy.description>
-  <WearingPipBoy.stages.0.label>V.A.T.S.</WearingPipBoy.stages.0.label>
+ <WearingPipBoy.label>Pip-Boy</WearingPipBoy.label>
+<WearingPipBoy.description>VATS, or Vault-Tec Assisted Targeting System, is an advanced combat technology whose origins are lost in time…</WearingPipBoy.description>
+<WearingPipBoy.stages.0.label>V.A.T.S.</WearingPipBoy.stages.0.label>
 
-  <LastGiftofWatcher.label>Mechanites Overflowing with Energy</LastGiftofWatcher.label>
-  <LastGiftofWatcher.description>One-Way Ticket</LastGiftofWatcher.description>
+<LastGiftofWatcher.label>Mechanites Overflowing with Energy</LastGiftofWatcher.label>
+<LastGiftofWatcher.description>One-Way Ticket</LastGiftofWatcher.description>
 
-  <BombJ.label>Booby-Trapped</BombJ.label>
-  <BombJ.description>One-Way Ticket end</BombJ.description>
+<BombJ.label>Booby-Trapped</BombJ.label>
+<BombJ.description>One-Way Ticket end</BombJ.description>
 
-  <VaultBoyMedicine.label>Medicine Bobblehead</VaultBoyMedicine.label>
-  <VaultBoyMedicine.description>A smart person knows that bandages only hide a wound.</VaultBoyMedicine.description>
-  <VaultBoyMedicine.labelNoun>Medicine Bobblehead</VaultBoyMedicine.labelNoun>
+<VaultBoyMedicine.label>Medicine VaultBoy</VaultBoyMedicine.label>
+<VaultBoyMedicine.description>A smart person knows that bandages only hide a wound.</VaultBoyMedicine.description>
+<VaultBoyMedicine.labelNoun>Medicine VaultBoy</VaultBoyMedicine.labelNoun>
 
-  <VaultBoyEloquence.label>Eloquence Bobblehead</VaultBoyEloquence.label>
-  <VaultBoyEloquence.description>Let words be your weapon.</VaultBoyEloquence.description>
-  <VaultBoyEloquence.labelNoun>Eloquence Bobblehead</VaultBoyEloquence.labelNoun>
+<VaultBoyEloquence.label>Eloquence VaultBoy</VaultBoyEloquence.label>
+<VaultBoyEloquence.description>Let words become your weapon.</VaultBoyEloquence.description>
+<VaultBoyEloquence.labelNoun>Eloquence VaultBoy</VaultBoyEloquence.labelNoun>
 
-  <VaultBoyIntelligence.label>Intelligence Bobblehead</VaultBoyIntelligence.label>
-  <VaultBoyIntelligence.description>The smartest one is the one who never stops learning new things.</VaultBoyIntelligence.description>
-  <VaultBoyIntelligence.labelNoun>Intelligence Bobblehead</VaultBoyIntelligence.labelNoun>
+<VaultBoyIntelligence.label>Intelligence VaultBoy</VaultBoyIntelligence.label>
+<VaultBoyIntelligence.description>The smartest one is the one who never stops learning new things.</VaultBoyIntelligence.description>
+<VaultBoyIntelligence.labelNoun>Intelligence VaultBoy</VaultBoyIntelligence.labelNoun>
 
-  <VaultBoyRepair.label>Repair Bobblehead</VaultBoyRepair.label>
-  <VaultBoyRepair.description>Why go down with the ship when you can try to patch the hole?</VaultBoyRepair.description>
-  <VaultBoyRepair.labelNoun>Repair Bobblehead</VaultBoyRepair.labelNoun>
+<VaultBoyRepair.label>Repair VaultBoy</VaultBoyRepair.label>
+<VaultBoyRepair.description>Why go down with the ship when you can try to patch the hole?</VaultBoyRepair.description>
+<VaultBoyRepair.labelNoun>Repair VaultBoy</VaultBoyRepair.labelNoun>
 
-  <VaultBoyBarter.label>Barter Bobblehead</VaultBoyBarter.label>
-  <VaultBoyBarter.description>Nothing says "good" like a charming smile.</VaultBoyBarter.description>
-  <VaultBoyBarter.labelNoun>Barter Bobblehead</VaultBoyBarter.labelNoun>
+<VaultBoyBarter.label>Barter VaultBoy</VaultBoyBarter.label>
+<VaultBoyBarter.description>Nothing says "good" like a charming smile.</VaultBoyBarter.description>
+<VaultBoyBarter.labelNoun>Barter VaultBoy</VaultBoyBarter.labelNoun>
 
 
 </LanguageData>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Crashlanded_Nuclear_Ghoul.label>Дети Атома</Crashlanded_Nuclear_Ghoul.label>
+  <Crashlanded_Nuclear_Ghoul.description>Группа Гулей направляемые своей верой отправились в дальнее путешествие для основания нового поселения.</Crashlanded_Nuclear_Ghoul.description>
+  <Crashlanded_Nuclear_Ghoul.scenario.name>Дети Атома</Crashlanded_Nuclear_Ghoul.scenario.name>
+  <Crashlanded_Nuclear_Ghoul.scenario.summary>Группа Гулей в поисках нового дома.</Crashlanded_Nuclear_Ghoul.scenario.summary>
+  <Crashlanded_Nuclear_Ghoul.scenario.description>Группа Гулей направляемые своей верой отправились в дальнее путешествие для основания нового поселения.</Crashlanded_Nuclear_Ghoul.scenario.description>
+  <Crashlanded_Nuclear_Ghoul.scenario.parts.0.text>Ваши разногласия с церковью Атома привели к её расколу. Вам удалось сбежать от фанатиков и прихватить редкую реликвию. Но тревожное чувство вас не покидает ... почему вас так просто отпустили ? Что-то подсказывает что у вас мало времени и вскоре за вами прейдут.</Crashlanded_Nuclear_Ghoul.scenario.parts.0.text>
+  <Crashlanded_Nuclear_Ghoul.scenario.parts.1.xenotypeCounts.0.description>Гули</Crashlanded_Nuclear_Ghoul.scenario.parts.1.xenotypeCounts.0.description>
+
+
+</LanguageData>

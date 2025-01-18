@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Deathclawhand.label>데스클로 손</Deathclawhand.label>
-  <Deathclawhand.description>죽은 데스클로의 팔다리를 특수 가공하여 근접전에서 적에게 막대한 피해를 줄 수 있는 장갑을 만들 수 있습니다.</Deathclawhand.description>
-  <Deathclawhand.tools.0.label>손몸</Deathclawhand.tools.0.label>
-  <Deathclawhand.tools.1.label>손톱</Deathclawhand.tools.1.label>
+  <Deathclawhand.label>데스클로 핸드</Deathclawhand.label>
+ <Deathclawhand.description>죽은 데스클로의 팔다리를 특별히 처리하면 근접 전투에서 적에게 막대한 피해를 입힐 수 있는 건틀릿을 만들 수 있습니다.</Deathclawhand.description>
+ <데스클로핸드.도구.0.라벨>핸들</데스클로핸드.도구.0.라벨>
+ <데스클로핸드.툴스.1.라벨>포인트</데스클로핸드.툴스.1.라벨>
 
 
 </LanguageData>

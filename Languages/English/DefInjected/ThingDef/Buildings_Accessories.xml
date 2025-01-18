@@ -1,27 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <ColaBasin.label>Quantum Cola Core Machine</ColaBasin.label>
-  <ColaBasin.description>Quantum Cola Core Synthesis Machine.</ColaBasin.description>
+ <ColaBasin.label>Quantum Cola Core Machine</ColaBasin.label>
+<ColaBasin.description>Quantum Cola Core Synthesis Machine.</ColaBasin.description>
 
-  <GECK.label>Garden of Eden Generator Compact</GECK.label>
-  <GECK.description>Garden of Eden Generator Compact. This is standard equipment in all Vault-Tec shelters. The GECK is the source of civilization's restoration after the bombing. Just add water and stir.</GECK.description>
-  <GECK.comps.6.offMessage>Off for plant resting period</GECK.comps.6.offMessage>
+<GECK.label>Garden of Eden Generator Compact</GECK.label>
+<GECK.description>Garden of Eden Generator Compact. This is standard equipment in all Vault-Tec shelters. The GECK is the source of civilization's restoration after the bombardment. Just add water and stir.</GECK.description>
+<GECK.comps.6.offMessage>Off for plant resting period</GECK.comps.6.offMessage>
 
-  <VaultBoyMedicine.label>Medicine Bobblehead</VaultBoyMedicine.label>
-  <VaultBoyMedicine.description>Medicine Bobblehead - A smart person understands that the wound under the bandage is not going away.</VaultBoyMedicine.description>
+<VaultBoyMedicine.label>Medicine Doll</VaultBoyMedicine.label>
+<VaultBoyMedicine.description>Medicine Doll - A smart person understands that the wound under the bandage is not going away.</VaultBoyMedicine.description>
 
-  <VaultBoyEloquence.label>Eloquence Bobblehead</VaultBoyEloquence.label>
-  <VaultBoyEloquence.description>Eloquence Bobblehead - I want the pen to be equal to the bayonet.</VaultBoyEloquence.description>
+<VaultBoyEloquence.label>Eloquence Doll</VaultBoyEloquence.label>
+<VaultBoyEloquence.description>Eloquence Doll - I want the pen to be equated with the bayonet.</VaultBoyEloquence.description>
 
-  <VaultBoyIntelligence.label>Intelligence Bobblehead</VaultBoyIntelligence.label>
-  <VaultBoyIntelligence.description>Intelligence Bobblehead - Always be ready to answer a hundred thousand why.</VaultBoyIntelligence.description>
+<VaultBoyIntelligence.label>Boy "Intelligence"</VaultBoyIntelligence.label>
 
-  <VaultBoyRepair.label>Repair Bobblehead</VaultBoyRepair.label>
-  <VaultBoyRepair.description>Repair Bobblehead - Why go down with the ship if you can fix it?</VaultBoyRepair.description>
+<VaultBoyIntelligence.description>Intelligence Doll - Always be ready to answer a hundred thousand whys.</VaultBoyIntelligence.description>
 
-  <VaultBoyBarter.label>Barter Bobblehead</VaultBoyBarter.label>
-  <VaultBoyBarter.description>Barter Bobblehead - The amount of good you have should always increase.</VaultBoyBarter.description>
+<VaultBoyRepair.label>Repair Doll</VaultBoyRepair.label>
+
+<VaultBoyRepair.description>Repair Doll - Why go down with the ship if you can fix it?</VaultBoyRepair.description>
+
+<VaultBoyBarter.label>Barter Doll</VaultBoyBarter.label>
+<VaultBoyBarter.description>Barter Doll - The amount of good you have should always increase.</VaultBoyBarter.description>
 
 
 </LanguageData>

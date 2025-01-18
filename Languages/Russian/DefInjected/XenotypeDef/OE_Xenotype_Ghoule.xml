@@ -6,5 +6,8 @@
   <OE_Ghoul.label>Гуль</OE_Ghoul.label>
   <OE_Ghoul.description>Гули были когда-то людьми, которые не успели попасть в защитное убежище во время бомбардировки. Облучение придало им повышенную сопротивляемость радиации; они также получают бонус к сопротивляемости ядам. К сожалению, физически они слишком слабы и не могут использовать тяжёлое оружие.</OE_Ghoul.description>
 
+  <OE_MisterHandy.label>Мистер Помощник</OE_MisterHandy.label>
+  <OE_MisterHandy.description>Мистер Помощник.</OE_MisterHandy.description>
+
 
 </LanguageData>

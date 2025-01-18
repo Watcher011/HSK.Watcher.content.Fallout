@@ -1,26 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <ColaBasin.label>퀀텀 콜라 코어 머신</ColaBasin.label>
-  <ColaBasin.description>누카-콜라 핵 합성을 위한 자동 기계</ColaBasin.description>
+ <ColaBasin.label>퀀텀 콜라 핵 머신</ColaBasin.label>
+ <ColaBasin.description>양자 콜라 핵의 자동 합성.</ColaBasin.description>
 
-  <GECK.label>에덴 동산 창조 장치</GECK.label>
-  <GECK.description>에덴 동산 창조 장치. 이는 모든 볼트-텍 방공호의 표준 장비입니다. GECK는 폭격 이후 문명 복원의 원천입니다. 물을 넣고 저어주시면 됩니다.</GECK.description>
-  <GECK.comps.6.offMessage>식물 휴면 기간 동안 꺼짐</GECK.comps.6.offMessage>
+ <GECK.label>에덴의 부시 콤팩트 생성기</GECK.label>
+ <GECK.description>에덴의 덤불 생성기 콤팩트. 이 장비는 모든 Vault-Tec 금고에 기본으로 설치되어 있습니다. GECK는 폭격 이후 문명 회복의 원천입니다. 물만 더하고 저어주세요.</GECK.description>
+ <GECK.comps.6.offMessage>식물 휴면 기간 동안 꺼짐</GECK.comps.6.offMessage>
 
- <VaultBoyMedicine.label>약 버블헤드</VaultBoyMedicine.label>
- <VaultBoyMedicine.description>인형 "약" - 똑똑한 사람은 붕대 아래 상처가 사라지지 않았다는 것을 이해합니다.</VaultBoyMedicine.description>
+ <VaultBoyMedicine.label>의학 인형</VaultBoyMedicine.label>
+ <VaultBoyMedicine.description>의료인형 - 똑똑한 사람은 붕대 아래의 상처가 여전히 존재한다는 것을 알고 있습니다.</VaultBoyMedicine.description>
 
- <VaultBoyEloquence.label>웅변 버블헤드</VaultBoyEloquence.label>
- <VaultBoyEloquence.description>Eloquence 버블헤드 - 깃털이 총검과 같기를 원합니다.</VaultBoyEloquence.description>
+ <VaultBoyEloquence.label>웅변 인형</VaultBoyEloquence.label>
+ <VaultBoyEloquence.description>웅변 인형 - 나는 펜이 총검과 동등하기를 바랍니다.</VaultBoyEloquence.description>
 
- <VaultBoyIntelligence.label>지능 버블헤드</VaultBoyIntelligence.label>
- <VaultBoyIntelligence.description>지능 버블헤드 - 수십만 가지 이유에 대한 답을 항상 준비하세요.</VaultBoyIntelligence.description>
+ <VaultBoyIntelligence.label>지능 인형</VaultBoyIntelligence.label>
+ <VaultBoyIntelligence.description>지능 인형 - 항상 수많은 '왜'에 대비하세요.</VaultBoyIntelligence.description>
 
- <VaultBoyRepair.label>인형 수리</VaultBoyRepair.label>
- <VaultBoyRepair.description>버블헤드 수리 - 수리할 수 있는데 배를 가지고 바닥까지 갈 이유가 무엇입니까?</VaultBoyRepair.description>
+ <VaultBoyRepair.label>아기 인형 "수리"</VaultBoyRepair.label>
+ <VaultBoyRepair.description>수리 인형 - 고칠 수 있는데 왜 배와 함께 가라앉아요?</VaultBoyRepair.description>
 
  <VaultBoyBarter.label>물물교환 인형</VaultBoyBarter.label>
- <VaultBoyBarter.description>물물교환 버블헤드 - 보유하고 있는 상품의 양이 항상 증가해야 합니다.</VaultBoyBarter.description>
+ <VaultBoyBarter.description>물물교환 인형 - 당신이 받는 물건의 양은 항상 늘어납니다.</VaultBoyBarter.description>
+
 
 </LanguageData>

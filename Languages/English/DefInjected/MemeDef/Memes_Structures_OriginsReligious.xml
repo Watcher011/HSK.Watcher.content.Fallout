@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Structure_Children_of_the_Atom.label>Children of the Atom</Structure_Children_of_the_Atom.label>
-<Structure_Children_of_the_Atom.description>The Children of the Atom's belief is that each individual atom contains an entire universe. When the atomic mass divides, the single universe is split in two - this is the greatest act of Atomic creation. Sometimes trillions upon trillions of new universes are born in a single divine act. The last such event occurred here, two hundred years ago. Where most of the lost children of the Atom see only war and destruction, we see creation and unity in the Atomic Radiance.</Structure_Children_of_the_Atom.description>
+ <Structure_Children_of_the_Atom.label>Children of the Atom</Structure_Children_of_the_Atom.label>
+<Structure_Children_of_the_Atom.description>The Children of the Atom's belief is that each individual atom contains an entire universe. When the atomic mass divides, the single universe is split into two - this is the greatest act of Atomic creation. Sometimes trillions upon trillions of new universes are born in a single divine act. The last such event occurred here, two hundred years ago. Where most of the lost children of the Atom see only war and destruction, we see creation and unity in the Atomic Radiance.</Structure_Children_of_the_Atom.description>
   <Structure_Children_of_the_Atom.generalRules.rulesStrings.0>r_ideoName(p=99)-&gt;[globalAdjective] [packIdeoName]</Structure_Children_of_the_Atom.generalRules.rulesStrings.0>
   <Structure_Children_of_the_Atom.generalRules.rulesStrings.1>r_ideoName(p=99)-&gt;[memeAdjective] [packIdeoName]</Structure_Children_of_the_Atom.generalRules.rulesStrings.1>
   <Structure_Children_of_the_Atom.generalRules.rulesStrings.2>r_ideoName(p=99)-&gt;[packAdjective] [packIdeoName]</Structure_Children_of_the_Atom.generalRules.rulesStrings.2>

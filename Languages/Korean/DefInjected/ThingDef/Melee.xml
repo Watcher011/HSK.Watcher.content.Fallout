@@ -2,9 +2,9 @@
 <LanguageData>
 
   <MeleeWeapon_Ripper.label>리퍼</MeleeWeapon_Ripper.label>
-  <MeleeWeapon_Ripper.description>리퍼는 꽤 좋은 근접 무기로, 슈퍼 슬렛지 다음으로 효율성이 뛰어납니다. 강화된 갑옷 관통력 덕분에, 향상된 파워 아머를 착용한 상태에서도 적을 리퍼로 '찌르는' 것이 어렵지 않습니다. 폐쇄된 공간과 복도에서의 전투에 적합합니다.</MeleeWeapon_Ripper.description>
-  <MeleeWeapon_Ripper.tools.0.label>톱날</MeleeWeapon_Ripper.tools.0.label>
-  <MeleeWeapon_Ripper.tools.1.label>블레이드</MeleeWeapon_Ripper.tools.1.label>
+ <MeleeWeapon_Ripper.description>리퍼는 근접 무기 중에서는 꽤 괜찮은 편이며, 효율성 면에서는 슈퍼 슬레지해머에 이어 두 번째입니다. 강화된 방어구 관통 능력 덕분에 개량된 파워 아머를 착용한 상태에서도 리퍼로 적을 "고르는" 것이 어렵지 않습니다. 폐쇄된 공간과 복도에서의 전투에 적합합니다..</MeleeWeapon_Ripper.description>
+ <MeleeWeapon_Ripper.tools.0.label>이빨</MeleeWeapon_Ripper.tools.0.label>
+ <MeleeWeapon_Ripper.tools.1.label>블레이드</MeleeWeapon_Ripper.tools.1.label>
 
 
 </LanguageData>

@@ -3,26 +3,24 @@
 
   <!-- Skin - GhoulDarkGreen -->
 
-  <OE_Skin_GhoulDarkGreen.label>Ghoul's sickly green skin</OE_Skin_GhoulDarkGreen.label>
-  <OE_Skin_GhoulDarkGreen.description>The skin of a ghoul that has seen a lot.</OE_Skin_GhoulDarkGreen.description>
+  <OE_Skin_GhoulDarkGreen.label>Sickly green skin of a Ghoul</OE_Skin_GhoulDarkGreen.label>
 
+<OE_Skin_GhoulDarkGreen.description>Skin of a ghoul that has seen a lot.</OE_Skin_GhoulDarkGreen.description>
 
-  <!-- Skin - GhoulLightGreen -->
+<!-- Skin - GhoulLightGreen -->
 
-  <OE_Skin_GhoulLightGreen.label>Ghoul's sickly light green skin</OE_Skin_GhoulLightGreen.label>
-  <OE_Skin_GhoulLightGreen.description>The skin of a ghoul that has seen a lot.</OE_Skin_GhoulLightGreen.description>
+<OE_Skin_GhoulLightGreen.label>Sickly light green skin of a Ghoul</OE_Skin_GhoulLightGreen.label>
+<OE_Skin_GhoulLightGreen.description>Skin of a ghoul that has seen a lot.</OE_Skin_GhoulLightGreen.description>
 
+<!-- Skin - TurtleDarkBrown -->
 
-  <!-- Skin - TurtleDarkBrown -->
+<OE_Skin_GhoulDarkBrown.label>Sickly brown Ghoul Skin</OE_Skin_GhoulDarkBrown.label>
+<OE_Skin_GhoulDarkBrown.description>The skin of a ghoul that has seen a lot.</OE_Skin_GhoulDarkBrown.description>
 
-  <OE_Skin_GhoulDarkBrown.label>Ghoul's sickly brown skin</OE_Skin_GhoulDarkBrown.label>
-  <OE_Skin_GhoulDarkBrown.description>The skin of a ghoul that has seen a lot.</OE_Skin_GhoulDarkBrown.description>
+<!-- Skin - TurtleLightBrown -->
 
-
-  <!-- Skin - TurtleLightBrown -->
-
-  <OE_Skin_GhoulLightBrown.label>Ghoul's painfully light brown skin</OE_Skin_GhoulLightBrown.label>
-  <OE_Skin_GhoulLightBrown.description>The skin of a ghoul that has seen a lot.</OE_Skin_GhoulLightBrown.description>
+<OE_Skin_GhoulLightBrown.label>The sickly light brown skin of a ghoul</OE_Skin_GhoulLightBrown.label>
+<OE_Skin_GhoulLightBrown.description>The skin of a ghoul that has seen a lot.</OE_Skin_GhoulLightBrown.description>
 
 
 </LanguageData>

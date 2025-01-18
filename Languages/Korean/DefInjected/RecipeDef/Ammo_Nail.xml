@@ -3,13 +3,13 @@
 
   <!-- Recipes -->
 
-  <MakeAmmo_Nail_HV.label>폭발성 개못 50개 만들기</MakeAmmo_Nail_HV.label>
-  <MakeAmmo_Nail_HV.description>일반적으로 철도 개못은 비교적 중간 정도의 피해를 주지만 적의 사지(팔, 다리, 머리)에 손상을 입히는 데 매우 효과적이며 첫 번째 공격 이후 신체의 해당 부분을 무력화시키는 경우가 많습니다. 때리다. 그리고 치명타가 발생하는 경우 완전히 떼어내고 바로 근처에 있는 표면에 못을 박으십시오. 폭발물을 추가하여 수정할 수 있습니다.</MakeAmmo_Nail_HV.description>
-  <MakeAmmo_Nail_HV.jobString>폭발성 개못을 만듭니다.</MakeAmmo_Nail_HV.jobString>
+ <MakeAmmo_Nail_HV.label>BOOM 못 만들기 x50</MakeAmmo_Nail_HV.label>
+ <MakeAmmo_Nail_HV.description>철도 못은 전반적으로 그다지 중간 정도의 피해를 입히지만, 적의 사지(팔, 다리, 머리)에 매우 효과적으로 피해를 입히며, 단 한 번의 공격만으로도 해당 신체 부위를 무력화시킬 수 있습니다. 그리고 치명타가 발생하면 완전히 찢어내어 바로 근처에 있는 모든 표면에 못으로 고정할 수 있습니다. 폭발물을 추가하여 수정할 수 있습니다.</MakeAmmo_Nail_HV.description>
+ <MakeAmmo_Nail_HV.jobString>BOOM 못을 만듭니다.</MakeAmmo_Nail_HV.jobString>
 
-  <MakeAmmo_Nail.label>개못 50개 만들기</MakeAmmo_Nail.label>
-  <MakeAmmo_Nail.description>일반적으로 철도 스파이크는 비교적 중간 정도의 피해를 주지만 적의 사지(팔, 다리, 머리)에 손상을 입히는 데 매우 효과적이며 첫 번째 공격 이후 신체의 해당 부분을 무력화시키는 경우가 많습니다. 때리다. 그리고 치명타가 발생하는 경우 완전히 떼어내고 바로 근처에 있는 표면에 못을 박으십시오.</MakeAmmo_Nail.description>
-  <MakeAmmo_Nail.jobString>개못을 만듭니다.</MakeAmmo_Nail.jobString>
+ <MakeAmmo_Nail.label>못 만들기 x50</MakeAmmo_Nail.label>
+ <MakeAmmo_Nail.description>철도 스파이크는 전반적으로 그다지 중간 정도의 피해를 입히지만 적의 팔, 다리, 머리와 같은 사지에 매우 효과적인 피해를 입히며, 단 한 번의 공격만으로도 해당 신체 부위를 무력화시킬 수 있습니다. 치명타가 발생할 경우, 이것을 떼어내어 근처의 어떤 표면에나 못으로 박을 수 있습니다.</MakeAmmo_Nail.description>
+ <MakeAmmo_Nail.jobString>못을 만듭니다.</MakeAmmo_Nail.jobString>
 
 
 </LanguageData>

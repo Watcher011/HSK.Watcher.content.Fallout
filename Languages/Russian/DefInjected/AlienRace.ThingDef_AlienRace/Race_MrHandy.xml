@@ -2,11 +2,11 @@
 <LanguageData>
 
   <MisterHandy.label>Мистер Помощник</MisterHandy.label>
-  <MisterHandy.description>Мистер Помощник это весьма яркий представитель серийной модели шарообразных роботов, тщательно производимой и массово выпускаемой по всей территории довоенной Эквестрии. Роли дворецкого, привратника, личного телохранителя или даже врача – далеко не всё то, с чем мог наипрекраснейшие образом справляться Мистер Помощник.</MisterHandy.description>
-  <MisterHandy.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>кожа</MisterHandy.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
-  <MisterHandy.tools.0.label>левый кулак</MisterHandy.tools.0.label>
-  <MisterHandy.tools.1.label>правый кулак</MisterHandy.tools.1.label>
-  <MisterHandy.tools.2.label>голова</MisterHandy.tools.2.label>
+  <MisterHandy.description>Мистер Помощник это весьма яркий представитель серийной модели шарообразных роботов, тщательно производимой и массово выпускаемой по всей территории довоенной Эквестрии. Роли дворецкого, привратника, личного телохранителя или даже врача – далеко не всё то, с чем мог наипрекраснейшим образом справляться Мистер Помощник.</MisterHandy.description>
+  <MisterHandy.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>skin</MisterHandy.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <MisterHandy.tools.0.label>left bladed fist</MisterHandy.tools.0.label>
+  <MisterHandy.tools.1.label>right bladed fist</MisterHandy.tools.1.label>
+  <MisterHandy.tools.2.label>head</MisterHandy.tools.2.label>
 
 
 </LanguageData>

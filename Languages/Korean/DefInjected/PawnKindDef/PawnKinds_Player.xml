@@ -2,13 +2,12 @@
 <LanguageData>
 
   <!-- Nuclear Survivor -->
-
-  <NuclearSurvivorGhoul.label>연구원</NuclearSurvivorGhoul.label>
-  <NuclearSurvivorGhoul.labelPlural>연구원</NuclearSurvivorGhoul.labelPlural>
-  <NuclearSurvivorGhoul.labelMale>남성 탐험가</NuclearSurvivorGhoul.labelMale>
-  <NuclearSurvivorGhoul.labelMalePlural>남성 탐험가</NuclearSurvivorGhoul.labelMalePlural>
-  <NuclearSurvivorGhoul.labelFemale>여성 탐험가</NuclearSurvivorGhoul.labelFemale>
-  <NuclearSurvivorGhoul.labelFemalePlural>여성 탐험가</NuclearSurvivorGhoul.labelFemalePlural>
+<NuclearSurvivorGhoul.label>탐험가</NuclearSurvivorGhoul.label>
+ <NuclearSurvivorGhoul.labelPlural>탐험가</NuclearSurvivorGhoul.labelPlural>
+ <NuclearSurvivorGhoul.labelMale>남성 연구원</NuclearSurvivorGhoul.labelMale>
+ <NuclearSurvivorGhoul.labelMalePlural>남성 연구원</NuclearSurvivorGhoul.labelMalePlural>
+ <NuclearSurvivorGhoul.labelFemale>여성 연구원</NuclearSurvivorGhoul.labelFemale>
+ <NuclearSurvivorGhoul.labelFemalePlural>여성 연구원</NuclearSurvivorGhoul.labelFemalePlural>
 
 
 </LanguageData>

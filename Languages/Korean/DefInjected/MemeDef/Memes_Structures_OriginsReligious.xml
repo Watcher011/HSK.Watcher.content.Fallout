@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Structure_Children_of_the_Atom.label>원자의 아이들 교단</Structure_Children_of_the_Atom.label>
- <Structure_Children_of_the_Atom.description>원자의 아이들 교단의 믿음은 각 개별의 원자가 전체 우주를 포함하고 있다고 믿습니다. 원자 질량이 분할되면 단일 우주가 두 부분으로 나뉘는데, 이는 원자가 생성되는 가장 위대한 가장 큰 행위입니다. 때로는 수조 개에 달하는 새로운 우주가 하나의 신성한 행위로 탄생하기도 합니다. 마지막 사건은 200년 전 대전쟁에서 일어났습니다. 잃어버린 원자의 아이들 대부분의 신도들이 전쟁과 파괴만을 보는 곳에서 그들은 원자의 광채 속에서 창조와 통일을 봅니다.</Structure_Children_of_the_Atom.description>
+  <Structure_Children_of_the_Atom.label>원자의 자식</Structure_Children_of_the_Atom.label>
+ <Structure_Children_of_the_Atom.description>원자의 아이들의 믿음은 각 원자가 전체 우주를 담고 있다는 생각에 기초합니다. 원자량이 나뉘면, 하나의 우주가 두 부분으로 나뉩니다. 이것이 원자의 가장 위대한 창조 행위입니다. 때로는 단 한 번의 신성한 행위로 수조 개의 새로운 우주가 탄생하기도 합니다. 이와 같은 마지막 사건이 이곳에서 일어난 것은 200년 전이었습니다. 원자의 잃어버린 아이들 대부분이 전쟁과 파괴만을 보는 반면, 우리는 원자의 빛 속에서 창조와 통합을 봅니다.</Structure_Children_of_the_Atom.description>
   <Structure_Children_of_the_Atom.generalRules.rulesStrings.0>r_ideoName(p=99)-&gt;[globalAdjective] [packIdeoName]</Structure_Children_of_the_Atom.generalRules.rulesStrings.0>
   <Structure_Children_of_the_Atom.generalRules.rulesStrings.1>r_ideoName(p=99)-&gt;[memeAdjective] [packIdeoName]</Structure_Children_of_the_Atom.generalRules.rulesStrings.1>
   <Structure_Children_of_the_Atom.generalRules.rulesStrings.2>r_ideoName(p=99)-&gt;[packAdjective] [packIdeoName]</Structure_Children_of_the_Atom.generalRules.rulesStrings.2>

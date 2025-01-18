@@ -1,39 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Gun_LaserPistol.label>Laser pistol</Gun_LaserPistol.label>
-  <Gun_LaserPistol.description>A laser pistol is a high-tech energy weapon developed in the pre-war United States. The principle of operation is a concentrated and repeatedly amplified beam of light, which almost instantly and very accurately transfers the energy of the "shot" (pulse) to a very small area on the target.
+<Gun_LaserPistol.label>Laser pistol</Gun_LaserPistol.label>
+<Gun_LaserPistol.description>A laser pistol is a high-tech energy weapon developed in the pre-war United States. The principle of operation is a concentrated and repeatedly amplified beam of light, which almost instantly and very accurately transfers the energy of the "shot" (pulse) to a very small area on the target.
 As a result, there should be a rapid heating of the target substance (in the case of a biotarget - burns and charring. Moreover, death will probably occur if the limbs are hit - from pain shock), and with sufficient pulse power - explosive evaporation of the substance.
 It is interesting that under normal conditions, laser beams are invisible - from the outside they can be seen only in smoke or fog that scatters them.
 Presumably, the undoubted advantage of laser weapons is high shooting accuracy, effectiveness in combating armored targets, but the power of the shot should decrease somewhat with distance.
-Disadvantages include high complexity and low mechanical strength of the weapon design (even minor repairs require highly qualified specialists, the use of pre-war parts and specialized tools), the need to maintain ideal cleanliness of the emitter (which is extremely difficult to do in the field), significant energy consumption of each shot (even though pre-war batteries should be very scarce).</Gun_LaserPistol.description>
+Disadvantages include high complexity and low mechanical strength of the weapon design (even minor repairs require highly qualified specialists, the use of pre-war parts and specialized tools), the need to maintain ideal purity of the emitter (which is extremely difficult to do in the field), significant energy consumption of each shot (even though pre-war batteries should be very scarce).</Gun_LaserPistol.description>
 
-  <Gun_LaserRifel.label>AER9 Laser Rifle</Gun_LaserRifel.label>
-  <Gun_LaserRifel.description>The AER9 did not use advanced pre-war technologies, which significantly increased its reliability. This model is a conventional solid-state pulse laser, the active medium of which (crystal) is enclosed in a titanium case, which allows it to withstand years of environmental exposure without losing its technical characteristics.</Gun_LaserRifel.description>
+<Gun_LaserRifel.label>AER9 Laser Rifle</Gun_LaserRifel.label>
+<Gun_LaserRifel.description>The AER9 did not use advanced pre-war technologies, which significantly increased its reliability. This model is a conventional solid-state pulse laser, the active medium of which (crystal) is enclosed in a titanium case, which allows it to withstand years of environmental exposure without losing its technical characteristics.</Gun_LaserRifel.description>
 
-  <Gun_LaserSniperRifel.label>Institute Laser</Gun_LaserSniperRifel.label>
-  <Gun_LaserSniperRifel.description>A variant of a laser weapon developed by the Institute. Compared to the standard laser, it has a different design, a better rate of fire and reduced weight, but a poorer range of possible modifications and slightly less damage. Among the advantages, it is worth noting the low consumption of OD in V.A.T.S. mode, as well as extremely low recoil and almost zero spread in single fire mode, which makes it an excellent choice for a sniper. Disadvantages include bulkiness, large size, and the inability to install a silencer, which is typical for all energy weapons, and therefore limited capabilities for operating in stealth mode.</Gun_LaserSniperRifel.description>
+<Gun_LaserSniperRifel.label>Institute Laser</Gun_LaserSniperRifel.label>
+<Gun_LaserSniperRifel.description>A variant of a laser weapon developed by the Institute. Compared to the standard laser, it has a different design, a better rate of fire and reduced weight, but a poorer range of possible modifications and slightly less damage. Among the advantages, it is worth noting the low consumption of OD in V.A.T.S. mode, as well as extremely low recoil and almost zero spread in single fire mode, which makes it an excellent choice for a sniper. Disadvantages include bulkiness, large size, and the inability to install a silencer, which is typical for all energy weapons, and therefore limited capabilities for operating in stealth mode.</Gun_LaserSniperRifel.description>
 
-  <Gun_PlasmaRifelV.label>Plasma carbine</Gun_PlasmaRifelV.label>
-  <Gun_PlasmaRifelV.description>A light energy weapon developed and introduced into service by the US Army shortly before the war, but did not have time to gain widespread distribution. It was actively used by the Enclave troops after the war. With the defeat of the latter, it spread across the Wasteland, but is still quite rare.</Gun_PlasmaRifelV.description>
+<Gun_PlasmaRifelV.label>Plasma carbine</Gun_PlasmaRifelV.label>
+<Gun_PlasmaRifelV.description>A light energy weapon developed and introduced into service by the US Army shortly before the war, but did not have time to gain widespread distribution. It was actively used by the Enclave troops after the war. With the defeat of the latter, it spread across the Wasteland, but is still quite rare.</Gun_PlasmaRifelV.description>
 
-  <Gun_GatlingLaser.label>Gatling Laser</Gun_GatlingLaser.label>
-  <Gun_GatlingLaser.description>The Gatling Laser can deal massive amounts of energy damage in a short period of time, but it needs time to spin up its barrels before firing..</Gun_GatlingLaser.description>
+<Gun_GatlingLaser.label>Gatling Laser</Gun_GatlingLaser.label>
+<Gun_GatlingLaser.description>The Gatling Laser can deal massive energy damage in a short time, but it needs time to spin up the barrels before firing..</Gun_GatlingLaser.description>
 
-  <Gun_Fat_Man.label>Fat Man</Gun_Fat_Man.label>
-  <Gun_Fat_Man.description>A shoulder-mounted tactical nuclear catapult. The weapon fires nuclear rounds that, when detonated, hit a small area with a nuclear explosion, causing massive damage and releasing radiation for a period of time. In perfect condition, this gun can fire 495 rounds before breaking.</Gun_Fat_Man.description>
+ <Gun_Fat_Man.label>Fat Man</Gun_Fat_Man.label>
+<Gun_Fat_Man.description>A shoulder-mounted tactical nuclear catapult. The weapon fires nuclear rounds that, when detonated, detonate a small area with a nuclear blast, causing massive damage and releasing radiation for a short period of time. In perfect condition, this weapon can fire 495 rounds before breaking.</Gun_Fat_Man.description>
 
-  <Railway.label>Railway</Railway.label>
-  <Railway.description>The Railway is a rare homemade weapon that shoots railroad nails. The shot can rip off an enemy's limb or even nail them to the wall.</Railway.description>
+<Railway.label>Nail Gun</Railway.label>
+<Railway.description>The Nail Gun is a rare homemade weapon that fires railroad nails. A shot can tear off an enemy's limb or even pin him to the wall.</Railway.description>
 
-  <PipeGun.label>Block Action Gun</PipeGun.label>
-  <PipeGun.description>This is a homemade product of post-apocalyptic gunsmiths, crudely made from wood, old pipe, springs and other scraps, held together with glue, bolts and wire. Extremely popular and widespread.</PipeGun.description>
+<PipeGun.label>Block-Action Shotgun</PipeGun.label>
+<PipeGun.description>This is a homemade product of post-apocalyptic gunsmiths, crudely made from wood, a piece of old pipe, springs and other scraps, held together with glue, bolts and wire. Extremely popular and widespread.</PipeGun.description>
 
-  <PipeRifle.label>Bolt Action Rifle</PipeRifle.label>
-  <PipeRifle.description>The smoothbore line is a simple ballistic weapon, assembled, as they say, "on the knee" from various parts of found bolts, metal and wood. One look at it makes you think that it is more likely to kill the shooter than the target, but in the wasteland it is common, and raiders prefer it.</PipeRifle.description>
+<PipeRifle.label>Bolt-Action Shotgun</PipeRifle.label>
+<PipeRifle.description>The line of smoothbore guns is the simplest ballistic weapon, assembled, as they say, "on the knee", from various parts of found bolts, metal and wood. The sight of it makes you think that it would rather kill the shooter than the target, but it is common in the wasteland, and raiders prefer it.</PipeRifle.description>
 
-  <OldRevolver.label>Smoothbore with a chamber</OldRevolver.label>
-  <OldRevolver.description>This is a homemade product of post-apocalyptic gunsmiths, crudely made from wood, a piece of old pipe, a drum feed mechanism, springs and other scraps, held together with glue, bolts and wire. Extremely popular and widespread.</OldRevolver.description>
-
+<OldRevolver.label>Smoothbore with a chamber</OldRevolver.label>
+<OldRevolver.description>This is a homemade product of post-apocalyptic gunsmiths, crudely made from wood, a piece of old pipe, a drum feed mechanism, springs and other scraps, held together with glue, bolts and wire. It is extremely popular and ubiquitous.</OldRevolver.description>
 
 </LanguageData>

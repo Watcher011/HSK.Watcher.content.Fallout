@@ -2,7 +2,19 @@
 <LanguageData>
 
   <TrapIED_Bottlecap.label>Крышко-мина</TrapIED_Bottlecap.label>
-  <TrapIED_Bottlecap.description>Популярная до войны коробочка для завтраков от компании «Волт-Тек» стала в пост апокалиптическом Содружестве основой для смертоносной мины. Это самодельное устройство поможет справиться вам с любым врагом.</TrapIED_Bottlecap.description>
+  <TrapIED_Bottlecap.description>Популярная до войны коробочка для завтраков от компании «Волт-Тек» стала в постапокалиптическом Содружестве основой для смертоносной мины. Это самодельное устройство поможет справиться вам с любым врагом.</TrapIED_Bottlecap.description>
+
+  <Turret_BinocularsTurret.label>Система активного наблюдения</Turret_BinocularsTurret.label>
+  <Turret_BinocularsTurret.description>Автоматизированная система видеонаблюдения. Благодаря продвинутым технологиям позволяет заменить корректировщика на открытой местности.</Turret_BinocularsTurret.description>
+
+  <Gun_BinocularsTurret.label>Оптическая система</Gun_BinocularsTurret.label>
+  <Gun_BinocularsTurret.description>Система ,,Глаз+,,.</Gun_BinocularsTurret.description>
+
+  <Turret_FlamethrowerTurret.label>Огнемёт Светлячок</Turret_FlamethrowerTurret.label>
+  <Turret_FlamethrowerTurret.description>Нетрадиционная конструкция огнемёта, которая использует сменные канистры под давлением вместо заднего бака. Менее обременительно, но нужно чаще перезаряжать.</Turret_FlamethrowerTurret.description>
+
+  <Gun_FlamethrowerTurret.label>Огнемётная система</Gun_FlamethrowerTurret.label>
+  <Gun_FlamethrowerTurret.description>Система Светлячок.</Gun_FlamethrowerTurret.description>
 
 
 </LanguageData>

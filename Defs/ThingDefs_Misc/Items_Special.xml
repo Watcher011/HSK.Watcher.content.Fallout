@@ -188,7 +188,7 @@
 		<comps>
 			<li Class="CompProperties_Usable">
 				<useJob>UseItem</useJob>
-				<useLabel>Assemble Mister Handy</useLabel>
+				<useLabel>Собрать Мистера Помощника</useLabel>
 				<useDuration>600</useDuration>
 			</li>
 			<li Class="Androids.CompProperties_SpawnPawn">

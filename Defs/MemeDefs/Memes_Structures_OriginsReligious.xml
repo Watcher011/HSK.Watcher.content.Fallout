@@ -129,19 +129,23 @@
       </li>
     </symbolPacks>
 	 <selectOneOrNone>
-      <noneChance>0.8</noneChance>
+      <noneChance>0.1</noneChance>
       <preceptThingPairs>
         <li>
           <precept>ApparelDesired_Soft_Subordinate</precept>
-          <thing>Apparel_RadiationSuit</thing>
+          <thing>Marine_Armor</thing>
         </li>
         <li>
           <precept>ApparelDesired_Strong_Subordinate</precept>
-          <thing>Apparel_MoppMaskDesert</thing>
+          <thing>Apparel_PC</thing>
         </li>
       </preceptThingPairs>
 	  
     </selectOneOrNone>
+    <preferredWeaponClasses>
+      <noble>Ultratech</noble>
+      <despised>Neolithic</despised>
+    </preferredWeaponClasses>	
   </MemeDef>
 
 </Defs>

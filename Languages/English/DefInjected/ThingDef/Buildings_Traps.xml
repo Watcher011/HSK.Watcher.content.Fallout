@@ -1,8 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <TrapIED_Bottlecap.label>Bottle Cap</TrapIED_Bottlecap.label>
-  <TrapIED_Bottlecap.description>A popular pre-war Vault-Tec lunchbox has become the basis for a deadly mine in the post-apocalyptic Commonwealth. This homemade device will help you deal with any enemy.</TrapIED_Bottlecap.description>
+<TrapIED_Bottlecap.label>Bottlecap Cap</TrapIED_Bottlecap.label>
+<TrapIED_Bottlecap.description>A popular pre-war Vault-Tec lunchbox has become the basis for a deadly mine in the post-apocalyptic Commonwealth. This homemade device will help you deal with any enemy.</TrapIED_Bottlecap.description>
+
+<Turret_BinocularsTurret.label>Active Surveillance System</Turret_BinocularsTurret.label>
+<Turret_BinocularsTurret.description>Automated video surveillance system. Thanks to advanced technology, it can replace a spotter in open terrain.</Turret_BinocularsTurret.description>
+
+<Gun_BinocularsTurret.label>Optical System</Gun_BinocularsTurret.label>
+<Gun_BinocularsTurret.description>Eye+ System.</Gun_BinocularsTurret.description>
+
+<Turret_FlamethrowerTurret.label>Firefly Flamethrower</Turret_FlamethrowerTurret.label>
+<Turret_FlamethrowerTurret.description>An unconventional flamethrower design that uses replaceable pressurized canisters instead of a rear tank. Less cumbersome, but requires reloading more often.</Turret_FlamethrowerTurret.description>
+
+<Gun_FlamethrowerTurret.label>Flamethrower System</Gun_FlamethrowerTurret.label>
+<Gun_FlamethrowerTurret.description>Firefly System.</Gun_FlamethrowerTurret.description>
 
 
 </LanguageData>

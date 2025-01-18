@@ -3,12 +3,12 @@
 
   <!-- Ogre Bases -->
 
-  <shadow.label>shadow</shadow.label>
-  <shadow.labelPlural>shadows</shadow.labelPlural>
-  <shadow.labelMale>male shadow</shadow.labelMale>
-  <shadow.labelMalePlural>male shadows</shadow.labelMalePlural>
-  <shadow.labelFemale>female shadow</shadow.labelFemale>
-  <shadow.labelFemalePlural>female shadows</shadow.labelFemalePlural>
+<shadow.label>shadow</shadow.label>
+ <shadow.labelPlural>shadows</shadow.labelPlural>
+ <shadow.labelMale>male shadow</shadow.labelMale>
+ <shadow.labelMalePlural>male shadows</shadow.labelMalePlural>
+ <shadow.labelFemale>female shadow</shadow.labelFemale>
+ <shadow.labelFemalePlural>female shadows</shadow.labelFemalePlural>
 
 
 </LanguageData>

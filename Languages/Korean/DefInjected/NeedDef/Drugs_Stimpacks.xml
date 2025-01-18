@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <Chemical_RadAway.label>라드아웨이 중독</Chemical_RadAway.label>
-  <Chemical_RadAway.description>라드어웨이 사용으로 인해 중독이 발생했습니다.</Chemical_RadAway.description>
+<Chemical_RadAway.label>방사능 방지</Chemical_RadAway.label>
+ <Chemical_RadAway.description>Antiradin을 사용한 결과 중독이 생겼습니다.</Chemical_RadAway.description>
 
 
 </LanguageData>

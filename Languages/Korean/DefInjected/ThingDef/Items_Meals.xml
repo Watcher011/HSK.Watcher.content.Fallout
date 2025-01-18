@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <ScrambledDeathclawEggs.label>의심스러운 스크램블 에그</ScrambledDeathclawEggs.label>
-  <ScrambledDeathclawEggs.description>수상한 스크램블 에그, 재료를 모르는 것이 좋습니다.</ScrambledDeathclawEggs.description>
+ <ScrambledDeathclawEggs.label>의심스러운 스크램블 에그</ScrambledDeathclawEggs.label>
+ <ScrambledDeathclawEggs.description>의심스러운 스크램블 에그 재료는 말하지 않는 것이 좋습니다.</ScrambledDeathclawEggs.description>
 
-  <RadHemogenPack.label>발광 혈액 팩</RadHemogenPack.label>
-  <RadHemogenPack.description>녹색으로 빛나는 혈액이 담긴 반투명 패키지. 라벨에는 검은 색 마커로 "식품 아님"이라고 표시되어 있습니다. 사용 시 배고픔을 회복하고 방사선 효과를 크게 강화합니다.</RadHemogenPack.description>
+ <RadHemogenPack.label>빛나는 혈액 팩</RadHemogenPack.label>
+ <RadHemogenPack.description>녹색 빛나는 액체가 들어 있는 반투명 패키지입니다. 라벨에는 검은색 마커로 "식품이 아닙니다"라고 쓰여있습니다. 사용하면 배고픔이 회복되고 방사선 효과가 크게 증가합니다.</RadHemogenPack.description>
 
 
 </LanguageData>

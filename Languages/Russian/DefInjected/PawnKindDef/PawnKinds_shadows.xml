@@ -5,10 +5,10 @@
 
   <shadow.label>Тень</shadow.label>
   <shadow.labelPlural>Тени</shadow.labelPlural>
-  <shadow.labelMale>Боец Теней</shadow.labelMale>
-  <shadow.labelMalePlural>Боец теней</shadow.labelMalePlural>
-  <shadow.labelFemale>Боец теней</shadow.labelFemale>
-  <shadow.labelFemalePlural>Боец Теней</shadow.labelFemalePlural>
+  <shadow.labelMale>Тень</shadow.labelMale>
+  <shadow.labelMalePlural>Тени</shadow.labelMalePlural>
+  <shadow.labelFemale>Тень</shadow.labelFemale>
+  <shadow.labelFemalePlural>Тени</shadow.labelFemalePlural>
 
 
 </LanguageData>

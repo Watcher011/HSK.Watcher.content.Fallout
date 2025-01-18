@@ -3,17 +3,17 @@
 
   <!-- ___________________CheeseBasin_____________________ -->
 
-  <Make_NukaColaQuantum.label>누카-콜라 퀀텀 만들기</Make_NukaColaQuantum.label>
-  <Make_NukaColaQuantum.description>양자의 힘이 들어간 누카-콜라 합성</Make_NukaColaQuantum.description>
+<Make_NukaColaQuantum.label>퀀텀 콜라 만들기</Make_NukaColaQuantum.label>
+ <Make_NukaColaQuantum.description>콜라 핵 합성, 양자의 힘</Make_NukaColaQuantum.description>
 
-  <Make_NukaCola.label>누카-콜라 만들기</Make_NukaCola.label>
-  <Make_NukaCola.description>누카콜라 합성</Make_NukaCola.description>
+ <Make_NukaCola.label>누카콜라 만들기</Make_NukaCola.label>
+ <Make_NukaCola.description>누카콜라 합성</Make_NukaCola.description>
 
-  <Make_NukaCola_Orang.label>누카-콜라 오렌지 만들기</Make_NukaCola_Orang.label>
-  <Make_NukaCola_Orang.description>누카-콜라-오렌지 합성</Make_NukaCola_Orang.description>
+ <Make_NukaCola_Orang.label>누카콜라 오렌지 만들기</Make_NukaCola_Orang.label>
+ <Make_NukaCola_Orang.description>누카콜라 오렌지 합성</Make_NukaCola_Orang.description>
 
-  <Make_NukaColaMars.label>누카콜라 이클립스 만들기</Make_NukaColaMars.label>
-  <Make_NukaColaMars.description>누카-콜라 이클립스 합성</Make_NukaColaMars.description>
+ <Make_NukaColaMars.label>Eclipse Cola Nukes 만들기</Make_NukaColaMars.label>
+ <Make_NukaColaMars.description>콜라 핵 합성 파워 이클립스</Make_NukaColaMars.description>
 
 
 </LanguageData>

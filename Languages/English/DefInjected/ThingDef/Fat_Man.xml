@@ -3,10 +3,9 @@
 
   <!-- AmmoSet -->
 
-  <Ammo_FatManShell_HE.label>Nuclear Shot</Ammo_FatManShell_HE.label>
-  <Ammo_FatManShell_HE.description>This type has a greater damaging effect and radiation contamination. Increased damage is achieved at the cost of reduced range, which can turn out badly for a poorly protected shooter.</Ammo_FatManShell_HE.description>
+ <Ammo_FatManShell_HE.label>Nuclear Shot</Ammo_FatManShell_HE.label>
+<Ammo_FatManShell_HE.description>This type has a greater damaging effect and radiation contamination. Increased damage is achieved at the cost of reduced range, which can turn out badly for a poorly protected shooter.</Ammo_FatManShell_HE.description>
 
-  <Bullet_FatManShell_HE.label>Nuclear Shot (NHE)</Bullet_FatManShell_HE.label>
-
+<Bullet_FatManShell_HE.label>Nuclear Shot (NHE)</Bullet_FatManShell_HE.label>
 
 </LanguageData>

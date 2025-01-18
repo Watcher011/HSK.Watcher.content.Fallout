@@ -6,7 +6,7 @@
 
   <GECK.label>Генератор Эдемских Кущ Компактный</GECK.label>
   <GECK.description>Генератор Эдемских Кущ Компактный. Это стандартное оборудование всех убежищ Волт-Тек. ГЭКК — источник восстановления цивилизации после бомбардировки. Просто добавь воды и перемешай.</GECK.description>
-  <GECK.comps.6.offMessage>Выключено для периода покоя растений</GECK.comps.6.offMessage>
+  <GECK.comps.6.offMessage>Off for plant resting period</GECK.comps.6.offMessage>
 
   <VaultBoyMedicine.label>Пупс «Медицина»</VaultBoyMedicine.label>
   <VaultBoyMedicine.description>Пупс «Медицина»  - Умный понимает, что рана под повязкой никуда не делась.</VaultBoyMedicine.description>

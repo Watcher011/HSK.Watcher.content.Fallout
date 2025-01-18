@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <LastGiftofWatcher.label>불안정한 메카나이트 세트</LastGiftofWatcher.label>
-  <LastGiftofWatcher.description>프로그램된 메카나이트 세트가 있는 장치. 몸체에는 "관찰자의 마지막 선물"이라는 낡은 문구가 새겨져 있습니다.</LastGiftofWatcher.description>
-  <LastGiftofWatcher.comps.1.useLabel>주입</LastGiftofWatcher.comps.1.useLabel>
+ <LastGiftofWatcher.label>불안정한 메카나이트 세트</LastGiftofWatcher.label>
+ <LastGiftofWatcher.description>프로그램된 메카나이트 세트가 있는 장치. 본체에는 희미하게 "감시자의 마지막 선물"이라는 문구가 새겨져 있습니다.</LastGiftofWatcher.description>
+ <LastGiftofWatcher.comps.1.useLabel>주입</LastGiftofWatcher.comps.1.useLabel>
 
 
 </LanguageData>

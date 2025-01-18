@@ -2,9 +2,11 @@
 <LanguageData>
 
   <!-- Ghoul -->
+<OE_Ghoul.label>구울</OE_Ghoul.label>
+ <OE_Ghoul.description>구울은 폭격 당시 보호소에 들어가지 못한 사람들이었습니다. 방사선 조사로 인해 방사선에 대한 저항력이 증가했습니다. 또한 독 저항력에 보너스를 얻습니다. 불행히도, 그들은 무거운 무기를 사용하기에는 육체적으로 너무 약합니다.</OE_Ghoul.description>
 
-  <OE_Ghoul.label>구울</OE_Ghoul.label>
-  <OE_Ghoul.description>구울은 한때 핵폭격으로 인해 방공호에 도달할 수 없었던 인간이었습니다. 방사선 피폭은 방사선에 대한 저항력을 증가시켰습니다. 그들은 또한 독 저항에 보너스를 얻습니다. 불행하게도 그들은 육체적으로 너무 약해서 무거운 무기를 사용할 수 없습니다.</OE_Ghoul.description>
+ <OE_MisterHandy.label>미스터 핸디</OE_MisterHandy.label>
+ <OE_MisterHandy.description>미스터 핸디.</OE_MisterHandy.description>
 
 
 </LanguageData>

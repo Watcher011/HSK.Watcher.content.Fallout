@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <RadAwayHigh.label>라드어웨이</RadAwayHigh.label>
-  <RadAwayHigh.description>라드어웨이는 신체에서 방사선을 제거하는 특성으로 인해 방사성 오염 수치를 줄여줍니다.</RadAwayHigh.description>
+ <RadAwayHigh.label>안티 레이더</RadAwayHigh.label>
+ <RadAwayHigh.description>안티라딘은 신체에서 방사선을 제거하는 특성이 있어, 이를 사용하면 방사능 오염 수준을 낮출 수 있습니다.</RadAwayHigh.description>
 
-  <RadAwayTolerance.label>라드어웨이에 대한 갈망</RadAwayTolerance.label>
-  <RadAwayTolerance.description>나는 라드어웨이를 갈망하고 있고, 곧 중독이 멀지 않았어.</RadAwayTolerance.description>
+ <RadAwayTolerance.label>안티라딘 갈망</RadAwayTolerance.label>
+ <RadAwayTolerance.description>저는 Antiradin에 대한 갈망을 느꼈고, 중독과도 크게 다르지 않습니다.</RadAwayTolerance.description>
 
-  <RadAwayAddiction.label>라드어웨이 중독</RadAwayAddiction.label>
-  <RadAwayAddiction.description>강력한 라드어웨이 중독이 발생했습니다.</RadAwayAddiction.description>
-  <RadAwayAddiction.stages.1.label>라드어웨이 금단증상</RadAwayAddiction.stages.1.label>
-  <RadAwayAddiction.labelNoun>라드어웨이 갈망</RadAwayAddiction.labelNoun>
+ <RadAwayAddiction.label>안티라딘 중독</RadAwayAddiction.label>
+ <RadAwayAddiction.description>강력한 라딘 중독 방지제가 개발되었습니다.</RadAwayAddiction.description>
+ <RadAwayAddiction.stages.1.label>라다린 금단 증상</RadAwayAddiction.stages.1.label>
+ <RadAwayAddiction.labelNoun>RadAwayAddiction</RadAwayAddiction.labelNoun>
 
 
 </LanguageData>

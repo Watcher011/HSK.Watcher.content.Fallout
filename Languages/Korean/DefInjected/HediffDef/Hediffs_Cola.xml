@@ -3,10 +3,10 @@
 
   <!-- SimpleStimpack -->
 
-  <Hediff_Cola.label>누카콜라!</Hediff_Cola.label>
-  <Hediff_Cola.description>양자의 힘!</Hediff_Cola.description>
-  <Hediff_Cola.stages.0.label>부작용</Hediff_Cola.stages.0.label>
-  <Hediff_Cola.labelNoun>원자력</Hediff_Cola.labelNoun>
+ <Hediff_Cola.label>핵콜라!</Hediff_Cola.label>
+ <Hediff_Cola.description>양자의 힘!</Hediff_Cola.description>
+ <Hediff_Cola.stages.0.label>부작용</Hediff_Cola.stages.0.label>
+ <Hediff_Cola.labelNoun>핵전력</Hediff_Cola.labelNoun>
 
 
 </LanguageData>

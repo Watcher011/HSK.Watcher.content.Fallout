@@ -1,60 +1,60 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Guidra.label>Hydra</Guidra.label>
-  <Guidra.description>A mutant snake with three heads, extremely poisonous.</Guidra.description>
-  <Guidra.tools.0.label>venom-fangs</Guidra.tools.0.label>
-  <Guidra.tools.1.label>head</Guidra.tools.1.label>
+<Guidra.label>Hydra</Guidra.label>
+<Guidra.description>A mutant snake with three heads, extremely poisonous.</Guidra.description>
+<Guidra.tools.0.label>venom-fangs</Guidra.tools.0.label>
+<Guidra.tools.1.label>head</Guidra.tools.1.label>
 
-  <RadDeer.label>Rad Deer</RadDeer.label>
-  <RadDeer.description>Although the two-headed rad-deer looks creepy, at the slightest hint of danger it turns to flight. However, if cornered, it can be a dangerous opponent.</RadDeer.description>
-  <RadDeer.tools.0.label>left hoof</RadDeer.tools.0.label>
-  <RadDeer.tools.1.label>right hoof</RadDeer.tools.1.label>
-  <RadDeer.tools.3.label>head</RadDeer.tools.3.label>
-  <RadDeer.tools.4.label>antlers</RadDeer.tools.4.label>
+<RadDeer.label>Rad Deer</RadDeer.label>
+<RadDeer.description>Although the two-headed rad-deer looks creepy, at the slightest hint of danger it turns to flight. However, if cornered, it can be a dangerous opponent.</RadDeer.description>
+<RadDeer.tools.0.label>left hoof</RadDeer.tools.0.label>
+<RadDeer.tools.1.label>right hoof</RadDeer.tools.1.label>
+<RadDeer.tools.3.label>head</RadDeer.tools.3.label>
+<RadDeer.tools.4.label>antlers</RadDeer.tools.4.label>
 
-  <Bear_Yaoguai.label>Yao Guai</Bear_Yaoguai.label>
-  <Bear_Yaoguai.description>A mutated bear that emerged from the wastelands of the Commonwealth after the Great War. Aside from the Deathclaw, this is the strongest, fastest, and deadliest creature found in the wasteland. Yao Guai have dark purple skin, covered in fur in places and sores everywhere. Visually, the creatures are much larger than their pre-war ancestors. Despite the mutations they have suffered, many Yao Guai are extremely susceptible to radiation and die in areas with high levels of radiation, so the only area in the Commonwealth where this species does not live is the Glowing Sea. Like all other inhabitants of the Commonwealth, there are several subspecies, and new, increasingly deadly subspecies of Yao Guai will be encountered by the Survivor as their level increases. Yao Guai are strong, hardy, and fiercely territorial. They are capable of inflicting significant damage, and their powerful blows with their front paws are difficult to survive. These bear-like creatures are also surprisingly fast and will attack opponents at the first opportunity.</Bear_Yaoguai.description>
+<Bear_Yaoguai.label>Yao Guai</Bear_Yaoguai.label>
+<Bear_Yaoguai.description>A mutated bear that appeared in the wastelands of the Commonwealth after the Great War. Aside from the Deathclaw, this is the strongest, fastest, and deadliest creature found in the wasteland. Yao Guai have dark purple skin, covered in fur in places and sores everywhere. Visually, the creatures are much larger than their pre-war ancestors. Despite the mutations they have suffered, many Yao Guai are extremely susceptible to radiation and die in areas with high levels of radiation, so the only area in the Commonwealth where this species does not live is the Glowing Sea. Like all other inhabitants of the Commonwealth, there are several subspecies, and new, increasingly deadly subspecies of Yao Guai will be encountered by the Survivor as their level increases. Yao Guai are strong, hardy, and fiercely territorial. They are capable of inflicting significant damage, and their powerful blows with their front paws are difficult to survive. These bear-like creatures are also surprisingly fast and will attack opponents at the first opportunity.</Bear_Yaoguai.description>
 
-  <Brahmin.label>Brahmin</Brahmin.label>
-  <Brahmin.description>A mutated cow. Two centuries of mutation have resulted in two heads and some general changes in appearance, making the 23rd century Brahmin rather ugly, but still useful and edible creatures. Brahmins are found in the Commonwealth in herds of several individuals and are not hostile to the Survivor. Brahmins are used by humans as pack animals, as well as a source of meat and skins. </Brahmin.description>
-  <Brahmin.tools.1.label>head</Brahmin.tools.1.label>
-  <Brahmin.tools.2.label>horns</Brahmin.tools.2.label>
+<Brahmin.label>Brahmin</Brahmin.label>
+<Brahmin.description>A mutated cow. Two centuries of mutation have resulted in two heads and some general changes in appearance, making the 23rd century Brahmin rather ugly, but still useful and edible creatures. Brahmins are found in the Commonwealth in herds of several individuals and are not hostile to the Survivor. Brahmins are used by humans as pack animals, as well as a source of meat and skins. </Brahmin.description>
+<Brahmin.tools.1.label>head</Brahmin.tools.1.label>
+<Brahmin.tools.2.label>horns</Brahmin.tools.2.label>
 
-  <Gecko.label>Gecko</Gecko.label>
-  <Gecko.description>A mutant lizard common in the western United States, a descendant of the pre-war geckos (lat. Gekkonidae). Under the influence of radiation, geckos reached very large sizes, learned to walk on their hind legs, but lost the ability to climb vertical surfaces due to changes in the structure of their paws. A variety of them, the fire geckos, have even learned to breathe fire, like mythical dragons, while green geckos spit poisonous saliva.</Gecko.description>
-  <Gecko.tools.0.label>left claw</Gecko.tools.0.label>
-  <Gecko.tools.1.label>right claw</Gecko.tools.1.label>
-  <Gecko.tools.3.label>head</Gecko.tools.3.label>
+<Gecko.label>Gecko</Gecko.label>
+<Gecko.description>A mutant lizard common in the western United States, a descendant of the pre-war geckos (lat. Gekkonidae). Under the influence of radiation, geckos reached very large sizes, learned to walk on their hind legs, but lost the ability to climb vertical surfaces due to changes in the structure of their paws. A variety of them, the fire geckos, have even learned to breathe fire, like mythical dragons, while green geckos spit poisonous saliva.</Gecko.description>
+<Gecko.tools.0.label>left claw</Gecko.tools.0.label>
+<Gecko.tools.1.label>right claw</Gecko.tools.1.label>
+<Gecko.tools.3.label>head</Gecko.tools.3.label>
 
-  <Radscorpion.label>Radscorpion</Radscorpion.label>
-  <Radscorpion.description>An emperor scorpion mutated by radiation. Despite the multiple increase in size, the body structure of radscorpions is practically no different from their pre-war ancestors - the same characteristic pedipalps claws and a forward and upward curved metasoma tail ending in a pear-shaped segment with a needle. The poison that accumulates in the latter was not dangerous to humans in emperor scorpions, but after the insect mutated, a blow from its sting could lead to the death of the victim.</Radscorpion.description>
-  <Radscorpion.tools.0.label>venom-fangs</Radscorpion.tools.0.label>
-  <Radscorpion.tools.2.label>head</Radscorpion.tools.2.label>
+<Radscorpion.label>Radscorpion</Radscorpion.label>
+<Radscorpion.description>An emperor scorpion mutated by radiation. Despite the multiple increase in size, the body structure of radscorpions is practically no different from their pre-war ancestors - the same characteristic pedipalps pincers and a forward and upward curved metasoma tail ending in a pear-shaped segment with a needle. The poison that accumulates in the latter was not dangerous to humans in emperor scorpions, but after the insect mutated, a blow from its sting could lead to the death of the victim.</Radscorpion.description>
+<Radscorpion.tools.0.label>venom-fangs</Radscorpion.tools.0.label>
+<Radscorpion.tools.2.label>head</Radscorpion.tools.2.label>
 
-  <Deathclaw.label>Deathclaw</Deathclaw.label>
-  <Deathclaw.description>A typical deathclaw grows to about three meters in height, with a light brown body - slightly darker on the back and pale gray in the front. Dense and developed muscles are covered with skin with a pronounced structure, blood vessels are clearly visible. The eyes glow in the dark. The head with a sloping forehead and a massive lower jaw is crowned with sharp horns curved forward, in a huge mouth there are 12 teeth (6 on each jaw). The extremely sharp and long claws of the limbs are dark in color, on the lower ones - three on the fingers and one on the "heel", on the upper ones - five longer ones. This is the main deadly weapon of the creatures, which is the reason for the corresponding name. On the back along the spine there are five spikes - large in the head area and shortening towards the tail. The tail is long, with about 15 large vertebrae. They move on two lower limbs, and have an extremely high speed of movement. They are able to jump a significant distance to the victim and jump onto an elevated obstacle. They attack the victim with quick blows of their clawed paws or with a blow with both paws in a jump. Before attacking, they often bend forward and let out a scream. Often hunt in packs.</Deathclaw.description>
-  <Deathclaw.tools.0.label>left leg claw</Deathclaw.tools.0.label>
-  <Deathclaw.tools.1.label>right leg claw</Deathclaw.tools.1.label>
-  <Deathclaw.tools.2.label>left claw</Deathclaw.tools.2.label>
-  <Deathclaw.tools.3.label>right claw</Deathclaw.tools.3.label>
-  <Deathclaw.tools.5.label>head</Deathclaw.tools.5.label>
+ <Deathclaw.label>Deathclaw</Deathclaw.label>
+<Deathclaw.description>A typical deathclaw grows to about three meters in height, with a light brown body - slightly darker on the back and pale gray in the front. Dense and developed muscles are covered with skin with a pronounced structure, blood vessels are clearly visible. The eyes glow in the dark. The head with a sloping forehead and a massive lower jaw is crowned with sharp horns curved forward, in a huge mouth there are 12 teeth (6 on each jaw). The extremely sharp and long claws of the limbs are dark in color, on the lower ones - three on the fingers and one on the "heel", on the upper ones - five longer ones. This is the main deadly weapon of the creatures, which is the reason for the corresponding name. On the back along the spine there are five spikes - large in the head area and shortening towards the tail. The tail is long, with about 15 large vertebrae. They move on two lower limbs, and have an extremely high speed of movement. They are able to jump a significant distance to the victim and jump onto an elevated obstacle. They attack the victim with quick blows of their clawed paws or with a blow with both paws in a jump. Before attacking, they often bend forward and let out a scream. Often hunt in packs.</Deathclaw.description>
+<Deathclaw.tools.0.label>left leg claw</Deathclaw.tools.0.label>
+<Deathclaw.tools.1.label>right leg claw</Deathclaw.tools.1.label>
+<Deathclaw.tools.2.label>left claw</Deathclaw.tools.2.label>
+<Deathclaw.tools.3.label>right claw</Deathclaw.tools.3.label>
+<Deathclaw.tools.5.label>head</Deathclaw.tools.5.label>
 
-  <RadDeathclaw.label>Glowing Deathclaw</RadDeathclaw.label>
-  <RadDeathclaw.description>A heavily irradiated normal deathclaw, its skin emits a green light, making it highly visible at night. It can deal radiation damage on top of its already high physical damage.</RadDeathclaw.description>
-  <RadDeathclaw.tools.0.label>left leg claw</RadDeathclaw.tools.0.label>
-  <RadDeathclaw.tools.1.label>right leg claw</RadDeathclaw.tools.1.label>
-  <RadDeathclaw.tools.2.label>left claw</RadDeathclaw.tools.2.label>
-  <RadDeathclaw.tools.3.label>right claw</RadDeathclaw.tools.3.label>
-  <RadDeathclaw.tools.5.label>head</RadDeathclaw.tools.5.label>
+<RadDeathclaw.label>Glowing Deathclaw</RadDeathclaw.label>
+<RadDeathclaw.description>A heavily irradiated normal deathclaw, its skin emits a green light, causing it to It is clearly visible at night. It can deal radiation damage on top of its already high physical damage.</RadDeathclaw.description>
+<RadDeathclaw.tools.0.label>left leg claw</RadDeathclaw.tools.0.label>
+<RadDeathclaw.tools.1.label>right leg claw</RadDeathclaw.tools.1.label>
+<RadDeathclaw.tools.2.label>left claw</RadDeathclaw.tools.2.label>
+<RadDeathclaw.tools.3.label>right claw</RadDeathclaw.tools.3.label>
+<RadDeathclaw.tools.5.label>head</RadDeathclaw.tools.5.label>
 
-  <EnclaveDeathclaw.label>Enclave Deathclaw</EnclaveDeathclaw.label>
-  <EnclaveDeathclaw.description>A type of common deathclaw used by the Enclave troops as combat support for their patrols. After an unsuccessful experiment with intelligent deathclaws, which along with their intelligence acquired their own moral principles and refused to obey their masters, for which they were almost completely exterminated by the Enclave, this organization uses ordinary non-sentient deathclaws. For this, the animals were placed in cages and equipped with a device on their heads that controls their behavior using transmitted signals.</EnclaveDeathclaw.description>
-  <EnclaveDeathclaw.tools.0.label>left leg claw</EnclaveDeathclaw.tools.0.label>
-  <EnclaveDeathclaw.tools.1.label>right leg claw</EnclaveDeathclaw.tools.1.label>
-  <EnclaveDeathclaw.tools.2.label>left claw</EnclaveDeathclaw.tools.2.label>
-  <EnclaveDeathclaw.tools.3.label>right claw</EnclaveDeathclaw.tools.3.label>
-  <EnclaveDeathclaw.tools.5.label>head</EnclaveDeathclaw.tools.5.label>
+<EnclaveDeathclaw.label>Enclave Deathclaw</EnclaveDeathclaw.label>
+<EnclaveDeathclaw.description>A type of common deathclaw used by the Enclave forces as combat support for their patrols. After an unsuccessful experiment with intelligent deathclaws, which along with their intelligence acquired their own moral principles and refused to obey their masters, for which they were almost completely exterminated by the Enclave, this organization uses ordinary non-intelligent deathclaws. To do this, the animals were placed in cages and equipped with a device on their heads that controlled their behavior using transmitted signals.</EnclaveDeathclaw.description>
+<EnclaveDeathclaw.tools.0.label>left leg claw</EnclaveDeathclaw.tools.0.label>
+<EnclaveDeathclaw.tools.1.label>right leg claw</EnclaveDeathclaw.tools.1.label>
+<EnclaveDeathclaw.tools.2.label>left claw</EnclaveDeathclaw.tools.2.label>
+<EnclaveDeathclaw.tools.3.label>right claw</EnclaveDeathclaw.tools.3.label>
+<EnclaveDeathclaw.tools.5.label>head</EnclaveDeathclaw.tools.5.label>
 
 
 </LanguageData>

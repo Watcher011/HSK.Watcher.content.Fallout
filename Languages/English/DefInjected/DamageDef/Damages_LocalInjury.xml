@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <CapShredded.label>Lids</CapShredded.label>
-  <CapShredded.deathMessage>{0} stuffed to death.</CapShredded.deathMessage>
+ <CapShredded.label>Cap</CapShredded.label>
+<CapShredded.deathMessage>{0} is shattered.</CapShredded.deathMessage>
 
 
 </LanguageData>

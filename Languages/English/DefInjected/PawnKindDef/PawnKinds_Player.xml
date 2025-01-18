@@ -3,12 +3,11 @@
 
   <!-- Nuclear Survivor -->
 
-  <NuclearSurvivorGhoul.label>Explorers</NuclearSurvivorGhoul.label>
-  <NuclearSurvivorGhoul.labelPlural>Explorers</NuclearSurvivorGhoul.labelPlural>
-  <NuclearSurvivorGhoul.labelMale>male Explorers</NuclearSurvivorGhoul.labelMale>
-  <NuclearSurvivorGhoul.labelMalePlural>male Explorers</NuclearSurvivorGhoul.labelMalePlural>
-  <NuclearSurvivorGhoul.labelFemale>female Explorers</NuclearSurvivorGhoul.labelFemale>
-  <NuclearSurvivorGhoul.labelFemalePlural>female Explorers</NuclearSurvivorGhoul.labelFemalePlural>
-
+  <NuclearSurvivorGhoul.label>Researchers</NuclearSurvivorGhoul.label>
+ <NuclearSurvivorGhoul.labelPlural>Researchers</NuclearSurvivorGhoul.labelPlural>
+ <NuclearSurvivorGhoul.labelMale>male Explorers</NuclearSurvivorGhoul.labelMale>
+ <NuclearSurvivorGhoul.labelMalePlural>male Explorers</NuclearSurvivorGhoul.labelMalePlural>
+ <NuclearSurvivorGhoul.labelFemale>female Explorers</NuclearSurvivorGhoul.labelFemale>
+ <NuclearSurvivorGhoul.labelFemalePlural>female Explorers</NuclearSurvivorGhoul.labelFemalePlural>
 
 </LanguageData>

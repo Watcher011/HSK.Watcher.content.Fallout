@@ -2,15 +2,14 @@
 <LanguageData>
 
   <Hediff_StealthBoy.label>StealthBoy</Hediff_StealthBoy.label>
-  <Hediff_StealthBoy.description>Personal camouflage device "Invisible 3001" from RobCo. Generates a modulating field that transmits reflected light from one side of an object to the opposite side.</Hediff_StealthBoy.description>
-  <Hediff_StealthBoy.labelNoun>StealthBoy</Hediff_StealthBoy.labelNoun>
+<Hediff_StealthBoy.description>Personal camouflage device "Invisible 3001" from RobCo. Generates a modulating field that transmits reflected light from one side of an object to the opposite side.</Hediff_StealthBoy.description>
+<Hediff_StealthBoy.labelNoun>StealthBoy</Hediff_StealthBoy.labelNoun>
 
-  <Hediff_StealthBoy_Shadow.label>Shadow StealthBoy</Hediff_StealthBoy_Shadow.label>
-  <Hediff_StealthBoy_Shadow.description>Personal camouflage device "Invisible 3001" from RobCo. Generates a modulating field that transfers reflected light from one side of an object to the opposite side.</Hediff_StealthBoy_Shadow.description>
-  <Hediff_StealthBoy_Shadow.labelNoun>StealthBoy Shadow</Hediff_StealthBoy_Shadow.labelNoun>
+<Hediff_StealthBoy_Shadow.label>Shadow StealthBoy</Hediff_StealthBoy_Shadow.label>
+<Hediff_StealthBoy_Shadow.description>Personal camouflage device "Invisible 3001" from RobCo. Generates a modulating field that transfers reflected light from one side of an object to the opposite side.</Hediff_StealthBoy_Shadow.description>
+<Hediff_StealthBoy_Shadow.labelNoun>StealthBoy Shadow</Hediff_StealthBoy_Shadow.labelNoun>
 
-  <Hediff_StealthBoyDiff.description>Side effect after stealth boy.</Hediff_StealthBoyDiff.description>
-  <Hediff_StealthBoyDiff.stages.0.label>Side effect after stealth boy</Hediff_StealthBoyDiff.stages.0.label>
-
+<Hediff_StealthBoyDiff.description>Side effect after stealth boy.</Hediff_StealthBoyDiff.description>
+<Hediff_StealthBoyDiff.stages.0.label>Side effect after stealth boy</Hediff_StealthBoyDiff.stages.0.label>
 
 </LanguageData>

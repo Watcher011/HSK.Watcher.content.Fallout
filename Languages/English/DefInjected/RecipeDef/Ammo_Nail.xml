@@ -4,12 +4,12 @@
   <!-- Recipes -->
 
   <MakeAmmo_Nail_HV.label>Make BOOM Nails x50</MakeAmmo_Nail_HV.label>
-  <MakeAmmo_Nail_HV.description>Despite the fact that railroad spikes generally deal fairly moderate damage, they are extremely effective in terms of damaging the limbs (arms, legs, and head) of an enemy, and are often capable of incapacitating the corresponding body part after the first hit. And in the case of a critical hit, they can completely tear it off and nail it to any nearby surface. Can be modified by adding explosives.</MakeAmmo_Nail_HV.description>
-  <MakeAmmo_Nail_HV.jobString>Make BOOM nails.</MakeAmmo_Nail_HV.jobString>
+<MakeAmmo_Nail_HV.description>While the Railroad Spikes deal fairly moderate damage overall, they are extremely effective at damaging the limbs (arms, legs, and head) of an enemy, often being able to disable the corresponding body part after just one hit. And in case of a critical hit, it can be completely torn off and nailed to any nearby surface. Can be modified by adding explosives.</MakeAmmo_Nail_HV.description>
+<MakeAmmo_Nail_HV.jobString>Makes BOOM nails.</MakeAmmo_Nail_HV.jobString>
 
-  <MakeAmmo_Nail.label>Make Nails x50</MakeAmmo_Nail.label>
-  <MakeAmmo_Nail.description>Despite the fact that railroad spikes generally deal fairly moderate damage, they are extremely effective in terms of damaging the limbs (arms, legs, and head) of an enemy, and are often capable of incapacitating the corresponding body part after the first hit. And in the case of a critical hit, they can completely tear it off and nail it to any nearby surface.</MakeAmmo_Nail.description>
-  <MakeAmmo_Nail.jobString>Make nails.</MakeAmmo_Nail.jobString>
+<MakeAmmo_Nail.label>Make Nails x50</MakeAmmo_Nail.label>
+<MakeAmmo_Nail.description>Despite the fact that railroad spikes generally deal fairly moderate damage, they are extremely effective in terms of damaging the limbs (arms, legs, and head) of an enemy and are often capable of incapacitating the corresponding body part after the first hit. And in case of a critical hit, it can be completely torn off and nailed to any nearby surface.</MakeAmmo_Nail.description>
+<MakeAmmo_Nail.jobString>Makes nails.</MakeAmmo_Nail.jobString>
 
 
 </LanguageData>

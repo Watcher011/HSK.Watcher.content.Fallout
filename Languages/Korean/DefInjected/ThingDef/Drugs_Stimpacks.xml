@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <SimpleStimpack.label>스팀팩</SimpleStimpack.label>
-  <SimpleStimpack.description>압력계가 있는 회색 일회용 주사기. 적혈액과 소독제가 들어있습니다.</SimpleStimpack.description>
-  <SimpleStimpack.ingestible.ingestCommandString>{0} 주사</SimpleStimpack.ingestible.ingestCommandString>
-  <SimpleStimpack.ingestible.ingestReportString>{0}을(를) 주사합니다.</SimpleStimpack.ingestible.ingestReportString>
+  <SimpleStimpack.label>자극기</SimpleStimpack.label>
+ <SimpleStimpack.description>압력계가 달린 일회용 회색 주사기입니다. 혈액에서 나온 붉은 액체와 살균제가 들어 있습니다.</SimpleStimpack.description>
+ <SimpleStimpack.ingestible.ingestCommandString>{0 입력</SimpleStimpack.ingestible.ingestCommandString>
+ <SimpleStimpack.ingestible.ingestReportString>{0}을 입력합니다.</SimpleStimpack.ingestible.ingestReportString>
 
-  <RadAway.label>라드어웨이</RadAway.label>
-  <RadAway.description>투명한 노란색-주황색 수액이 채워진 짧은 튜브가 달린 폴리머 용기입니다. 이 용액은 어둠 속에서도 빛을 발할 수 있습니다. 라벨에는 손으로 쓴 "Rad Away" 문구가 있으며 읽을 수 없는 공장 표시 흔적도 포함되어 있습니다.</RadAway.description>
-  <RadAway.ingestible.ingestCommandString>{0} 투여</RadAway.ingestible.ingestCommandString>
-  <RadAway.ingestible.ingestReportString>{0}을(를) 투여합니다.</RadAway.ingestible.ingestReportString>
+ <RadAway.label>안티 레이더</RadAway.label>
+ <RadAway.description> 투명한 노란색-주황색 주입액이 채워진 짧은 튜브가 있는 폴리머 용기입니다. 이 용액은 어둠 속에서도 빛을 낼 수 있습니다. 라벨에는 "Rad Away"라는 손으로 쓴 글자가 있고, 공장 표시의 알아볼 수 없는 흔적도 있습니다.</RadAway.description>
+ <RadAway.ingestible.ingestCommandString>입력 {0}</RadAway.ingestible.ingestCommandString>
+ <RadAway.ingestible.ingestReportString>{0}을 입력합니다.</RadAway.ingestible.ingestReportString>
 
 
 </LanguageData>

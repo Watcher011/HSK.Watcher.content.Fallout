@@ -3,18 +3,18 @@
 
   <CockroachVaultec.label>Радтаракан</CockroachVaultec.label>
   <CockroachVaultec.description>Радтараканы — мутировавшие большие «американские тараканы», в просторечии называемые просто «гигантскими тараканами». Являются увеличенными версиями этих видов в довоенный период, которые экспоненциально увеличились в размерах из-за радиоактивных осадков.</CockroachVaultec.description>
-  <CockroachVaultec.tools.0.label>рот</CockroachVaultec.tools.0.label>
-  <CockroachVaultec.tools.1.label>голова</CockroachVaultec.tools.1.label>
+  <CockroachVaultec.tools.0.label>mouth</CockroachVaultec.tools.0.label>
+  <CockroachVaultec.tools.1.label>head</CockroachVaultec.tools.1.label>
 
   <Bloodbug.label>Гнус</Bloodbug.label>
   <Bloodbug.description>Гигантский комар-мутант, обитающий на пустошах Содружества после войны.Встречаются как поодиночке, так и группами до 5 особей. В неагрессивном состоянии гнус почти неподвижно сидит на земле или трупе брамина. Порой может сидеть в воде, что делает его практически незаметным до момента, когда он взлетает для атаки.</Bloodbug.description>
-  <Bloodbug.tools.0.label>рот</Bloodbug.tools.0.label>
-  <Bloodbug.tools.1.label>голова</Bloodbug.tools.1.label>
+  <Bloodbug.tools.0.label>mouth</Bloodbug.tools.0.label>
+  <Bloodbug.tools.1.label>head</Bloodbug.tools.1.label>
 
   <Cazador.label>Касадор</Cazador.label>
   <Cazador.description>Крупное мутировавшее насекомое, произошедшее от вида Pepsis grossa — семейства дорожных ос Pepsis. Чаще всего обитают в холмистых и горных местностях пустыни Мохаве, а также в каньоне Зайон и Большой Горе.Касадоры очень быстро передвигаются в полёте при помощи крыльев. В случае повреждения одного или двух крыльев начинают передвигаться на лапках, что значительно снижает скорость их передвижения. Как и все насекомые, при повреждении усиков впадают в бешенство и атакуют любое живое существо.</Cazador.description>
-  <Cazador.tools.0.label>ядовитые клыки</Cazador.tools.0.label>
-  <Cazador.tools.1.label>голова</Cazador.tools.1.label>
+  <Cazador.tools.0.label>venom-fangs</Cazador.tools.0.label>
+  <Cazador.tools.1.label>head</Cazador.tools.1.label>
 
 
 </LanguageData>

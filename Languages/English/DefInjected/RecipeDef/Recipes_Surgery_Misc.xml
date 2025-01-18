@@ -2,12 +2,12 @@
 <LanguageData>
 
   <ExtractRadHemogenPack.label>Extract Glowing Blood</ExtractRadHemogenPack.label>
-  <ExtractRadHemogenPack.description>Extract a Glowing Blood Pack from a ghoul's blood. This will not work if the patient does not have enough blood.\n\nHemogen can be transfused to other ghouls to reduce the effects of blood loss.</ExtractRadHemogenPack.description>
-  <ExtractRadHemogenPack.jobString>Extracts Glowing Blood.</ExtractRadHemogenPack.jobString>
+<ExtractRadHemogenPack.description>Extract a Glowing Blood Pack from a ghoul's blood. This will not work if the patient does not have enough blood.\n\nHemogen can be transfused to other ghouls to reduce the effects of blood loss.</ExtractRadHemogenPack.description>
+<ExtractRadHemogenPack.jobString>Extracts Glowing Blood.</ExtractRadHemogenPack.jobString>
 
-  <RadHemogenTransfusion.label>Transfuse Glowing Blood</RadHemogenTransfusion.label>
-  <RadHemogenTransfusion.description>Use a Glowing Blood Pack to reduce the effects of blood loss. Each pack used restores 35% of blood loss.</RadHemogenTransfusion.description>
-  <RadHemogenTransfusion.jobString>Luminous blood transfusion TargetA.</RadHemogenTransfusion.jobString>
+<RadHemogenTransfusion.label>Transfuse Glowing Blood</RadHemogenTransfusion.label>
+<RadHemogenTransfusion.description>Use a Glowing Blood Pack to reduce the effects of blood loss. Each pack used restores 35% of blood loss.</RadHemogenTransfusion.description>
+<RadHemogenTransfusion.jobString>Luminous blood transfusion TargetA.</RadHemogenTransfusion.jobString>
 
 
 </LanguageData>

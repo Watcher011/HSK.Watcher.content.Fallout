@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <EggDeathclawUnfertilized.label>Deathclaw Egg (Unfertilized)</EggDeathclawUnfertilized.label>
-  <EggDeathclawUnfertilized.description>Deathclaw Egg.</EggDeathclawUnfertilized.description>
+ <EggDeathclawUnfertilized.label>Deathclaw Egg (Unfertilized)</EggDeathclawUnfertilized.label>
+<EggDeathclawUnfertilized.description>Deathclaw Egg.</EggDeathclawUnfertilized.description>
 
-  <EggDeathclawFertilized.label>Deathclaw Egg (Fertilized)</EggDeathclawFertilized.label>
-  <EggDeathclawFertilized.description>Deathclaw Egg</EggDeathclawFertilized.description>
+<EggDeathclawFertilized.label>Deathclaw Egg (Fertilized)</EggDeathclawFertilized.label>
+<EggDeathclawFertilized.description>Deathclaw Egg</EggDeathclawFertilized.description>
 
 
 </LanguageData>

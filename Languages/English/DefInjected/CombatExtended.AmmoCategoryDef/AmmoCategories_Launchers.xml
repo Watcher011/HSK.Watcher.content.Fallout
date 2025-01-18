@@ -3,13 +3,12 @@
 
   <!-- Carl Gustav Shell -->
 
-  <NHE.label>Nuke</NHE.label>
-  <NHE.labelShort>«Big Baby»</NHE.labelShort>
-  <NHE.description>This type has a greater damaging effect and radiation contamination. Increased damage is achieved at the cost of reduced range, which can turn out badly for a lightly protected shooter.</NHE.description>
+<NHE.label>Nuclear Strike</NHE.label>
+<NHE.labelShort>"Big Baby"</NHE.labelShort>
+<NHE.description>This type features greater destructive effects and radiation contamination. The increased damage comes at the cost of a shorter range, which is not good for lightly armed shooters.</NHE.description>
 
-  <THE.label>Nuke, with a set time</THE.label>
-  <THE.labelShort>«Big Alarm Clock</THE.labelShort>
-  <THE.description>Has a 5-second timer. Does not detonate on impact with other objects, allowing it to ricochet off walls and around corners. A projectile that directly hits an enemy also deals damage, in addition to the subsequent explosion..</THE.description>
-
+<THE.label>Nuclear Strike, Ordered Time</THE.label>
+<THE.labelShort>"Big Alarm Clock"</THE.labelShort>
+<THE.description>The timer is 5 seconds. It does not explode on collision with other objects, so it bounces off walls or corners. Projectiles that directly hit enemies will deal damage in addition to causing a subsequent explosion.</THE.description>
 
 </LanguageData>

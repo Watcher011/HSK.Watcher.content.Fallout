@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Hediff_StealthBoy.label>스텔스보이</Hediff_StealthBoy.label>
-  <Hediff_StealthBoy.description>RobCo의 개인 위장 장치 "Invisible 3001". 물체의 한 쪽에서 반대쪽으로 반사된 빛을 전달하는 변조 필드를 생성합니다.</Hediff_StealthBoy.description>
-  <Hediff_StealthBoy.labelNoun>스텔스보이</Hediff_StealthBoy.labelNoun>
+ <Hediff_StealthBoy.label>스텔스보이</Hediff_StealthBoy.label>
+ <Hediff_StealthBoy.description>RobCo의 개인용 위장 장치 "Invisible 3001" 한 쪽 물체에서 반사된 빛을 반대쪽으로 전달하는 변조장을 생성합니다.</Hediff_StealthBoy.description>
+ <Hediff_StealthBoy.labelNoun>스텔스보이</Hediff_StealthBoy.labelNoun>
 
-  <Hediff_StealthBoy_Shadow.label>스텔스보이 은폐</Hediff_StealthBoy_Shadow.label>
-  <Hediff_StealthBoy_Shadow.description>RobCo의 개인 위장 장치 "Invisible 3001". 물체의 한 쪽에서 반대쪽으로 반사된 빛을 전달하는 변조 필드를 생성합니다.</Hediff_StealthBoy_Shadow.description>
-  <Hediff_StealthBoy_Shadow.labelNoun>스텔스보이 은폐</Hediff_StealthBoy_Shadow.labelNoun>
+ <Hediff_StealthBoy_Shadow.label>스텔스보이 섀도우</Hediff_StealthBoy_Shadow.label>
+ <Hediff_StealthBoy_Shadow.description>RobCo의 개인 위장 장치 "Invisible Boy 3001" 한 쪽 물체에서 반사된 빛을 반대쪽으로 전달하는 변조장을 생성합니다.</Hediff_StealthBoy_Shadow.description>
+ <Hediff_StealthBoy_Shadow.labelNoun>스텔스보이 섀도우</Hediff_StealthBoy_Shadow.labelNoun>
 
-  <Hediff_StealthBoyDiff.description>스텔스 실패 후 부작용.</Hediff_StealthBoyDiff.description>
-  <Hediff_StealthBoyDiff.stages.0.label>스텔스 실패 후 부작용</Hediff_StealthBoyDiff.stages.0.label>
+ <Hediff_StealthBoyDiff.description>스텔스 보이의 부작용입니다.</Hediff_StealthBoyDiff.description>
+ <Hediff_StealthBoyDiff.stages.0.label>스텔스보이 부작용</Hediff_StealthBoyDiff.stages.0.label>
 
 
 </LanguageData>

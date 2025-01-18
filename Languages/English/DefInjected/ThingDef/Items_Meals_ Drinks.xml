@@ -2,24 +2,23 @@
 <LanguageData>
 
   <NukaColaQuantum.label>Nuka Cola Quantum</NukaColaQuantum.label>
-  <NukaColaQuantum.description>This product is the pinnacle of taste sensations. Seventeen fruit flavors and the signature cola taste are blended to create the perfect refreshing drink. The new strontium additive is so powerful that it makes you fly.</NukaColaQuantum.description>
-  <NukaColaQuantum.ingestible.ingestCommandString>Drink {0}</NukaColaQuantum.ingestible.ingestCommandString>
-  <NukaColaQuantum.ingestible.ingestReportString>Drinking {0}.</NukaColaQuantum.ingestible.ingestReportString>
+<NukaColaQuantum.description>This product is the pinnacle of taste sensations. Seventeen fruit flavors and the signature cola taste are blended to create the perfect refreshing drink. The new strontium additive is so powerful that it makes you fly.</NukaColaQuantum.description>
+<NukaColaQuantum.ingestible.ingestCommandString>Drink {0}</NukaColaQuantum.ingestible.ingestCommandString>
+<NukaColaQuantum.ingestible.ingestReportString>Drinking {0}.</NukaColaQuantum.ingestible.ingestReportString>
 
-  <NukaCola.label>Nuka-Cola</NukaCola.label>
-  <NukaCola.description>The most popular soft drink in the USA, which was produced before the Great War. After the war, Nuka-Cola, which many people remembered, became the most popular carbonated drink of the post-nuclear world, because even after 200 years it has survived perfectly, although it is mostly found warm and decarbonated, and in addition, this drink has become radioactive. Frequent consumption of Nuka-Cola can cause addiction..</NukaCola.description>
-  <NukaCola.ingestible.ingestCommandString>Drink {0}</NukaCola.ingestible.ingestCommandString>
-  <NukaCola.ingestible.ingestReportString>Drinking {0}.</NukaCola.ingestible.ingestReportString>
+<NukaCola.label>Nuka-Cola</NukaCola.label>
+<NukaCola.description>The most popular soft drink in the USA, which was produced before the Great War. After the war, Nuka-Cola, which many people remembered, became the most popular carbonated drink of the post-nuclear world, because even after 200 years it has survived perfectly, although it is mostly found warm and decarbonated, and in addition, this drink has become radioactive. Frequent consumption of Nuka-Cola can cause addiction..</NukaCola.description>
+<NukaCola.ingestible.ingestCommandString>Drink {0}</NukaCola.ingestible.ingestCommandString>
+<NukaCola.ingestible.ingestReportString>Drinking {0}.</NukaCola.ingestible.ingestReportString>
 
-  <NukaColaOrang.label>Nuka-Cola Orange</NukaColaOrang.label>
-  <NukaColaOrang.description>The most popular soft drink in the United States, which was produced before the Great War. After the war, Nuka-Cola, which many people remembered, became the most popular carbonated drink of the post-nuclear world, because even after 200 years it was perfectly preserved, although it is mostly found warm and decarbonated, and in addition, this drink became radioactive. Frequent consumption of Nuka-Cola may cause addiction..</NukaColaOrang.description>
-  <NukaColaOrang.ingestible.ingestCommandString>Drink {0}</NukaColaOrang.ingestible.ingestCommandString>
-  <NukaColaOrang.ingestible.ingestReportString>Drinking {0}.</NukaColaOrang.ingestible.ingestReportString>
+<NukaColaOrang.label>Nuka-Cola Orange</NukaColaOrang.label>
+<NukaColaOrang.description>The most popular soft drink in the United States, which was produced before the Great War. After the war, Nuka-Cola, which many people remembered, became the most popular carbonated drink of the post-nuclear world, because even after 200 years it was perfectly preserved, although it is mostly found warm and decarbonated, and in addition, this drink became radioactive. Frequent consumption of Nuka-Cola may cause addiction..</NukaColaOrang.description>
+<NukaColaOrang.ingestible.ingestCommandString>Drink {0}</NukaColaOrang.ingestible.ingestCommandString>
+<NukaColaOrang.ingestible.ingestReportString>Drinking {0}.</NukaColaOrang.ingestible.ingestReportString>
 
-  <NukaColaMars.label>Nuka-Cola Eclipse</NukaColaMars.label>
-  <NukaColaMars.description>This product is a mixture of purified Nuka-Cola Quantum and a pack of blood. Not all wasteland lovers liked the wild combination, but those who appreciate the darkness were satisfied.</NukaColaMars.description>
-  <NukaColaMars.ingestible.ingestCommandString>Drink {0}</NukaColaMars.ingestible.ingestCommandString>
-  <NukaColaMars.ingestible.ingestReportString>Drinking {0}.</NukaColaMars.ingestible.ingestReportString>
-
+<NukaColaMars.label>Nuka-Cola Eclipse</NukaColaMars.label>
+<NukaColaMars.description>This product is a mixture of purified Nuka-Cola Quantum and a pack of blood. Not all wasteland lovers liked the wild combination, but those who appreciate the darkness were satisfied.</NukaColaMars.description> 
+<NukaColaMars.ingestible.ingestCommandString>Drink {0}</NukaColaMars.ingestible.ingestCommandString>
+ <NukaColaMars.ingestible.ingestReportString>Drinking {0}.</NukaColaMars.ingestible.ingestReportString>
 
 </LanguageData>

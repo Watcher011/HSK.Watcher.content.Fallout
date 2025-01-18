@@ -1,13 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Crashlanded_Nuclear_Ghoul.label>Nuclear Consequences</Crashlanded_Nuclear_Ghoul.label>
-  <Crashlanded_Nuclear_Ghoul.description>Three Ghouls stole an ancient artifact without even suspecting what it would lead to.</Crashlanded_Nuclear_Ghoul.description>
-  <Crashlanded_Nuclear_Ghoul.scenario.name>Nuclear Consequences</Crashlanded_Nuclear_Ghoul.scenario.name>
-  <Crashlanded_Nuclear_Ghoul.scenario.summary>Three explorers in search of salvation.</Crashlanded_Nuclear_Ghoul.scenario.summary>
-  <Crashlanded_Nuclear_Ghoul.scenario.description>Three Ghouls stole an ancient artifact without even suspecting what it would lead to.</Crashlanded_Nuclear_Ghoul.scenario.description>
-  <Crashlanded_Nuclear_Ghoul.scenario.parts.0.text>You managed to escape from your pursuers and grab a rare GECK device. But an uneasy feeling does not leave you ... why did they let you go so easily? Something tells you that you have little time and they will come for you soon.</Crashlanded_Nuclear_Ghoul.scenario.parts.0.text>
-  <Crashlanded_Nuclear_Ghoul.scenario.parts.1.xenotypeCounts.0.description>Гули</Crashlanded_Nuclear_Ghoul.scenario.parts.1.xenotypeCounts.0.description>
-
+ <Crashlanded_Nuclear_Ghoul.label>Children of Atom</Crashlanded_Nuclear_Ghoul.label>
+<Crashlanded_Nuclear_Ghoul.description>A group of Ghouls guided by their faith set out on a long journey to found a new settlement.</Crashlanded_Nuclear_Ghoul.description>
+<Crashlanded_Nuclear_Ghoul.scenario.name>Children of Atom</Crashlanded_Nuclear_Ghoul.scenario.name>
+<Crashlanded_Nuclear_Ghoul.scenario.summary>A group of Ghouls in search of a new home.</Crashlanded_Nuclear_Ghoul.scenario.summary>
+<Crashlanded_Nuclear_Ghoul.scenario.description>A group of Ghouls guided by their faith set out on a long journey to founding a new settlement.</Crashlanded_Nuclear_Ghoul.scenario.description>
+<Crashlanded_Nuclear_Ghoul.scenario.parts.0.text>Your disagreements with the Church of Atom have led to its schism. You managed to escape from the fanatics and grab a rare relic. But an uneasy feeling does not leave you ... why did they let you go so easily? Something tells you that you are running out of time and that soon they will come for you.</Crashlanded_Nuclear_Ghoul.scenario.parts.0.text>
+<Crashlanded_Nuclear_Ghoul.scenario.parts.1.xenotypeCounts.0.description>Ghouls</Crashlanded_Nuclear_Ghoul.scenario.parts.1.xenotypeCounts.0.description>
 
 </LanguageData>

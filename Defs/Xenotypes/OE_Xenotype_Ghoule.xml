@@ -7,7 +7,7 @@
     <label>Гуль</label>
     <description>Гули были когда-то людьми, которые не успели попасть в защитное убежище во время бомбардировки. Облучение придало им повышенную сопротивляемость радиации; они также получают бонус к сопротивляемости ядам. К сожалению, физически они слишком слабы и не могут использовать тяжёлое оружие.</description>
     <descriptionShort>Гули были когда-то людьми, которые не успели попасть в защитное убежище во время бомбардировки. Облучение придало им повышенную сопротивляемость радиации; они также получают бонус к сопротивляемости ядам. К сожалению, физически они слишком слабы и не могут использовать тяжёлое оружие.</descriptionShort>
-    <iconPath>UI/Icons/Xenotypes/OE_Gene_GhoulHead</iconPath>
+    <iconPath>UI/Icons/Xenotypes/RAD</iconPath>
 	<inheritable>true</inheritable>
     <genes>
 	  <li>Skin_Green</li>
@@ -31,6 +31,22 @@
 	  <li>Mood_Sanguine</li>
 	  <li>Pain_Reduced</li>
 	 <li>ToxResist_Total</li>
+    </genes>
+  </XenotypeDef>
+  
+   <XenotypeDef>
+    <defName>OE_MisterHandy</defName>
+    <label>Мистер Помощник</label>
+    <description>Мистер Помощник.</description>
+    <descriptionShort>Мистер Помощник.</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/MH</iconPath>
+	<inheritable>true</inheritable>
+    <genes>
+	  <li>Skin_Green</li>
+	  <li>Skin_PaleYellow</li>
+	  <li>OE_Skin_GhoulDarkGreen</li>
+	  <li>OE_Skin_GhoulLightGreen</li>
+	  <li>OE_Skin_GhoulLightBrown</li>
     </genes>
   </XenotypeDef>
 

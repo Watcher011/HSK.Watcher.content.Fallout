@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <Chemical_Steroid.label>스테로이드 중독</Chemical_Steroid.label>
-  <Chemical_Steroid.description>힘이 없고, 온 몸이 이피.</Chemical_Steroid.description>
+<Chemical_Steroid.label>스테로이드 의존성</Chemical_Steroid.label>
+ <Chemical_Steroid.description>힘이 없어서 온통 아프다</Chemical_Steroid.description>
 
 
 </LanguageData>
