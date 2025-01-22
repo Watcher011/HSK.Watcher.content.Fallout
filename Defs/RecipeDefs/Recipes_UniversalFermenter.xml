@@ -43,7 +43,6 @@
 			<min>1</min>
 			<max>1</max>
 		</windFactor>
-		<graphicSuffix>_sin</graphicSuffix>
 	</RecipeDef>
 	
 	<RecipeDef ParentName="Make_NukaColaBase" Class="UniversalFermenterSK.RecipeDef_UF">

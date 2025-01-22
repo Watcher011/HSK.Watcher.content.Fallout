@@ -75,7 +75,7 @@
 		<!-- ThingDef_UF fields -->
 		<showProductIcon>false</showProductIcon>
 		<barOffset>(0.0, -0.68)</barOffset>
-		<barScale>(1.1, 1.1)</barScale>
+		<barScale>(0.1, 0.1)</barScale>
 		<slotsCount>1</slotsCount>
 	</ThingDef>
 	

@@ -13,6 +13,7 @@
 		<soundWorking>Recipe_Smelt</soundWorking>
 		<recipeUsers>
 			<li>TableFurnace</li>
+			<li>GlassworkTable</li>
 		</recipeUsers>
 		<ingredients>
 			<li>
@@ -50,6 +51,7 @@
 		<soundWorking>Recipe_Smelt</soundWorking>
 		<recipeUsers>
 			<li>TableFurnace</li>
+			<li>GlassworkTable</li>
 		</recipeUsers>
 		<ingredients>
 			<li>
