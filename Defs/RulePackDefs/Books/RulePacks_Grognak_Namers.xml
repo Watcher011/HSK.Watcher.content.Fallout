@@ -19,17 +19,17 @@
         <li>titleBasic(p=6)->[randAdjective] </li>
       
 	  
-        <li>randAdjective->Грогнак-варвар и Кровь на арфе</li>
-        <li>randAdjective->Грогнак-варвар и Появление Плута</li>
-        <li>randAdjective->Грогнак-варвар и Джунгли нетопырёнышей</li>
-        <li>randAdjective->Грогнак-варвар и В объятиях королевы корсаров</li>
-        <li>randAdjective->Грогнак-варвар и Рабы демонов, пески демонов</li>
-        <li>randAdjective->Грогнак-варвар и Явление Маулы: Боевая Дева с Марса</li>
-        <li>randAdjective->Грогнак-варвар и Вонючая безотцовщина</li>
-        <li>randAdjective->Грогнак-варвар и Затерянные в Снегах похоти</li>
-        <li>randAdjective->Грогнак-варвар и В логове пожирателя девственниц!</li>
-        <li>randAdjective->Грогнак-варвар и Это что за колдовство?</li>
-        <li>randAdjective->Грогнак-варвар и Тяжела Дубовая корона!</li>
+       <li>randAdjective->Grognak the Barbarian and Blood on the Harp</li>
+<li>randAdjective->Grognak the Barbarian and The Rogue's Appearance</li>
+<li>randAdjective->Grognak the Barbarian and The Bat Jungle</li>
+<li>randAdjective->Grognak the Barbarian and In the Embrace of the Corsair Queen</li>
+<li>randAdjective->Grognak the Barbarian and Demon Slaves, Demon Sands</li>
+<li>randAdjective->Grognak the Barbarian and The Appearance of Maula: War Maiden of Mars</li>
+<li>randAdjective->Grognak the Barbarian and The Reeking Fatherlessness</li>
+<li>randAdjective->Grognak the Barbarian and Lost in the Snows of Lust</li>
+<li>randAdjective->Grognak the Barbarian and In the Lair of the Devourer of Virgins!</li>
+<li>randAdjective->Grognak the Barbarian and What Sorcery Is This?</li>
+<li>randAdjective->Grognak the Barbarian and Heavy is the Oaken Crown!</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>

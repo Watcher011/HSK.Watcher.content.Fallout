@@ -3,7 +3,7 @@
 
   <TraderKindDef>
     <defName>Base_Vaultec_Standard</defName>
-	  <label>Vaultec торговец оптовик</label>
+	 <label>Vaultec wholesaler</label>
     <stockGenerators>
 
       <!-- Resources -->
@@ -328,7 +328,7 @@
 
   <TraderKindDef>
     <defName>Visitor_Vaultec_Standard</defName>
-    <label>Vaultec торговец</label>
+  <label>Vaultec merchant</label>
     <stockGenerators>
       
       <!-- Resources -->
@@ -430,7 +430,7 @@
 
   <TraderKindDef>
     <defName>Caravan_Vaultec_BulkGoods</defName>
-    <label>Торговец с убежища☢</label>
+   <label>Shelter Trader☢</label>
     <stockGenerators>
 
       <!-- Resources -->

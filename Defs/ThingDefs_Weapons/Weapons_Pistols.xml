@@ -2,12 +2,12 @@
 <Defs>
 	 <ThingDef ParentName="BaseGun_Heavy">
         <defName>Gun_LaserPistol</defName>
-        <label>Лазерный пистолет</label>
-        <description>Лазерный пистолет — это высокотехнологичное энергетическое оружие, разработанное в довоенных США. Принцип действия — это сконцентрированный и многократно усиленный луч света, практически мгновенно и очень точно переносящий энергию «выстрела» (импульса) в очень маленькую площадь на мишени.
-В результате должно иметь место стремительное нагревание вещества цели (в случае с биоцелью — ожоги и обугливание. Причём смерть, вероятно, наступит и при попадании по конечностям — от болевого шока), а при достаточной мощности импульса — взрывное испарение вещества.
-Интересно, что в обычных условиях лазерные лучи невидимы — со стороны они могут быть заметны только в рассеивающем их дыму или тумане.
-Предположительно, несомненным достоинством лазерного оружия является высокая точность стрельбы, эффективность в борьбе с защищёнными бронёй целями, однако мощность выстрела должна несколько уменьшаться с расстоянием.
-Недостатками являются высокая сложность и низкая механическая прочность конструкции оружия (при том, что даже мелкий ремонт требует высокой квалификации специалиста, использования довоенных деталей и специализированного инструмента), необходимость сохранения идеальной чистоты излучателя (что крайне сложно выполнить в полевых условиях), значительная энергоёмкость каждого выстрела (при том, что довоенные батареи должны быть весьма дефицитными).</description>
+       <label>Laser pistol</label>
+	<description>A laser pistol is a high-tech energy weapon developed in the pre-war United States. The principle of operation is a concentrated and repeatedly amplified beam of light, which almost instantly and very accurately transfers the energy of the "shot" (pulse) to a very small area on the target.
+As a result, there should be a rapid heating of the target substance (in the case of a biotarget - burns and charring. Moreover, death will probably occur if the limbs are hit - from pain shock), and with sufficient pulse power - explosive evaporation of the substance.
+It is interesting that under normal conditions, laser beams are invisible - from the side they can be seen only in smoke or fog that scatters them.
+Presumably, the undoubted advantage of laser weapons is high shooting accuracy, effectiveness in combating armored targets, but the power of the shot should decrease somewhat with distance.
+The disadvantages are the high complexity and low mechanical strength of the weapon's design (even minor repairs require highly qualified specialists, the use of pre-war parts and specialized tools), the need to maintain the ideal cleanliness of the emitter (which is extremely difficult to achieve in field conditions), and the significant energy consumption of each shot (even though pre-war batteries must be in short supply).</description>
         <graphicData>
             <texPath>Things/Weapons/Laser/LaserPistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -72,8 +72,8 @@
 	
 	 <ThingDef ParentName="BaseGun_Heavy">
         <defName>Gun_LaserRifel</defName>
-        <label>Лазерная винтовка AER9</label>
-        <description>В AER9 не использовались передовые довоенные технологии, что значительно повысило её надежность. Эта модель представляет собой обычный твердотельный импульсный лазер, активная среда которого (кристалл), заключена в титановый корпус, что позволяет выдерживать годы воздействия окружающей среды без потери технических характеристик.</description>
+       <label>AER9 Laser Rifle</label>
+<description>The AER9 does not use advanced pre-war technology, which greatly increases its reliability. This model is a conventional solid-state pulse laser, the active medium of which (the crystal) is enclosed in a titanium case, which allows it to withstand years of environmental exposure without losing its technical characteristics.</description>
         <graphicData>
             <texPath>Things/Weapons/Laser/LaserRifel</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -142,8 +142,8 @@
 	
 	 <ThingDef ParentName="BaseGun_Heavy">
         <defName>Gun_LaserSniperRifel</defName>
-        <label>Лазер Института</label>
-        <description>Вариант лазерного оружия, разработанный Институтом. По сравнению со стандартным лазером, обладает иным дизайном, лучшей скорострельностью и сниженным весом, но более скудным ассортиментом возможных модификаций и чуть меньшим уроном. Из достоинств следует отметить малый расход ОД в режиме V.A.T.S., а также крайне низкую отдачу и почти нулевой разброс в режиме одиночного огня, что делает его отличным выбором для снайпера. Из недостатков — громоздкость, большой размер, а также характерную для всего энергетического оружия невозможность установки глушителя и потому ограниченные возможности для работы из режима скрытности.</description>
+       <label>Institute Laser</label>
+<description>A variant of the laser weapon developed by the Institute. Compared to the standard laser, it has a different design, a better rate of fire and reduced weight, but a poorer range of possible modifications and slightly less damage. Among the advantages, it is worth noting the low consumption of AP in V.A.T.S. mode, as well as extremely low recoil and almost zero spread in single fire mode, which makes it an excellent choice for a sniper. Among the disadvantages are its bulkiness, large size, and the inability to install a silencer, which is typical for all energy weapons, and therefore limited capabilities for working in stealth mode.</description>
         <graphicData>
             <texPath>Things/Weapons/Laser/LaserSniperRifel</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -213,8 +213,8 @@
 	
 	  <ThingDef ParentName="BaseGun_Heavy">
         <defName>Gun_PlasmaRifelV</defName>
-        <label>Плазменный карабин</label>
-        <description>Лёгкое энергетическое оружие, разработанное и начавшее поступать на вооружение армии США незадолго до начала войны, но не успевшее получить массового распространения. Активно использовалось уже в послевоенное время войсками Анклава. С разгромом последнего распространилось по Пустоши, но всё равно встречается довольно редко.</description>
+        <label>Plasma Carbine</label>
+<description>A light energy weapon developed and put into service by the US Army shortly before the war, but did not have time to gain widespread distribution. It was actively used in the post-war period by the Enclave troops. With the defeat of the latter, it spread throughout the Wasteland, but is still quite rare.</description>
         <graphicData>
             <texPath>Things/Weapons/Laser/PlasmaRifel</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -284,8 +284,8 @@
 	
 	 <ThingDef ParentName="BaseGun_Heavy">
         <defName>Gun_GatlingLaser</defName>
-        <label>Гатлинг-лазер</label>
-        <description>Гатлинг-лазер может нанести огромный энергетический урон за короткое время, однако перед стрельбой ему нужно время на раскрутку стволов..</description>
+       <label>Gatling Laser</label>
+<description>The Gatling Laser can deal massive amounts of energy damage in a short amount of time, but it takes time to spin up its barrels before firing..</description>
         <graphicData>
             <texPath>Things/Weapons/Laser/LaserGatling</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -352,8 +352,8 @@
 	
 	 <ThingDef ParentName="BaseGun_Heavy">
         <defName>Gun_Fat_Man</defName>
-        <label>Толстяк</label>
-        <description>Тактическая ручная ядерная катапульта, устанавливаемая на плечо. Оружие производит запуск ядерных выстрелов, которые при детонации поражают небольшую территорию ядерным взрывом, сопровождающийся нанесением большого урона и выбросом радиации на некоторое время. В идеальном состоянии это оружие способно выстрелить 495 раз, прежде чем сломается.</description>
+       <label>Fat Man</label>
+<description>A tactical shoulder-mounted nuclear catapult. The weapon fires nuclear rounds that, when detonated, detonate a nuclear blast over a small area, causing massive damage and releasing radiation for a short period of time. In perfect condition, this weapon can fire 495 rounds before breaking.</description>
         <graphicData>
             <texPath>Things/Weapons/FatMan</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -435,8 +435,8 @@
 	
 	<ThingDef ParentName="BaseGun_ShortBarreled">
 		<defName>Railway</defName>
-		<label>Гвоздемёт</label>
-		<description>Гвоздемёт — редкое самодельное оружие, стреляющее железнодорожными гвоздями. Выстрел может оторвать противнику конечность или вообще прибить его к стене.</description>
+		<label>Nailgun</label>
+<description>The nailgun is a rare homemade weapon that shoots railroad nails. A shot can tear off an enemy's limb or even nail them to a wall.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Railway</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -494,8 +494,8 @@
 	
 	<ThingDef ParentName="BaseGun_ShortBarreled">
 		<defName>PipeGun</defName>
-		<label>Гладкоствол с затвором</label>
-		<description>Это кустарный продукт оружейников постапокалипсиса, грубо изготовленный из дерева, куска старой трубы, пружин и другого подручного хлама, скреплённого вместе с помощью клея, болтов и проволоки. Крайне популярен и повсеместно распространён.</description>
+		<label>Breechloader</label>
+<description>This is a homemade product of post-apocalyptic gunsmiths, crudely made from wood, a piece of old pipe, springs and other scraps, held together with glue, bolts and wire. Extremely popular and widespread.</description>
 		<graphicData>
 			<texPath>Things/Weapons/PipeGun</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -564,8 +564,8 @@
 	
 	<ThingDef ParentName="BaseGun_LongBarreled">
         <defName>PipeRifle</defName>
-        <label>Гладкоствол болтовка</label>
-        <description>Линейка гладкостволов - самое простое баллистическое оружие, собранное, что называется «на коленке», из различных частей найденных затворов, метала и дерева. Один его вид заставляет думать о том, что оно скорее убьёт стреляющего, нежели мишень, но в Пустоши оно распространено, и рейдеры предпочитают именно такое</description>
+        <label>Smoothbore bolt action</label>
+<description>The smoothbore line is the simplest ballistic weapon, assembled, as they say, "on the knee", from various parts of found bolts, metal and wood. Its very appearance makes you think that it is more likely to kill the shooter than the target, but in the Wasteland it is widespread, and raiders prefer it</description>
         <graphicData>
             <texPath>Things/Weapons/PipeRifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -625,8 +625,8 @@
 	
 		<ThingDef ParentName="BaseGun_ShortBarreled">
 		<defName>OldRevolver</defName>
-		<label>Гладкоствол с патронником</label>
-		<description>Это кустарный продукт оружейников постапокалипсиса, грубо изготовленный из дерева, куска старой трубы, барабанного механизма питания, пружин и другого подручного хлама, скреплённого вместе с помощью клея, болтов и проволоки. Крайне популярен и повсеместно распространён.</description>
+		<label>Smoothbore with a chamber</label>
+<description>This is a homemade product of post-apocalyptic gunsmiths, crudely made from wood, a piece of old pipe, a drum feed mechanism, springs and other scraps, held together with glue, bolts and wire. Extremely popular and widespread.</description>
 		<graphicData>
 			<texPath>Things/Weapons/OldRevolver</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

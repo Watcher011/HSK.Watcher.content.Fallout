@@ -2,9 +2,9 @@
 <Defs>
 <RecipeDef>
 		<defName>MakeRailway_Hand</defName>
-		<label>Создать Гвоздемёт</label>
-		<description>Создать Гвоздемёт - Кустарная послевоенная разработка. Принцип действия оружия основан на нагнетании пара в бак с последующим его высвобождением под высоким давлением, что и приводит в движение железнодорожный гвоздь. Вследствие этого, оружие при перезарядке издаёт звук, схожий с отбытием паровоза. Это крайне эффективное оружие, способное оторвать противнику конечность, или даже прибить его к стене. Обладает отличным уроном, но имеет ряд недостатков — большой вес, малая скорострельность.</description>
-		<jobString>Создаёт Гвоздемёт.</jobString>
+		<label>Create a Nail Gun</label>
+<description>Create a Nail Gun - A home-made post-war development. The weapon's operating principle is based on pumping steam into a tank and then releasing it under high pressure, which sets a railroad nail in motion. As a result, the weapon makes a sound similar to a steam locomotive departing when reloading. This is an extremely effective weapon, capable of tearing off an enemy's limb, or even nailing him to a wall. It has excellent damage, but has a number of disadvantages - heavy weight, low rate of fire.</description>
+<jobString>Creates a Nail Gun.</jobString>
 		<workAmount>2800</workAmount>
 		<workSpeedStat>ElectronicCraftingSpeed</workSpeedStat>
 		<effectWorking>Smith</effectWorking>
@@ -80,9 +80,9 @@
 
 	<RecipeDef>
 		<defName>MakeRailway_Electric</defName>
-		<label>Создать Гвоздемёт</label>
-		<description>Создать Гвоздемёт - Кустарная послевоенная разработка. Принцип действия оружия основан на нагнетании пара в бак с последующим его высвобождением под высоким давлением, что и приводит в движение железнодорожный гвоздь. Вследствие этого, оружие при перезарядке издаёт звук, схожий с отбытием паровоза. Это крайне эффективное оружие, способное оторвать противнику конечность, или даже прибить его к стене. Обладает отличным уроном, но имеет ряд недостатков — большой вес, малая скорострельность.</description>
-		<jobString>Создаёт Гвоздемёт.</jobString>
+		<label>Create a Nail Gun</label>
+<description>Create a Nail Gun - A home-made post-war development. The weapon's operating principle is based on pumping steam into a tank and then releasing it under high pressure, which sets a railroad nail in motion. As a result, the weapon makes a sound similar to a steam locomotive departing when reloading. This is an extremely effective weapon, capable of tearing off an enemy's limb, or even nailing him to a wall. It has excellent damage, but has a number of disadvantages - heavy weight, low rate of fire.</description>
+<jobString>Creates a Nail Gun.</jobString>
 		<workAmount>1800</workAmount>
 		<workSpeedStat>ElectronicCraftingSpeed</workSpeedStat>
 		<effectWorking>Smith</effectWorking>
@@ -160,9 +160,9 @@
 
        <RecipeDef>
 		<defName>PipeGun_Hand</defName>
-		<label>Создать Гладкоствол с затвором</label>
-		<description>Создать Гладкоствол с затвором - Это кустарный продукт оружейников постапокалипсиса, грубо изготовленный из дерева, куска старой трубы, пружин и другого подручного хлама, скреплённого вместе с помощью клея, болтов и проволоки. Крайне популярен и повсеместно распространён</description>
-		<jobString>Создаёт Гладкоствол с затвором.</jobString>
+		<label>Craft a Bolt-Action Shotgun</label>
+<description>Craft a Bolt-Action Shotgun - This is a homemade product of post-apocalyptic gunsmiths, crudely made from wood, a piece of old pipe, springs, and other scraps, held together with glue, bolts, and wire. It is extremely popular and ubiquitous.</description>
+<jobString>Crafts a Bolt-Action Shotgun.</jobString>
 		<workAmount>2800</workAmount>
 		<workSpeedStat>ElectronicCraftingSpeed</workSpeedStat>
 		<effectWorking>Smith</effectWorking>
@@ -239,9 +239,9 @@
 
     <RecipeDef>
 		<defName>PipeRifle</defName>
-		<label>Создать Гладкоствол болтовку</label>
-		<description>Создать Гладкоствол болтовка - Линейка гладкостволов - самое простое баллистическое оружие, собранное, что называется «на коленке», из различных частей найденных затворов, метала и дерева. Один его вид заставляет думать о том, что оно скорее убьёт стреляющего, нежели мишень, но в Пустоши оно распространено, и рейдеры предпочитают именно такое</description>
-		<jobString>Создаёт Гладкоствол с затвором.</jobString>
+		<label>Create a Bolt Action Smoothbore</label>
+<description>Create a Bolt Action Smoothbore - The smoothbore line is the simplest ballistic weapon, assembled, as they say, "on the knee", from various parts of found bolts, metal and wood. Its appearance alone makes you think that it is more likely to kill the shooter than the target, but in the Wasteland it is common, and raiders prefer it.</description>
+<jobString>Creates a Bolt Action Smoothbore.</jobString>
 		<workAmount>2800</workAmount>
 		<workSpeedStat>ElectronicCraftingSpeed</workSpeedStat>
 		<effectWorking>Smith</effectWorking>
@@ -319,9 +319,9 @@
 
     <RecipeDef>
 		<defName>OldRevolver_Hand</defName>
-		<label>Создать Гладкоствол с патронником</label>
-		<description>Это кустарный продукт оружейников постапокалипсиса, грубо изготовленный из дерева, куска старой трубы, барабанного механизма питания, пружин и другого подручного хлама, скреплённого вместе с помощью клея, болтов и проволоки. Крайне популярен и повсеместно распространён.</description>
-		<jobString>Создаёт с патронником.</jobString>
+		<label>Craft a Chambered Shotgun</label>
+<description>This is a artisanal product of post-apocalyptic gunsmiths, crudely crafted from wood, a piece of old pipe, a drum feed mechanism, springs, and other scraps, held together with glue, bolts, and wire. It is extremely popular and ubiquitous.</description>
+<jobString>Crafts a chambered shotgun.</jobString>
 		<workAmount>2800</workAmount>
 		<workSpeedStat>ElectronicCraftingSpeed</workSpeedStat>
 		<effectWorking>Smith</effectWorking>

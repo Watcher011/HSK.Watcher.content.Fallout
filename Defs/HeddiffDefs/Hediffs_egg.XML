@@ -6,9 +6,9 @@
     <HediffDef>
         <defName>Hediff_egg</defName>
         <hediffClass>Hediff_High</hediffClass>
-        <label>Странный омлет</label>
-        <labelNoun>Съеден странный омлет</labelNoun>
-        <description>Странные изменения происходят в организме</description>
+        <label>Strange Omelette</label>
+        <labelNoun>Strange Omelette Eaten</labelNoun>
+        <description>Strange Changes Occur in the Body</description>
         <defaultLabelColor>(1,0,0.6)</defaultLabelColor>
         <scenarioCanAdd>false</scenarioCanAdd>
         <maxSeverity>1.0</maxSeverity>
@@ -26,7 +26,7 @@
         </comps>
         <stages>
             <li>
-                <label>Побочный эффект</label>
+                <label>Side effect</label>
                 <minSeverity>0</minSeverity>
                 <hungerRateFactor>2.2</hungerRateFactor>
                 <restFallFactor>2.2</restFallFactor>

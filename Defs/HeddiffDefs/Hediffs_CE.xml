@@ -7,8 +7,8 @@
     <hediffClass>HediffWithComps</hediffClass>
     <defaultLabelColor>(1.00, 0.5, 0)</defaultLabelColor>
     <isBad>false</isBad>
-    <label>Pip-Boy</label>
-	<description>VATS, или система вспомогательного прицеливания «Волт-Тек», — это передовая боевая технология, истоки разработки которой затеряны во времени…</description>
+   <label>Pip-Boy</label>
+   <description>VATS, or Vault-Tec Assisted Targeting System, is an advanced combat technology whose origins are lost in time…</description>
     <makesSickThought>false</makesSickThought>
     <scenarioCanAdd>true</scenarioCanAdd>
     <stages>
@@ -44,9 +44,8 @@
   
   <ThingDef ParentName="MechanitorImplantBase">
     <defName>LastGiftofWatcher</defName>
-    <label>Набор нестабильных механитов</label>
-    <description>Устройство с набором запрограмиррованых механитов.На корпусе затёртая надпись"Последний дар Наблюдателя".</description>
-    <thingClass>Mechlink</thingClass>
+    <label>Unstable Mekhanite Set</label>
+    <description>A device with a set of programmed Mekhanites. The body has a faded inscription "The Watcher's Last Gift".</description>
     <descriptionHyperlinks><HediffDef>LastGiftofWatcher</HediffDef></descriptionHyperlinks>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
@@ -80,8 +79,8 @@
   
 	<HediffDef ParentName="ChJAndroidUpgradeBase">
 		<defName>LastGiftofWatcher</defName>
-		<label>Механиты переполненые энергией</label>
-		<description>Билет в один конец</description>
+		<label>Mechanites overflowing with energy</label>
+        <description>One-way ticket</description>
 		<defaultLabelColor>(0.8, 0.8, 0.4)</defaultLabelColor>
 		<hediffClass>Androids.Hediff_BlackBox</hediffClass>
 		<stages>
@@ -103,8 +102,8 @@
 	
 	<HediffDef ParentName="ChJAndroidUpgradeBase">
 		<defName>BombJ</defName>
-		<label>Заминирован</label>
-		<description>Билет в один конец</description>
+		<label>Mine</label>
+        <description>One way ticket</description>
 		<defaultLabelColor>(0.8, 0.1, 0.1)</defaultLabelColor>
 		<hediffClass>Androids.Hediff_BlackBox</hediffClass>
 		<stages>
@@ -139,10 +138,10 @@
    <HediffDef>
     <hediffClass>HediffWithComps</hediffClass>
     <defName>VaultBoyMedicine</defName>
-    <label>Пупс«Медицина»</label>
-    <description>Умный знает, что бинты лишь скрывают рану.</description>
+    <label>Doll “Medicine”</label>
+    <description>The smart one knows that bandages only hide the wound.</description>
 	<defaultLabelColor>(0.2, 0.8, 0.2)</defaultLabelColor>
-    <labelNoun>Пупс«Медицина»</labelNoun>
+    <labelNoun>Doll “Medicine”</labelNoun>
     <maxSeverity>1</maxSeverity>
      <stages>
 			<li>
@@ -173,9 +172,9 @@
    <HediffDef>
     <hediffClass>HediffWithComps</hediffClass>
     <defName>VaultBoyEloquence</defName>
-    <label>Пупс«Красноречие»</label>
-    <description>Пусть слова станут вашим оружием.</description>
-    <labelNoun>Пупс«Красноречие»</labelNoun>
+    <label>Doll "Eloquence"</label>
+    <description>Let words become your weapon.</description>
+    <labelNoun>Doll "Eloquence"</labelNoun>
 	<defaultLabelColor>(0.2, 0.8, 0.2)</defaultLabelColor>
     <maxSeverity>1</maxSeverity>
      <stages>
@@ -203,9 +202,9 @@
     <HediffDef>
     <hediffClass>HediffWithComps</hediffClass>
     <defName>VaultBoyIntelligence</defName>
-    <label>Пупс«Интеллект»</label>
-    <description>Самый умный — это тот, кто не перестаёт учиться новому.</description>
-    <labelNoun>Пупс«Интеллект»</labelNoun>
+    <label>Doll "Intellect"</label>
+    <description>The smartest one is the one who never stops learning new things.</description>
+    <labelNoun>Doll "Intellect"</labelNoun>
 	<defaultLabelColor>(0.2, 0.8, 0.2)</defaultLabelColor>
     <maxSeverity>1</maxSeverity>
      <stages>
@@ -234,9 +233,9 @@
      <HediffDef>
     <hediffClass>HediffWithComps</hediffClass>
     <defName>VaultBoyRepair</defName>
-    <label>Пупс«Ремонт»</label>
-    <description>Зачем идти ко дну вместе с кораблём, если можно попытаться залатать пробоину?</description>
-    <labelNoun>Пупс«Ремонт»</labelNoun>
+    <label>Doll"Repair"</label>
+<description>Why go down with the ship if you can try to patch the hole?</description>
+<labelNoun>Doll"Repair"</labelNoun>
 	<defaultLabelColor>(0.2, 0.8, 0.2)</defaultLabelColor>
     <maxSeverity>1</maxSeverity>
      <stages>
@@ -272,9 +271,9 @@
    <HediffDef>
     <hediffClass>HediffWithComps</hediffClass>
     <defName>VaultBoyBarter</defName>
-    <label>Пупс«Бартер»</label>
-    <description>Ничто так не подчёркивает бодрость духа, как обаятельная улыбка.</description>
-    <labelNoun>Пупс«Бартер»</labelNoun>
+    <label>Doll "Barter"</label>
+    <description>Nothing emphasizes cheerfulness of spirit like a charming smile.</description>
+    <labelNoun>Doll "Barter"</labelNoun>
 	<defaultLabelColor>(0.2, 0.8, 0.2)</defaultLabelColor>
     <maxSeverity>1</maxSeverity>
      <stages>

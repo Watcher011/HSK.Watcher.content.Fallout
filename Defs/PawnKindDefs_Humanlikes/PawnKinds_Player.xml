@@ -6,7 +6,7 @@
 	<!-- Nuclear Survivor -->
 	<PawnKindDef>
 		<defName>NuclearSurvivorGhoul</defName>
-		<label>Иследователи</label>
+		<label>Researchers</label>
 		<race>VaulTecGhoul</race>
 		<defaultFactionType>PlayerColony</defaultFactionType>
 		<chemicalAddictionChance>0.06</chemicalAddictionChance>

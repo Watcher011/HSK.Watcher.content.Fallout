@@ -3,8 +3,8 @@
 
 <ThingDef ParentName="SK_TrapIEDBase">
 		<defName>TrapIED_Bottlecap</defName>
-		<label>Крышко-мина</label>
-		<description>Популярная до войны коробочка для завтраков от компании «Волт-Тек» стала в постапокалиптическом Содружестве основой для смертоносной мины. Это самодельное устройство поможет справиться вам с любым врагом.</description>
+		<label>Lid-Mine</label>
+        <description>A popular pre-war Vault-Tec lunchbox has become the basis for a deadly mine in the post-apocalyptic Commonwealth. This homemade device will help you deal with any enemy.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponRanged/Bottlecap_mine</texPath>
 			 <drawSize>(0.5)</drawSize>
@@ -40,106 +40,10 @@
 	</ThingDef>
 
 
-<ThingDef ParentName="TurretBase">
-		<defName>Turret_BinocularsTurret</defName>
-		<label>Система активного наблюдения</label>
-		<graphicData>
-			<texPath>Things/Building/Security/TurretImprovised</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(3,3)</drawSize>
-			<damageData>
-				<rect>(0.2,0.2,0.6,0.6)</rect>
-			</damageData>
-			<shadowData>
-				<volume>(0.27,0.25,0.27)</volume>
-				<offset>(0,0,0)</offset>
-			</shadowData>
-		</graphicData>
-		
-		<uiIconPath>Things/Building/Security/TurretImprovised_ico</uiIconPath>
-		<statBases>
-		<Mass>20</Mass>
-		<Bulk>25</Bulk>
-		</statBases>
-		<comps>
-			<li Class="CompProperties_Power">
-				<compClass>CompPowerTrader</compClass>
-				<basePowerConsumption>100</basePowerConsumption>
-			</li>
-			<li Class="CompProperties_Flickable"/>
-			<li Class="CompProperties_Breakdownable"/>
-			<li Class="CompProperties_Stunnable">
-				<affectedDamageDefs>
-					<li>Stun</li>
-					<li>EMP</li>
-				</affectedDamageDefs>
-			</li>
-		</comps>
-		<description>Автоматизированная система видеонаблюдения. Благодаря продвинутым технологиям позволяет заменить корректировщика на открытой местности.</description>
-		<stuffCategories>
-			<li>RuggedMetallic</li>
-		</stuffCategories>
-		<costStuffCount>100</costStuffCount>
-		<costList>
-			<Gun_BinocularsRadio>1</Gun_BinocularsRadio>
-		</costList>
-		<specialDisplayRadius>100</specialDisplayRadius>
-		<designationCategory>Security</designationCategory>
-		<building>
-			<ai_combatDangerous>false</ai_combatDangerous>
-			<turretGunDef>Gun_BinocularsTurret</turretGunDef>
-			<turretTopDrawSize>1</turretTopDrawSize>
-		</building>
-		<designationHotKey>Misc1</designationHotKey>
-		<tradeTags>
-			<li>CE_Turret</li>
-		</tradeTags>
-		<minifiedDef>MinifiedTurretGun</minifiedDef>
-		<researchPrerequisites>
-			<li>GunTurrets</li>
-		</researchPrerequisites>
-		<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
-	</ThingDef>
-
-    <ThingDef ParentName="BaseAutoTurretGun">
-		<defName>Gun_BinocularsTurret</defName>
-		<label>Оптическая система</label>
-		<graphicData>
-			<texPath>Things/Weapons/CE_BinocularsRadio</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<!-- <menuHidden>True</menuHidden> -->
-		<description>Система ,,Глаз+,,.</description>
-		<soundInteract>Interact_Rifle</soundInteract>
-		<tradeability>None</tradeability>
-		<statBases>
-			<SightsEfficiency>1.45</SightsEfficiency>
-			<ShotSpread>0.08</ShotSpread>
-			<SwayFactor>1.80</SwayFactor>
-			<RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
-		</statBases>
-		<verbs>
-			<li Class="CombatExtended.VerbPropertiesCE">
-				<verbClass>CombatExtended.Verb_MarkForArtillery</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>Bullet_Dummy</defaultProjectile>
-				<warmupTime>5.8</warmupTime>
-				<range>100</range>
-				<muzzleFlashScale>0</muzzleFlashScale>
-				<onlyManualCast>false</onlyManualCast>
-				<targetParams>
-					<canTargetLocations>true</canTargetLocations>
-				</targetParams>
-				<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
-			</li>
-		</verbs>
-	</ThingDef>
-	
-
 
 <ThingDef ParentName="TurretBase">
 		<defName>Turret_FlamethrowerTurret</defName>
-		<label>Огнемёт Светлячок</label>
+		<label>Flamethrower Firefly</label>
 		<graphicData>
 			<texPath>Things/Building/Security/SentryHeavyTurret_Base</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -172,7 +76,7 @@
 				</affectedDamageDefs>
 			</li>
 		</comps>
-		<description>Нетрадиционная конструкция огнемёта, которая использует сменные канистры под давлением вместо заднего бака. Менее обременительно, но нужно чаще перезаряжать.</description>
+		<description>An unconventional flamethrower design that uses replaceable pressurized canisters instead of a rear tank. Less cumbersome, but requires more frequent reloading.</description>
 		<stuffCategories>
 			<li>RuggedMetallic</li>
 		</stuffCategories>
@@ -200,7 +104,7 @@
 
     <ThingDef ParentName="BaseAutoTurretGun">
 		<defName>Gun_FlamethrowerTurret</defName>
-		<label>Огнемётная система</label>
+		<label>Flamethrower System</label>
 		<graphicData>
 			<texPath>Things/Weapons/Fl</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

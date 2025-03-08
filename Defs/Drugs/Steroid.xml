@@ -4,8 +4,8 @@
  
   <ThingDef ParentName="MakeableDrugPillBase">
     <defName>Steroid</defName>
-    <label>Стероиды</label>
-    <description>Стероиды — это биологические соединения, которые обычно являются производным от половых гормонов тестостерона и дигидротестостерона, которые имеют очень сильное воздействие на человеческий организм.Задействуя скрытые функции организма</description>
+    <label>Steroids</label>
+    <description>Steroids are biological compounds that are usually derived from the sex hormones testosterone and dihydrotestosterone, which have a very strong effect on the human body. By activating the hidden functions of the body</description>
     <descriptionHyperlinks>
       <HediffDef>SteroidHigh</HediffDef>
       <HediffDef>SteroidAddiction</HediffDef>
@@ -28,8 +28,8 @@
       <joyKind>Chemical</joyKind>
       <joy>0.2</joy>
       <drugCategory>Hard</drugCategory>
-	  <ingestCommandString>Принять {0}</ingestCommandString>
-      <ingestReportString>Принимает {0}.</ingestReportString>
+	  <ingestCommandString>Accept {0}</ingestCommandString>
+      <ingestReportString>Accepts {0}.</ingestReportString>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>SteroidHigh</hediffDef>
@@ -56,8 +56,8 @@
     <comps>
       <li Class="CompProperties_Drug">
         <chemical>Steroid</chemical>
-        <addictiveness>0.02</addictiveness>
-        <existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
+        <addictiveness>0.5</addictiveness>
+        <existingAddictionSeverityOffset>0.05</existingAddictionSeverityOffset>
         <needLevelOffset>0.9</needLevelOffset>
         <listOrder>210</listOrder>
         <overdoseSeverityOffset>0.18~0.35</overdoseSeverityOffset>
@@ -68,8 +68,8 @@
 
   <HediffDef>
     <defName>SteroidHigh</defName>
-    <label>Стероиды</label>
-    <labelNoun>Под воздействием стероидов</labelNoun>
+    <label>Steroids</label>
+    <labelNoun>Under the influence of steroids</labelNoun>
     <description>...</description>
     <hediffClass>Hediff_High</hediffClass>
     <defaultLabelColor>(0,1,0.5)</defaultLabelColor>
@@ -167,16 +167,16 @@
   <NeedDef ParentName="DrugAddictionNeedBase">
     <defName>Chemical_Steroid</defName>
     <needClass>Need_Chemical</needClass>
-    <label>Стреоидная зависимость</label>
-    <description>Нет сил ,всё болит</description>
+    <label>Steroid addiction</label>
+    <description>I have no strength, everything hurts.</description>
     <fallPerDay>0.333</fallPerDay>
     <listPriority>40</listPriority>
   </NeedDef>
   
   <HediffDef ParentName="AddictionBase">
     <defName>SteroidAddiction</defName>
-    <label>Стероидная зависимость</label>
-    <description>Длительное применение стероидов выхвало зависимость.</description>
+    <label>Steroid addiction</label>
+    <description>Long-term use of steroids resulted in addiction.</description>
     <hediffClass>Hediff_Addiction</hediffClass>
     <causesNeed>Chemical_Steroid</causesNeed>
     <comps>
@@ -233,8 +233,8 @@
         <visible>false</visible>
       </li>
       <li>
-        <label>Стероидная ломка</label>
-        <description>Я не могу даже дышать без боли</description>
+        <label>Steroid withdrawal</label>
+        <description>I can't even breathe without pain.</description>
         <baseMoodEffect>-8</baseMoodEffect>
       </li>
     </stages>
@@ -242,8 +242,8 @@
 
   <HediffDef ParentName="DrugToleranceBase">
     <defName>SteroidTolerance</defName>
-    <label>Стероидная толерантность</label>
-    <description>Один шаг до зависимости</description>
+    <label>Steroid tolerance</label>
+    <description>One step to addiction</description>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-0.015</severityPerDay>

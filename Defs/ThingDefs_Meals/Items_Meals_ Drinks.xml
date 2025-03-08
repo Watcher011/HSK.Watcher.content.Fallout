@@ -4,8 +4,8 @@
 
 	<ThingDef ParentName="SweetMealBase">
 		<defName>NukaColaQuantum</defName>
-		<label>Квантовая Ядер-Кола</label>
-		<description>Этот продукт — вершина вкусовых ощущений. Семнадцать фруктовых ароматов и фирменный вкус колы смешаны для создания идеального освежающего напитка. Новая стронциевая добавка вставляет так сильно, что начинаешь взлетать.</description>
+		<label>Nuka Cola Quantum</label>
+        <description>This product is the pinnacle of taste sensations. Seventeen fruit flavors and the signature cola taste are blended to create the perfect refreshing drink. The new strontium additive gets you high so hard, you start to fly.</description>
 		<graphicData>
 			<texPath>Things/Item/Drug/Cola</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -83,8 +83,8 @@
 
 <ThingDef ParentName="SweetMealBase">
 		<defName>NukaCola</defName>
-		<label>Ядер-Кола</label>
-		<description>Популярнейший в США безалкогольный напиток, который выпускался до Великой войны. После войны Ядер-Кола, которую помнили многие люди, стала самым популярным газированным напитком постъядерного мира, поскольку даже спустя 200 лет прекрасно сохранилась, хотя она в основном встречается тёплой и разгазированной, а кроме того, этот напиток стал радиоактивным. Частое потребление Ядер-Колы может вызвать зависимость..</description>
+		<label>Nuka Cola</label>
+		<description>The most popular soft drink in the United States, which was produced before the Great War. After the war, Nuka Cola, which many people remembered, became the most popular carbonated drink of the post-nuclear world, since even after 200 years it has survived perfectly, although it is mostly found warm and decarbonated, and in addition, this drink has become radioactive. Frequent consumption of Nuka Cola can cause addiction..</description>
 		<graphicData>
 			<texPath>Things/Item/Drug/ColaStnd</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -160,8 +160,8 @@
 
 <ThingDef ParentName="SweetMealBase">
 		<defName>NukaColaOrang</defName>
-		<label>Ядер-Кола-Апельсин</label>
-		<description>Популярнейший в США безалкогольный напиток, который выпускался до Великой войны. После войны Ядер-Кола, которую помнили многие люди, стала самым популярным газированным напитком постъядерного мира, поскольку даже спустя 200 лет прекрасно сохранилась, хотя она в основном встречается тёплой и разгазированной, а кроме того, этот напиток стал радиоактивным. Частое потребление Ядер-Колы может вызвать зависимость..</description>
+		<label>Nuka Cola Orange</label>
+		<description>The most popular soft drink in the United States, which was produced before the Great War. After the war, Nuka Cola, which many people remembered, became the most popular carbonated drink of the post-nuclear world, since even after 200 years it has survived perfectly, although it is mostly found warm and decarbonated, and in addition, this drink has become radioactive. Frequent consumption of Nuka Cola can cause addiction..</description>
 		<graphicData>
 			<texPath>Things/Item/Drug/ColaOrang</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -238,8 +238,8 @@
 	
 	<ThingDef ParentName="SweetMealBase">
 		<defName>NukaColaMars</defName>
-		<label>Ядер-Кола Затмение</label>
-		<description>Этот продукт — смесь из очищенной Квантовой Ядер-Колы и пакета крови.Дикое сочетание пришлось не всем любителям пустошей по вкусу, но те кто ценят тьму остались довольны.</description>
+		<label>Nuka-Cola Eclipse</label>
+		<description>This product is a mixture of purified Nuka-Cola Quantum and a blood pack. Not all wasteland lovers liked the wild combination, but those who appreciate the darkness were satisfied.</description>
 		<graphicData>
 			<texPath>Things/Item/Drug/ColaBload</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>

@@ -3,8 +3,8 @@
 	
 	<AlienRace.ThingDef_AlienRace ParentName="SK_BasePawn">
 		<defName>MisterHandy</defName>
-		<label>Мистер Помощник</label>
-		<description>Мистер Помощник это весьма яркий представитель серийной модели шарообразных роботов, тщательно производимой и массово выпускаемой по всей территории довоенной Эквестрии. Роли дворецкого, привратника, личного телохранителя или даже врача – далеко не всё то, с чем мог наипрекраснейшим образом справляться Мистер Помощник.</description>
+		<label>Mr. Handy</label>
+<description>Mr. Handy is a very bright representative of the serial model of spherical robots, carefully produced and mass-produced throughout the territory of pre-war Equestria. The roles of a butler, a gatekeeper, a personal bodyguard or even a doctor are far from all that Mister Handy could cope with in the most wonderful way.</description>
 		<uiIconPath>Things/Pawn/Humanlike/UI/IconHuman</uiIconPath>
 		<comps>
 			<li Class="Androids.CompProperties_EnergyTracker">

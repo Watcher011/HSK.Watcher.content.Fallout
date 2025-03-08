@@ -6,7 +6,7 @@
 	<ThingDef ParentName="ApparelSpacerSimpleBase">
 		<defName>Apparello_PipBoy</defName>
 		<label>Pip-Boy</label>
-		<description>Пип-бой — это поощрительный аксессуар для инженера. Представляет собой наручный Pip-Boy из серии игр Fallout с зелёным светящимся монохромным экраном, кнопками и регуляторами. Устройство основано на Пип-бой 3000, производящегося  компанией «RobCo Industries».</description>
+		<description>The Pip-Boy is a promotional accessory for the Engineer. It is a wrist-mounted Pip-Boy from the Fallout series of games with a green glowing monochrome screen, buttons and controls. The device is based on the Pip-Boy 3000, manufactured by RobCo Industries.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Apparello/Accessorello/Gloves/PipBoy</texPath>
 			<shaderType>CutoutComplex</shaderType>

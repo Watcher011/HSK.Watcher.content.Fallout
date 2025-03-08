@@ -3,7 +3,7 @@
 
 	<ThingCategoryDef>
 		<defName>FuturisticVaultec</defName>
-		<label>Произведено в Волт-тек</label>
+	    <label>Made in Vault-Tec</label>
 		<parent>WeaponsRanged</parent>
 	</ThingCategoryDef>
 

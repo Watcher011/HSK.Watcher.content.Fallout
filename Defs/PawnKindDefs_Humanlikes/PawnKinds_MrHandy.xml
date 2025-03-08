@@ -2,7 +2,7 @@
 <Defs>
 <PawnKindDef ParentName="BasePlayerPawnKind">
 		<defName>MisterHandyColonist</defName>
-		<label>Мистер Помощник</label>
+		<label>Mr. Handyman</label>
 		<race>MisterHandy</race>
 		<defaultFactionType>Vaultec</defaultFactionType>
 		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>

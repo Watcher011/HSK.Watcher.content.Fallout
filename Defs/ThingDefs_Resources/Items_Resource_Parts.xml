@@ -5,8 +5,8 @@
 
 	<ThingDef ParentName="CropsBase">
 		<defName>EmptyBottle</defName>
-		<label>Пустая бутылка</label>
-		<description>Пустая стеклянная бутылка.</description>
+		<label>Empty bottle</label>
+        <description>Empty glass bottle.</description>
 		<graphicData>
 			<texPath>Things/Item/Drug/ColaEmpty</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -34,8 +34,8 @@
 
 <ThingDef ParentName="CropsBase">
 		<defName>BottleCap</defName>
-		<label>Крышка от бутылки</label>
-		<description>Крышки — это обеспеченная водой валюта, контролируемая и регулируемая караванными торговыми компаниями НКР. Караванные дома сговорились вновь ввести крышки в качестве основной валюты, когда торговцы потеряли веру в деньги НКР.</description>
+		<label>Bottle Cap</label>
+		<description>Caps are a water-backed currency controlled and regulated by the NCR caravan trading companies. The caravan houses conspired to reintroduce caps as a primary currency when traders lost faith in NCR money.</description>
 		<graphicData>
 			<texPath>Things/Item/Drug/Cap</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>

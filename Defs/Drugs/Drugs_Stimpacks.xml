@@ -4,8 +4,8 @@
 
     <ThingDef ParentName="MakeableDrugPillBase">
         <defName>SimpleStimpack</defName>
-        <label>Стимулятор</label>
-        <description>Одноразовый шприц серого цвета с манометром. Содержит жидкость красного цвета из крови и антисептика.</description>
+        <label>Stimpack</label>
+        <description>Disposable gray syringe with a pressure gauge. Contains red liquid from blood and antiseptic.</description>
         <techLevel>Industrial</techLevel>
         <stackLimit>25</stackLimit>
         <descriptionHyperlinks>
@@ -32,8 +32,8 @@
                     <offset>(0.16,0,0)</offset>
                 </northDefault>
             </ingestHoldOffsetStanding>
-            <ingestCommandString>Ввоод {0}</ingestCommandString>
-            <ingestReportString>Ввоодит {0}.</ingestReportString>
+            <ingestCommandString>Input {0}</ingestCommandString>
+            <ingestReportString>Enters {0}.</ingestReportString>
             <useEatingSpeedStat>false</useEatingSpeedStat>
             <nurseable>true</nurseable>
             <outcomeDoers>
@@ -68,8 +68,8 @@
 	
 	<ThingDef ParentName="DrugPillBase">
 		<defName>RadAway</defName>
-		<label>Антирадин</label>
-		<description>Представляет собой полимерный контейнер с короткой трубкой, наполненный прозрачным инфузионным раствором желто-оранжевого цвета. Раствор способен люминесцировать в темноте. На этикетке имеется выполненная от руки надпись «Rad Away», а также присутствуют нечитаемые следы фабричной маркировки.</description>
+		<label>Antiradin</label>
+		<description>It is a polymer container with a short tube filled with a transparent yellow-orange infusion solution. The solution is capable of luminescence in the dark. The label has a handwritten inscription "Rad Away", and there are also illegible traces of factory markings.</description>
 		<descriptionHyperlinks>
 			<HediffDef>FatalRad</HediffDef>
 		</descriptionHyperlinks>
@@ -92,8 +92,8 @@
 			<preferability>NeverForNutrition</preferability>
 			<maxNumToIngestAtOnce>3</maxNumToIngestAtOnce>
 			<drugCategory>Medical</drugCategory>
-			<ingestCommandString>Ввоод {0}</ingestCommandString>
-            <ingestReportString>Ввоодит {0}.</ingestReportString>
+			<ingestCommandString>Input {0}</ingestCommandString>
+            <ingestReportString>Enters {0}.</ingestReportString>
 			<outcomeDoers>
 				<li Class="SK.IngestionOutcomeDoer_SubtractHediffSeverity">
 					<targetHediff>FatalRad</targetHediff>
@@ -126,8 +126,8 @@
 	 <HediffDef>
     <defName>RadAwayHigh</defName>
     <hediffClass>Hediff_High</hediffClass>
-    <label>Антирадин</label>
-    <description>Благодаря свойству антирадина выводить радиацию из организма, при его употреблении снижается уровень радиоактивного заражения.</description>
+    <label>Antiradin</label>
+    <description>Due to the property of antiradin to remove radiation from the body, its use reduces the level of radioactive contamination.</description>
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
     <maxSeverity>1.0</maxSeverity>
@@ -156,21 +156,21 @@
 	
 	<ChemicalDef>
 		<defName>RadAway</defName>
-		<label>Антирадин</label>
+		<label>Antiradin</label>
 		<addictionHediff>RadAwayAddiction</addictionHediff>
 		<toleranceHediff>RadAwayTolerance</toleranceHediff>
 	</ChemicalDef>
 	<NeedDef ParentName="DrugAddictionNeedBase">
 		<defName>Chemical_RadAway</defName>
 		<needClass>Need_Chemical</needClass>
-		<label>Антирадин</label>
-		<description>В следствии употребления Антирадина возникла зависимость.</description>
+		<label>Antiradin</label>
+		<description>As a result of using Antiradin, addiction developed.</description>
 		<listPriority>35</listPriority>
 	</NeedDef>
 	<HediffDef ParentName="DrugToleranceBase">
 		<defName>RadAwayTolerance</defName>
-		<label>Тяга к Антирадину</label>
-		<description>Возникла тяга к Антирадину,так и к зависимости не далеко</description>
+		<label>Craving for Antiradin</label>
+		<description>I developed a craving for Antiradin, and it’s not far from becoming an addiction.</description>
 		<comps>
 			<li Class="HediffCompProperties_SeverityPerDay">
 				<severityPerDay>-0.02</severityPerDay>
@@ -212,9 +212,9 @@
 	<HediffDef ParentName="AddictionBase">
 		<defName>RadAwayAddiction</defName>
 		<hediffClass>Hediff_Addiction</hediffClass>
-		<label>Зависимость от Антирадина</label>
-		<labelNoun>Антирадиный наркоман</labelNoun>
-		<description>Развилась сильная Антирадинная зависимость.</description>
+		<label>Antiradin Addiction</label>
+		<labelNoun>Anti-radiation addict</labelNoun>
+		<description>Strong Antiradine addiction developed.</description>
 		<causesNeed>Chemical_RadAway</causesNeed>
 		<comps>
 			<li Class="HediffCompProperties_SeverityPerDay">
@@ -226,7 +226,7 @@
 			<li>
 			</li>
 			<li>
-				<label>Антирадинная ломка</label>
+				<label>Anti-radiation withdrawal</label>
 				<socialFightChanceFactor>2.0</socialFightChanceFactor>
 				<capMods>
 					<li>
@@ -263,8 +263,8 @@
 				<visible>false</visible>
 			</li>
 			<li>
-				<label>Антирадинная ломка</label>
-				<description>Голова разрывается,руки дрожат,хреново мне.</description>
+				<label>Anti-radiation withdrawal</label>
+				<description>My head is splitting, my hands are shaking, I feel terrible.</description>
 				<baseMoodEffect>-8</baseMoodEffect>
 			</li>
 		</stages>

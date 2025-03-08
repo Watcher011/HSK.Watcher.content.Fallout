@@ -2,8 +2,8 @@
 <Defs>
 <ThingDef ParentName="ArmorSpacerSimpleBase">
 		<defName>Apparel_RaiderPowerArmorHelmet</defName>
-		<label>Шлем силовой брони рейдеров</label>
-		<description>Шлем кустарной сборки</description>
+		<label>Raider Power Armor Helmet</label>
+		<description>Craftsman Helmet</description>
 		<graphicData>
 			<texPath>Things/Apparel/RaiderPowerArmor/RaiderPowerArmorHell</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -110,8 +110,8 @@
 
 	<ThingDef ParentName="ArmorSpacerSimpleBase">
 		<defName>Apparel_RaiderPowerArmor</defName>
-		<label>Силовая броня рейдеров</label>
-		<description>Восстановленный рейдерами комплект силовой брони. По баллистической защите и запасу прочности аналогичен модели T-45, однако имеет только два уровня улучшений вместо шести у заводских моделей. Судя по внешнему виду изготовлен кустарно. Комплект по дизайну чем-то похож на обычную броню рейдеров. Худшая в своём классе, но даже такая броня делает своего носителя грозным противником. Главный её минус — низкая прочность.</description>
+		<label>Raider Power Armor</label>
+		<description>A set of power armor restored by raiders. Similar to the T-45 in terms of ballistic protection and durability, but has only two levels of improvements instead of the six of factory models. Judging by its appearance, it is homemade. The set is similar in design to regular raider armor. The worst in its class, but even such armor makes its wearer a formidable opponent. Its main disadvantage is low durability.</description>
 		<graphicData>
 			<texPath>Things/Apparel/RaiderPowerArmor/RaiderPowerArmor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -260,8 +260,8 @@
 
 	<ThingDef ParentName="ArmorSpacerSimpleBase">
 		<defName>Apparel_X01PowerArmor</defName>
-		<label>Силовая броня X-01</label>
-		<description>Модель силовой брони X-01 была разработана специалистами армии США и использовалась в уцелевших боевых частях после великой войны. По своим параметрам она значительно превосходит довоенные аналоги.</description>
+		<label>Power Armor X-01</label>
+		<description>The Power Armor model X-01 was developed by US Army specialists and used in surviving combat units after the Great War. In terms of its parameters, it significantly exceeds its pre-war counterparts.</description>
 		<graphicData>
 			<texPath>Things/Apparel/X-01/X-01</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

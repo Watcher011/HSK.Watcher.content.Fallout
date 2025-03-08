@@ -3,7 +3,7 @@
 
 	<ThingCategoryDef>
 		<defName>AmmoNail</defName>
-		<label>Гвозди</label>
+		<label>Nail</label>
 		<parent>AmmoRifles</parent>
 		<iconPath>Things/Ammo/Nail/Nail_c</iconPath>
 	</ThingCategoryDef>
@@ -12,7 +12,7 @@
 
 	<CombatExtended.AmmoSetDef>
 		<defName>AmmoSet_Nail</defName>
-		<label>Гвозди</label>
+		<label>Nail</label>
 		<ammoTypes>
 			<Ammo_Nail>Bullet_Nail</Ammo_Nail>
 			<Ammo_Nail_HV>Bullet_Nail_HV</Ammo_Nail_HV>
@@ -23,7 +23,7 @@
 	<!-- ==================== Ammo ========================== -->
 
 	<ThingDef Class="CombatExtended.AmmoDef" Name="BaseNailShot" ParentName="SmallAmmoBase" Abstract="True">
-		<description>Гвозди - хотя и наносит умеренный урон, но очень эффективно повреждает конечности, зачастую с одного выстрела. При выстреле, приводящем к смерти, может оторвать повреждённую часть тела или пригвоздить противника к стене, если та расположена достаточно близко за ним..</description>
+		<description>Nails - While it does moderate damage, it is very effective at damaging limbs, often in one shot. When shot to kill, it can rip off the damaged body part or pin the enemy to a wall if it is close enough behind them.</description>
 		<statBases>
 			<Mass>0.03</Mass>
 			<Bulk>0.01</Bulk>
@@ -41,7 +41,7 @@
 
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseNailShot">
 		<defName>Ammo_Nail</defName>
-		<label>Гвозди</label>
+		<label>Nail</label>
 		<graphicData>
 			<texPath>Things/Ammo/Nail</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -55,7 +55,7 @@
 	
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseNailShot">
 		<defName>Ammo_Nail_HV</defName>
-		<label>БУМ-гвозди</label>
+		<label>BOOM nails</label>
 		<graphicData>
 			<texPath>Things/Ammo/NailB</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -70,7 +70,7 @@
 	<!-- ================== Projectiles ================== -->
 	
 	<ThingDef Name="NailShotBullet" ParentName="BaseBulletCE" Abstract="true">
-		<label>Гвозди</label>
+		<label>Nail</label>
 		<graphicData>
 			<texPath>Things/Projectile/Shotgun_Pellet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -83,7 +83,7 @@
 
 	<ThingDef ParentName="NailShotBullet">
 		<defName>Bullet_Nail</defName>
-		<label>Гвозди</label>
+		<label>Nail</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<speed>25</speed>
 			<damageAmountBase>15</damageAmountBase>
@@ -94,7 +94,7 @@
 	
 	<ThingDef ParentName="NailShotBullet">
 		<defName>Bullet_Nail_HV</defName>
-		<label>БУМ-гвозди</label>
+		<label>BOOM nails</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<speed>30</speed>
 			<damageAmountBase>18</damageAmountBase>
@@ -113,9 +113,9 @@
 
 	<RecipeDef ParentName="AmmoRecipeBase">
 		<defName>MakeAmmo_Nail_HV</defName>
-		<label>Сделать  БУМ-гвозди x50</label>
-		<description>Несмотря на то, что в целом железнодорожные костыли наносят довольно умеренный урон, они чрезвычайно эффективны в плане повреждения конечностей (рук, ног и головы) противника и зачастую способны вывести из строя соответствующую часть тела уже после первого попадания по ней. А в случае критического попадания и вовсе оторвать её и пригвоздить к любой расположенной в непосредственной близости поверхности.Можно модифицировать добавив взрывчатку.</description>
-		<jobString>Делает БУМ-гвозди.</jobString>
+		<label>Make BOOM Nails x50</label>
+		<description>Despite the fact that overall the railroad spikes do quite moderate damage, they are extremely effective in terms of damaging the limbs (arms, legs and head) of the enemy and are often capable of incapacitating the corresponding body part after the first hit. And in the case of a critical hit, they can completely tear it off and nail it to any surface located in the immediate vicinity. Can be modified by adding explosives.</description>
+        <jobString>Makes BOOM nails.</jobString>
 		<workAmount>400</workAmount>
 		<ingredients>
 			<li>
@@ -149,9 +149,9 @@
 	
 		<RecipeDef ParentName="AmmoRecipeBase">
 		<defName>MakeAmmo_Nail</defName>
-		<label>Сделать Гвозди x50</label>
-		<description>Несмотря на то, что в целом железнодорожные костыли наносят довольно умеренный урон, они чрезвычайно эффективны в плане повреждения конечностей (рук, ног и головы) противника и зачастую способны вывести из строя соответствующую часть тела уже после первого попадания по ней. А в случае критического попадания и вовсе оторвать её и пригвоздить к любой расположенной в непосредственной близости поверхности.</description>
-		<jobString>Делает гвозди.</jobString>
+		<label>Make Nails x50</label>
+         <description>Despite the fact that railroad spikes generally deal moderate damage, they are extremely effective in terms of damaging the limbs (arms, legs, and head) of an enemy and are often capable of incapacitating the corresponding body part after the first hit. And in the case of a critical hit, they can completely tear it off and nail it to any surface located in the immediate vicinity.</description>
+        <jobString>Make nails.</jobString>
 		<workAmount>400</workAmount>
 		<ingredients>
 			<li>

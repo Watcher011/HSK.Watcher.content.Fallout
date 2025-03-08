@@ -4,9 +4,9 @@
 	
 	<RecipeDef>
 		<defName>MakeGlassBotel</defName>
-		<label>Создать стеклянные бутылки</label>
-		<description>Выплавить бутылки. 5шт.</description>
-		<jobString>Выплавляет.</jobString>
+		<label>Create glass bottles</label>
+		<description>Smelt bottles. 5pcs.</description>
+		<jobString>Smelts.</jobString>
 		<workAmount>900</workAmount>
 		<workSpeedStat>SmeltingSpeed</workSpeedStat>
 		<effectWorking>Smelt</effectWorking>
@@ -40,11 +40,11 @@
 		<workSkillLearnFactor>0.8</workSkillLearnFactor>
 	</RecipeDef>
 
-<RecipeDef>
+	<RecipeDef>
 		<defName>MakeSmeltBotel</defName>
-		<label>Переплавить стеклянные бутылки</label>
-		<description>Переплавить бутылки. Переплавить 5.</description>
-		<jobString>Переплавляет.</jobString>
+		<label>Melts glass bottles</label>
+		<description>Melts bottles. Melts 5.</description>
+		<jobString>Melts.</jobString>
 		<workAmount>900</workAmount>
 		<workSpeedStat>SmeltingSpeed</workSpeedStat>
 		<effectWorking>Smelt</effectWorking>
@@ -81,9 +81,9 @@
 	
 		<RecipeDef>
 		<defName>MakeCupBotel</defName>
-		<label>Создать крышки для бутылок</label>
-		<description>Выплавить крышки для бутылки. 10шт.</description>
-		<jobString>Выплавляет.</jobString>
+		<label>Create bottle caps</label>
+		<description>Smelt bottle caps. 10pcs.</description>
+		<jobString>Smelts.</jobString>
 		<workAmount>900</workAmount>
 		<workSpeedStat>SmeltingSpeed</workSpeedStat>
 		<effectWorking>Smelt</effectWorking>
@@ -120,9 +120,9 @@
 
 <RecipeDef>
 		<defName>SmeltCupBotel</defName>
-		<label>Переплавить крышки для бутылки</label>
-		<description>Переплавить крышки для бутылок. Переплавить 10.</description>
-		<jobString>Переплавляет.</jobString>
+		<label>Remelt bottle caps</label>
+		<description>Remelt bottle caps. Remelt 10.</description>
+		<jobString>Remelts.</jobString>
 		<workAmount>900</workAmount>
 		<workSpeedStat>SmeltingSpeed</workSpeedStat>
 		<effectWorking>Smelt</effectWorking>

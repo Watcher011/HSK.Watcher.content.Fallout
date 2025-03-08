@@ -4,8 +4,8 @@
 <!--=============== TortleHead ====================-->
   <GeneDef>
     <defName>OE_GhoulHead</defName>
-    <label>Голова Гуля</label>
-    <description>Носители этого гена имеют голову Гуля.</description>
+   <label>Ghoul Head</label>
+   <description>Carriers of this gene have a Ghoul head.</description>
     <iconPath>UI/Icons/Genes/OE_Gene_GhoulHead</iconPath>
 	<displayCategory>Cosmetic</displayCategory>
 	<displayOrderInCategory>704</displayOrderInCategory>
@@ -24,9 +24,9 @@
 
  <GeneDef>
     <defName>RADImmunity</defName>
-    <label>Сопротивление Радиации</label>
-    <labelShortAdj>Рад защита</labelShortAdj>
-    <description>Защита от радиации</description>
+   <label>Radiation Resistance</label>
+<labelShortAdj>Rad Protection</labelShortAdj>
+<description>Radiation Protection</description>
     <iconPath>UI/Icons/Genes/RAD</iconPath>
     <displayCategory>ResistanceAndWeakness</displayCategory>
     <makeImmuneTo>

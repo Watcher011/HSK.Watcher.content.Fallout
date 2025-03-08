@@ -4,8 +4,8 @@
 
 	<ResearchProjectDef MayRequire="Ludeon.RimWorld.Royalty" ParentName="HitechMultiBase">
 		<defName>Stimpak</defName>
-		<label>Создание Стимпака</label>
-		<description>Изученине хим формулы для производства Стимпака от Волт-Тек.</description>
+		<label>Making a Stimpak</label>
+		<description>Studying the chemical formula for making a Vault-Tec Stimpak.</description>
 		<baseCost>1000</baseCost>
 	<techLevel>Industrial</techLevel>
 		<prerequisites>

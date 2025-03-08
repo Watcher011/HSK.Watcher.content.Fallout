@@ -4,16 +4,16 @@
 	<!-- =============== Carl Gustav Shell =============== -->
    <CombatExtended.AmmoCategoryDef>
     <defName>NHE</defName>
-    <label>Ядерный выстрел</label>
-    <labelShort>«Большой ребёнок»</labelShort>
-    <description>Этот тип отличается бо́льшим поражающим действием и радиационным загрязнением. Увеличенный урон достигается ценой уменьшенной дальнобойности, что может плохо обернуться для слабозащищённого стрелка.</description>
+    <label>Nuclear shot</label>
+    <labelShort>"Big Kid"</labelShort>
+    <description>This type is characterized by greater destructive power and radiation pollution. Increased damage is achieved at the cost of reduced range, which can turn out badly for a poorly protected shooter.</description>
   </CombatExtended.AmmoCategoryDef>
 
    <CombatExtended.AmmoCategoryDef>
     <defName>THE</defName>
-    <label>Ядерный выстрел, с уст. временем</label>
-    <labelShort>«Большой Будильник</labelShort>
-    <description>Имеет 5-секундный таймер. Не детонирует при столкновении с другими объектами, что позволяет ему рикошетировать от стен за углы. Снаряд, попавший непосредственно в противника, также наносит урон, вдобавок к последующему взрыву..</description>
+    <label>Nuclear shot, with set time</label>
+    <labelShort>Big Alarm Clock</labelShort>
+    <description>Has a 5-second timer. Does not detonate on impact with other objects, allowing it to ricochet off walls and around corners. A projectile that directly hits an enemy also deals damage, in addition to the subsequent explosion.</description>
   </CombatExtended.AmmoCategoryDef>
 
 

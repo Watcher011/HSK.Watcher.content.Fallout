@@ -4,9 +4,9 @@
 <!--=============== Ghoul ====================-->
   <XenotypeDef>
     <defName>OE_Ghoul</defName>
-    <label>Гуль</label>
-    <description>Гули были когда-то людьми, которые не успели попасть в защитное убежище во время бомбардировки. Облучение придало им повышенную сопротивляемость радиации; они также получают бонус к сопротивляемости ядам. К сожалению, физически они слишком слабы и не могут использовать тяжёлое оружие.</description>
-    <descriptionShort>Гули были когда-то людьми, которые не успели попасть в защитное убежище во время бомбардировки. Облучение придало им повышенную сопротивляемость радиации; они также получают бонус к сопротивляемости ядам. К сожалению, физически они слишком слабы и не могут использовать тяжёлое оружие.</descriptionShort>
+    <label>Ghoul</label>
+    <description>Ghouls were once humans who failed to get into a protective shelter during a bombing. Irradiation gave them increased resistance to radiation; they also gain a bonus to resistance to poison. Unfortunately, they are too physically weak to use heavy weapons.</description>
+    <descriptionShort>Ghouls were once humans who failed to get into a protective shelter during a bombing. Irradiation gave them increased resistance to radiation; they also gain a bonus to resistance to poison. Unfortunately, they are too physically weak to use heavy weapons.</descriptionShort>
     <iconPath>UI/Icons/Xenotypes/RAD</iconPath>
 	<inheritable>true</inheritable>
     <genes>
@@ -34,11 +34,44 @@
     </genes>
   </XenotypeDef>
   
+  
+   <XenotypeDef>
+    <defName>Ghoul</defName>
+    <label>Ghoul</label>
+   <description>Ghouls were once humans who failed to get into a protective shelter during a bombing. Irradiation gave them increased resistance to radiation; they also gain a bonus to resistance to poison. Unfortunately, they are too physically weak to use heavy weapons.</description>
+    <descriptionShort>Ghouls were once humans who failed to get into a protective shelter during a bombing. Irradiation gave them increased resistance to radiation; they also gain a bonus to resistance to poison. Unfortunately, they are too physically weak to use heavy weapons.</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/RAD</iconPath>
+    <inheritable>true</inheritable>
+    <nameMaker>NamerPersonDirtmole_Male</nameMaker>
+    <nameMakerFemale>NamerPersonDirtmole_Female</nameMakerFemale>
+    <chanceToUseNameMaker>1</chanceToUseNameMaker>
+    <genes>
+      <li>Eyes_Gray</li>
+	  <li>OE_GhoulHead</li>
+      <li>Skin_LightGray</li>
+      <li>Beard_NoBeardOnly</li>
+      <li>Inbred</li>
+	  <li>ToxicEnvironmentResistance_Total</li>
+	  <li>PollutionRush</li>
+	  <li>RobustDigestion</li>
+	  <li>RADImmunity</li>
+	  <li>Beauty_Ugly</li>
+	  <li>Delicate</li>
+	  <li>LowSleep</li>
+	  <li>MinTemp_SmallIncrease</li>
+	  <li>Mood_Sanguine</li>
+	  <li>Pain_Reduced</li>
+	 <li>ToxResist_Total</li>
+    </genes>
+  </XenotypeDef>
+  
+  
+  
    <XenotypeDef>
     <defName>OE_MisterHandy</defName>
-    <label>Мистер Помощник</label>
-    <description>Мистер Помощник.</description>
-    <descriptionShort>Мистер Помощник.</descriptionShort>
+    <label>Mr. Helper</label>
+    <description>Mr. Helper</description>
+    <descriptionShort>Mr. Helper.</descriptionShort>
     <iconPath>UI/Icons/Xenotypes/MH</iconPath>
 	<inheritable>true</inheritable>
     <genes>

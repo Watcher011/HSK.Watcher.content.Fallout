@@ -3,9 +3,9 @@
 
 	  <ThingDef ParentName="MakeableDrugPillBase">
        <defName>StealthBoy</defName>
-		<label>СтелсБой</label>
+		<label>StealthBoy</label>
 		<thingClass>ThingWithComps</thingClass>
-		<description>Это личное маскировочное устройство стелс-бой фирмы «РобКо», модель 3001. Разработанный Робертом Мэйфлауэром, стелс-бой генерирует модуляционное поле, которое передаёт отражённый свет от одной стороны объекта на другую, что делает носителя практически невидимым для нетренированного глаза.</description>
+		<description>This is the RobCo Stealth Boy's personal cloaking device, Model 3001. Designed by Robert Mayflower, the Stealth Boy generates a modulation field that transmits reflected light from one side of an object to the other, making the wearer virtually invisible to the untrained eye.</description>
         <techLevel>Industrial</techLevel>
         <stackLimit>5</stackLimit>
         <descriptionHyperlinks>
@@ -32,8 +32,8 @@
                     <offset>(0.16,0,0)</offset>
                 </northDefault>
             </ingestHoldOffsetStanding>
-            <ingestCommandString>Акривировать {0}</ingestCommandString>
-            <ingestReportString>Активирует {0}.</ingestReportString>
+           <ingestCommandString>Activate {0}</ingestCommandString>
+		   <ingestReportString>Activates {0}.</ingestReportString>
             <useEatingSpeedStat>false</useEatingSpeedStat>
             <nurseable>true</nurseable>
             <outcomeDoers>
@@ -76,9 +76,9 @@
 	 <HediffDef>
     <hediffClass>HediffWithComps</hediffClass>
     <defName>Hediff_StealthBoy</defName>
-      <label>СтелсБой</label>
-        <labelNoun>СтелсБой</labelNoun>
-        <description>Персональное маскировочное устройство "Невидимка 3001" от компании РобКо. Генерирует модулирующее поле, которое передаёт отражённый свет с одной стороны объекта на противоположную.</description>
+      <label>StealthBoy</label>
+		<labelNoun>StealthBoy</labelNoun>
+		<description>Personal camouflage device "Invisible 3001" from RobCo. Generates a modulating field that transmits reflected light from one side of an object to the opposite side.</description>
     <isBad>false</isBad>
     <comps>
 		<li Class="HediffCompProperties_Disappears">
@@ -102,9 +102,9 @@
 	 <HediffDef>
     <hediffClass>HediffWithComps</hediffClass>
     <defName>Hediff_StealthBoy_Shadow</defName>
-      <label>СтелсБой Теней</label>
-        <labelNoun>СтелсБой Теней</labelNoun>
-        <description>Персональное маскировочное устройство "Невидимка 3001" от компании РобКо. Генерирует модулирующее поле, которое передаёт отражённый свет с одной стороны объекта на противоположную.</description>
+     <label>StealthBoy Shadow</label>
+	<labelNoun>StealthBoy Shadow</labelNoun>
+	<description>Personal cloaking device "Invisible 3001" from RobCo. Generates a modulating field that transmits reflected light from one side of an object to the opposite side.</description>
     <isBad>false</isBad>
     <comps>
       <li Class="HediffCompProperties_Invisibility">
@@ -120,7 +120,7 @@
 	<HediffDef>
         <defName>Hediff_StealthBoyDiff</defName>
         <hediffClass>Hediff_High</hediffClass>
-        <description>Побочный эффект после стелсбоя.</description>
+        <description>Side effect after stealth boy.</description>
         <defaultLabelColor>(1,0,0.6)</defaultLabelColor>
         <scenarioCanAdd>false</scenarioCanAdd>
         <maxSeverity>1.0</maxSeverity>
@@ -134,7 +134,7 @@
         <stages>
 
             <li>
-			   <label>Побочный эффект после стелсбоя</label>
+			   <label>Side effect after stealth boy</label>
                 <minSeverity>0</minSeverity>
                 <restFallFactor>2.2</restFallFactor>
                 <capMods>
@@ -162,9 +162,9 @@
 	
 	<ThingDef ParentName="ResourceBase">
 		<defName>MisterHandyKit</defName>
-		<label>Набор для сборки Мистера Помощника</label>
-		<thingClass>ThingWithComps</thingClass>
-		<description>Инструкция и набор для сборки Мистера Помощника</description>
+		<label>Mr. Handy Kit</label>
+        <thingClass>ThingWithComps</thingClass>
+        <description>Mr. Handy Kit and Instructions</description>
 		<graphicData>
 			<texPath>Things/Item/MisterHandy</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -188,7 +188,7 @@
 		<comps>
 			<li Class="CompProperties_Usable">
 				<useJob>UseItem</useJob>
-				<useLabel>Собрать Мистера Помощника</useLabel>
+				<useLabel>Assemble Mr. Handy</useLabel>
 				<useDuration>600</useDuration>
 			</li>
 			<li Class="Androids.CompProperties_SpawnPawn">

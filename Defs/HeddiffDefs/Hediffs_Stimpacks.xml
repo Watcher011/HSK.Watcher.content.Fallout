@@ -6,9 +6,9 @@
     <HediffDef>
         <defName>Hediff_SimpleStimpack</defName>
         <hediffClass>Hediff_High</hediffClass>
-        <label>Стимулятор</label>
-        <labelNoun>Стимулятор</labelNoun>
-        <description>Одноразовый шприц серого цвета с манометром. Содержит жидкость красного цвета из крови и антисептика.</description>
+        <label>Stimulator</label>
+        <labelNoun>Stimulator</labelNoun>
+        <description>A disposable gray syringe with a pressure gauge. Contains a red liquid made from blood and antiseptic.</description>
         <defaultLabelColor>(1,0,0.6)</defaultLabelColor>
         <scenarioCanAdd>false</scenarioCanAdd>
         <maxSeverity>1.0</maxSeverity>
@@ -24,7 +24,7 @@
         <stages>
 
             <li>
-                <label>Побочный эффект</label>
+                <label>Side effect</label>
                 <minSeverity>0</minSeverity>
                 <hungerRateFactor>2.2</hungerRateFactor>
                 <restFallFactor>2.2</restFallFactor>

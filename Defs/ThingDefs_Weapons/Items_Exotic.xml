@@ -3,8 +3,8 @@
 
 	<ThingDef ParentName="SK_ResourceVerbBase">
 		<defName>Deathclawhand</defName>
-		<label>Лапа когтя смерти</label>
-		<description>Особым образом обработав конечность мёртвого когтя смерти, можно изготовить перчатку, позволяющую наносить врагам огромный урон в ближнем бою.</description>
+		<label>Deathclaw Paw</label>
+		<description>A specially treated limb of a dead deathclaw can be crafted into a glove that allows you to deal massive damage to enemies in close combat.</description>
 		<graphicData>
 			<texPath>Things/Item/Special/Deathclawhand</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

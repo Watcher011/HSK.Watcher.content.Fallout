@@ -4,9 +4,9 @@
   
 	<FactionDef ParentName="SK_HumanFactionBase">
 		<defName>Enclave</defName>
-        <label>Анклав</label>
-		 <pawnSingular>Анклав</pawnSingular>
-         <pawnsPlural>Анклавы</pawnsPlural>
+        <label>Enclave</label>
+		 <pawnSingular>Enclave</pawnSingular>
+         <pawnsPlural>Enclaves</pawnsPlural>
 		<listOrderPriority>29</listOrderPriority>
 		<settlementGenerationWeight>1</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
@@ -16,6 +16,9 @@
 		<autoFlee>true</autoFlee>
 		<canStageAttacks>true</canStageAttacks>
 		<leaderTitle>leader</leaderTitle>
+		 <fixedLeaderKinds>
+         <li>EnclaveChaser</li>
+         </fixedLeaderKinds>
 		<earliestRaidDays>460</earliestRaidDays>
 		<mustStartOneEnemy>true</mustStartOneEnemy>
 		<naturalEnemy>true</naturalEnemy>
@@ -174,12 +177,12 @@
     <defName>NamerSettlementEnclave</defName>
     <rulePack>
       <rulesStrings>
-        <li>townend->База 01</li>
-        <li>townend->База 02</li>
-        <li>townend->База 03</li>
-        <li>townend->База 04</li>
-        <li>townend->База 05</li>
-        <li>townend->База 06</li>
+        <li>townend->Base 01</li>
+        <li>townend->Base 02</li>
+		<li>townend->Base 03</li>
+		<li>townend->Base 04</li>
+		<li>townend->Base 05</li>
+		<li>townend->Base 06</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>

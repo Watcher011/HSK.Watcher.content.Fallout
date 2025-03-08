@@ -4,8 +4,8 @@
   <AlienRace.ThingDef_AlienRace Name="VaulTecGhoul" ParentName="BaseHumanlikePawn">
         <thingClass>Pawn</thingClass>
        <defName>VaulTecGhoul</defName>
-    <label>Гуль</label>
-    <description>Гули были когда-то людьми, которые не успели попасть в защитное убежище во время бомбардировки. Облучение придало им повышенную сопротивляемость радиации; они также получают бонус к сопротивляемости ядам. К сожалению, физически они слишком слабы и не могут использовать тяжёлое оружие.</description>
+   <label>Ghoul</label>
+<description>Ghouls were once humans who failed to get into a protective shelter during a bombing. Irradiation has given them increased resistance to radiation; they also gain a bonus to resistance to poison. Unfortunately, they are too physically weak to use heavy weapons.</description>
         <alienRace>
             <generalSettings>
                 <maleGenderProbability>0.5</maleGenderProbability>
@@ -568,8 +568,8 @@
  
   <AlienRace.ThingDef_AlienRace ParentName="VaulTecGhoul">
     <defName>GlowingGhoul</defName>
-    <label>Светящийся гуль</label>
-    <description>Это гули, которые под воздействием большого количества радиации стали её живыми проводниками. Светящиеся гули излучают радиацию, опасную для людей. Они могут быть опасными даже после своей смерти.</description>
+   <label>Glowing Ghoul</label>
+<description>These are ghouls who, under the influence of large amounts of radiation, have become its living conductors. Glowing ghouls emit radiation that is dangerous to humans. They can be dangerous even after their death.</description>
      	<comps>
 			   <li Class="Flashlight.CompProperties_GlowingPawn">
                 <lightRange>3</lightRange>

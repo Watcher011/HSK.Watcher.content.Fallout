@@ -4,8 +4,8 @@
 	
 	<ThingDef ParentName="SK_AnimalThingBase">
 		<defName>CockroachVaultec</defName>
-		<label>Радтаракан</label>
-		<description>Радтараканы — мутировавшие большие «американские тараканы», в просторечии называемые просто «гигантскими тараканами». Являются увеличенными версиями этих видов в довоенный период, которые экспоненциально увеличились в размерах из-за радиоактивных осадков.</description>
+		<label>Radroach</label>
+<description>Radroaches are mutated large "American cockroaches", colloquially referred to as "giant cockroaches". They are larger versions of the pre-war species that have grown exponentially in size due to radioactive fallout.</description>
 		<statBases>
 			<Mass>1.5</Mass>
 			<MoveSpeed>2.8</MoveSpeed>
@@ -122,7 +122,7 @@
 
 	<PawnKindDef ParentName="SK_AnimalKindBase">
 		<defName>CockroachVaultec</defName>
-		<label>Радтаракан</label>
+		<label>Radroach</label>
 		<race>CockroachVaultec</race>
 		<combatPower>10</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
@@ -167,8 +167,8 @@
 
 <ThingDef ParentName="SK_AnimalThingBase">
 		<defName>Bloodbug</defName>
-		<label>Гнус</label>
-		<description>Гигантский комар-мутант, обитающий на пустошах Содружества после войны.Встречаются как поодиночке, так и группами до 5 особей. В неагрессивном состоянии гнус почти неподвижно сидит на земле или трупе брамина. Порой может сидеть в воде, что делает его практически незаметным до момента, когда он взлетает для атаки.</description>
+		<label>Bug</label>
+<description>A giant mutant mosquito that lives in the wastelands of the Commonwealth after the war. They are found both singly and in groups of up to 5 individuals. In a non-aggressive state, the bug sits almost motionless on the ground or the corpse of a brahmin. Sometimes it can sit in water, which makes it almost invisible until the moment when it takes off to attack.</description>
 		<statBases>
 			<Mass>4</Mass>
 			<MoveSpeed>9.5</MoveSpeed>
@@ -303,7 +303,7 @@
 
 	<PawnKindDef ParentName="SK_AnimalKindBase">
 		<defName>Bloodbug</defName>
-		<label>Гнус</label>
+		<label>Gnus</label>
 		<race>Bloodbug</race>
 		<combatPower>35</combatPower>
 		<ecoSystemWeight>0.05</ecoSystemWeight>
@@ -347,8 +347,8 @@
 
 <ThingDef ParentName="SK_AnimalThingBase">
 		<defName>Cazador</defName>
-		<label>Касадор</label>
-		<description>Крупное мутировавшее насекомое, произошедшее от вида Pepsis grossa — семейства дорожных ос Pepsis. Чаще всего обитают в холмистых и горных местностях пустыни Мохаве, а также в каньоне Зайон и Большой Горе.Касадоры очень быстро передвигаются в полёте при помощи крыльев. В случае повреждения одного или двух крыльев начинают передвигаться на лапках, что значительно снижает скорость их передвижения. Как и все насекомые, при повреждении усиков впадают в бешенство и атакуют любое живое существо.</description>
+		<label>Cazador</label>
+<description>A large mutated insect descended from the Pepsis grossa species, a member of the Pepsis road wasp family. They are most often found in the hilly and mountainous areas of the Mojave Desert, as well as in Zion Canyon and Big Mountain. Cazadors move very quickly in flight using their wings. If one or both wings are damaged, they begin to move on their legs, which significantly reduces their speed. Like all insects, if their antennae are damaged, they go berserk and attack any living creature.</description>
 		<statBases>
 			<Mass>3</Mass>
 			<MoveSpeed>9.5</MoveSpeed>
@@ -479,7 +479,7 @@
 
 	<PawnKindDef ParentName="SK_AnimalKindBase">
 		<defName>Cazador</defName>
-		<label>Касадор</label>
+		<label>Cazador</label>
 		<race>Cazador</race>
 		<combatPower>255</combatPower>
 		<ecoSystemWeight>0.05</ecoSystemWeight>

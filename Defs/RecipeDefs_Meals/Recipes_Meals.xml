@@ -3,9 +3,9 @@
 
 	<RecipeDef>
 		<defName>MakeDeathclaw</defName>
-		<label>Омлет из яиц когтя смерти</label>
-		<description>Представляет собой взбитые яйца когтя смерти с добавлением крови и обжаренные до жёлтого цвета. При употреблении значительно восстанавливает здоровье и усиливает процесс регенерации тканей в организме.</description>
-		<jobString>Готовит омлет</jobString>
+		<label>Deathclaw Egg Omelette</label>
+		<description>It is beaten deathclaw eggs with added blood and fried until yellow. When consumed, it significantly restores health and enhances the tissue regeneration process in the body.</description>
+		<jobString>Cooks an omelette</jobString>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<workAmount>500</workAmount>

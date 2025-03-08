@@ -3,10 +3,10 @@
 
 	<ScenarioDef>
 		<defName>Crashlanded_Nuclear_Ghoul</defName>
-		<label>Дети Атома</label>
-		<description>Группа Гулей направляемые своей верой отправились в дальнее путешествие для основания нового поселения.</description>
+		<label>Children of Atom</label>
+		<description>A group of Ghouls guided by their faith set out on a long journey to found a new settlement.</description>
 		<scenario>
-			<summary>Группа Гулей в поисках нового дома.</summary>
+		<summary>A group of Ghouls in search of a new home.</summary>
 			<playerFaction>
 				<def>PlayerFaction</def>
 				<factionDef>NuclearColonyGhoul</factionDef>
@@ -14,13 +14,13 @@
 			<parts>
 				<li Class="ScenPart_GameStartDialog">
 					<def>GameStartDialog</def>
-					<text>Ваши разногласия с церковью Атома привели к её расколу. Вам удалось сбежать от фанатиков и прихватить редкую реликвию. Но тревожное чувство вас не покидает ... почему вас так просто отпустили ? Что-то подсказывает что у вас мало времени и вскоре за вами прейдут.</text>
+					<text>Your disagreements with the Church of Atom have led to its split. You managed to escape from the fanatics and grab a rare relic. But an uneasy feeling does not leave you ... why did they let you go so easily? Something tells you that you have little time and soon they will come for you.</text>
 					<closeSound>GameStartSting</closeSound>
 				</li>
                	<li Class="ScenPart_ConfigPage_ConfigureStartingPawns_Xenotypes">
 				<def>ConfigurePawnsXenotypes</def>
 				<pawnChoiceCount>8</pawnChoiceCount>
-				<customSummary>Свет Атома превратил вас в бессмертных Гулей с течением времени ваши разногласия с церковью Атома привели к её расколу, может оно и к лучшему. Собрав вещи вы решили основать новую колонию.(Лёгкий старт)</customSummary>
+				<customSummary>The Light of Atom turned you into immortal Ghouls over time your disagreements with the Church of Atom led to its split, maybe it's for the best. Having collected your things you decided to found a new colony. (Easy Start)</customSummary>
 				<xenotypeCounts>
 					<li>
 						<xenotype>OE_Ghoul</xenotype>

@@ -9,15 +9,15 @@
         <validWhileDespawned>true</validWhileDespawned>
         <stages>
             <li>
-                <label>Побочный эффект стимпака</label>
-                <description>Чувствую себя выжатым , сил нет</description>
-                <baseMoodEffect>-6</baseMoodEffect>
-            </li>
-            <li>
-                <label>Эффект стимпака</label>
-                <description>Я могу свернуть горы</description>
-                <baseMoodEffect>3</baseMoodEffect>
-            </li>
+				<label>Steampack side effect</label>
+				<description>I feel drained, no strength left</description>
+				<baseMoodEffect>-6</baseMoodEffect>
+			</li>
+			<li>
+			     <label>Steampack effect</label>
+				<description>I can move mountains</description>
+				<baseMoodEffect>3</baseMoodEffect>
+			</li>
         </stages>
     </ThoughtDef>
 

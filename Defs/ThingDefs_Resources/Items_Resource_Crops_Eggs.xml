@@ -5,8 +5,8 @@
 	
 	<ThingDef ParentName="SK_EggUnfertBase">
 		<defName>EggDeathclawUnfertilized</defName>
-		<label>Яйцо когтя смерти (Unfertilized)</label>
-		<description>Яйцо Когтя смерти.</description>
+		<label>Deathclaw Egg (Unfertilized)</label>
+		<description>Deathclaw Egg.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/AnimalProductRaw/EggBirdSmall</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -25,8 +25,8 @@
 	
 	<ThingDef ParentName="SK_EggFertBase">
 		<defName>EggDeathclawFertilized</defName>
-		<label>Яйцо Когтя смерти(Fertilized)</label>
-		<description>Яйцо Когтя смерти</description>
+		<label>Deathclaw Egg(Fertilized)</label>
+		<description>Deathclaw Egg</description>
 		<tickerType>Normal</tickerType>
 		<graphicData>
 			<texPath>Things/Item/Resource/AnimalProductRaw/EggBirdSmall</texPath>

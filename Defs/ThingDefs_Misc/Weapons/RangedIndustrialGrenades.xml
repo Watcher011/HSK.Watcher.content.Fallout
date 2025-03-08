@@ -4,7 +4,7 @@
   
   <ThingDef ParentName="SK_BaseGrenadeProjectile">
 		<defName>Proj_GrenadeBottlecap</defName>
-		<label>Крышко-мина</label>
+		<label>Mine Lid</label>
 		<graphicData>
 			<texPath>Things/Projectile/Grenades/Bottlecap</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -35,8 +35,8 @@
 	</ThingDef>
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseGrenadeEquipment">
 		 <defName>Weapon_Grenade_Bottlecap</defName>
-    <label>Крышко-мина</label>
-    <description>Популярная до войны коробочка для завтраков от компании «Волт-Тек» стала в постапокалиптическом Содружестве основой для смертоносной мины. Это самодельное устройство поможет справиться вам с любым врагом.</description>
+    <label>Lid-Mine</label>
+	<description>A popular pre-war Vault-Tec lunchbox has become the basis for a deadly mine in the post-apocalyptic Commonwealth. This homemade device will help you deal with any enemy.</description>
 		<equipmentType>Primary</equipmentType>
 		<graphicData>
 			 <texPath>Things/Item/Equipment/WeaponRanged/Bottlecap</texPath>
@@ -67,7 +67,7 @@
 		</thingCategories>
 		<verbs>
 			<li Class="CombatExtended.VerbPropertiesCE">
-				<label>Бросает Крышко-мину</label>
+				<label>Throws a Lid Mine</label>
 				<verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<range>12</range>

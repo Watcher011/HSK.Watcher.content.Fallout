@@ -55,7 +55,7 @@
 
 	<!-- Chaser -->
 	<PawnKindDef Name="EnclaveChaserBase" ParentName="EnclaveBase" Abstract="True">
-		<label>Скаут Анклава</label>
+		<label>Enclave Scout</label>
 		<combatPower>390</combatPower>
 		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 		<gearHealthRange>
@@ -150,7 +150,7 @@
 
 	<!-- Sunderer -->
 	<PawnKindDef Name="EnclaveSundererBase" ParentName="EnclaveBase" Abstract="True">
-		<label>Чистильщик Анклава</label>
+		<label>Enclave Cleaner</label>
 		<combatPower>390</combatPower>
 		<race>Human</race>
 		<gearHealthRange>

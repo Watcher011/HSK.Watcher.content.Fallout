@@ -4,7 +4,7 @@
 
     <ThingCategoryDef>
 		<defName>AmmoFatManShells</defName>
-		<label>Снаряды Толстяка</label>
+		<label>Fat Man's Shells</label>
 		<parent>AmmoShells</parent>
 		<iconPath>UI/Icons/ThingCategories/FatMan</iconPath>
 	</ThingCategoryDef>
@@ -13,7 +13,7 @@
 
 	<CombatExtended.AmmoSetDef>
 		<defName>AmmoSet_FatManShell</defName>
-		<label>Снаряд Толстяка</label>
+		<label>Fat Man's Projectile</label>
 		<ammoTypes>
 			<Ammo_FatManShell_HE>Bullet_FatManShell_HE</Ammo_FatManShell_HE>
 		</ammoTypes>
@@ -24,7 +24,7 @@
 
 
 <ThingDef MayRequire="Dubwise.Rimatomics" Class="CombatExtended.AmmoDef" Name="FatManShellBase" ParentName="HeavyAmmoBase" Abstract="True">
-		<description>Специальные снаряды для Толстяка.</description>
+		<description>Special shells for Fat Man.</description>
 		<stackLimit>5</stackLimit>
 		<thingSetMakerTags>
 			<li>RewardSpecial</li>
@@ -51,8 +51,8 @@
 	
 	<ThingDef MayRequire="Dubwise.Rimatomics" Class="CombatExtended.AmmoDef" ParentName="FatManShellBase">
 		<defName>Ammo_FatManShell_HE</defName>
-		<label>Ядерный выстрел</label>
-		<description>Этот тип отличается бо́льшим поражающим действием и радиационным загрязнением. Увеличенный урон достигается ценой уменьшенной дальнобойности, что может плохо обернуться для слабозащищённого стрелка.</description>
+		<label>Nuclear shot</label>
+		<description>This type is characterized by greater destructive power and radiation pollution. Increased damage is achieved at the cost of reduced range, which can turn out badly for a poorly protected shooter.</description>
 		<graphicData>
 			<texPath>Things/Projectile/FatMan/FM</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -90,7 +90,7 @@
 	
 	 <ThingDef MayRequire="Dubwise.Rimatomics" Class="CombatExtended.AmmoDef" ParentName="BaseFatManBullet">
 		<defName>Bullet_FatManShell_HE</defName>
-		<label>Ядерный выстрел (NHE)</label>
+		<label>Nuclear shot (NHE)</label>
 		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
 		<graphicData>
 			<texPath>Things/Projectile/FatMan/FM</texPath>
@@ -127,9 +127,9 @@
 	
 	<RecipeDef MayRequire="Dubwise.Rimatomics" ParentName="GrenadeRecipeBase">
 		<defName>MakeAmmo_FatManShell_HE</defName>
-		<label>Сделать Ядерный снаряд для Толстяка x1</label>
-		<description>Ядерный снаряд для Толстяка x1.</description>
-		<jobString>Создаёт снаряд для толстяка.</jobString>
+		<label>Make a Nuclear Shell for Fat Man x1</label>
+		<description>Nuclear Shell for Fat Man x1.</description>
+		<jobString>Creates a projectile for the fat man.</jobString>
 			<researchPrerequisites>
 			<li>Mortars</li>
 		</researchPrerequisites>

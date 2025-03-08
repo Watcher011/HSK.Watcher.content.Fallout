@@ -3,9 +3,9 @@
 
  <ThingDef ParentName="SK_AnimalThingBase">
 		<defName>Guidra</defName>
-		<label>Гидра</label>
+		<label>Hydra</label>
 		<devNote>misc</devNote>
-		<description>Мутант змея с тремя головами , крайне ядовита.</description>
+		<description>A mutant snake with three heads, extremely poisonous.</description>
 		<statBases>
 			<Mass>2</Mass>
 			<MoveSpeed>2.9</MoveSpeed>
@@ -128,7 +128,7 @@
 
 	<PawnKindDef ParentName="SK_AnimalKindBase">
 		<defName>Guidra</defName>
-		<label>Гидра</label>
+		<label>Hydra</label>
 		<race>Guidra</race>
 		<combatPower>55</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
@@ -177,9 +177,9 @@
 
 	<ThingDef ParentName="SK_AnimalThingBase">
 		<defName>RadDeer</defName>
-		<label>Рад Олень</label>
+		<label>Rad Deer</label>
 		<devNote>pig-1</devNote>
-		<description>Хотя двухголовый рад-олень и выглядит жутковато, при малейшем намёке на опасность он обращается в бегство. Впрочем, если загнать его в угол, он может оказаться опасным противником.</description>
+		<description>Although the two-headed rad deer looks creepy, it will flee at the slightest hint of danger. However, if cornered, it can be a dangerous opponent.</description>
 		<statBases>
 			<Mass>60</Mass>
 			<MoveSpeed>8.1</MoveSpeed>
@@ -299,15 +299,15 @@
 
 	<PawnKindDef ParentName="SK_AnimalKindBase">
 		<defName>RadDeer</defName>
-		<label>Рад Олень</label>
-		<labelPlural>Рад Олени</labelPlural>
+		<label>Rad Deer</label>
+        <labelPlural>Rad Deer</labelPlural>
 		<race>RadDeer</race>
 		<combatPower>50</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
 		<ecoSystemWeight>0.5</ecoSystemWeight>
 		<wildGroupSize>3~9</wildGroupSize>
-		<labelMale>Рад Олень</labelMale>
-		<labelFemale>Рад Олениха</labelFemale>
+		<labelMale>Rad Deer</labelMale>
+        <labelFemale>Rad Deer</labelFemale>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
@@ -375,8 +375,8 @@
 	
 	<ThingDef ParentName="SK_BearThingBase">
 		<defName>Bear_Yaoguai</defName>
-		<label>Яо-гай</label>
-		<description>Мутировавший медведь, появившийся на пустошах Содружества после Великой войны. Не считая когтей смерти, это самое сильное, быстрое и смертоносное существо, которое встречается на пустошах.Кожа яо-гаев тёмно-сиреневого цвета, местами покрытая шерстью и повсеместно — язвами. Визуально существа значительно крупнее своих довоенных предков. Несмотря на перенесённые мутации, многие яо-гаи крайне восприимчивы к радиации и гибнут в зонах с высоким уровнем облучения, поэтому единственная область, в которой данный вид не обитает на территории Содружества — Светящееся море. Как и все остальные обитатели Содружества, имеют несколько подвидов, и новые, всё более смертоносные подвиды яо-гаев будут встречаться Выжившему с ростом его уровня.Яо-гаи сильны, выносливы и яростно охраняют свою территорию. Они способны наносить значительный урон, а их мощные удары передними лапами трудно пережить. Эти медведеподобные существа также удивительно быстры и атакуют противника при первой возможности.</description>
+		<label>Yao Guai</label>
+		<description>A mutated bear that appeared in the Commonwealth wastelands after the Great War. Aside from deathclaws, this is the strongest, fastest, and deadliest creature found in the wastelands. Yao Guai have dark purple skin, covered in fur in places and sores everywhere. Visually, the creatures are much larger than their pre-war ancestors. Despite the mutations they have suffered, many Yao Guai are extremely susceptible to radiation and die in areas with high levels of radiation, so the only area in the Commonwealth where this species does not live is the Glowing Sea. Like all other inhabitants of the Commonwealth, there are several subspecies, and new, increasingly deadly subspecies of Yao Guai will be encountered by the Survivor as their level increases. Yao Guai are strong, hardy, and fiercely territorial. They are capable of inflicting significant damage, and their powerful front paw strikes are difficult to survive. These bear-like creatures are also surprisingly fast and will attack their opponents at the first opportunity.</description>
 		<statBases>
 			<Mass>120</Mass>
 			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
@@ -403,7 +403,7 @@
 
 	<PawnKindDef ParentName="SK_BearKindBase">
 		<defName>Bear_Yaoguai</defName>
-		<label>Яо-гай</label>
+		<label>Yao-gai</label>
 		<race>Bear_Yaoguai</race>
 		<lifeStages>
 			<li>
@@ -458,9 +458,9 @@
 	
 <ThingDef ParentName="SK_AnimalThingBase">
 		<defName>Brahmin</defName>
-		<label>Брамин</label>
+		<label>Brahmin</label>
 		<devNote>cow</devNote>
-		<description>Мутировавшая корова. Два века мутаций привели к появлению двух голов и некоторым общим изменениям внешнего вида, что делает браминов XXIII века довольно уродливыми, но всё ещё полезными и съедобными созданиями. Брамины встречаются на просторах Содружества стадами по несколько особей и не враждебны к Выжившему.Брамины используются людьми в качестве вьючных животных, а также как источник мяса и шкур.</description>
+		<description>A mutated cow. Two centuries of mutation have resulted in two heads and some general changes in appearance, making the 23rd century Brahmin rather ugly, but still useful and edible creatures. Brahmin are found in herds of several individuals throughout the Commonwealth and are not hostile to the Survivor. Brahmin are used by humans as pack animals, as well as a source of meat and hides.</description>
 		<statBases>
 			<Mass>120</Mass>
 			<MoveSpeed>3.5</MoveSpeed>
@@ -580,13 +580,13 @@
 
 	<PawnKindDef ParentName="SK_AnimalKindBase">
 		<defName>Brahmin</defName>
-		<label>Брамин</label>
+		<label>Brahmin</label>
 		<race>Brahmin</race>
 		<combatPower>75</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
 		<ecoSystemWeight>0.9</ecoSystemWeight>
-		<labelMale>Брамин</labelMale>
-		<labelFemale>Брамин</labelFemale>
+		<labelMale>Brahmin</labelMale>
+		<labelFemale>Brahmin</labelFemale>
 		<lifeStages>
 			<li>
 				<label>calf</label>
@@ -686,10 +686,10 @@
 	
 	<ThingDef ParentName="SK_AnimalThingBase">
 		<defName>Gecko</defName>
-		<label>Гекко</label>
-		<devNote>squirrel-1</devNote>
-		<description>Распространённая на западе США ящерица-мутант, потомок довоенных гекконов (лат. Gekkonidae). Под действием радиации гекконы достигли очень крупных размеров, научились ходить на задних лапах, но утратили способность лазить по вертикальным поверхностям, ввиду изменения строения лап. Такая их разновидность, как огненные гекконы, даже научились выдыхать огонь, подобно мифическим драконам, тогда как зелёные гекконы плюются ядовитой слюной.</description>
-		<tickerType>Normal</tickerType>
+         <label>Gecko</label>
+         <devNote>squirrel-1</devNote>
+          <description>A mutant lizard common in the western United States, a descendant of the pre-war geckos (lat. Gekkonidae). Under the influence of radiation, geckos reached very large sizes, learned to walk on their hind legs, but lost the ability to climb vertical surfaces due to changes in the structure of their paws. Such a variety as fire geckos even learned to breathe fire, like mythical dragons, while green geckos spit poisonous saliva.</description>
+         <tickerType>Normal</tickerType>
 		<statBases>
 			<Mass>50</Mass>
 			<MoveSpeed>3.4</MoveSpeed>
@@ -706,27 +706,6 @@
 			<ToxicResistance>1</ToxicResistance>
 			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
 		</statBases>
-		<verbs>
-			<li Class="CombatExtended.VerbPropertiesCE">
-				<recoilAmount>0.95</recoilAmount>
-				<verbClass>Verb_Shoot</verbClass>
-				<accuracyTouch>1</accuracyTouch>
-				<accuracyShort>1</accuracyShort>
-				<accuracyMedium>1</accuracyMedium>
-				<accuracyLong>1</accuracyLong>
-				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>DragonFireBreathOmega</defaultProjectile>
-				<warmupTime>5</warmupTime>
-				<burstShotCount>1</burstShotCount>
-				<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
-				<minRange>4</minRange>
-				<range>17</range>
-				<soundCast>FlameThrower</soundCast>
-				<muzzleFlashScale>0</muzzleFlashScale>
-				<!--Commanility determines how frequent this range verb is chosen.-->
-				<commonality>0.5</commonality>
-			</li>
-		</verbs>
 		<tools>
 			<li Class="CombatExtended.ToolCE">
 				<label>left claw</label>
@@ -785,11 +764,13 @@
 		
 		<race>
 			<body>QuadrupedAnimalWithClawsTailAndJowl</body>
+			<predator>true</predator>
 			<baseHungerRate>0.3</baseHungerRate>
 			<baseBodySize>1.55</baseBodySize>
 			<baseHealthScale>1.1</baseHealthScale>
 			<foodType>CarnivoreAnimal, CarnivoreAnimalStrict, OmnivoreRoughAnimal</foodType>
-			<manhunterOnDamageChance>0</manhunterOnDamageChance>
+			<manhunterOnDamageChance>1</manhunterOnDamageChance>
+			<overrideShouldHaveAbilityTracker>true</overrideShouldHaveAbilityTracker>
 			<useMeatFrom>Elephant</useMeatFrom>
 			<leatherDef>Leather_Lizard</leatherDef>
 			<wildness>0.45</wildness>
@@ -838,6 +819,9 @@
 		<defName>Gecko</defName>
 		<label>Гекко</label>
 		<race>Gecko</race>
+		 <abilities>
+         <li>AcidSpray</li>
+         </abilities>
 		<combatPower>70</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
 		<ecoSystemWeight>0.3</ecoSystemWeight>

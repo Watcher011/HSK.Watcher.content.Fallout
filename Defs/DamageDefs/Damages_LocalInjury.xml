@@ -4,8 +4,8 @@
 	
 	<DamageDef ParentName="Bullet">
 		<defName>CapShredded</defName>
-		<label>Крышки</label>
-		<deathMessage>{0} нафарширован до смерти.</deathMessage>
+		<label>Lids</label>
+		<deathMessage>{0} stuffed to death.</deathMessage>
 		<hediff>Shredded</hediff>
 		<hediffSolid>Crack</hediffSolid>
 		<minDamageToFragment>8</minDamageToFragment>

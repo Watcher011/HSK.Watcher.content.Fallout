@@ -4,7 +4,7 @@
 	
 	<ThingDef ParentName="UniversalFermenterBase" Class="UniversalFermenterSK.ThingDef_UF">
 		<defName>ColaBasin</defName>
-		<label>Автомат Квантовой Ядер колы</label>
+		<label>Quantum Nucleus Cola Machine</label>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
 			 <graphicClass>Graphic_Multi</graphicClass>
@@ -33,7 +33,7 @@
 			<MaxHitPoints>100</MaxHitPoints>
 			<Flammability>1.0</Flammability>
 		</statBases>
-		<description>Автомат синтеза Квантовой Ядер колы.</description>
+		<description>Automatic synthesis of the Quantum Nucleus of cola.</description>
 		<stuffCategories>
 			<li>Metallic</li>
 		</stuffCategories>
@@ -82,8 +82,8 @@
 	
 <ThingDef ParentName="StandartBuilding">
 		<defName>GECK</defName>
-		<label>Генератор Эдемских Кущ Компактный</label>
-		<description>Генератор Эдемских Кущ Компактный. Это стандартное оборудование всех убежищ Волт-Тек. ГЭКК — источник восстановления цивилизации после бомбардировки. Просто добавь воды и перемешай.</description>
+		<label>Garden of Eden Generator Compact</label>
+		<description>Garden of Eden Generator Compact. This is standard equipment in all Vault-Tec shelters. The GECK is the source of civilization recovery after the bombing. Just add water and stir.</description>
 		<thingClass>SK.Building_FertilizerPump</thingClass>
 		<graphicData>
 			<texPath>Things/Building/Misc/GECK</texPath>
@@ -151,7 +151,7 @@
 				<initialFuelPercent>1</initialFuelPercent>
 				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
 				<showFuelGizmo>true</showFuelGizmo>
-				<fuelGizmoLabel>Уровень расходников</fuelGizmoLabel>
+				<fuelGizmoLabel>Consumables level</fuelGizmoLabel>
 			</li>
 			 <li Class="CompProperties_Schedule">
         <!-- Match plant growing times -->
@@ -178,8 +178,8 @@
 
  <ThingDef ParentName="BuildingBase">
      <defName>VaultBoyMedicine</defName>
-    <label>Пупс «Медицина»</label>
-    <description>Пупс «Медицина»  - Умный понимает, что рана под повязкой никуда не делась.</description>
+    <label>Medicine Doll</label>
+<description>Medicine Doll - The smart one understands that the wound under the bandage has not gone away.</description>
     <size>(1,1)</size>
     <graphicData>
        <texPath>Things/Item/VaultBoyMedicine</texPath>
@@ -220,11 +220,13 @@
       <ComponentSpacer>1</ComponentSpacer>
     </costList>
    <comps>
-    	<li Class="SK.CompProperties_ApplyHediffAround">
-				<hediff>VaultBoyMedicine</hediff>
-				<radius>3</radius>
-				<severityToAdd>1</severityToAdd>
-			    </li>
+        <li Class="CompProperties_CauseHediff_AoE">
+        <hediff>VaultBoyMedicine</hediff>
+        <range>3</range>
+        <canTargetSelf>false</canTargetSelf>
+        <drawLines>false</drawLines>
+        <ignoreMechs>true</ignoreMechs>
+        </li>
     </comps>
     <thingSetMakerTags>
       <li>RewardStandardCore</li>
@@ -238,8 +240,8 @@
 
  <ThingDef ParentName="BuildingBase">
      <defName>VaultBoyEloquence</defName>
-    <label>Пупс «Красноречие»</label>
-    <description>Пупс «Красноречие»  - Я хочу, чтоб к штыку приравняли перо.</description>
+    <label>Doll "Eloquence"</label>
+    <description>Doll "Eloquence" - I want the pen to be equal to the bayonet.</description>
     <size>(1,1)</size>
     <graphicData>
        <texPath>Things/Item/VaultBoyEloquence</texPath>
@@ -280,11 +282,13 @@
       <ComponentSpacer>1</ComponentSpacer>
     </costList>
    <comps>
-    	<li Class="SK.CompProperties_ApplyHediffAround">
-				<hediff>VaultBoyEloquence</hediff>
-				<radius>3</radius>
-				<severityToAdd>1</severityToAdd>
-			    </li>
+	    <li Class="CompProperties_CauseHediff_AoE">
+        <hediff>VaultBoyEloquence</hediff>
+        <range>3</range>
+        <canTargetSelf>false</canTargetSelf>
+        <drawLines>false</drawLines>
+        <ignoreMechs>true</ignoreMechs>
+        </li>
     </comps>
     <thingSetMakerTags>
       <li>RewardStandardCore</li>
@@ -297,8 +301,8 @@
 
  <ThingDef ParentName="BuildingBase">
      <defName>VaultBoyIntelligence</defName>
-    <label>Пупс «Интеллект»</label>
-    <description>Пупс «Интеллект»  - Всегда будь готов к ответу на сто тысяч почему.</description>
+   <label>Doll "Intellect"</label>
+    <description>Doll "Intellect" - Always be ready to answer a hundred thousand whys.</description>
     <size>(1,1)</size>
     <graphicData>
        <texPath>Things/Item/VaultBoyIntelligence</texPath>
@@ -338,12 +342,14 @@
       <Steel>1</Steel>
       <ComponentSpacer>1</ComponentSpacer>
     </costList>
-   <comps>
-    	<li Class="SK.CompProperties_ApplyHediffAround">
-				<hediff>VaultBoyIntelligence</hediff>
-				<radius>3</radius>
-				<severityToAdd>1</severityToAdd>
-			    </li>
+   <comps>	
+		 <li Class="CompProperties_CauseHediff_AoE">
+        <hediff>VaultBoyIntelligence</hediff>
+        <range>3</range>
+        <canTargetSelf>false</canTargetSelf>
+        <drawLines>false</drawLines>
+        <ignoreMechs>true</ignoreMechs>
+        </li>		
     </comps>
     <thingSetMakerTags>
       <li>RewardStandardCore</li>
@@ -357,8 +363,8 @@
 
 <ThingDef ParentName="BuildingBase">
      <defName>VaultBoyRepair</defName>
-    <label>Пупс «Ремонт»</label>
-    <description>Пупс «Ремонт» - Зачем идти на дно вместе с кораблём, если можно его починить?</description>
+     <label>Doll "Repair"</label>
+     <description>Doll "Repair" - Why go to the bottom with the ship if you can fix it?</description>
     <size>(1,1)</size>
     <graphicData>
        <texPath>Things/Item/VaultBoyRepair</texPath>
@@ -399,11 +405,13 @@
       <ComponentSpacer>1</ComponentSpacer>
     </costList>
    <comps>
-    	<li Class="SK.CompProperties_ApplyHediffAround">
-				<hediff>VaultBoyRepair</hediff>
-				<radius>3</radius>
-				<severityToAdd>1</severityToAdd>
-			    </li>
+    <li Class="CompProperties_CauseHediff_AoE">
+        <hediff>VaultBoyRepair</hediff>
+        <range>3</range>
+        <canTargetSelf>false</canTargetSelf>
+        <drawLines>false</drawLines>
+        <ignoreMechs>true</ignoreMechs>
+        </li>		
     </comps>
     <thingSetMakerTags>
       <li>RewardStandardCore</li>
@@ -417,8 +425,8 @@
   
   <ThingDef ParentName="BuildingBase">
      <defName>VaultBoyBarter</defName>
-    <label>Пупс «Бартер»</label>
-    <description>Пупс «Бартер» - Количество добра у тебя всегда должно увеличиваться.</description>
+   <label>Doll "Barter"</label>
+   <description>Doll "Barter" - The amount of good you have should always increase.</description>
     <size>(1,1)</size>
     <graphicData>
        <texPath>Things/Item/VaultBoyBarter</texPath>
@@ -459,11 +467,13 @@
       <ComponentSpacer>1</ComponentSpacer>
     </costList>
    <comps>
-    	<li Class="SK.CompProperties_ApplyHediffAround">
-				<hediff>VaultBoyBarter</hediff>
-				<radius>3</radius>
-				<severityToAdd>1</severityToAdd>
-			    </li>
+    <li Class="CompProperties_CauseHediff_AoE">
+        <hediff>VaultBoyBarter</hediff>
+        <range>3</range>
+        <canTargetSelf>false</canTargetSelf>
+        <drawLines>false</drawLines>
+        <ignoreMechs>true</ignoreMechs>
+     </li>	
     </comps>
     <thingSetMakerTags>
       <li>RewardStandardCore</li>

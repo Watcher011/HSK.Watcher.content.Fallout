@@ -3,8 +3,8 @@
 
  <ThingDef ParentName="BookBase">
     <defName>ComicsBook</defName>
-    <label>Комиксы Грогнак-варвар</label>
-    <description>Серия комиксов, выпускаемая в довоенный период издательством «Хьюбрис Комикс». Повествует о приключениях варвара Грогнака, одного из популярнейших героев того времени.</description>
+    <label>Grognak the Barbarian Comics</label>
+    <description>A comic book series published in the pre-war period by Hubris Comics. It tells the story of the adventures of the barbarian Grognak, one of the most popular heroes of the time.</description>
     <graphicData>
       <texPath>Things/Item/Book/Grognak</texPath>
      <graphicClass>Graphic_Random</graphicClass>

@@ -60,9 +60,9 @@
 
     <RecipeDef ParentName="RangedWeaponRecipeBase">
         <defName>MakeBottlecapGrenades</defName>
-        <label>Создать Крышко-мину</label>
-        <description>Популярная до войны коробочка для завтраков от компании «Волт-Тек» стала в постапокалиптическом Содружестве основой для смертоносной мины. Это самодельное устройство поможет справиться вам с любым врагом.Можно бросать как гранату.</description>
-        <jobString>Создаёт крышко-мину.</jobString>
+       <label>Create a Lid Mine</label>
+<description>A popular pre-war Vault-Tec lunchbox has become the basis for a deadly mine in the post-apocalyptic Commonwealth. This homemade device will help you deal with any enemy. Can be thrown like a grenade.</description>
+<jobString>Creates a Lid Mine.</jobString>
         <workAmount>4000</workAmount>
         <soundWorking>Recipe_Machining</soundWorking>
         <skillRequirements>

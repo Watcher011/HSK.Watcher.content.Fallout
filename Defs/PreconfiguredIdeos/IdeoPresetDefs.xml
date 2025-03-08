@@ -7,8 +7,8 @@
 
   <IdeoPresetDef>
     <defName>Ghoul</defName>
-    <label>Дети Атома</label>
-    <description>В основе веры детей Атома лежит идея, что в каждом отдельном атоме содержится целая вселенная. Когда атомная масса делится, единая вселенная разделяется на две части — это величайший акт Атомного творения. Подчас в едином божественном действе рождаются триллионы триллионов новых вселенных. Последнее такое событие произошло здесь, двести лет назад. Там, где большинство потерянных детей Атома видят лишь войну и разрушение, мы видим созидание и единение в Атомном Сиянии.</description>
+    <label>Children of the Atom</label>
+<description>The Children of the Atom's belief is that each individual atom contains an entire universe. When the atomic mass divides, the single universe is split in two - this is the greatest act of Atomic creation. Sometimes trillions upon trillions of new universes are born in a single divine act. The last such event occurred here, two hundred years ago. Where most of the lost children of the Atom see only war and destruction, we see creation and unity in the Atomic Radiance.</description>
     <categoryDef>Mild</categoryDef>
     <iconPath>UI/Structures/Structure_Children_of_the_Atom</iconPath>
     <memes>

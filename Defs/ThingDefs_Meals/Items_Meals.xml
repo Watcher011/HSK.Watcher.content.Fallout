@@ -4,8 +4,8 @@
 
 	<ThingDef ParentName="SK_MealBase">
 		<defName>ScrambledDeathclawEggs</defName>
-		<label>Подозрительная яичница</label>
-		<description>Подозрительная яичница ингридиенты лучше не знать.</description>
+		<label>Suspicious Scrambled Eggs</label>
+        <description>Suspicious Scrambled Eggs ingredients are best left unsaid.</description>
 		<graphicData>
 			<texPath>Things/Item/Meal/Scramble</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -94,7 +94,11 @@
 		<li Class="IngestionOutcomeDoer_GiveHediff">
 					<hediffDef>RimatomicsRadiation</hediffDef>
 					<severity>0.39</severity>
-				</li>
+		</li>
+		<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Ghoul</hediffDef>
+					<severity>0.59</severity>
+		</li>
       </outcomeDoers>
     </ingestible>
     <comps>
@@ -102,8 +106,32 @@
 	  <li Class="CompProperties_Glower">
 				<glowRadius>2</glowRadius>
 				<glowColor>(71,128,70,0)</glowColor>
-			</li>
+			</li>	
     </comps>
   </ThingDef>
+  
+  
+   <HediffDef>
+        <defName>Ghoul</defName>
+        <label>Ghoul</label>
+        <description>Ghoul.</description>
+        <everCurableByItem>false</everCurableByItem>
+        <initialSeverity>0.001</initialSeverity>
+        <stages />
+        <hediffClass>HediffWithComps</hediffClass>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <comps>
+            <li Class="EBSGFramework.HediffCompProperties_AlterXenotype">
+                <xenotypes>
+                    <Ghoul>1</Ghoul>
+                </xenotypes>
+                <severities>1~999</severities>
+                <setXenotype>True</setXenotype>
+            </li>
+            <li Class="HediffCompProperties_SeverityPerDay">
+                <severityPerDay>1</severityPerDay>
+            </li>
+        </comps>
+    </HediffDef>
 
 </Defs>

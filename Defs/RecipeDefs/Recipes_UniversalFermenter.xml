@@ -47,8 +47,8 @@
 	
 	<RecipeDef ParentName="Make_NukaColaBase" Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>Make_NukaColaQuantum</defName>
-		<label>Создание Квантовой колы</label>
-		<description>Синтез Ядер колы сила Кванта</description>
+		<label>Creation of Quantum Cola</label>
+<description>Synthesis of Cola Cores the power of Quantum</description>
 		<ingredients>
 			<li>
 				<filter>
@@ -90,8 +90,8 @@
 
 	<RecipeDef ParentName="Make_NukaColaBase" Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>Make_NukaCola</defName>
-		<label>Создание Ядер-колы</label>
-		<description>Синтез Ядер-колы</description>
+	<label>Making Nuka-Cola</label>
+<description>Synthesizing Nuka-Cola</description>
 		<ingredients>
 			<li>
 				<filter>
@@ -142,8 +142,8 @@
 	
 	<RecipeDef ParentName="Make_NukaColaBase" Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>Make_NukaCola_Orang</defName>
-		<label>Создание Ядер-колы-Апельсин</label>
-		<description>Синтез Ядер-колы-Апельсин</description>
+		<label>Creation of Nuka-Cola Orange</label>
+<description>Synthesis of Nuka-Cola Orange</description>
 		<ingredients>
 			<li>
 				<filter>
@@ -195,8 +195,8 @@
 
 	<RecipeDef ParentName="Make_NukaColaBase" Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>Make_NukaColaMars</defName>
-		<label>Создание Ядер колы Затмение</label>
-		<description>Синтез Ядер колы сила Затмение</description>
+		<label>Creating Cola Nuclei Eclipse</label>
+<description>Synthesizing Cola Nuclei Power Eclipse</description>
 		<ingredients>
 			<li>
 				<filter>
