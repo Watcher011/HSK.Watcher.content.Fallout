@@ -76,7 +76,7 @@
 		<graphicData>
 			<texPath>Things/Item/Drug/RadAway</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
-			  <drawSize>0.5</drawSize>
+			 <drawSize>0.75</drawSize>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<statBases>
@@ -97,7 +97,7 @@
 			<outcomeDoers>
 				<li Class="SK.IngestionOutcomeDoer_SubtractHediffSeverity">
 					<targetHediff>FatalRad</targetHediff>
-					<subtractValue>0.35</subtractValue>
+					<subtractValue>1.35</subtractValue>
 					<removeIfBelowZero>true</removeIfBelowZero>
 				</li>
 				<li Class="IngestionOutcomeDoer_GiveHediff">

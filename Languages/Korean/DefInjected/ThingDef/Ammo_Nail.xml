@@ -3,17 +3,19 @@
 
   <!-- Ammo -->
 
- <Ammo_Nail.label>못</Ammo_Nail.label>
- <Ammo_Nail.description>못 - 중간 정도의 피해를 입히지만, 종종 한 방에 사지를 손상시키는 데 매우 효과적입니다. 치명적인 방식으로 발사하면 손상된 신체 부위를 찢어낼 수도 있고, 적 뒤에 충분히 가까이 있다면 적을 벽에 고정시킬 수도 있습니다.</Ammo_Nail.description>
+  <Ammo_Nail.label>못</Ammo_Nail.label>
+  <Ammo_Nail.description>못 - 중간 정도의 피해를 입히지만, 종종 한 방에 사지를 손상시키는 데 매우 효과적입니다. 치명적인 방식으로 발사하면 손상된 신체 부위를 찢어낼 수도 있고, 적 뒤에 충분히 가까이 있다면 적을 벽에 고정시킬 수도 있습니다.</Ammo_Nail.description>
 
- <Ammo_Nail_HV.label>붐 네일</Ammo_Nail_HV.label>
- <Ammo_Nail_HV.description>못 - 중간 정도의 피해를 입히지만, 종종 한 방으로 사지를 손상시키는 데 매우 효과적입니다. 치명적인 방식으로 발사하면 손상된 신체 부위를 찢어낼 수도 있고, 적 뒤에 충분히 가까이 있다면 적을 벽에 고정시킬 수도 있습니다.</Ammo_Nail_HV.description>
+  <Ammo_Nail_HV.label>붐 네일</Ammo_Nail_HV.label>
+  <Ammo_Nail_HV.description>못 - 중간 정도의 피해를 입히지만, 종종 한 방으로 사지를 손상시키는 데 매우 효과적입니다. 치명적인 방식으로 발사하면 손상된 신체 부위를 찢어낼 수도 있고, 적 뒤에 충분히 가까이 있다면 적을 벽에 고정시킬 수도 있습니다.</Ammo_Nail_HV.description>
 
 
- <!-- 투사체 -->
+  <!-- Projectiles -->
 
- <Bullet_Nail.label>못</Bullet_Nail.label>
- <Bullet_Nail_HV.label>붐 네일</Bullet_Nail_HV.label>
+  <Bullet_Nail.label>못</Bullet_Nail.label>
+  <Bullet_Nail_HV.label>붐 네일</Bullet_Nail_HV.label>
 
+
+  <!-- 투사체 -->
 
 </LanguageData>

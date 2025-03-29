@@ -12,12 +12,12 @@
 
 	<FactionDef ParentName="SK_PlayerFactionBase">
 		<defName>NuclearColonyGhoul</defName>
-		<label>Иследователи</label>
-		<description>Иследователи.</description>
-		<isPlayer>true</isPlayer>
-		<basicMemberKind>NuclearSurvivorGhoul</basicMemberKind>
-		<pawnSingular>Иследователь</pawnSingular>
-		<pawnsPlural>Иследователи</pawnsPlural>
+        <label>Explorers</label>
+        <description>Explorers.</description>
+        <isPlayer>true</isPlayer>
+        <basicMemberKind>NuclearSurvivorGhoul</basicMemberKind>
+        <pawnSingular>Explorer</pawnSingular>
+       <pawnsPlural>Explorers</pawnsPlural>
 		<techLevel>Industrial</techLevel>
 		<allowedCultures>
 			<li>Astropolitan</li>

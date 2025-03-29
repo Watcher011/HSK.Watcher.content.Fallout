@@ -3,18 +3,18 @@
 
 	<FactionDef ParentName="SK_HumanFactionBase">
 		<defName>Vaultec</defName>
-        <label>Волт-Тек</label>
-		 <pawnSingular>Волт-Тек</pawnSingular>
-         <pawnsPlural>Волт-Теки</pawnsPlural>
-		<listOrderPriority>28</listOrderPriority>
-		<settlementGenerationWeight>1</settlementGenerationWeight>
-		<requiredCountAtGameStart>1</requiredCountAtGameStart>
-		<maxCountAtGameStart>1</maxCountAtGameStart>
-		<canMakeRandomly>true</canMakeRandomly>
-		<canSiege>true</canSiege>
-		<autoFlee>true</autoFlee>
-		<canStageAttacks>true</canStageAttacks>
-		<leaderTitle>Смотритель</leaderTitle>
+       <label>Vault-Tec</label> 
+       <pawnSingular>Vault-Tec</pawnSingular> 
+       <pawnsPlural>Vault-Tec</pawnsPlural> 
+       <listOrderPriority>28</listOrderPriority> 
+       <settlementGenerationWeight>1</settlementGenerationWeight> 
+       <requiredCountAtGameStart>1</requiredCountAtGameStart> 
+       <maxCountAtGameStart>1</maxCountAtGameStart> 
+       <canMakeRandomly>true</canMakeRandomly> 
+       <canSiege>true</canSiege> 
+       <autoFlee>true</autoFlee> 
+       <canStageAttacks>true</canStageAttacks> 
+        <leaderTitle>Overseer</leaderTitle>
 		<earliestRaidDays>260</earliestRaidDays>
 		<mustStartOneEnemy>false</mustStartOneEnemy>
 		<naturalEnemy>false</naturalEnemy>
@@ -203,7 +203,7 @@
     <defName>NamerFactionVaultec</defName>
     <rulePack>
       <rulesStrings>
-       <li>empire->Волт-Тек</li>
+       <li>empire->Vaultec</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>

@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
- <ACP.label>쉘</ACP.label>
- <ACP.deathMessage>{0}이(가) 산산조각이 났습니다.</ACP.deathMessage>
+  <ACP.label>쉘</ACP.label>
+  <ACP.deathMessage>{0}이(가) 산산조각이 났습니다.</ACP.deathMessage>
 
- <ACB.label>폭탄</ACB.label>
- <ACB.deathMessage>{0}이(가) 죽었습니다.</ACB.deathMessage>
+  <ACB.label>폭탄</ACB.label>
+  <ACB.deathMessage>{0}이(가) 죽었습니다.</ACB.deathMessage>
 
- <NuclearB.label>폭탄</NuclearB.label>
- <NuclearB.deathMessage>{0}이(가) 죽었습니다.</NuclearB.deathMessage>
+  <NuclearB.label>폭탄</NuclearB.label>
+  <NuclearB.deathMessage>{0}이(가) 죽었습니다.</NuclearB.deathMessage>
 
 
 </LanguageData>

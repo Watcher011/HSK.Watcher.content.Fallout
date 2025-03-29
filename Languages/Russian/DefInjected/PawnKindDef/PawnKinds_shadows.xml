@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- Ogre Bases -->
-
   <shadow.label>Тень</shadow.label>
   <shadow.labelPlural>Тени</shadow.labelPlural>
   <shadow.labelMale>Тень</shadow.labelMale>
@@ -10,5 +8,7 @@
   <shadow.labelFemale>Тень</shadow.labelFemale>
   <shadow.labelFemalePlural>Тени</shadow.labelFemalePlural>
 
+
+  <!-- Ogre Bases -->
 
 </LanguageData>

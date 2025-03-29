@@ -1,21 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
- <MakeGlassBotel.label>유리병 만들기</MakeGlassBotel.label>
- <MakeGlassBotel.description>병을 녹입니다. 5개</MakeGlassBotel.description>
- <MakeGlassBotel.jobString>용융.</MakeGlassBotel.jobString>
+  <MakeGlassBotel.label>유리병 만들기</MakeGlassBotel.label>
+  <MakeGlassBotel.description>병을 녹입니다. 5개</MakeGlassBotel.description>
+  <MakeGlassBotel.jobString>용융.</MakeGlassBotel.jobString>
 
- <MakeSmeltBotel.label>유리병 녹이기</MakeSmeltBotel.label>
- <MakeSmeltBotel.description>병을 녹입니다. 5. 다시 녹이기</MakeSmeltBotel.description>
- <MakeSmeltBotel.jobString>다시 녹입니다.</MakeSmeltBotel.jobString>
+  <MakeSmeltBotel.label>유리병 녹이기</MakeSmeltBotel.label>
+  <MakeSmeltBotel.description>병을 녹입니다. 5. 다시 녹이기</MakeSmeltBotel.description>
+  <MakeSmeltBotel.jobString>다시 녹입니다.</MakeSmeltBotel.jobString>
 
- <MakeCupBotel.label>병 뚜껑 만들기</MakeCupBotel.label>
- <MakeCupBotel.description>병 뚜껑을 녹입니다. 10개.</MakeCupBotel.description>
- <MakeCupBotel.jobString>녹는다.</MakeCupBotel.jobString>
+  <MakeCupBotel.label>병 뚜껑 만들기</MakeCupBotel.label>
+  <MakeCupBotel.description>병 뚜껑을 녹입니다. 10개.</MakeCupBotel.description>
+  <MakeCupBotel.jobString>녹는다.</MakeCupBotel.jobString>
 
- <SmeltCupBotel.label>병 뚜껑 다시 녹이기</SmeltCupBotel.label>
- <SmeltCupBotel.description>병 뚜껑을 녹입니다. 제련 10.</SmeltCupBotel.description>
- <SmeltCupBotel.jobString>다시 녹입니다.</SmeltCupBotel.jobString>
+  <SmeltCupBotel.label>병 뚜껑 다시 녹이기</SmeltCupBotel.label>
+  <SmeltCupBotel.description>병 뚜껑을 녹입니다. 제련 10.</SmeltCupBotel.description>
+  <SmeltCupBotel.jobString>다시 녹입니다.</SmeltCupBotel.jobString>
 
 
 </LanguageData>

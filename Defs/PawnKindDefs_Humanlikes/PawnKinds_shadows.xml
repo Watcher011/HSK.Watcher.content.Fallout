@@ -24,10 +24,10 @@
         </lifeStages>
  </PawnKindDef>
   
-	<!-- Ogre Bases -->
+	
   <PawnKindDef ParentName="BaseOgrePawn">
         <defName>shadow</defName>
-        <label>shadow</label>
+        <label>Nightkin</label>
         <combatPower>375</combatPower>
         <weaponMoney>
             <min>280</min>
@@ -40,6 +40,7 @@
 			<min>1000</min>
 			<max>99000</max>
 		</techHediffsMoney>
+	
     </PawnKindDef>
 	
 </Defs>

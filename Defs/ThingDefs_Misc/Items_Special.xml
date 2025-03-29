@@ -162,9 +162,9 @@
 	
 	<ThingDef ParentName="ResourceBase">
 		<defName>MisterHandyKit</defName>
-		<label>Mr. Handy Kit</label>
+		<label>Mr.Handy Kit</label>
         <thingClass>ThingWithComps</thingClass>
-        <description>Mr. Handy Kit and Instructions</description>
+        <description>Mr.Handy Kit and Instructions</description>
 		<graphicData>
 			<texPath>Things/Item/MisterHandy</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

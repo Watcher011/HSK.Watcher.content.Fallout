@@ -133,30 +133,6 @@
                                         <weight>20</weight>
                                         <only>RGBA(1.0,1.0,1.0,1)</only>
                                     </li>
-                                    <li>
-                                        <weight>3</weight>
-                                        <only>RGBA(0.87,0.93,1.0,1)</only>
-                                    </li>
-                                    <li>
-                                        <weight>4</weight>
-                                        <only>RGBA(1.0,0.73,0.61,1)</only>
-                                    </li>
-                                    <li>
-                                        <weight>5</weight>
-                                        <only>RGBA(1.0,0.85,0.6,1)</only>
-                                    </li>
-                                    <li>
-                                        <weight>7</weight>
-                                        <only>RGBA(1.0,0.84,0.84,1)</only>
-                                    </li>
-                                    <li>
-                                        <weight>2</weight>
-                                        <only>RGBA(0.65,0.49,0.39,1)</only>
-                                    </li>
-                                    <li>
-                                        <weight>1</weight>
-                                        <only>RGBA(0.21,0.23,0.25,1)</only>
-                                    </li>
                                 </options>
                             </first>
                             <second Class="AlienRace.ColorGenerator_CustomAlienChannel">

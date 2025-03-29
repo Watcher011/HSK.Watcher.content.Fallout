@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<Stimpak.label>Stimpak 만들기</Stimpak.label>
- <Stimpak.description>Vault-Tec.의 Stimpak 생산을 위한 화학식 연구</Stimpak.description>
+
+  <Stimpak.label>Stimpak 만들기</Stimpak.label>
+  <Stimpak.description>Vault-Tec.의 Stimpak 생산을 위한 화학식 연구</Stimpak.description>
 
 
 </LanguageData>

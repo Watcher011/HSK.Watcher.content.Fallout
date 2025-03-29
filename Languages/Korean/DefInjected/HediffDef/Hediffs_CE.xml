@@ -2,33 +2,34 @@
 <LanguageData>
 
   <WearingPipBoy.label>핍보이</WearingPipBoy.label>
- <WearingPipBoy.description>VATS, 또는 Vault-Tec Assisted Targeting System은 시간의 흐름 속에서 그 기원이 사라진 첨단 전투 기술입니다…</WearingPipBoy.description>
- <WearingPipBoy.stages.0.label>V.A.T.S.</WearingPipBoy.stages.0.label>
+  <WearingPipBoy.description>VATS, 또는 Vault-Tec Assisted Targeting System은 시간의 흐름 속에서 그 기원이 사라진 첨단 전투 기술입니다…</WearingPipBoy.description>
+  <WearingPipBoy.stages.0.label>V.A.T.S.</WearingPipBoy.stages.0.label>
 
- <LastGiftofWatcher.label>에너지가 넘치는 메카니테스</LastGiftofWatcher.label>
- <LastGiftofWatcher.description>편도 티켓</LastGiftofWatcher.description>
+  <LastGiftofWatcher.label>에너지가 넘치는 메카니테스</LastGiftofWatcher.label>
+  <LastGiftofWatcher.description>편도 티켓</LastGiftofWatcher.description>
 
- <BombJ.label>지뢰로 향함</BombJ.label>
- <BombJ.description>편도 티켓</BombJ.description>
+  <BombJ.label>지뢰로 향함</BombJ.label>
+  <BombJ.description>편도 티켓</BombJ.description>
 
- <VaultBoyMedicine.label>의학 인형</VaultBoyMedicine.label>
- <VaultBoyMedicine.description>똑똑한 사람은 붕대가 상처만 가릴 뿐이라는 걸 압니다.</VaultBoyMedicine.description>
- <VaultBoyMedicine.labelNoun>의학 인형</VaultBoyMedicine.labelNoun>
+  <VaultBoyMedicine.label>의학 인형</VaultBoyMedicine.label>
+  <VaultBoyMedicine.description>똑똑한 사람은 붕대가 상처만 가릴 뿐이라는 걸 압니다.</VaultBoyMedicine.description>
+  <VaultBoyMedicine.labelNoun>의학 인형</VaultBoyMedicine.labelNoun>
 
- <VaultBoyEloquence.label>웅변 아기 인형</VaultBoyEloquence.label>
- <VaultBoyEloquence.description>말을 무기로 삼으세요.</VaultBoyEloquence.description>
- <VaultBoyEloquence.labelNoun>웅변 인형</VaultBoyEloquence.labelNoun>
+  <VaultBoyEloquence.label>웅변 아기 인형</VaultBoyEloquence.label>
+  <VaultBoyEloquence.description>말을 무기로 삼으세요.</VaultBoyEloquence.description>
+  <VaultBoyEloquence.labelNoun>웅변 인형</VaultBoyEloquence.labelNoun>
 
- <VaultBoyIntelligence.label>지능 인형</VaultBoyIntelligence.label>
- <VaultBoyIntelligence.description>가장 똑똑한 사람은 새로운 것을 배우는 것을 멈추지 않는 사람입니다.</VaultBoyIntelligence.description>
- <VaultBoyIntelligence.labelNoun>지능 인형</VaultBoyIntelligence.labelNoun>
+  <VaultBoyIntelligence.label>지능 인형</VaultBoyIntelligence.label>
+  <VaultBoyIntelligence.description>가장 똑똑한 사람은 새로운 것을 배우는 것을 멈추지 않는 사람입니다.</VaultBoyIntelligence.description>
+  <VaultBoyIntelligence.labelNoun>지능 인형</VaultBoyIntelligence.labelNoun>
 
- <VaultBoyRepair.label>인형 수리</VaultBoyRepair.label>
- <VaultBoyRepair.description>구멍을 패치하면 되는데 왜 배와 함께 가라앉겠어요?</VaultBoyRepair.description>
- <VaultBoyRepair.labelNoun>인형 수리</VaultBoyRepair.labelNoun>
+  <VaultBoyRepair.label>인형 수리</VaultBoyRepair.label>
+  <VaultBoyRepair.description>구멍을 패치하면 되는데 왜 배와 함께 가라앉겠어요?</VaultBoyRepair.description>
+  <VaultBoyRepair.labelNoun>인형 수리</VaultBoyRepair.labelNoun>
 
- <VaultBoyBarter.label>물물교환 인형</VaultBoyBarter.label>
- <VaultBoyBarter.description>매력적인 미소만큼 기분 좋은 것은 없습니다.</VaultBoyBarter.description>
- <VaultBoyBarter.labelNoun>물물교환 인형</VaultBoyBarter.labelNoun>
+  <VaultBoyBarter.label>물물교환 인형</VaultBoyBarter.label>
+  <VaultBoyBarter.description>매력적인 미소만큼 기분 좋은 것은 없습니다.</VaultBoyBarter.description>
+  <VaultBoyBarter.labelNoun>물물교환 인형</VaultBoyBarter.labelNoun>
+
 
 </LanguageData>

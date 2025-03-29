@@ -47,8 +47,8 @@
 
   <ThingDef>
     <defName>RadHemogenPack</defName>
-    <label>Пакет светящейся крови</label>
-    <description>Полупрозрачный пакет с зелёной светящейся жидкостью. На этикетке чёрным маркером написано «Не еда». При применении восстанавливает голод и значительно усиливает действие радиации.</description>
+    <label>Glowing Blood Pack</label>
+    <description>A translucent package with a green glowing liquid. The label says "Not food" in black marker. When used, it restores hunger and significantly increases the effect of radiation.</description>
     <category>Item</category>
     <thingClass>ThingWithComps</thingClass>
     <drawerType>MapMeshOnly</drawerType>

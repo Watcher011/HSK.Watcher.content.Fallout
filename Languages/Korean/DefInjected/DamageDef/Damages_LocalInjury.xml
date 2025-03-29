@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
- <CapShredded.label>캡</CapShredded.label>
- <CapShredded.deathMessage>{0}이(가) 박살났습니다.</CapShredded.deathMessage>
+  <CapShredded.label>캡</CapShredded.label>
+  <CapShredded.deathMessage>{0}이(가) 박살났습니다.</CapShredded.deathMessage>
 
 
 </LanguageData>

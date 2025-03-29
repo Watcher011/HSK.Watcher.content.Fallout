@@ -18,7 +18,6 @@
 	<drawerType>RealtimeOnly</drawerType>
 	<minifiedDef>MinifiedThing</minifiedDef>
     <castEdgeShadows>false</castEdgeShadows>
-    <costStuffCount>120</costStuffCount>
     <statBases>
       <MaxHitPoints>350</MaxHitPoints>
       <WorkToBuild>30000</WorkToBuild>

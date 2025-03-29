@@ -1,11 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
- <MisterHandy.label>미스터 핸드</MisterHandy.label>
- <MisterHandy.description>미스터 핸드는 초승달 모양의 과일과 관련된 모든 어려운 상황에 대비할 수 있도록 많은 도움을 줬습니다. 전혀 무료로 도와주셨고, 필요한 모든 격동의 순간까지 과일을 마사지해 주셨어요. 두 가지를 더 추가하면, 원래의 천연 전화기나 다른 것이겠지만, 이렇게 아름다운 경치를 볼 수 있는 사람이 있다고 해서 모두가 스승님을 도울 수는 없을 겁니다.</MisterHandy.description>
- <MisterHandy.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>스킨</MisterHandy.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
- <MisterHandy.tools.0.label>칼날이 달린 왼쪽 주먹</MisterHandy.tools.0.label>
- <MisterHandy.tools.1.label>칼날이 달린 오른쪽 주먹</MisterHandy.tools.1.label>
- <MisterHandy.tools.2.label>머리</MisterHandy.tools.2.label>
+  <MisterHandy.label>미스터 핸드</MisterHandy.label>
+  <MisterHandy.description>미스터 핸드는 초승달 모양의 과일과 관련된 모든 어려운 상황에 대비할 수 있도록 많은 도움을 줬습니다. 전혀 무료로 도와주셨고, 필요한 모든 격동의 순간까지 과일을 마사지해 주셨어요. 두 가지를 더 추가하면, 원래의 천연 전화기나 다른 것이겠지만, 이렇게 아름다운 경치를 볼 수 있는 사람이 있다고 해서 모두가 스승님을 도울 수는 없을 겁니다.</MisterHandy.description>
+  <MisterHandy.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>스킨</MisterHandy.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <MisterHandy.tools.0.label>칼날이 달린 왼쪽 주먹</MisterHandy.tools.0.label>
+  <MisterHandy.tools.1.label>칼날이 달린 오른쪽 주먹</MisterHandy.tools.1.label>
+  <MisterHandy.tools.2.label>머리</MisterHandy.tools.2.label>
+
 
 </LanguageData>

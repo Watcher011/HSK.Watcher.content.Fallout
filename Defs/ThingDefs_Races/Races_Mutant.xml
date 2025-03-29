@@ -23,8 +23,9 @@
 	<ThingDef ParentName="Baseshadow">
 		<defName>Mutant_shadow</defName>
 		<thingClass>Pawn</thingClass>
-		<label>Shadow</label>
+		<label>Nightkin</label>
 		<description>Originally designed for construction and heavy industry, the Ogron™ is a large, tough, thickheaded xenohuman. In rimworld condition, Many feral clans use them as brutal war beasts.</description>
+		 <hiddenWhileUndiscovered>true</hiddenWhileUndiscovered>
 		<statBases>
 			<Mass>150</Mass>
 			<MoveSpeed>3.7</MoveSpeed>
@@ -103,9 +104,14 @@
 			<leatherDef>Leather_Heavy</leatherDef>
 			<hediffGiverSets>
 				<li>BerserkPassiveSet</li>
-				<li>ShroudOfInvisibilitySet</li>
+				<!--<li>ShroudOfInvisibilitySet</li>-->
 			</hediffGiverSets>
 		</race>
+	<comps>
+     <!-- <li>
+        <compClass>CompSightstealer</compClass>
+      </li>-->
+    </comps>
 		<butcherProducts>
     	     <StealthBoy>3</StealthBoy>
 		     <BottleCap>101</BottleCap>

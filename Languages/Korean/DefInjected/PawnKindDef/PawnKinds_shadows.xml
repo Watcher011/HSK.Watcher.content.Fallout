@@ -1,14 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+  <shadow.label>나이트킨</shadow.label>
+  <shadow.labelPlural>그림자</shadow.labelPlural>
+  <shadow.labelMale>남자 그림자</shadow.labelMale>
+  <shadow.labelMalePlural>남자 그림자</shadow.labelMalePlural>
+  <shadow.labelFemale>여성 그림자</shadow.labelFemale>
+  <shadow.labelFemalePlural>여성 그림자</shadow.labelFemalePlural>
+
+
   <!-- Ogre Bases -->
-
-  <그림자.라벨>그림자</그림자.라벨>
- <shadow.labelPlural>그림자</shadow.labelPlural>
- <shadow.labelMale>남자 그림자</shadow.labelMale>
- <shadow.labelMalePlural>남자 그림자</shadow.labelMalePlural>
- <shadow.labelFemale>여성 그림자</shadow.labelFemale>
- <shadow.labelFemalePlural>여성 그림자</shadow.labelFemalePlural>
-
+  <!--<그림자.라벨>그림자</그림자.라벨>-->
 
 </LanguageData>

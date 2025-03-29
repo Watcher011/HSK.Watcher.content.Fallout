@@ -844,8 +844,8 @@
 	
 	<ThingDef ParentName="SK_InsectThingBase">
 		<defName>Radscorpion</defName>
-		<label>Радскорпион</label>
-		<description>Мутировавший под воздействием радиации  императорский скорпион. Несмотря на многократное увеличение размеров, по строению тела радскорпионы практически не отличаются от своих довоенных предков — такие же характерные клешни-педипальпы и загнутый вперёд и вверх хвост-метасома, заканчивающийся грушевидным члеником с иглой. Яд, скапливающийся в последнем, у императорских скорпионов не был опасен для человека, но после мутации насекомого удар его жала может привести к смерти жертвы.</description>
+		<label>Radscorpion</label>
+<description>An emperor scorpion mutated by radiation. Despite the multiple increase in size, the radscorpions are practically no different in body structure from their pre-war ancestors - the same characteristic pedipalps-pincers and a forward and upward curved metasoma tail ending in a pear-shaped segment with a needle. The poison that accumulates in the latter was not dangerous to humans in emperor scorpions, but after the insect's mutation, a blow from its sting can lead to the death of the victim.</description>
 		<statBases>
 			<Mass>120</Mass>
 			<MoveSpeed>2.8</MoveSpeed>
@@ -998,9 +998,9 @@
 	
 <ThingDef ParentName="SK_AnimalThingBase">
 		<defName>Deathclaw</defName>
-		<label>Коготь смерти</label>
-		<devNote>misc</devNote>
-		<description>Обычный коготь смерти достигает около трёх метров роста, тело светло-коричневого оттенка — чуть более тёмное на спине и бледно-серое спереди. Плотные и развитые мышцы покрывает кожа с выраженной структурой, хорошо видны кровеносные сосуды. Глаза светятся в темноте. Голову с покатым лбом и массивной нижней челюстью венчают загнутые вперёд острые рога, в огромной пасти сидит 12 зубов (по 6 на каждой челюсти). Крайне острые и длинные когти конечностей имеют тёмный окрас, на нижних — три на пальцах и один на «пятке», на верхних — по пять более длинных. Это основное смертельное оружие существ, ставшее причиной соответствующего названия. На спине вдоль позвоночника расположено пять шипов — больших в районе головы и укорачивающихся к хвосту. Хвост длинный, из примерно 15 крупных позвонков. Передвигаются на двух нижних конечностях, обладают крайне высокой скоростью перемещения. Способны прыжком преодолеть значительное расстояние до жертвы и запрыгнуть на возвышенное препятствие. Жертву атакуют быстрыми ударами когтистых лап или ударом обеими лапами в прыжке. Перед нападением зачастую прогибаются вперёд и издают вопль. Часто охотятся стаями.</description>
+		<label>Deathclaw</label>
+<devNote>misc</devNote>
+<description>A typical deathclaw grows to about three meters in height, with a light brown body - slightly darker on the back and pale gray in the front. Dense and developed muscles are covered with skin with a pronounced structure, blood vessels are clearly visible. The eyes glow in the dark. The head with a sloping forehead and a massive lower jaw is crowned with sharp horns curved forward, in a huge mouth there are 12 teeth (6 on each jaw). The extremely sharp and long claws of the limbs are dark in color, on the lower ones - three on the fingers and one on the "heel", on the upper ones - five longer ones. This is the main deadly weapon of the creatures, which is the reason for the corresponding name. On the back along the spine there are five spikes - large in the head area and shortening towards the tail. The tail is long, from about 15 large vertebrae. They move on two lower limbs and have an extremely high speed of movement. They are able to jump a significant distance to the victim and jump onto an elevated obstacle. They attack the victim with quick blows of clawed paws or with a blow with both paws in a jump. Before attacking, they often bend forward and let out a howl. They often hunt in packs.</description>
 		<statBases>
 			<Mass>160</Mass>
 			<MoveSpeed>6.9</MoveSpeed>
@@ -1214,7 +1214,7 @@
 
 	<PawnKindDef ParentName="SK_AnimalKindBase">
 		<defName>Deathclaw</defName>
-		<label>Коготь смерти</label>
+	<label>Deathclaw</label>
 		<race>Deathclaw</race>
 		<combatPower>400</combatPower>
 		<ecoSystemWeight>0.9</ecoSystemWeight>
@@ -1242,10 +1242,10 @@
 	
 	<ThingDef ParentName="SK_AnimalThingBase">
 		<defName>RadDeathclaw</defName>
-		<label>Светящийся коготь смерти</label>
-		<devNote>misc</devNote>
-		<description>Сильно облучённый обычный коготь смерти, его кожа испускает зелёный свет, поэтому его хорошо видно ночью. Он может нанести урон радиацией сверх и без того высокого физического урона</description>
-		<statBases>
+		<label>Glowing Deathclaw</label>
+        <devNote>misc</devNote>
+        <description>A heavily irradiated normal deathclaw, its skin emits a green light, making it highly visible at night. It can deal radiation damage on top of its already high physical damage.</description>
+         <statBases>
 			<Mass>160</Mass>
 			<MoveSpeed>6.9</MoveSpeed>
 			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
@@ -1282,7 +1282,7 @@
 				<li Class="SK.CompProperties_ApplyHediffAround">
 				<hediff>RimatomicsRadiation</hediff>
 				<radius>3</radius>
-				<severityToAdd>0.3</severityToAdd>
+				<severityToAdd>0.03</severityToAdd>
 			    </li>
 		</comps>
 		<tools>
@@ -1469,7 +1469,7 @@
 
 	<PawnKindDef ParentName="SK_AnimalKindBase">
 		<defName>RadDeathclaw</defName>
-		<label>Светящийся коготь смерти</label>
+		<label>Glowing Deathclaw</label>
 		<race>RadDeathclaw</race>
 		<combatPower>800</combatPower>
 		<ecoSystemWeight>0.9</ecoSystemWeight>
@@ -1499,9 +1499,9 @@
 	
 <ThingDef ParentName="SK_AnimalThingBase">
 		<defName>EnclaveDeathclaw</defName>
-		<label>Коготь смерти Анклава</label>
-		<devNote>misc</devNote>
-		<description>Разновидность обыкновенных когтей смерти, используемых войсками Анклава в качестве боевой поддержки своих патрулей. После неудачного эксперимента с разумными когтями смерти, которые вместе с разумом обрели собственные моральные принципы и отказались подчиняться своим хозяевам, за что и были почти полностью истреблены Анклавом, эта организация использует обычных неразумных когтей смерти. Для этого животных поместили в клетки и снабдили их головы устройством, контролирующим поведение с помощью передаваемых сигналов.</description>
+		<label>Enclave Deathclaw</label>
+        <devNote>misc</devNote>
+        <description>A type of common deathclaw used by the Enclave troops as combat support for their patrols. After an unsuccessful experiment with intelligent deathclaws, which along with their intelligence acquired their own moral principles and refused to obey their masters, for which they were almost completely exterminated by the Enclave, this organization uses ordinary non-intelligent deathclaws. For this, the animals were placed in cages and equipped with a device on their heads that controls their behavior using transmitted signals.</description>
 		<statBases>
 			<Mass>160</Mass>
 			<MoveSpeed>6.9</MoveSpeed>
@@ -1704,7 +1704,7 @@
 
 	<PawnKindDef ParentName="SK_AnimalKindBase">
 		<defName>EnclaveDeathclaw</defName>
-		<label>Коготь смерти Анклава</label>
+	    <label>Enclave Deathclaw</label>
 		<race>EnclaveDeathclaw</race>
 		<combatPower>350</combatPower>
 		<ecoSystemWeight>0.9</ecoSystemWeight>
