@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--=========================== Food crops ==============================-->
+
+
+  <ThingDef Name="MutfruitPlant" ParentName="PlantBase">
+    <defName>Plant_Mutfruit</defName>
+    <label>Mutfruit plant</label>
+    <description>It is a highly mutated fruit that grows on a small tree. What kind of fruit that has mutated is unknown. It is widely distributed in the Commonwealth and beyond. It can be grown in friendly settlements. It is used to prepare various dishes.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.25</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/Mutfruit</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>14</pathCost>
+    <ingestible />
+    <plant>
+	  <pollution>Any</pollution>
+	  <dieFromToxicFallout>False</dieFromToxicFallout>
+      <immatureGraphicPath>Things/Plant/Mutfruit_Immature</immatureGraphicPath>
+      <fertilitySensitivity>0.1</fertilitySensitivity>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RawMutfruit</harvestedThingDef>
+      <harvestYield>11</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>1.8</growDays>
+      <visualSizeRange>0.5~1.05</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+    </plant>
+  </ThingDef>
+
+
+</Defs>

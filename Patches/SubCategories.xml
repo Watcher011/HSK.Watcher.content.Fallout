@@ -20,7 +20,6 @@
 	         <Operation Class="PatchOperationAdd">
 				<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_SentryTurrets"]/defNames</xpath>
 				<value>
-				<li>Turret_BinocularsTurret</li>
 				<li>Turret_FlamethrowerTurret</li>
 				</value>
 			 </Operation>

@@ -20,6 +20,9 @@
   <OldRevolver_Hand.label>Создать Гладкоствол с патронником</OldRevolver_Hand.label>
   <OldRevolver_Hand.description>Это кустарный продукт оружейников постапокалипсиса, грубо изготовленный из дерева, куска старой трубы, барабанного механизма питания, пружин и другого подручного хлама, скреплённого вместе с помощью клея, болтов и проволоки. Крайне популярен и повсеместно распространён.</OldRevolver_Hand.description>
   <OldRevolver_Hand.jobString>Создаёт с патронником.</OldRevolver_Hand.jobString>
+<BuildGatlingPlasma.label>Создание плазмы Гатлинга</BuildGatlingPlasma.label>
+<BuildGatlingPlasma.description>Создание плазмы Гатлинга с хорошей останавливающей силой и дальностью.</BuildGatlingPlasma.description>
+<BuildGatlingPlasma.jobString>Создание плазмы Гатлинга.</BuildGatlingPlasma.jobString>
 
 
 </LanguageData>

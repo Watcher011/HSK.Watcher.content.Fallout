@@ -35,8 +35,11 @@
   <OldRevolver.label>실린더가 있는 활강포</OldRevolver.label>
   <OldRevolver.description>이것은 종말 이후의 총포 제작자가 직접 만든 제품으로, 나무, 오래된 파이프, 드럼 공급 장치, 스프링 및 기타 폐기물을 접착제, 볼트, 철사로 조립하여 조잡하게 만들었습니다. 매우 인기 있고 널리 퍼져 있음.</OldRevolver.description>
 
-  <PepperShaker.label>Pepper Shaker</PepperShaker.label>
-<PepperShaker.description>Pepper Shaker는 회전하는 데 1초가 걸리며, 그 후 자동으로 산탄총 탄약 8발을 발사합니다. 산탄총과 중화기로 간주되며, 두 무기 클래스의 모든 특전의 혜택을 받습니다.</PepperShaker.description>
+ <PepperShaker.label>후추 셰이커</PepperShaker.label>
+<PepperShaker.description>Pepper Shaker는 100% 유기농 고추가 담긴 1컵, 8컵 용량의 셰이커입니다. 우리는 음식과 음료의 중요성에 대해 이야기하고 있으며, 이를 실현할 수 있는 방법을 찾고 있습니다.</PepperShaker.description>
+
+<Gun_GatlingPlasma.label>개틀링 플라스마</Gun_GatlingPlasma.label>
+<Gun_GatlingPlasma.description>개틀링 플라즈마는 개틀링의 빠른 발사 특성과 플라즈마 볼트의 파괴력이 결합된 강력한 에너지 무기입니다. 6개의 회전하는 총신에서 치명적인 과열된 플라스마가 뿜어져 나와 이온화된 가스 구름으로 적을 증발시킵니다. 대규모 화력으로 문제를 해결하는 것을 선호하는 사람들에게 적합합니다.</Gun_GatlingPlasma.description>
 
 
 </LanguageData>

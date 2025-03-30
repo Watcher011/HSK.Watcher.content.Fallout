@@ -756,4 +756,80 @@ The disadvantages are the high complexity and low mechanical strength of the wea
 		</thingCategories>
 	</ThingDef>
 	
+	
+	  <ThingDef ParentName="BaseGun_LongBarreled">
+        <defName>Gun_GatlingPlasma</defName>
+        <label>Gatling plasma</label>
+<description>The Gatling Plasma is a powerful energy weapon that combines the rapid-fire nature of a Gatling with the destructive power of a plasma bolt. Six rotating barrels spew deadly streams of superheated plasma, vaporizing enemies in clouds of ionized gas. Perfect for those who prefer to solve problems with massive firepower.</description>
+        <graphicData>
+            <texPath>Things/Weapons/GatlingPlasma</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>2850</MarketValue>
+           <SightsEfficiency>1</SightsEfficiency>
+			<ShotSpread>0.01</ShotSpread>
+			<SwayFactor>1.25</SwayFactor>
+            <RangedWeapon_Cooldown>0.38</RangedWeapon_Cooldown>
+            <Bulk>11.10</Bulk>
+            <Mass>23.70</Mass>
+			<NightVisionEfficiency_Weapon>0.4</NightVisionEfficiency_Weapon>
+			<MaxHitPoints>70</MaxHitPoints>
+        </statBases>
+        <soundInteract>InteractPlasma</soundInteract>
+        <tradeability>Sellable</tradeability>
+		<techLevel>Spacer</techLevel>
+        <weaponTags>
+            <li>VaultecGun</li>
+			<li>VaultecPlasmaRifel</li>
+        </weaponTags>
+		<tradeTags>
+            <li>ExoticVaultec</li>
+        </tradeTags>
+		<weaponClasses>
+			<li>Ultratech</li>
+		</weaponClasses>
+        <thingCategories>
+            <li>FuturisticVaultec</li>
+        </thingCategories>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <recoilPattern>Regular</recoilPattern>
+                <recoilAmount>0.49</recoilAmount>
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_Plasma</defaultProjectile>
+                <warmupTime>0.62</warmupTime>
+                <range>50</range>
+                <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+				<burstShotCount>50</burstShotCount>
+                <soundCast>Fire_UACPistol</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>TRUE</aiUseBurstMode>
+               <aiAimMode>Snapshot</aiAimMode>
+				<aimedBurstShotCount>25</aimedBurstShotCount>
+            </li>
+			
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>500</magazineSize>
+                <reloadTime>12.90</reloadTime>
+                <ammoSet>AmmoSet_PlasmaBolt</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+            <Plasma_Component>1</Plasma_Component>
+            <Weapon_Parts>7</Weapon_Parts>
+			<Plastic>7</Plastic>
+        </smeltProducts>
+	   <thingSetMakerTags>
+			<li>RewardStandardQualitySuper</li>
+		</thingSetMakerTags>
+		<generateAllowChance>0</generateAllowChance>
+    </ThingDef>
+	
 </Defs>

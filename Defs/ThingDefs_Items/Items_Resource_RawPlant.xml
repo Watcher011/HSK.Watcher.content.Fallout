@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  
+  
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>RawMutfruit</defName>
+    <label>raw Mutfruit</label>
+    <description>Raw Mutfruit is a highly mutated fruit that grows in small villages. What kind of fruit that has mutated is unknown. Widely distributed in the Commonwealth, and also because of its abilities. Can be grown in friendly settlements. Used to prepare various dishes.</description>
+    <possessionCount>10</possessionCount>
+    <graphicData>
+      <texPath>Things/Item/MutfruitRAW</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <ingestible>
+	 <preferability>RawTasty</preferability>
+      <tasteThought></tasteThought>
+      <foodType>Fungus</foodType>
+    </ingestible>
+    <ingredient>
+      <mergeCompatibilityTags>
+        <li MayRequire="Ludeon.RimWorld.Ideology">Fungus</li>
+      </mergeCompatibilityTags>
+    </ingredient>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+
+  
+</Defs>
