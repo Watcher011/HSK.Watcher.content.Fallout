@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <StealthBoy.label>스텔스보이</StealthBoy.label>
-  <StealthBoy.description>이것은 RobCo Stealth Boy, Model 3001의 개인용 클로킹 장치입니다. Robert Mayflower가 설계한 Stealth Boy는 물체의 한쪽에서 다른 쪽으로 반사된 빛을 전송하는 변조장을 생성하여 착용자가 사실상 훈련받지 않은 눈에는 보이지 않습니다. .</StealthBoy.description>
-  <StealthBoy.ingestible.ingestCommandString>{0} 획득</StealthBoy.ingestible.ingestCommandString>
+  <StealthBoy.label>스텔스 보이</StealthBoy.label>
+  <StealthBoy.description>롭코제 스텔스 보이 모델 3001 개인용 은폐 장치입니다. Robert Mayflower가 설계한 스텔스 보이는 물체의 한쪽에서 반사된 빛을 다른 쪽으로 전달하는 변조 필드를 생성하여 착용자가 훈련되지 않은 눈에는 거의 보이지 않게 만듭니다.</StealthBoy.description>
+  <StealthBoy.ingestible.ingestCommandString>{0} 작동</StealthBoy.ingestible.ingestCommandString>
   <StealthBoy.ingestible.ingestReportString>{0}을 활성화합니다.</StealthBoy.ingestible.ingestReportString>
 
   <MisterHandyKit.label>미스터 핸디 키트</MisterHandyKit.label>
-  <MisterHandyKit.description>Mister Handy 키트 및 설명서</MisterHandyKit.description>
-  <MisterHandyKit.comps.0.useLabel>미스터 핸디 수집</MisterHandyKit.comps.0.useLabel>
+  <MisterHandyKit.description>미스터 핸디를 조립하기 위한 키트 및 설명서가 있습니다.</MisterHandyKit.description>
+  <MisterHandyKit.comps.0.useLabel>미스터 핸디 조립</MisterHandyKit.comps.0.useLabel>
 
 
 </LanguageData>

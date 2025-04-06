@@ -3,9 +3,9 @@
 
   <!-- AmmoSet -->
 
-  <MakeAmmo_FatManShell_HE.label>Fat Man Nuke x1 만들기</MakeAmmo_FatManShell_HE.label>
-  <MakeAmmo_FatManShell_HE.description>Fat Man용 핵탄 x1.</MakeAmmo_FatManShell_HE.description>
-  <MakeAmmo_FatManShell_HE.jobString>뚱뚱한 남자의 껍질을 만듭니다.</MakeAmmo_FatManShell_HE.jobString>
+  <MakeAmmo_FatManShell_HE.label>소형 핵 x1 만들기</MakeAmmo_FatManShell_HE.label>
+  <MakeAmmo_FatManShell_HE.description>팻 맨용 핵폭탄 x1 제작중.</MakeAmmo_FatManShell_HE.description>
+  <MakeAmmo_FatManShell_HE.jobString>팻 맨에서 사용할 소형 핵을 만듭니다.</MakeAmmo_FatManShell_HE.jobString>
 
 
 </LanguageData>

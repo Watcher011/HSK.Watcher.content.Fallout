@@ -34,7 +34,7 @@
 		</comps>
 	</ThingDef>
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseGrenadeEquipment">
-		 <defName>Weapon_Grenade_Bottlecap</defName>
+	<defName>Weapon_Grenade_Bottlecap</defName>
     <label>Lid-Mine</label>
 	<description>A popular pre-war Vault-Tec lunchbox has become the basis for a deadly mine in the post-apocalyptic Commonwealth. This homemade device will help you deal with any enemy.</description>
 		<equipmentType>Primary</equipmentType>

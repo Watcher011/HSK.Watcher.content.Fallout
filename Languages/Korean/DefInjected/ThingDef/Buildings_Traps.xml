@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <TrapIED_Bottlecap.label>병뚜껑 캡</TrapIED_Bottlecap.label>
-  <TrapIED_Bottlecap.description>전쟁 전의 인기 있는 볼트텍 도시락 상자가 종말 이후의 커먼웰스에서 치명적인 광산의 기반이 되었습니다. 이 수제 장치는 모든 적을 처리하는 데 도움이 될 것입니다.</TrapIED_Bottlecap.description>
+  <TrapIED_Bottlecap.label>병뚜껑 지뢰</TrapIED_Bottlecap.label>
+  <TrapIED_Bottlecap.description>전쟁 전의 인기 있는 볼트텍 도시락 보관함이 종말 이후의 커먼웰스에서 치명적인 지뢰의 기반이 되었습니다. 이 수제 폭발물 장치는 모든 적을 처리하는 데 도움이 될 것입니다.</TrapIED_Bottlecap.description>
 
-  <Turret_FlamethrowerTurret.label>화염방사기 파이어플라이</Turret_FlamethrowerTurret.label>
+  <Turret_FlamethrowerTurret.label>파이어플라이 화염방사기</Turret_FlamethrowerTurret.label>
   <Turret_FlamethrowerTurret.description>후면 탱크 대신 교체 가능한 가압통을 사용하는 획기적인 화염 방사기 설계입니다. 덜 번거롭지만 더 자주 재장전해야 합니다.</Turret_FlamethrowerTurret.description>
 
-  <Gun_FlamethrowerTurret.label>화염방사기 시스템</Gun_FlamethrowerTurret.label>
-  <Gun_FlamethrowerTurret.description>반딧불 시스템.</Gun_FlamethrowerTurret.description>
+  <Gun_FlamethrowerTurret.label>화염방사기 터렛</Gun_FlamethrowerTurret.label>
+  <Gun_FlamethrowerTurret.description>파이어플라이 시스템.</Gun_FlamethrowerTurret.description>
 
 
   <!--<Turret_BinocularsTurret.label>능동 감시 시스템</Turret_BinocularsTurret.label>-->

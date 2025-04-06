@@ -1,29 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <MakeRailway_Hand.label>네일 건 만들기</MakeRailway_Hand.label>
-  <MakeRailway_Hand.description>못 박는 총 만들기 - 전쟁 후에 집에서 만든 작품입니다. 이 무기의 작동 원리는 증기를 탱크로 펌핑한 후 높은 압력에서 방출하여 철도 못을 움직이는 것입니다. 그래서 재장전할 때 무기에서 증기 기관차가 출발할 때 나는 소리와 비슷한 소리가 난다. 이는 적의 사지를 찢어버리거나 심지어 벽에 고정시킬 수도 있는 매우 효과적인 무기입니다. 뛰어난 데미지를 가지고 있지만, 무거운 무게, 낮은 연사력 등 여러 가지 단점이 있습니다.</MakeRailway_Hand.description>
+  <MakeRailway_Hand.label>개못 소총 만들기</MakeRailway_Hand.label>
+  <MakeRailway_Hand.description>개못 소총 만들기 - 대전쟁 후에 수제로 만들어진 무기입니다. 이 무기의 작동 원리는 증기를 탱크로 펌핑한 후 높은 압력에서 방출하여 철도 게못을 움직이는 것입니다. 그래서 재장전할 때 무기에서 증기 기관차가 출발할 때 나는 소리와 비슷한 소리가 납니다. 이는 적의 사지를 찢어버리거나 심지어 벽에 고정시킬 수도 있는 매우 효과적인 무기입니다. 뛰어난 데미지를 가지고 있지만, 무거운 무게, 낮은 연사력 등 여러 가지 단점이 있습니다.</MakeRailway_Hand.description>
   <MakeRailway_Hand.jobString>네일 건을 만듭니다.</MakeRailway_Hand.jobString>
 
   <MakeRailway_Electric.label>네일 건 만들기</MakeRailway_Electric.label>
-  <MakeRailway_Electric.description>못 박는 총 만들기 - 전쟁 후에 집에서 만든 작품입니다. 이 무기의 작동 원리는 증기를 탱크로 펌핑한 후 높은 압력에서 방출하여 철도 못을 움직이는 것입니다. 그래서 재장전할 때 무기에서 증기 기관차가 출발할 때 나는 소리와 비슷한 소리가 난다. 이는 적의 사지를 찢어버리거나 심지어 벽에 고정시킬 수도 있는 매우 효과적인 무기입니다. 뛰어난 데미지를 가지고 있지만, 무거운 무게, 낮은 연사력 등 여러 가지 단점이 있습니다.</MakeRailway_Electric.description>
+  <MakeRailway_Electric.description>개못 소총 만들기 - 대전쟁 후에 수제로 만들어진 무기입니다. 이 무기의 작동 원리는 증기를 탱크로 펌핑한 후 높은 압력에서 방출하여 철도 개못을 움직이는 것입니다. 그래서 재장전할 때 무기에서 증기 기관차가 출발할 때 나는 소리와 비슷한 소리가 납니다. 이는 적의 사지를 찢어버리거나 심지어 벽에 고정시킬 수도 있는 매우 효과적인 무기입니다. 뛰어난 데미지를 가지고 있지만, 무거운 무게, 낮은 연사력 등 여러 가지 단점이 있습니다.</MakeRailway_Electric.description>
   <MakeRailway_Electric.jobString>네일 건을 만듭니다.</MakeRailway_Electric.jobString>
 
-  <PipeGun_Hand.label>볼트로 파이프건 만들기</PipeGun_Hand.label>
-  <PipeGun_Hand.description>볼트 액션 산탄총 만들기 - 이것은 종말 이후의 총포 제작자가 만든 수공예품으로, 나무, 오래된 파이프, 스프링 및 기타 폐기물을 접착제, 볼트, 철사로 고정하여 조잡하게 만든 것입니다. 매우 인기 있고 널리 퍼짐</PipeGun_Hand.description>
-  <PipeGun_Hand.jobString>볼트 액션이 있는 파이프건을 만듭니다.</PipeGun_Hand.jobString>
+  <PipeGun_Hand.label>파이프 권총 만들기</PipeGun_Hand.label>
+  <PipeGun_Hand.description>활강 총열식 파이프 권총 만들기 - 이것은 종말 이후의 총기 제작자가 만든 수제품으로, 나무, 오래된 파이프, 스프링 및 기타 폐기물을 접착제, 볼트, 철사로 고정하여 조잡하게 만든 것입니다. 매우 인기 있고 널리 퍼져 있습니다.</PipeGun_Hand.description>
+  <PipeGun_Hand.jobString>파이프 권총을 제작 중.</PipeGun_Hand.jobString>
 
-  <PipeRifle.label>매끄러운 보어 볼트 액션 생성</PipeRifle.label>
-  <PipeRifle.description>볼트 액션 산탄총 만들기 - 활강 산탄총 계열 - 가장 간단한 탄도 무기로, 발견된 볼트, 금속, 목재의 다양한 부분을 사용하여 "무릎 위에" 조립한 것입니다. 이것만 봐도 이 총은 목표물을 죽이는 것보다 사수를 죽이는 것을 더 선호할 것 같지만, 황무지에서는 흔히 볼 수 있으며 약탈자들은 이것을 더 선호합니다.</PipeRifle.description>
-  <PipeRifle.jobString>볼트 액션 산탄총을 만듭니다.</PipeRifle.jobString>
+  <PipeRifle.label>볼트액션 파이프총 만들기</PipeRifle.label>
+  <PipeRifle.description>볼트 액션 활강식 파이프총 만들기 - 활강총열 계열 - 가장 간단한 탄도 무기로, 발견된 볼트, 금속, 목재의 다양한 부분을 사용하여 "무릎 위에" 조립한 것입니다. 이것만 봐도 이 총은 목표물을 죽이는 것보다 사수를 죽이는 것을 더 선호할 것 같지만, 황무지에서는 흔히 볼 수 있으며 약탈자들은 이것을 더 선호합니다.</PipeRifle.description>
+  <PipeRifle.jobString>볼트액션 파이프총을 제작 중.</PipeRifle.jobString>
 
-  <OldRevolver_Hand.label>챔버드 산탄총 만들기</OldRevolver_Hand.label>
-  <OldRevolver_Hand.description>이것은 종말 이후의 총포 제작자가 직접 만든 제품으로, 나무, 오래된 파이프, 드럼 공급 장치, 스프링 및 기타 폐기물을 접착제, 볼트, 철사로 조립하여 조잡하게 만들었습니다. 매우 인기 있고 널리 퍼져 있음.</OldRevolver_Hand.description>
+  <OldRevolver_Hand.label>구식 리볼버 만들기</OldRevolver_Hand.label>
+  <OldRevolver_Hand.description>이것은 종말 이후의 총기 제작자가 직접 만든 제품으로, 나무, 오래된 파이프, 드럼 공급 장치, 스프링 및 기타 폐기물을 접착제, 볼트, 철사로 조립하여 조잡하게 만들었습니다. 매우 인기 있고 널리 퍼져 있습니다.</OldRevolver_Hand.description>
   <OldRevolver_Hand.jobString>장전된 권총으로 생성합니다.</OldRevolver_Hand.jobString>
 
-  <BuildGatlingPlasma.label>개틀링 플라스마 제작</BuildGatlingPlasma.label>
-<BuildGatlingPlasma.description>제동력과 사거리가 좋은 개틀링 플라스마를 제작합니다.</BuildGatlingPlasma.description>
-<BuildGatlingPlasma.jobString>개틀링 플라스마 제작.</BuildGatlingPlasma.jobString>
+  <BuildGatlingPlasma.label>개틀링 플라즈마 제작</BuildGatlingPlasma.label>
+<BuildGatlingPlasma.description>저지력과 사거리가 긴 개틀링 플라스마를 제작합니다.</BuildGatlingPlasma.description>
+<BuildGatlingPlasma.jobString>개틀링 플라즈마 제작 중.</BuildGatlingPlasma.jobString>
 
 
 </LanguageData>

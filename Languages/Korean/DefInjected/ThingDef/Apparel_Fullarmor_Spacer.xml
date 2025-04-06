@@ -5,11 +5,11 @@
   <Apparel_RaiderPowerArmorHelmet.description>수제 헬멧</Apparel_RaiderPowerArmorHelmet.description>
 
   <Apparel_RaiderPowerArmor.label>레이더 파워 아머</Apparel_RaiderPowerArmor.label>
-  <Apparel_RaiderPowerArmor.description>레이더가 회수한 파워 아머입니다. 탄도 보호와 내구성 측면에서는 T-45 모델과 유사하나, 공장 모델의 6단계 대신 2단계만 개량되었습니다. 겉모습으로 보아 수제인 듯했다. 이 세트의 디자인은 일반 레이더 갑옷과 다소 비슷합니다. 동급 갑옷 중에서는 최악이지만, 그런 갑옷이라도 착용자는 강력한 적이 됩니다. 가장 큰 단점은 내구성이 낮다는 것입니다.</Apparel_RaiderPowerArmor.description>
+  <Apparel_RaiderPowerArmor.description>레이더가 회수한 파워 아머입니다. 탄도 보호와 내구성 측면에서는 T-45 모델과 유사하나, 공장 모델의 6단계 대신 2단계만 개조되었습니다. 겉모습으로 보아 수제로 만들어진걸로 보입니다. 이 세트의 디자인은 일반 레이더 방어구와 다소 비슷합니다. 동급의 파워 아머 중에서는 최악이지만, 그런 파워 아머라도 착용자는 강력한 적이 됩니다. 가장 큰 단점은 내구성이 낮다는 것입니다.</Apparel_RaiderPowerArmor.description>
   <Apparel_RaiderPowerArmor.verbs.0.label>점프</Apparel_RaiderPowerArmor.verbs.0.label>
 
   <Apparel_X01PowerArmor.label>X-01 파워 아머</Apparel_X01PowerArmor.label>
-  <Apparel_X01PowerArmor.description>X-01 파워 아머 모델은 미국 육군 전문가에 의해 개발되었으며 1차 세계 대전 이후 생존한 전투 부대에서 사용되었습니다. 매개변수 측면에서 볼 때, 이 방어구는 전쟁 전의 방어구보다 상당히 뛰어납니다.</Apparel_X01PowerArmor.description>
+  <Apparel_X01PowerArmor.description>X-01 파워 아머 모델은 미군 특수작전부대에 의해 개발되었으며 대전쟁 이후 생존한 전투 대원들에게 사용되었습니다. 매개변수 측면에서 볼 때, 이 방어구는 전쟁 전의 방어구보다 상당히 뛰어납니다.</Apparel_X01PowerArmor.description>
 
 
 </LanguageData>

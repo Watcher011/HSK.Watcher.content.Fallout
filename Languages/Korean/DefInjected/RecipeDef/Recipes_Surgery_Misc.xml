@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <ExtractRadHemogenPack.label>빛나는 피를 뿜어내다</ExtractRadHemogenPack.label>
-  <ExtractRadHemogenPack.description>구울의 피에서 빛나는 피 한 팩을 얻습니다. 환자의 혈액이 충분하지 않으면 이를 수행할 수 없습니다.\n\n혈액 손실의 영향을 줄이기 위해 다른 구울에게 헤모겐을 수혈할 수 있습니다.</ExtractRadHemogenPack.description>
-  <ExtractRadHemogenPack.jobString>빛나는 피를 추출합니다.</ExtractRadHemogenPack.jobString>
+  <ExtractRadHemogenPack.label>발광 혈액를 추출</ExtractRadHemogenPack.label>
+  <ExtractRadHemogenPack.description>발광구울의 피에서 발광 혈액 한 팩을 얻습니다. 환자의 혈액이 충분하지 않으면 이를 수행할 수 없습니다.\n\n혈액 손실의 영향을 줄이기 위해 다른 구울에게 혈액을 수혈할 수 있습니다.</ExtractRadHemogenPack.description>
+  <ExtractRadHemogenPack.jobString>빛나는 피를 추출 중.</ExtractRadHemogenPack.jobString>
 
   <RadHemogenTransfusion.label>발광 혈액 수혈</RadHemogenTransfusion.label>
-  <RadHemogenTransfusion.description>빛나는 혈액팩을 사용해 출혈로 인한 영향을 줄이세요. 사용된 팩 1개당 혈액 손실량이 35% 회복됩니다.</RadHemogenTransfusion.description>
-  <RadHemogenTransfusion.jobString>발광 혈액 수혈 대상 A.</RadHemogenTransfusion.jobString>
+  <RadHemogenTransfusion.description>발광 혈액팩을 수혈시켜서 출혈로 인한 부정적인 영향을 줄입니다. 사용된 팩 1개당 혈액 손실량이 35% 회복됩니다.</RadHemogenTransfusion.description>
+  <RadHemogenTransfusion.jobString>발광 혈액 수혈 중.</RadHemogenTransfusion.jobString>
 
 
 </LanguageData>

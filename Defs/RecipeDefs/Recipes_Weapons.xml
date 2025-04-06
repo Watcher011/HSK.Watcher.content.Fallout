@@ -118,9 +118,9 @@
         <products>
             <Weapon_Grenade_Bottlecap>5</Weapon_Grenade_Bottlecap>
         </products>
-        <recipeUsers>
-            <li>WeaponCraftingWorkTable</li>
-        </recipeUsers>
+        <recipeUsers Inherit="false">
+	        <li>TableFalloutElectronics</li>
+		</recipeUsers>
         <researchPrerequisite>Grenade_C2</researchPrerequisite>
     </RecipeDef>
 </Defs>

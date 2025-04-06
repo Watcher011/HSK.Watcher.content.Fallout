@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+	<ThingDef ParentName="WorkTable">
+		<defName>TableFalloutElectronics</defName>
+		<label>Production Workbench</label>
+		<description>Assembled from the remains of pre-war machines, rusty pipes and scrap parts, this workbench is the heart of any self-respecting workshop in the wasteland. Here you can turn junk into deadly weapons, repair armor or assemble something useful... if, of course, you know how not to tear off your fingers.</description>
+		<graphicData>
+			<texPath>Things/Building/Production/ProductionWorkbench</texPath>
+			 <graphicClass>Graphic_Multi</graphicClass>
+             <shaderType>CutoutComplex</shaderType>
+			<drawSize>(2,1)</drawSize>
+			<shadowData>
+				<volume>(1.9, 1.0, 0.85)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<stuffCategories>
+			<li>RuggedMetallic</li>
+		</stuffCategories>
+		<costStuffCount>140</costStuffCount>
+		<costList>
+			<CopperBar>40</CopperBar>
+			<ComponentIndustrial>10</ComponentIndustrial>
+			<Mechanism>10</Mechanism>
+		</costList>
+		<statBases>
+			<WorkToBuild>2750</WorkToBuild>
+			<MaxHitPoints>220</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Cleanliness>-1</Cleanliness>
+			<Mass>500</Mass>
+		</statBases>
+		<size>(2,1)</size>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<designationCategory>Production</designationCategory>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<tickerType>Normal</tickerType>
+		<comps>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>Small_ToolCabinet</li>
+					<li>PodChair</li>
+				</linkableFacilities>
+			</li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<basePowerConsumption>600</basePowerConsumption>
+				<soundPowerOn>Power_OnSmall</soundPowerOn>
+				<soundPowerOff>Power_OffSmall</soundPowerOff>
+			</li>
+			<li Class="SK.CompProperties_LowIdleDraw">
+				<compClass>SK.CompPowerLowIdleDraw</compClass>
+				<idlePowerFactor>0.1</idlePowerFactor>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>MicroelectronicsBasics</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+	</ThingDef>
+
+
+</Defs>

@@ -3,8 +3,8 @@
 
   <!-- AmmoSet -->
 
-  <Ammo_FatManShell_HE.label>핵탄</Ammo_FatManShell_HE.label>
-  <Ammo_FatManShell_HE.description>이 유형은 더 큰 파괴력과 방사능 오염이 특징입니다. 데미지가 증가하면 사거리가 감소하는데, 이는 가볍게 무장한 사수에게는 좋지 않은 일입니다.</Ammo_FatManShell_HE.description>
+  <Ammo_FatManShell_HE.label>핵폭발</Ammo_FatManShell_HE.label>
+  <Ammo_FatManShell_HE.description>이 핵폭발은 더 큰 파괴력과 방사능 오염이 특징입니다. 피해량에 따라 사거리가 감소하는데, 이는 가볍게 무장한 사수에게는 좋지 않은 일입니다.</Ammo_FatManShell_HE.description>
 
   <Bullet_FatManShell_HE.label>핵탄두(NHE)</Bullet_FatManShell_HE.label>
 

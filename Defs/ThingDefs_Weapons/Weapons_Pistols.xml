@@ -1,6 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	 <ThingDef ParentName="BaseGun_Heavy">
+
+<ThingDef ParentName="BaseGunCR_Extended" Name="BaseGun_Fallout" Abstract="True">
+		<equippedStatOffsets>
+			<Suppressability>-0.45</Suppressability>
+		</equippedStatOffsets>
+		<relicChance>1</relicChance>
+		<weaponClasses>
+			<li>RangedHeavy</li>
+		</weaponClasses>
+		 <thingCategories>
+            <li>FuturisticVaultec</li>
+        </thingCategories>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>13</power>
+				<cooldownTime>1.9</cooldownTime>
+				<armorPenetrationBlunt>2.5</armorPenetrationBlunt>
+				<linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+			</li>
+		</tools>
+	</ThingDef>
+	
+	
+	 <ThingDef ParentName="BaseGun_Fallout">
         <defName>Gun_LaserPistol</defName>
        <label>Laser pistol</label>
 	<description>A laser pistol is a high-tech energy weapon developed in the pre-war United States. The principle of operation is a concentrated and repeatedly amplified beam of light, which almost instantly and very accurately transfers the energy of the "shot" (pulse) to a very small area on the target.
@@ -35,9 +62,6 @@ The disadvantages are the high complexity and low mechanical strength of the wea
 		 <tradeTags>
             <li>ExoticVaultec</li>
         </tradeTags>
-        <thingCategories>
-            <li>FuturisticVaultec</li>
-        </thingCategories>
         <verbs>
             <li Class="CombatExtended.VerbPropertiesCE">
                 <verbClass>CombatExtended.Verb_ShootCE</verbClass>
@@ -66,11 +90,10 @@ The disadvantages are the high complexity and low mechanical strength of the wea
             <Weapon_Parts>4</Weapon_Parts>
 			<Plastic>5</Plastic>
         </smeltProducts>
-		
     </ThingDef>
 	
 	
-	 <ThingDef ParentName="BaseGun_Heavy">
+	<ThingDef ParentName="BaseGun_Fallout">
         <defName>Gun_LaserRifel</defName>
        <label>AER9 Laser Rifle</label>
 <description>The AER9 does not use advanced pre-war technology, which greatly increases its reliability. This model is a conventional solid-state pulse laser, the active medium of which (the crystal) is enclosed in a titanium case, which allows it to withstand years of environmental exposure without losing its technical characteristics.</description>
@@ -101,9 +124,6 @@ The disadvantages are the high complexity and low mechanical strength of the wea
 		<weaponClasses>
 			<li>Ultratech</li>
 		</weaponClasses>
-        <thingCategories>
-             <li>FuturisticVaultec</li>
-        </thingCategories>
         <verbs>
             <li Class="CombatExtended.VerbPropertiesCE">
                 <recoilPattern>Regular</recoilPattern>
@@ -140,7 +160,7 @@ The disadvantages are the high complexity and low mechanical strength of the wea
     </ThingDef>
 	
 	
-	 <ThingDef ParentName="BaseGun_Heavy">
+	<ThingDef ParentName="BaseGun_Fallout">
         <defName>Gun_LaserSniperRifel</defName>
        <label>Institute Laser</label>
 <description>A variant of the laser weapon developed by the Institute. Compared to the standard laser, it has a different design, a better rate of fire and reduced weight, but a poorer range of possible modifications and slightly less damage. Among the advantages, it is worth noting the low consumption of AP in V.A.T.S. mode, as well as extremely low recoil and almost zero spread in single fire mode, which makes it an excellent choice for a sniper. Among the disadvantages are its bulkiness, large size, and the inability to install a silencer, which is typical for all energy weapons, and therefore limited capabilities for working in stealth mode.</description>
@@ -158,9 +178,6 @@ The disadvantages are the high complexity and low mechanical strength of the wea
         </tradeTags>
         <tradeability>Sellable</tradeability>
 		<techLevel>Spacer</techLevel>
-        <thingCategories>
-             <li>FuturisticVaultec</li>
-        </thingCategories>
         <statBases>
             <MarketValue>3300</MarketValue>
             <SightsEfficiency>1.05</SightsEfficiency>
@@ -211,7 +228,7 @@ The disadvantages are the high complexity and low mechanical strength of the wea
 	
 	
 	
-	  <ThingDef ParentName="BaseGun_Heavy">
+	 <ThingDef ParentName="BaseGun_Fallout">
         <defName>Gun_PlasmaRifelV</defName>
         <label>Plasma Carbine</label>
 <description>A light energy weapon developed and put into service by the US Army shortly before the war, but did not have time to gain widespread distribution. It was actively used in the post-war period by the Enclave troops. With the defeat of the latter, it spread throughout the Wasteland, but is still quite rare.</description>
@@ -242,9 +259,6 @@ The disadvantages are the high complexity and low mechanical strength of the wea
 		<weaponClasses>
 			<li>Ultratech</li>
 		</weaponClasses>
-        <thingCategories>
-            <li>FuturisticVaultec</li>
-        </thingCategories>
         <verbs>
             <li Class="CombatExtended.VerbPropertiesCE">
                 <recoilPattern>Regular</recoilPattern>
@@ -282,7 +296,7 @@ The disadvantages are the high complexity and low mechanical strength of the wea
     </ThingDef>
 	
 	
-	 <ThingDef ParentName="BaseGun_Heavy">
+	<ThingDef ParentName="BaseGun_Fallout">
         <defName>Gun_GatlingLaser</defName>
        <label>Gatling Laser</label>
 <description>The Gatling Laser can deal massive amounts of energy damage in a short amount of time, but it takes time to spin up its barrels before firing..</description>
@@ -298,9 +312,6 @@ The disadvantages are the high complexity and low mechanical strength of the wea
         <tradeTags>
             <li>ExoticVaultec</li>
         </tradeTags>
-        <thingCategories>
-             <li>FuturisticVaultec</li>
-        </thingCategories>
         <statBases>
             <MarketValue>3100</MarketValue>
             <SightsEfficiency>1</SightsEfficiency>
@@ -350,7 +361,7 @@ The disadvantages are the high complexity and low mechanical strength of the wea
 	
 	
 	
-	 <ThingDef ParentName="BaseGun_Heavy">
+	<ThingDef ParentName="BaseGun_Fallout">
         <defName>Gun_Fat_Man</defName>
        <label>Fat Man</label>
 <description>A tactical shoulder-mounted nuclear catapult. The weapon fires nuclear rounds that, when detonated, detonate a nuclear blast over a small area, causing massive damage and releasing radiation for a short period of time. In perfect condition, this weapon can fire 495 rounds before breaking.</description>
@@ -433,7 +444,7 @@ The disadvantages are the high complexity and low mechanical strength of the wea
 	
 	
 	
-	<ThingDef ParentName="BaseGun_ShortBarreled">
+	<ThingDef ParentName="BaseGun_Fallout">
 		<defName>Railway</defName>
 		<label>Nailgun</label>
 <description>The nailgun is a rare homemade weapon that shoots railroad nails. A shot can tear off an enemy's limb or even nail them to a wall.</description>
@@ -492,7 +503,7 @@ The disadvantages are the high complexity and low mechanical strength of the wea
 	
 	
 	
-	<ThingDef ParentName="BaseGun_ShortBarreled">
+	<ThingDef ParentName="BaseGun_Fallout">
 		<defName>PipeGun</defName>
 		<label>Breechloader</label>
 <description>This is a homemade product of post-apocalyptic gunsmiths, crudely made from wood, a piece of old pipe, springs and other scraps, held together with glue, bolts and wire. Extremely popular and widespread.</description>
@@ -562,7 +573,7 @@ The disadvantages are the high complexity and low mechanical strength of the wea
 	
 	
 	
-	<ThingDef ParentName="BaseGun_LongBarreled">
+	<ThingDef ParentName="BaseGun_Fallout">
         <defName>PipeRifle</defName>
         <label>Smoothbore bolt action</label>
 <description>The smoothbore line is the simplest ballistic weapon, assembled, as they say, "on the knee", from various parts of found bolts, metal and wood. Its very appearance makes you think that it is more likely to kill the shooter than the target, but in the Wasteland it is widespread, and raiders prefer it</description>
@@ -623,7 +634,7 @@ The disadvantages are the high complexity and low mechanical strength of the wea
         </smeltProducts>
     </ThingDef>
 	
-		<ThingDef ParentName="BaseGun_ShortBarreled">
+	<ThingDef ParentName="BaseGun_Fallout">
 		<defName>OldRevolver</defName>
 		<label>Smoothbore with a chamber</label>
 <description>This is a homemade product of post-apocalyptic gunsmiths, crudely made from wood, a piece of old pipe, a drum feed mechanism, springs and other scraps, held together with glue, bolts and wire. Extremely popular and widespread.</description>
@@ -694,7 +705,7 @@ The disadvantages are the high complexity and low mechanical strength of the wea
 	
 	
 	
-	<ThingDef ParentName="BaseGun_ShortBarreled">
+	<ThingDef ParentName="BaseGun_Fallout">
 		<defName>PepperShaker</defName>
 		<label>Pepper Shaker</label>
 <description>The Pepper Shaker takes one second to spin up before it automatically fires eight shotgun shells. It counts as both a shotgun and a heavy weapon and will benefit from any perk in either weapon class.</description>
@@ -757,7 +768,7 @@ The disadvantages are the high complexity and low mechanical strength of the wea
 	</ThingDef>
 	
 	
-	  <ThingDef ParentName="BaseGun_LongBarreled">
+	<ThingDef ParentName="BaseGun_Fallout">
         <defName>Gun_GatlingPlasma</defName>
         <label>Gatling plasma</label>
 <description>The Gatling Plasma is a powerful energy weapon that combines the rapid-fire nature of a Gatling with the destructive power of a plasma bolt. Six rotating barrels spew deadly streams of superheated plasma, vaporizing enemies in clouds of ionized gas. Perfect for those who prefer to solve problems with massive firepower.</description>
@@ -789,9 +800,6 @@ The disadvantages are the high complexity and low mechanical strength of the wea
 		<weaponClasses>
 			<li>Ultratech</li>
 		</weaponClasses>
-        <thingCategories>
-            <li>FuturisticVaultec</li>
-        </thingCategories>
         <verbs>
             <li Class="CombatExtended.VerbPropertiesCE">
                 <recoilPattern>Regular</recoilPattern>
@@ -801,8 +809,8 @@ The disadvantages are the high complexity and low mechanical strength of the wea
                 <defaultProjectile>Bullet_Plasma</defaultProjectile>
                 <warmupTime>0.62</warmupTime>
                 <range>50</range>
-                <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
-				<burstShotCount>50</burstShotCount>
+                <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+				<burstShotCount>10</burstShotCount>
                 <soundCast>Fire_UACPistol</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
@@ -816,7 +824,7 @@ The disadvantages are the high complexity and low mechanical strength of the wea
             </li>
 			
             <li Class="CombatExtended.CompProperties_AmmoUser">
-                <magazineSize>500</magazineSize>
+                <magazineSize>200</magazineSize>
                 <reloadTime>12.90</reloadTime>
                 <ammoSet>AmmoSet_PlasmaBolt</ammoSet>
             </li>

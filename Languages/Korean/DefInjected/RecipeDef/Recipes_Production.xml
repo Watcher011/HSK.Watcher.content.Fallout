@@ -2,20 +2,20 @@
 <LanguageData>
 
   <MakeGlassBotel.label>유리병 만들기</MakeGlassBotel.label>
-  <MakeGlassBotel.description>병을 녹입니다. 5개</MakeGlassBotel.description>
-  <MakeGlassBotel.jobString>용융.</MakeGlassBotel.jobString>
+  <MakeGlassBotel.description>병을 5개씩 만듭니다.</MakeGlassBotel.description>
+  <MakeGlassBotel.jobString>병 만드는 중.</MakeGlassBotel.jobString>
 
   <MakeSmeltBotel.label>유리병 녹이기</MakeSmeltBotel.label>
-  <MakeSmeltBotel.description>병을 녹입니다. 5. 다시 녹이기</MakeSmeltBotel.description>
-  <MakeSmeltBotel.jobString>다시 녹입니다.</MakeSmeltBotel.jobString>
+  <MakeSmeltBotel.description>병을 5개씩 녹입니다. 유리로 회수합니다.</MakeSmeltBotel.description>
+  <MakeSmeltBotel.jobString>병을 녹이는 중.</MakeSmeltBotel.jobString>
 
-  <MakeCupBotel.label>병 뚜껑 만들기</MakeCupBotel.label>
-  <MakeCupBotel.description>병 뚜껑을 녹입니다. 10개.</MakeCupBotel.description>
-  <MakeCupBotel.jobString>녹는다.</MakeCupBotel.jobString>
+  <MakeCupBotel.label>병뚜껑 만들기</MakeCupBotel.label>
+  <MakeCupBotel.description>병뚜껑을 10개씩 만듭니다.</MakeCupBotel.description>
+  <MakeCupBotel.jobString>병뚜껑 제작 중.</MakeCupBotel.jobString>
 
-  <SmeltCupBotel.label>병 뚜껑 다시 녹이기</SmeltCupBotel.label>
-  <SmeltCupBotel.description>병 뚜껑을 녹입니다. 제련 10.</SmeltCupBotel.description>
-  <SmeltCupBotel.jobString>다시 녹입니다.</SmeltCupBotel.jobString>
+  <SmeltCupBotel.label>병뚜껑 녹이기</SmeltCupBotel.label>
+  <SmeltCupBotel.description>병뚜껑을 녹입니다. 은으로 다시 회수합니다.</SmeltCupBotel.description>
+  <SmeltCupBotel.jobString>병뚜껑을 녹이는 중.</SmeltCupBotel.jobString>
 
 
 </LanguageData>

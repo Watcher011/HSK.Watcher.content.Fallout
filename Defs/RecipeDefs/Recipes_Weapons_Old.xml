@@ -9,8 +9,8 @@
 		<workSpeedStat>ElectronicCraftingSpeed</workSpeedStat>
 		<effectWorking>Smith</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
-		<recipeUsers>
-			<li>FabricationBench</li>
+		<recipeUsers Inherit="false">
+	        <li>TableFalloutElectronics</li>
 		</recipeUsers>
 		<ingredients>
 			<li>
@@ -78,86 +78,6 @@
 	</RecipeDef>
 
 
-	<RecipeDef>
-		<defName>MakeRailway_Electric</defName>
-		<label>Create a Nail Gun</label>
-<description>Create a Nail Gun - A home-made post-war development. The weapon's operating principle is based on pumping steam into a tank and then releasing it under high pressure, which sets a railroad nail in motion. As a result, the weapon makes a sound similar to a steam locomotive departing when reloading. This is an extremely effective weapon, capable of tearing off an enemy's limb, or even nailing him to a wall. It has excellent damage, but has a number of disadvantages - heavy weight, low rate of fire.</description>
-<jobString>Creates a Nail Gun.</jobString>
-		<workAmount>1800</workAmount>
-		<workSpeedStat>ElectronicCraftingSpeed</workSpeedStat>
-		<effectWorking>Smith</effectWorking>
-		<soundWorking>Recipe_Machining</soundWorking>
-		<recipeUsers>
-			<li>AdvToolBench</li>
-		</recipeUsers>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Pistol_Component</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Weapon_Parts</li>
-					</thingDefs>
-				</filter>
-				<count>2</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>ComponentIndustrial</li>
-					</thingDefs>
-				</filter>
-				<count>2</count>
-			</li>
-			<li>
-				<filter>
-					<categories>
-						<li>Metallic</li>
-					</categories>
-				</filter>
-				<count>10</count>
-			</li>
-			<li>
-				<filter>
-					<categories>
-						<li>Leathers</li>
-					</categories>
-				</filter>
-				<count>5</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>Pistol_Component</li>
-				<li>Weapon_Parts</li>
-				<li>ComponentIndustrial</li>
-			</thingDefs>
-			<categories>
-				<li>SLDBar</li>
-				<li>USLDBar</li>
-				<li>Leathers</li>
-			</categories>
-		</fixedIngredientFilter>
-		<products>
-			<Railway>1</Railway>
-		</products>
-		<skillRequirements>
-			<Crafting>6</Crafting>
-		</skillRequirements>
-		<workSkill>Crafting</workSkill>
-		<workSkillLearnFactor>0.8</workSkillLearnFactor>
-	</RecipeDef>
-
-
-
-
-
        <RecipeDef>
 		<defName>PipeGun_Hand</defName>
 		<label>Craft a Bolt-Action Shotgun</label>
@@ -167,8 +87,8 @@
 		<workSpeedStat>ElectronicCraftingSpeed</workSpeedStat>
 		<effectWorking>Smith</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
-		<recipeUsers>
-			<li>FabricationBench</li>
+		<recipeUsers Inherit="false">
+	        <li>TableFalloutElectronics</li>
 		</recipeUsers>
 		<ingredients>
 			<li>
@@ -246,8 +166,8 @@
 		<workSpeedStat>ElectronicCraftingSpeed</workSpeedStat>
 		<effectWorking>Smith</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
-		<recipeUsers>
-			<li>FabricationBench</li>
+		<recipeUsers Inherit="false">
+	        <li>TableFalloutElectronics</li>
 		</recipeUsers>
 		<ingredients>
 			<li>
@@ -326,8 +246,8 @@
 		<workSpeedStat>ElectronicCraftingSpeed</workSpeedStat>
 		<effectWorking>Smith</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
-		<recipeUsers>
-			<li>FabricationBench</li>
+		<recipeUsers Inherit="false">
+	        <li>TableFalloutElectronics</li>
 		</recipeUsers>
 		<ingredients>
 			<li>
@@ -401,6 +321,9 @@
 		<description>Builds the Gatling plasma, with good stopping power and range.</description>
 		<jobString>Building Gatling plasma.</jobString>
 		<workAmount>27000</workAmount>
+		<recipeUsers Inherit="false">
+	        <li>TableFalloutElectronics</li>
+		</recipeUsers>
 		<skillRequirements>
 			<Crafting>19</Crafting>
 		</skillRequirements>
@@ -460,9 +383,6 @@
 				<li>USLDBar</li>
 			</categories>
 		</fixedIngredientFilter>
-		<recipeUsers>
-			<li>MechWeaponCraftingWorkTable</li>
-		</recipeUsers>
 		<researchPrerequisite>Plasma_weapons_E</researchPrerequisite>
 	</RecipeDef>
 

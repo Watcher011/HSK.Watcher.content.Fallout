@@ -6,6 +6,20 @@
 			<Plant_Mutfruit>0.015</Plant_Mutfruit>
 		</value>
      </Operation>
+	 
+	  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="TemperateForest" or defName="TemperateSwamp" or defName="AridShrubland" or defName="BorealForest"]/wildPlants</xpath>
+		<value>
+			<Plant_Tato>0.015</Plant_Tato>
+		</value>
+     </Operation>
+	 
+	  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="TemperateForest" or defName="TemperateSwamp" or defName="AridShrubland" or defName="BorealForest" or defName="Ocean" or defName="Lake"]/wildPlants</xpath>
+		<value>
+			<PlantTarberry>0.15</PlantTarberry>
+		</value>
+     </Operation>
 
 	<Operation Class="PatchOperationFindMod">
 		<mods>
@@ -24,6 +38,7 @@
 							</sources>
 							<graphicData>
 								<texPath>Things/Plant/Mutfruitbag</texPath>
+								<drawSize>(0.3)</drawSize>
 							</graphicData>
 							 <statBases>
                                 <MarketValue>9</MarketValue>

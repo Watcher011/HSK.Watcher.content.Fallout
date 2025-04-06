@@ -2,9 +2,9 @@
 <LanguageData>
 
   <Steroid.label>스테로이드</Steroid.label>
-  <Steroid.description>스테로이드는 일반적으로 성 호르몬인 테스토스테론과 디하이드로테스토스테론에서 유래한 생물학적 화합물로, 인체에 매우 강한 영향을 미칩니다. 신체의 숨겨진 기능을 활성화함으로써</Steroid.description>
-  <Steroid.ingestible.ingestCommandString>{0 수락</Steroid.ingestible.ingestCommandString>
-  <Steroid.ingestible.ingestReportString>{0}을 수락합니다.</Steroid.ingestible.ingestReportString>
+  <Steroid.description>스테로이드는 일반적으로 성 호르몬인 테스토스테론과 디하이드로테스토스테론에서 유래한 생물학적 화합물로, 신체의 숨겨진 기능을 활성화함으로써 인체에 매우 강한 영향을 미칩니다.</Steroid.description>
+  <Steroid.ingestible.ingestCommandString>{0} 복용</Steroid.ingestible.ingestCommandString>
+  <Steroid.ingestible.ingestReportString>{0}을 복용합니다.</Steroid.ingestible.ingestReportString>
 
 
 </LanguageData>

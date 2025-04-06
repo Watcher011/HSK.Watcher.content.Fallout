@@ -4,33 +4,33 @@
   <Guidra.label>히드라</Guidra.label>
   <Guidra.description>머리가 3개 달린 돌연변이 뱀으로 매우 독성이 강합니다.</Guidra.description>
   <Guidra.tools.0.label>독송곳니</Guidra.tools.0.label>
-  <Guidra.tools.1.label>헤드</Guidra.tools.1.label>
+  <Guidra.tools.1.label>머리</Guidra.tools.1.label>
 
   <RadDeer.label>라드스택</RadDeer.label>
-  <RadDeer.description>머리가 두 개 달린 방사선사슴은 무섭게 보이지만, 조금이라도 위험을 감지하면 날아갑니다. 하지만 그를 궁지로 몰아넣으면 위험한 상대가 될 수 있습니다.</RadDeer.description>
+  <RadDeer.description>머리가 두 개 달린 방사능 돌연변이 사슴은 무섭게 보이지만, 조금이라도 위험을 감지하면 도망칩니다. 하지만 이 사슴들을 궁지로 몰아넣으면 위험한 상대가 될 수 있습니다.</RadDeer.description>
   <RadDeer.tools.0.label>왼쪽 발굽</RadDeer.tools.0.label>
   <RadDeer.tools.1.label>오른쪽 발굽</RadDeer.tools.1.label>
-  <RadDeer.tools.3.label>헤드</RadDeer.tools.3.label>
+  <RadDeer.tools.3.label>머리</RadDeer.tools.3.label>
   <RadDeer.tools.4.label>뿔</RadDeer.tools.4.label>
 
   <Bear_Yaoguai.label>야오과이</Bear_Yaoguai.label>
-  <Bear_Yaoguai.description>대전쟁 이후 커먼웰스의 황무지에 나타난 돌연변이 곰입니다. 데스클로를 제외하면, 야오과이의 피부는 짙은 라일락색이며 곳곳에 모피가 있고 곳곳에 궤양이 있습니다. 시각적으로 생물체는 전쟁 전 조상보다 훨씬 큽니다. 그들이 겪은 돌연변이에도 불구하고 많은 야오과이는 방사선에 극도로 취약하고 방사선 수준이 높은 지역에서 죽습니다. 따라서 커먼웰스에서 이 종이 살지 않는 유일한 지역은 빛나는 바다입니다. 커먼웰스의 다른 모든 주민들과 마찬가지로 그들도 여러 아종을 갖고 있으며, 생존자의 레벨이 높아짐에 따라 야오과이의 새롭고 점점 더 치명적인 아종을 만나게 될 것입니다. 야오과이는 강하고 회복력이 있으며 맹렬하게 영역을 지키고 있습니다. 그들은 상당한 피해를 입힐 수 있으며 앞발로 강력한 타격을 가하면 생존하기 어렵습니다. 곰처럼 생긴 이 생물체는 놀라울 정도로 빠르며 기회가 닿는 대로 적을 공격합니다.</Bear_Yaoguai.description>
+  <Bear_Yaoguai.description>대전쟁 이후 커먼웰스의 황무지에 나타난 돌연변이 곰입니다. 데스클로를 제외하면, 야오과이의 피부는 짙은 라일락색이며 곳곳에 모피가 있고 곳곳에 궤양이 있습니다. 시각적으로 생물체는 전쟁 전 조상보다 훨씬 큽니다. 그들이 겪은 돌연변이에도 불구하고 많은 야오과이는 방사선에 극도로 취약하고 방사선 수준이 높은 지역에서 죽습니다. 따라서 커먼웰스에서 이 종이 살지 않는 유일한 지역은 빛나는 바다입니다. 커먼웰스의 다른 모든 서식동물들과 마찬가지로 그들도 여러 아종을 갖고 있으며, 생존자의 레벨이 높아짐에 따라 야오과이의 새롭고 점점 더 치명적인 아종을 만나게 될 것입니다. 야오과이는 강하고, 튼튼하며, 영역 의식이 강합니다. 그들은 상당한 피해를 입힐 수 있으며 앞발로 강력한 타격을 가하면 생존하기 어렵습니다. 곰처럼 생긴 이 생물체는 놀라울 정도로 빠르며 기회가 닿는 대로 적을 공격합니다.</Bear_Yaoguai.description>
 
   <Brahmin.label>브라민</Brahmin.label>
-  <Brahmin.description>변이된 소. 2세기 동안의 돌연변이로 인해 두 개의 머리가 생겼고 외모가 전반적으로 바뀌었습니다. 이로 인해 23세기 브라민은 다소 추악해졌지만 여전히 유용하고 먹을 수 있는 생물이 되었습니다. 브라민은 커먼웰스 전역에서 여러 개인의 무리로 발견되며 생존자에게 적대적이지 않습니다. 브라민은 사람들에 의해 고기와 가죽의 공급원일 뿐만 아니라 짐을 운반하는 가축으로 사용됩니다.</Brahmin.description>
-  <Brahmin.tools.1.label>헤드</Brahmin.tools.1.label>
+  <Brahmin.description>변이된 소입니다. 2세기 동안의 돌연변이로 인해 두 개의 머리가 생겼고 외모가 전반적으로 바뀌었습니다. 이로 인해 23세기 브라민은 다소 추악해졌지만 여전히 유용하고 먹을 수 있는 생물이 되었습니다. 브라민은 커먼웰스 전역에서 여러 개인의 무리로 발견되며 생존자에게 적대적이지 않습니다. 브라민은 사람들에 의해 고기와 가죽의 공급원일 뿐만 아니라 짐을 운반하는 가축으로 사용됩니다.</Brahmin.description>
+  <Brahmin.tools.1.label>머리</Brahmin.tools.1.label>
   <Brahmin.tools.2.label>뿔</Brahmin.tools.2.label>
 
   <Gecko.label>겍코</Gecko.label>
-  <Gecko.description>전쟁 전 도마뱀붙이(lat. Gekkonidae)의 후손으로 미국 서부에서 흔히 발견되는 돌연변이 도마뱀입니다. 방사선의 영향으로 도마뱀 붙이는 매우 큰 크기에 도달하고 뒷다리로 걷는 법을 배웠지 만 발 구조의 변화로 인해 수직 표면을 오르는 능력을 잃었습니다. 불도마뱀붙이와 같은 다양한 종은 신화 속의 용처럼 불을 뿜는 법을 배웠고, 녹색 도마뱀붙이는 독이 있는 타액을 뱉습니다.</Gecko.description>
+  <Gecko.description>전쟁 전 도마뱀붙이(lat. Gekkonidae)의 후손으로 미국 서부에서 흔히 발견되는 돌연변이 도마뱀입니다. 방사능의 영향으로 도마뱀 붙이는 매우 큰 크기에 도달하고 뒷다리로 걷는 법을 배웠지만 발 구조의 변화로 인해 수직 표면을 오르는 능력을 잃었습니다. 불도마뱀붙이와 같은 다양한 종은 신화 속의 용처럼 불을 뿜는 법을 배웠고, 녹색 도마뱀붙이는 독이 있는 타액을 뱉습니다.</Gecko.description>
   <Gecko.tools.0.label>왼쪽 발톱</Gecko.tools.0.label>
   <Gecko.tools.1.label>오른쪽 발톱</Gecko.tools.1.label>
-  <Gecko.tools.3.label>헤드</Gecko.tools.3.label>
+  <Gecko.tools.3.label>머리</Gecko.tools.3.label>
 
   <Radscorpion.label>라드스콜피온</Radscorpion.label>
-  <Radscorpion.description>방사선에 의해 변이된 전갈. 크기가 여러 번 증가했음에도 불구하고 라드스콜피온의 신체 구조는 전쟁 전 조상과 거의 다르지 않습니다. 동일한 특징적인 발바닥 발톱과 후배체 꼬리가 앞뒤로 구부러져 바늘이 달린 배 모양의 부분으로 끝납니다. 후자에 전갈에 축적된 독은 인간에게 위험하지 않았지만 곤충의 돌연변이 이후에 쏘이면 피해자가 사망할 수 있습니다.</Radscorpion.description>
+  <Radscorpion.description>방사능에 의해 변이된 전갈. 크기가 여러 번 증가했음에도 불구하고 라드스콜피온의 신체 구조는 전쟁 전 조상과 거의 다르지 않습니다. 동일한 특징적인 발바닥 발톱과 후배체 꼬리가 앞뒤로 구부러져 바늘이 달린 배 모양의 부분으로 끝납니다. 전쟁 전의 전갈에 축적된 독은 인간에게 위험하지 않았지만 곤충의 돌연변이 이후에는 쏘이면 피해자가 사망할 수 있습니다.</Radscorpion.description>
   <Radscorpion.tools.0.label>독송곳니</Radscorpion.tools.0.label>
-  <Radscorpion.tools.2.label>헤드</Radscorpion.tools.2.label>
+  <Radscorpion.tools.2.label>머리</Radscorpion.tools.2.label>
 
   <Deathclaw.label>데스클로</Deathclaw.label>
   <Deathclaw.description>전형적인 데스클로는 키가 약 3m에 달하며 몸은 연한 갈색입니다. 뒷면은 약간 더 어둡고 앞면은 옅은 회색입니다. 조밀하고 발달된 근육은 뚜렷한 구조의 피부로 덮여 있으며 혈관이 선명하게 보입니다. 눈은 어둠 속에서 빛난다. 경 사진 이마와 거대한 아래턱이있는 머리에는 앞으로 구부러진 날카로운 뿔이 있고 거대한 입에는 12 개의 이빨이 있습니다 (각 턱에 6 개). 팔다리의 매우 날카 롭고 긴 발톱은 색이 어둡고 아래쪽에는 손가락에 3 개가 있고 "발 뒤꿈치"에 1 개가 있고 위쪽에는 5 개의 긴 발톱이 있습니다. 이것은 그 생물의 주요 치명적인 무기로, 그 이름이 유래되었습니다. 척추를 따라 뒤쪽에는 5개의 가시가 있습니다. 머리 부분은 크고 꼬리 부분은 더 짧습니다. 꼬리는 길며 약 15개의 큰 척추뼈가 있습니다. 그들은 두 개의 하지로 움직이며 매우 빠른 속도로 움직입니다. 그들은 피해자에게 상당한 거리를 뛰어넘고 높은 장애물 위로 뛰어오를 수 있습니다. 피해자는 발톱으로 빠르게 공격하거나 양발로 점프 공격을 가합니다. 공격하기 전에는 몸을 앞으로 굽혀 비명을 지르는 경우가 많습니다. 그들은 종종 무리를 지어 사냥합니다.</Deathclaw.description>
@@ -38,23 +38,23 @@
   <Deathclaw.tools.1.label>오른쪽 다리 발톱</Deathclaw.tools.1.label>
   <Deathclaw.tools.2.label>왼쪽 발톱</Deathclaw.tools.2.label>
   <Deathclaw.tools.3.label>오른쪽 발톱</Deathclaw.tools.3.label>
-  <Deathclaw.tools.5.label>헤드</Deathclaw.tools.5.label>
+  <Deathclaw.tools.5.label>머리</Deathclaw.tools.5.label>
 
   <RadDeathclaw.label>발광 데스클로</RadDeathclaw.label>
-  <RadDeathclaw.description>방사선이 많이 피폭된 일반 데스클로의 피부는 녹색 빛을 발산하여 밤에 눈에 잘 띕니다. 이미 높은 물리적 피해에 더해 방사선 피해도 입힐 수 있습니다</RadDeathclaw.description>
+  <RadDeathclaw.description>방사능에 많이 피폭된 일반 데스클로의 피부는 녹색 빛을 발산하여 밤에 눈에 잘 띕니다. 이미 높은 물리적 피해에 더해 방사능 피해도 입힐 수 있습니다</RadDeathclaw.description>
   <RadDeathclaw.tools.0.label>왼쪽 다리 발톱</RadDeathclaw.tools.0.label>
   <RadDeathclaw.tools.1.label>오른쪽 다리 발톱</RadDeathclaw.tools.1.label>
   <RadDeathclaw.tools.2.label>왼쪽 발톱</RadDeathclaw.tools.2.label>
   <RadDeathclaw.tools.3.label>오른쪽 발톱</RadDeathclaw.tools.3.label>
-  <RadDeathclaw.tools.5.label>헤드</RadDeathclaw.tools.5.label>
+  <RadDeathclaw.tools.5.label>머리</RadDeathclaw.tools.5.label>
 
   <EnclaveDeathclaw.label>엔클레이브 데스클로</EnclaveDeathclaw.label>
-  <EnclaveDeathclaw.description>엔클레이브 부대가 순찰을 위한 전투 지원으로 사용하는 일반적인 데스클로의 일종입니다. 지능과 함께 자신의 도덕적 원칙을 획득하고 주인에게 복종하기를 거부하여 엔클레이브에 의해 거의 완전히 멸종된 지능적인 데스클로에 대한 실험이 실패한 후, 이 조직은 일반적인 불합리한 데스클로를 사용합니다. 이를 위해 동물을 우리에 넣고 머리에 전송된 신호를 사용하여 행동을 제어하는 ​​장치를 장착했습니다.</EnclaveDeathclaw.description>
+  <EnclaveDeathclaw.description>엔클레이브 부대가 순찰을 위한 전투 지원으로 사용하는 일반적인 데스클로의 일종입니다. 지능과 함께 자신의 도덕적 원칙을 획득하고 주인에게 복종하기를 거부하여 엔클레이브에 의해 거의 완전히 멸종된 지능적인 데스클로에 대한 실험이 실패한 후, 이 조직은 일반적인 지능적이지 않은 데스클로를 사용합니다. 이를 위해 동물을 우리에 넣고 머리에 전송된 신호를 사용하여 행동을 제어하는 ​​장치를 장착했습니다.</EnclaveDeathclaw.description>
   <EnclaveDeathclaw.tools.0.label>왼쪽 다리 발톱</EnclaveDeathclaw.tools.0.label>
   <EnclaveDeathclaw.tools.1.label>오른쪽 다리 발톱</EnclaveDeathclaw.tools.1.label>
   <EnclaveDeathclaw.tools.2.label>왼쪽 발톱</EnclaveDeathclaw.tools.2.label>
   <EnclaveDeathclaw.tools.3.label>오른쪽 발톱</EnclaveDeathclaw.tools.3.label>
-  <EnclaveDeathclaw.tools.5.label>헤드</EnclaveDeathclaw.tools.5.label>
+  <EnclaveDeathclaw.tools.5.label>머리</EnclaveDeathclaw.tools.5.label>
 
 
 </LanguageData>

@@ -33,7 +33,7 @@
         <li>Hydroponic</li>
       </sowTags>
       <topWindExposure>0.1</topWindExposure>
-      <growDays>1.8</growDays>
+      <growDays>3.8</growDays>
       <visualSizeRange>0.5~1.05</visualSizeRange>
       <wildOrder>2</wildOrder>
       <purpose>Food</purpose>
@@ -41,5 +41,82 @@
     </plant>
   </ThingDef>
 
+	<ThingDef ParentName="SK_DeciduousPlantBase">
+		<defName>PlantTarberry</defName>
+		<label>Tarberry</label>
+		<description>Mutated berry. In addition to direct consumption, resin berries can be used for cooking.</description>
+		<thingClass>SK.Plant_Algae</thingClass>
+		<selectable>True</selectable>
+		<statBases>
+			<Beauty>3</Beauty>
+			<BeautyOutdoors>3</BeautyOutdoors>
+			<MaxHitPoints>85</MaxHitPoints>
+			<Nutrition>0.35</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plant/Tarberry</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			 <drawSize>(0.5)</drawSize>
+		</graphicData>
+		<pathCost>5</pathCost>
+		<hideAtSnowDepth>0.1</hideAtSnowDepth>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<foodType>Plant</foodType>
+		</ingestible>
+		<plant>
+			<leaflessGraphicPath>Things/Plant/Tarberry_Immature</leaflessGraphicPath>
+			<maxMeshCount>9</maxMeshCount>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>RawTarberry</harvestedThingDef>
+			<harvestMinGrowth>0.4</harvestMinGrowth>
+			<harvestFailable>false</harvestFailable>
+			<harvestYield>5</harvestYield>
+			<fertilityMin>0.01</fertilityMin>
+			<topWindExposure>0.1</topWindExposure>
+			<growDays>4</growDays>
+			<fertilitySensitivity>0.1</fertilitySensitivity>
+			<visualSizeRange>
+				<min>0.4</min>
+				<max>1.1</max>
+			</visualSizeRange>
+		</plant>
+	</ThingDef>   
 
+ <ThingDef Name="TatoPlant" ParentName="PlantBase">
+    <defName>Plant_Tato</defName>
+    <label>Tato plant</label>
+    <description>A hybrid of tomato and potato that mutated after the Great War (TOMATO and POTATO).</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.25</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/Tato</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>14</pathCost>
+    <ingestible />
+    <plant>
+	  <pollution>Any</pollution>
+	  <dieFromToxicFallout>False</dieFromToxicFallout>
+      <immatureGraphicPath>Things/Plant/Tato_Immature</immatureGraphicPath>
+      <fertilitySensitivity>0.1</fertilitySensitivity>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RawTato</harvestedThingDef>
+      <harvestYield>11</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>3.8</growDays>
+      <visualSizeRange>0.5~1.05</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+    </plant>
+  </ThingDef>	
 </Defs>

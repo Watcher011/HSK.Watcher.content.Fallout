@@ -124,7 +124,7 @@
 	</ThingDef>
 	
 	
-	<RecipeDef MayRequire="Dubwise.Rimatomics" ParentName="GrenadeRecipeBase">
+	<RecipeDef MayRequire="Dubwise.Rimatomics">
 		<defName>MakeAmmo_FatManShell_HE</defName>
 		<label>Make a Nuclear Shell for Fat Man x1</label>
 		<description>Nuclear Shell for Fat Man x1.</description>
@@ -132,6 +132,9 @@
 			<researchPrerequisites>
 			<li>Mortars</li>
 		</researchPrerequisites>
+		<recipeUsers Inherit="false">
+	        <li>TableFalloutElectronics</li>
+		</recipeUsers>
 		<workAmount>16000</workAmount>
 		<targetCountAdjustment>1</targetCountAdjustment>
 		<ingredients>

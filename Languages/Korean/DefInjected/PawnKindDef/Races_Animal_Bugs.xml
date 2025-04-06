@@ -26,30 +26,30 @@
   <CockroachVaultec.labelFemale>암컷 라드로치</CockroachVaultec.labelFemale>
   <CockroachVaultec.labelFemalePlural>암컷 라드로치</CockroachVaultec.labelFemalePlural>
 
-  <Bloodbug.label>그누스</Bloodbug.label>
-  <Bloodbug.labelPlural>그누스</Bloodbug.labelPlural>
-  <Bloodbug.lifeStages.0.label>그누스</Bloodbug.lifeStages.0.label>
-  <Bloodbug.lifeStages.0.labelPlural>그누스</Bloodbug.lifeStages.0.labelPlural>
-  <Bloodbug.lifeStages.0.labelMale>수컷 사악한</Bloodbug.lifeStages.0.labelMale>
-  <Bloodbug.lifeStages.0.labelMalePlural>수컷 그누스</Bloodbug.lifeStages.0.labelMalePlural>
-  <Bloodbug.lifeStages.0.labelFemale>암컷 그누스</Bloodbug.lifeStages.0.labelFemale>
-  <Bloodbug.lifeStages.0.labelFemalePlural>암컷 그누스</Bloodbug.lifeStages.0.labelFemalePlural>
-  <Bloodbug.lifeStages.1.label>그누스</Bloodbug.lifeStages.1.label>
-  <Bloodbug.lifeStages.1.labelPlural>그누스</Bloodbug.lifeStages.1.labelPlural>
-  <Bloodbug.lifeStages.1.labelMale>수컷 사악한</Bloodbug.lifeStages.1.labelMale>
-  <Bloodbug.lifeStages.1.labelMalePlural>수컷 그누스</Bloodbug.lifeStages.1.labelMalePlural>
-  <Bloodbug.lifeStages.1.labelFemale>암컷 그누스</Bloodbug.lifeStages.1.labelFemale>
-  <Bloodbug.lifeStages.1.labelFemalePlural>암컷 그누스</Bloodbug.lifeStages.1.labelFemalePlural>
-  <Bloodbug.lifeStages.2.label>그누스</Bloodbug.lifeStages.2.label>
-  <Bloodbug.lifeStages.2.labelPlural>그누스</Bloodbug.lifeStages.2.labelPlural>
-  <Bloodbug.lifeStages.2.labelMale>수컷 사악한</Bloodbug.lifeStages.2.labelMale>
-  <Bloodbug.lifeStages.2.labelMalePlural>수컷 그누스</Bloodbug.lifeStages.2.labelMalePlural>
-  <Bloodbug.lifeStages.2.labelFemale>암컷 그누스</Bloodbug.lifeStages.2.labelFemale>
-  <Bloodbug.lifeStages.2.labelFemalePlural>암컷 그누스</Bloodbug.lifeStages.2.labelFemalePlural>
-  <Bloodbug.labelMale>수컷 사악한</Bloodbug.labelMale>
-  <Bloodbug.labelMalePlural>수컷 그누스</Bloodbug.labelMalePlural>
-  <Bloodbug.labelFemale>암컷 그누스</Bloodbug.labelFemale>
-  <Bloodbug.labelFemalePlural>암컷 그누스</Bloodbug.labelFemalePlural>
+  <Bloodbug.label>블러드버그</Bloodbug.label>
+  <Bloodbug.labelPlural>블러드버그</Bloodbug.labelPlural>
+  <Bloodbug.lifeStages.0.label>블러드버그</Bloodbug.lifeStages.0.label>
+  <Bloodbug.lifeStages.0.labelPlural>블러드버그</Bloodbug.lifeStages.0.labelPlural>
+  <Bloodbug.lifeStages.0.labelMale>수컷 블러드버그</Bloodbug.lifeStages.0.labelMale>
+  <Bloodbug.lifeStages.0.labelMalePlural>수컷 블러드버그</Bloodbug.lifeStages.0.labelMalePlural>
+  <Bloodbug.lifeStages.0.labelFemale>암컷 블러드버그</Bloodbug.lifeStages.0.labelFemale>
+  <Bloodbug.lifeStages.0.labelFemalePlural>암컷 블러드버그</Bloodbug.lifeStages.0.labelFemalePlural>
+  <Bloodbug.lifeStages.1.label>블러드버그</Bloodbug.lifeStages.1.label>
+  <Bloodbug.lifeStages.1.labelPlural>블러드버그</Bloodbug.lifeStages.1.labelPlural>
+  <Bloodbug.lifeStages.1.labelMale>수컷 블러드버그</Bloodbug.lifeStages.1.labelMale>
+  <Bloodbug.lifeStages.1.labelMalePlural>수컷 블러드버그</Bloodbug.lifeStages.1.labelMalePlural>
+  <Bloodbug.lifeStages.1.labelFemale>암컷 블러드버그</Bloodbug.lifeStages.1.labelFemale>
+  <Bloodbug.lifeStages.1.labelFemalePlural>암컷 블러드버그</Bloodbug.lifeStages.1.labelFemalePlural>
+  <Bloodbug.lifeStages.2.label>블러드버그</Bloodbug.lifeStages.2.label>
+  <Bloodbug.lifeStages.2.labelPlural>블러드버그</Bloodbug.lifeStages.2.labelPlural>
+  <Bloodbug.lifeStages.2.labelMale>수컷 블러드버그</Bloodbug.lifeStages.2.labelMale>
+  <Bloodbug.lifeStages.2.labelMalePlural>수컷 블러드버그</Bloodbug.lifeStages.2.labelMalePlural>
+  <Bloodbug.lifeStages.2.labelFemale>암컷 블러드버그</Bloodbug.lifeStages.2.labelFemale>
+  <Bloodbug.lifeStages.2.labelFemalePlural>암컷 블러드버그</Bloodbug.lifeStages.2.labelFemalePlural>
+  <Bloodbug.labelMale>수컷 블러드버그</Bloodbug.labelMale>
+  <Bloodbug.labelMalePlural>수컷 블러드버그</Bloodbug.labelMalePlural>
+  <Bloodbug.labelFemale>암컷 블러드버그</Bloodbug.labelFemale>
+  <Bloodbug.labelFemalePlural>암컷 블러드버그</Bloodbug.labelFemalePlural>
 
   <Cazador.label>카사도르</Cazador.label>
   <Cazador.labelPlural>카사도르</Cazador.labelPlural>

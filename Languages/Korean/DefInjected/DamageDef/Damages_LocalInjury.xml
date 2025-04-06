@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <CapShredded.label>캡</CapShredded.label>
+  <CapShredded.label>병뚜껑 파편</CapShredded.label>
   <CapShredded.deathMessage>{0}이(가) 박살났습니다.</CapShredded.deathMessage>
 
 

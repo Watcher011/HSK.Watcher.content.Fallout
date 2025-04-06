@@ -3,12 +3,12 @@
 
   <!-- Carl Gustav Shell -->
 
-  <NHE.label>핵 공격</NHE.label>
-  <NHE.labelShort>"큰 아기"</NHE.labelShort>
-  <NHE.description>이 유형은 더 큰 파괴적 효과와 방사선 오염이 특징입니다. 데미지가 증가하면 사거리가 짧아지는데, 이는 가볍게 무장한 사수에게는 좋지 않은 일입니다.</NHE.description>
+  <NHE.label>핵 포격</NHE.label>
+  <NHE.labelShort>"빅 베이비"</NHE.labelShort>
+  <NHE.description>이 핵폭발은 더 큰 파괴력과 방사능 오염이 특징입니다. 피해량에 따라 사거리가 감소하는데, 이는 가볍게 무장한 사수에게는 좋지 않은 일입니다.</NHE.description>
 
-  <THE.label>핵 공격, 순서 있음 시간</THE.label>
-  <THE.labelShort>«큰 알람 시계</THE.labelShort>
+  <THE.label>지연신관식 폭탄</THE.label>
+  <THE.labelShort>큰 알람 시계</THE.labelShort>
   <THE.description>타이머는 5초입니다. 다른 물체와 충돌해도 폭발하지 않으므로 벽이나 모서리에 부딪혀 튀어나갑니다. 적에게 직접 타격을 가한 투사체는 이후 폭발을 일으키는 것 외에도 피해를 입힙니다.</THE.description>
 
 

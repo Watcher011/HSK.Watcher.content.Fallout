@@ -3,10 +3,33 @@
   
 
  
+<ThingDef Name="BaseMeleeFallout" ParentName="SK_BaseMeleeWeapon" Abstract="True">
+		<statBases>
+			<DeteriorationRate>3</DeteriorationRate>
+			<SellPriceFactor>0.70</SellPriceFactor>
+		</statBases>
+		<techLevel>Spacer</techLevel>
+		<weaponTags>
+			<li>NonNeolithicOnlyMelee</li>
+		</weaponTags>
+		<relicChance>0</relicChance>
+		<recipeMaker>
+			<workSpeedStat>SmithingSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<recipeUsers>
+				<li>TableFalloutElectronics</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>12</Crafting>
+			</skillRequirements>
+			<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+		</recipeMaker>
+	</ThingDef>
 
 
-
-  <ThingDef ParentName="BaseMeleeStun">
+  <ThingDef ParentName="BaseMeleeFallout">
 		 <defName>MeleeWeapon_Ripper</defName>
         <label>Ripper</label>
 		<description>The Ripper is a pretty good melee weapon, second only to the super sledgehammer in effectiveness. Thanks to its increased armor-piercing ability, it is not difficult to "pick" an enemy with the Ripper even in improved power armor. Ideal for combat in closed spaces and corridors.</description>
