@@ -74,7 +74,53 @@
 						</RecipeDef>
 					</value>
 				</li>
-									
+					<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<SeedsPlease.SeedDef ParentName="SeedBase">
+							<defName>Tato_seeds</defName>
+							<label>Tato seeds</label>
+							<sources>
+								<li>Plant_Mutfruit</li>
+							</sources>
+							<graphicData>
+								<texPath>Things/Plant/Tatobag</texPath>
+								<drawSize>(0.3)</drawSize>
+							</graphicData>
+							 <statBases>
+                                <MarketValue>9</MarketValue>
+                             </statBases>
+						</SeedsPlease.SeedDef>
+					</value>
+				</li>	
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<RecipeDef ParentName="ExtractSeed">
+							<defName>ExtractTato</defName>
+							<label>Extraction of Tato seeds</label>
+							<description>Extraction of Tato seeds</description>
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>RawTato</li>
+										</thingDefs>
+									</filter>
+									<count>4</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>RawTato</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<products>
+								<Tato_seeds>3</Tato_seeds>
+							</products>
+						</RecipeDef>
+					</value>
+				</li>				
 			</operations>
 		</match>
 	</Operation>

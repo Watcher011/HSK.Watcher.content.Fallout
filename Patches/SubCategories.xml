@@ -10,6 +10,13 @@
 				</value>
 			 </Operation>
 			 
+			  <Operation Class="PatchOperationAdd">
+				<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_CraftWeapons"]/defNames</xpath>
+				<value>
+				<li>TableFalloutElectronics</li>
+				</value>
+			 </Operation>
+			 
 			 <Operation Class="PatchOperationAdd">
 				<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Traps"]/defNames</xpath>
 				<value>
